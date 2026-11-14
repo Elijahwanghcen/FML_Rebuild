@@ -1,0 +1,410 @@
+{
+ "_meta": {
+  "description": "User-tunable amenity weights. score = base_pts x (1 + rarity) x status_mult. Edit base_pts/class freely; layer must match amenities_features.json partition.",
+  "classes": {
+   "essential": 3,
+   "core": 2,
+   "luxury": 2,
+   "nice": 1
+  },
+  "status_multipliers": {
+   "1": 1.0,
+   "select": 0.5,
+   "optional": 0.5,
+   "0": 0.0,
+   "blank": 0.0
+  }
+ },
+ "weights": {
+  "Fitness Center": {
+   "layer": "premium",
+   "class": "essential",
+   "base_pts": 3
+  },
+  "Swimming Pool": {
+   "layer": "premium",
+   "class": "core",
+   "base_pts": 2
+  },
+  "Rooftop Pool": {
+   "layer": "premium",
+   "class": "luxury",
+   "base_pts": 2
+  },
+  "Hot Tub": {
+   "layer": "premium",
+   "class": "luxury",
+   "base_pts": 2
+  },
+  "Sauna/Steam Room": {
+   "layer": "premium",
+   "class": "luxury",
+   "base_pts": 2
+  },
+  "Cold Plunge": {
+   "layer": "premium",
+   "class": "luxury",
+   "base_pts": 2
+  },
+  "Basketball Court": {
+   "layer": "premium",
+   "class": "luxury",
+   "base_pts": 2
+  },
+  "Golf Simulator": {
+   "layer": "premium",
+   "class": "luxury",
+   "base_pts": 2
+  },
+  "Sports Simulator (Other)": {
+   "layer": "premium",
+   "class": "luxury",
+   "base_pts": 2
+  },
+  "Yoga Studio": {
+   "layer": "premium",
+   "class": "luxury",
+   "base_pts": 2
+  },
+  "Spin/Cycling Studio": {
+   "layer": "premium",
+   "class": "luxury",
+   "base_pts": 2
+  },
+  "Dance Room": {
+   "layer": "premium",
+   "class": "luxury",
+   "base_pts": 2
+  },
+  "Volleyball Court": {
+   "layer": "premium",
+   "class": "luxury",
+   "base_pts": 2
+  },
+  "Pickleball/Tennis Court": {
+   "layer": "premium",
+   "class": "luxury",
+   "base_pts": 2
+  },
+  "Putting Green": {
+   "layer": "premium",
+   "class": "luxury",
+   "base_pts": 2
+  },
+  "Rock Climbing Wall": {
+   "layer": "premium",
+   "class": "luxury",
+   "base_pts": 2
+  },
+  "Boxing/MMA Area": {
+   "layer": "premium",
+   "class": "luxury",
+   "base_pts": 2
+  },
+  "Fitness Classes/Personal Training": {
+   "layer": "premium",
+   "class": "luxury",
+   "base_pts": 2
+  },
+  "Tanning Salon": {
+   "layer": "premium",
+   "class": "luxury",
+   "base_pts": 2
+  },
+  "Study Rooms (Private)": {
+   "layer": "community",
+   "class": "essential",
+   "base_pts": 3
+  },
+  "Study Lounge (Open)": {
+   "layer": "community",
+   "class": "essential",
+   "base_pts": 3
+  },
+  "Conference Rooms": {
+   "layer": "community",
+   "class": "core",
+   "base_pts": 2
+  },
+  "Business Center": {
+   "layer": "community",
+   "class": "core",
+   "base_pts": 2
+  },
+  "Printing/Print Allowance": {
+   "layer": "premium",
+   "class": "essential",
+   "base_pts": 3
+  },
+  "Community Wi-Fi": {
+   "layer": "community",
+   "class": "core",
+   "base_pts": 2
+  },
+  "On-Site Parking": {
+   "layer": "community",
+   "class": "essential",
+   "base_pts": 3
+  },
+  "Parking Garage": {
+   "layer": "community",
+   "class": "essential",
+   "base_pts": 3
+  },
+  "Gated/Controlled Parking": {
+   "layer": "community",
+   "class": "core",
+   "base_pts": 2
+  },
+  "Bicycle Parking/Storage": {
+   "layer": "community",
+   "class": "nice",
+   "base_pts": 1
+  },
+  "EV Charging": {
+   "layer": "premium",
+   "class": "nice",
+   "base_pts": 1
+  },
+  "Scooter Parking": {
+   "layer": "premium",
+   "class": "nice",
+   "base_pts": 1
+  },
+  "Pets Allowed": {
+   "layer": "community",
+   "class": "nice",
+   "base_pts": 1
+  },
+  "Pet Park/Dog Run": {
+   "layer": "premium",
+   "class": "nice",
+   "base_pts": 1
+  },
+  "Pet Spa/Grooming": {
+   "layer": "premium",
+   "class": "luxury",
+   "base_pts": 2
+  },
+  "Outdoor Lounge/Courtyard": {
+   "layer": "community",
+   "class": "core",
+   "base_pts": 2
+  },
+  "Rooftop Sun Deck": {
+   "layer": "premium",
+   "class": "core",
+   "base_pts": 2
+  },
+  "Coffee Bar": {
+   "layer": "premium",
+   "class": "nice",
+   "base_pts": 1
+  },
+  "Game Room": {
+   "layer": "premium",
+   "class": "nice",
+   "base_pts": 1
+  },
+  "Social Events": {
+   "layer": "premium",
+   "class": "nice",
+   "base_pts": 1
+  },
+  "BBQ/Grill Stations": {
+   "layer": "community",
+   "class": "nice",
+   "base_pts": 1
+  },
+  "Movie/Screening Room": {
+   "layer": "premium",
+   "class": "luxury",
+   "base_pts": 2
+  },
+  "VIP/Sky Lounge": {
+   "layer": "premium",
+   "class": "luxury",
+   "base_pts": 2
+  },
+  "Jumbo Screen": {
+   "layer": "premium",
+   "class": "luxury",
+   "base_pts": 2
+  },
+  "Resident Lounge/Clubhouse": {
+   "layer": "community",
+   "class": "core",
+   "base_pts": 2
+  },
+  "24/7 Maintenance": {
+   "layer": "community",
+   "class": "core",
+   "base_pts": 2
+  },
+  "On-Site Management": {
+   "layer": "community",
+   "class": "nice",
+   "base_pts": 1
+  },
+  "Package Service/Lockers": {
+   "layer": "community",
+   "class": "core",
+   "base_pts": 2
+  },
+  "Recycling": {
+   "layer": "community",
+   "class": "nice",
+   "base_pts": 1
+  },
+  "Valet Trash": {
+   "layer": "premium",
+   "class": "luxury",
+   "base_pts": 2
+  },
+  "Controlled Access/Gated": {
+   "layer": "community",
+   "class": "core",
+   "base_pts": 2
+  },
+  "Elevators": {
+   "layer": "community",
+   "class": "nice",
+   "base_pts": 1
+  },
+  "On-Site Laundry": {
+   "layer": "community",
+   "class": "core",
+   "base_pts": 2
+  },
+  "Storage Units": {
+   "layer": "premium",
+   "class": "nice",
+   "base_pts": 1
+  },
+  "Concierge Service": {
+   "layer": "premium",
+   "class": "luxury",
+   "base_pts": 2
+  },
+  "Smoke-Free Community": {
+   "layer": "premium",
+   "class": "nice",
+   "base_pts": 1
+  },
+  "Individual Liability Leases": {
+   "layer": "community",
+   "class": "core",
+   "base_pts": 2
+  },
+  "Joint Leases": {
+   "layer": "community",
+   "class": "nice",
+   "base_pts": 1
+  },
+  "Roommate Matching Offered": {
+   "layer": "community",
+   "class": "core",
+   "base_pts": 2
+  },
+  "S.M.A.R.T Housing": {
+   "layer": "community",
+   "class": "core",
+   "base_pts": 2
+  },
+  "Guarantor Program": {
+   "layer": "premium",
+   "class": "nice",
+   "base_pts": 1
+  },
+  "Furnished Units": {
+   "layer": "apartment",
+   "class": "core",
+   "base_pts": 2
+  },
+  "Utilities Included": {
+   "layer": "apartment",
+   "class": "core",
+   "base_pts": 2
+  },
+  "Internet/Cable Included": {
+   "layer": "apartment",
+   "class": "core",
+   "base_pts": 2
+  },
+  "In-Unit Washer/Dryer": {
+   "layer": "apartment",
+   "class": "core",
+   "base_pts": 2
+  },
+  "Dishwasher": {
+   "layer": "apartment",
+   "class": "core",
+   "base_pts": 2
+  },
+  "Microwave": {
+   "layer": "apartment",
+   "class": "nice",
+   "base_pts": 1
+  },
+  "Refrigerator": {
+   "layer": "apartment",
+   "class": "nice",
+   "base_pts": 1
+  },
+  "Garbage Disposal": {
+   "layer": "apartment",
+   "class": "nice",
+   "base_pts": 1
+  },
+  "Stainless-Steel Appliances": {
+   "layer": "apartment",
+   "class": "nice",
+   "base_pts": 1
+  },
+  "Stone/Granite Countertops": {
+   "layer": "apartment",
+   "class": "nice",
+   "base_pts": 1
+  },
+  "Hardwood/Laminate Floors": {
+   "layer": "apartment",
+   "class": "nice",
+   "base_pts": 1
+  },
+  "Ceiling Fans": {
+   "layer": "apartment",
+   "class": "nice",
+   "base_pts": 1
+  },
+  "Balconies": {
+   "layer": "apartment",
+   "class": "core",
+   "base_pts": 2
+  },
+  "Walk-In Closets": {
+   "layer": "apartment",
+   "class": "nice",
+   "base_pts": 1
+  },
+  "Private/En-Suite Bathroom": {
+   "layer": "apartment",
+   "class": "core",
+   "base_pts": 2
+  },
+  "Smart TV Included": {
+   "layer": "apartment",
+   "class": "nice",
+   "base_pts": 1
+  },
+  "Notable Views": {
+   "layer": "apartment",
+   "class": "nice",
+   "base_pts": 1
+  },
+  "Air Conditioning": {
+   "layer": "apartment",
+   "class": "core",
+   "base_pts": 2
+  }
+ }
+}

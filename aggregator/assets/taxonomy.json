@@ -1,0 +1,96 @@
+{
+ "Recreation & Fitness": [
+  "Fitness Center",
+  "Swimming Pool",
+  "Rooftop Pool",
+  "Hot Tub",
+  "Sauna/Steam Room",
+  "Cold Plunge",
+  "Basketball Court",
+  "Golf Simulator",
+  "Sports Simulator (Other)",
+  "Yoga Studio",
+  "Spin/Cycling Studio",
+  "Dance Room",
+  "Volleyball Court",
+  "Pickleball/Tennis Court",
+  "Putting Green",
+  "Rock Climbing Wall",
+  "Boxing/MMA Area",
+  "Fitness Classes/Personal Training",
+  "Tanning Salon"
+ ],
+ "Study & Work": [
+  "Study Rooms (Private)",
+  "Study Lounge (Open)",
+  "Conference Rooms",
+  "Business Center",
+  "Printing/Print Allowance",
+  "Community Wi-Fi"
+ ],
+ "Parking & Transit": [
+  "On-Site Parking",
+  "Parking Garage",
+  "Gated/Controlled Parking",
+  "Bicycle Parking/Storage",
+  "EV Charging",
+  "Scooter Parking"
+ ],
+ "Pets": [
+  "Pets Allowed",
+  "Pet Park/Dog Run",
+  "Pet Spa/Grooming"
+ ],
+ "Community & Social": [
+  "Outdoor Lounge/Courtyard",
+  "Rooftop Sun Deck",
+  "Coffee Bar",
+  "Game Room",
+  "Social Events",
+  "BBQ/Grill Stations",
+  "Movie/Screening Room",
+  "VIP/Sky Lounge",
+  "Jumbo Screen",
+  "Resident Lounge/Clubhouse"
+ ],
+ "Services & Building": [
+  "24/7 Maintenance",
+  "On-Site Management",
+  "Package Service/Lockers",
+  "Recycling",
+  "Valet Trash",
+  "Controlled Access/Gated",
+  "Elevators",
+  "On-Site Laundry",
+  "Storage Units",
+  "Concierge Service",
+  "Smoke-Free Community"
+ ],
+ "Leasing & Inclusions": [
+  "Individual Liability Leases",
+  "Joint Leases",
+  "Roommate Matching Offered",
+  "S.M.A.R.T Housing",
+  "Guarantor Program",
+  "Furnished Units",
+  "Utilities Included",
+  "Internet/Cable Included"
+ ],
+ "In-Unit": [
+  "In-Unit Washer/Dryer",
+  "Dishwasher",
+  "Microwave",
+  "Refrigerator",
+  "Garbage Disposal",
+  "Stainless-Steel Appliances",
+  "Stone/Granite Countertops",
+  "Hardwood/Laminate Floors",
+  "Ceiling Fans",
+  "Balconies",
+  "Walk-In Closets",
+  "Private/En-Suite Bathroom",
+  "Smart TV Included",
+  "Notable Views",
+  "Air Conditioning"
+ ]
+}
