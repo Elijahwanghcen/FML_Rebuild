@@ -1,0 +1,85 @@
+{
+ "name": "University of Texas at Austin",
+ "short": [
+  "UT",
+  "UT Austin"
+ ],
+ "city": "Austin",
+ "state": "TX",
+ "center": [
+  30.2849,
+  -97.7341
+ ],
+ "core_radius_m": 2600,
+ "max_radius_m": 30000,
+ "neighborhoods": [
+  {
+   "name": "West Campus",
+   "center": [
+    30.2885,
+    -97.7455
+   ],
+   "radius_m": 900
+  },
+  {
+   "name": "North Campus",
+   "center": [
+    30.2975,
+    -97.737
+   ],
+   "radius_m": 900
+  },
+  {
+   "name": "Hyde Park",
+   "center": [
+    30.306,
+    -97.729
+   ],
+   "radius_m": 1100
+  },
+  {
+   "name": "East Campus",
+   "center": [
+    30.283,
+    -97.724
+   ],
+   "radius_m": 900
+  },
+  {
+   "name": "Riverside",
+   "center": [
+    30.24,
+    -97.725
+   ],
+   "radius_m": 2200
+  },
+  {
+   "name": "Far West",
+   "center": [
+    30.356,
+    -97.757
+   ],
+   "radius_m": 1200
+  },
+  {
+   "name": "Downtown Austin",
+   "center": [
+    30.27,
+    -97.743
+   ],
+   "radius_m": 1200
+  }
+ ],
+ "subreddits": [
+  "UTAustin",
+  "Austin"
+ ],
+ "city_words": [
+  "austin"
+ ],
+ "rcp_urls": [
+  "https://housing.offcampus.utexas.edu/listing",
+  "https://www.rentcollegepads.com/off-campus-housing/ut-austin/search"
+ ],
+ "extra_pm_sites": []
+}

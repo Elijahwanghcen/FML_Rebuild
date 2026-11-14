@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+node_modules/
+data/*/cache/
+data/_llm_cache/
+data/*/*.log
+.DS_Store
