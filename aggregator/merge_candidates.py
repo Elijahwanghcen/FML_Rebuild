@@ -31,6 +31,11 @@ UNIT = re.compile(r"\s*(#|unit|apt\.?|suite|ste\.?)\s*[\w-]+\s*$", re.I)
 SKIP_RCP = {"House", "Duplex", "Room", "Townhouse", "Sublet"}
 
 
+def fn_is_unit(name):
+    """Directory rows titled with a bare street address are single units / houses, not buildings."""
+    return True
+
+
 def kind_of(name, types):
     n = (name or "").lower()
     t = " ".join(types).lower()
@@ -75,12 +80,11 @@ def load(cfg):
             continue
         add(name=x["name"], address=x.get("address"), lat=x["lat"], lng=x["lng"], types=[x["category"]],
             website=x.get("website"), fam="overture", sources=["overture_places"])
-    f = d / "cand_rcp.json"
-    for x in json.load(open(f)) if f.exists() else []:
-        if x["type"] in SKIP_RCP or x["lat"] is None:
+    for x in [y for fn in ("cand_rcp.json", "cand_ocp.json") if (d / fn).exists() for y in json.load(open(d / fn))]:
+        if x["type"] in SKIP_RCP or x["lat"] is None or (street_number(x["name"]) and fn_is_unit(x["name"])):
             continue
         add(name=x["name"], address=x.get("address"), lat=x["lat"], lng=x["lng"], types=[x["type"] or ""],
-            website=x.get("url"), manager=x.get("manager"), fam="rcp", sources=["rcp_directory"])
+            website=x.get("url"), manager=x.get("manager"), fam="rcp", sources=x.get("sources") or ["rcp_directory"])
     for fn, fam in (("cand_pm_raw.json", "pm"), ("cand_reddit.json", "reddit"), ("cand_manual.json", "manual")):
         f = d / fn
         for x in json.load(open(f)) if f.exists() else []:

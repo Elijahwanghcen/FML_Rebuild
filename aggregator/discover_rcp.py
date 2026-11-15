@@ -35,7 +35,18 @@ def main(slug):
                      "lat": lat, "lng": lng, "type": v.get("category_title"),
                      "manager": v.get("landlord_company"), "units": v.get("units_number"),
                      "url": u.split("/off-campus")[0].split("/listing")[0] + "/listing/" + str(v.get("slug")),
-                     "rcp_id": k,
+                     "rcp_id": k, "landlord_website": v.get("landlord_website") or v.get("website") or None,
+                     "rent_style": v.get("rent_style"),
+                     "floorplans": [{"beds": f.get("bed"), "baths": f.get("bath"), "min_rent": f.get("min_rent"),
+                                     "max_rent": f.get("max_rent"), "sqft": f.get("sq_footage"), "title": f.get("title"),
+                                     "available": f.get("available_date"), "status": f.get("status")}
+                                    for f in (v.get("floorplans") or []) if isinstance(f, dict)],
+                     "feature_strings": [x.strip() for grp in ((v.get("features") or {}).values() if isinstance(v.get("features"), dict) else [])
+                                         for x in (grp if isinstance(grp, list) else []) if isinstance(x, str)]
+                                        + [x for x in (v.get("utilities") or []) if isinstance(x, str)]
+                                        + [x for x in (v.get("pets") or []) if isinstance(x, str)],
+                     "images": ["https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/" + i
+                                for i in (v.get("images") or [])[:8] if isinstance(i, str)],
                      "dist_m": round(haversine_m(cfg["center"][0], cfg["center"][1], lat, lng)) if lat else None,
                      "sources": ["rcp_directory"]})
     (cfg["dir"] / "cand_rcp.json").write_text(json.dumps(rows, indent=1))

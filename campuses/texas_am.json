@@ -1,0 +1,25 @@
+{
+ "name": "Texas A&M University",
+ "short": ["TAMU", "Texas A&M"],
+ "city": "College Station", "state": "TX",
+ "center": [30.6159, -96.3410],
+ "core_radius_m": 3500,
+ "max_radius_m": 15000,
+ "pm_radius_m": 6000,
+ "neighborhoods": [
+  {"name": "Northgate", "center": [30.6215, -96.3470], "radius_m": 900},
+  {"name": "Southside", "center": [30.6060, -96.3420], "radius_m": 1000},
+  {"name": "Wolf Pen Creek", "center": [30.6200, -96.3080], "radius_m": 1500},
+  {"name": "Eastgate", "center": [30.6300, -96.3250], "radius_m": 1200},
+  {"name": "Holleman", "center": [30.5900, -96.3380], "radius_m": 1600},
+  {"name": "Southwest Parkway", "center": [30.6000, -96.3150], "radius_m": 1500},
+  {"name": "Harvey Mitchell South", "center": [30.5740, -96.3230], "radius_m": 1700},
+  {"name": "West Villa Maria", "center": [30.6320, -96.3650], "radius_m": 1600},
+  {"name": "South Bryan", "center": [30.6450, -96.3450], "radius_m": 1500}
+ ],
+ "subreddits": ["aggies", "CollegeStation"],
+ "city_words": ["college", "station", "bryan", "cstat", "bcs"],
+ "rcp_urls": ["https://www.rentcollegepads.com/off-campus-housing/tamu/search"],
+ "ocp_base": "https://aggiesearch.tamu.edu",
+ "extra_pm_sites": ["https://precisionpropertymanagement.appfolio.com/listings"]
+}

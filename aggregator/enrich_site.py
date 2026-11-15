@@ -10,7 +10,7 @@ Raw HTML is saved to data/<campus>/raw/<slug>/<kind>.html so everything can be r
 import json, re, sys, unicodedata
 from concurrent.futures import ThreadPoolExecutor
 from urllib.parse import urljoin, urlparse
-from common import campus
+from common import campus, norm_name, name_sim
 from webtext import fetch_html, links, to_text
 
 KINDS = {
@@ -55,10 +55,29 @@ def crawl(cfg, b):
         return json.loads(meta_p.read_text())
     seed = b.get("website")
     meta = {"slug": slug, "seed": seed, "pages": {}, "platforms": [], "status": "no_website"}
+    cw = set(cfg.get("city_words", []))
+    nn = norm_name(b["canonical_name"], cw)
+    toks = [t for t in nn.split() if len(t) > 2]
+    def about(u):   # does this URL's path name the building?
+        p = re.sub(r"[^a-z0-9]+", " ", urlparse(u).path.lower() + " " + urlparse(u).netloc.lower().replace("www.", ""))
+        return bool(toks) and sum(t in p.replace(" ", "") for t in toks) >= max(1, len(toks) - 1)
+    # Website resolution: Google's websiteUri for a condo is often the manager's or HOA's home page.
+    # Prefer any known URL whose path names the building (PM community page, directory listing last).
+    cands = [u for u in [seed] + (b.get("other_urls") or []) if u]
+    named = [u for u in cands if about(u) and "offcampus" not in u and "rentcollegepads" not in u]
+    if named and not (seed and about(seed)):
+        seed = named[0]
+        meta["seed"], meta["seed_rule"] = seed, "building_named_url"
     if seed:
         seed = seed.split("?")[0]
         cdir = cfg["dir"] / "cache" / "site" / slug
         home = fetch_html(seed, cdir)
+        if home and not about(seed):
+            # multi-building site: follow the link whose text is this building's name
+            best = max(((name_sim(nn, norm_name(t, cw)), u) for u, t in links(home, seed) if t.strip()), default=(0, None))
+            if best[0] >= 88:
+                seed, meta["seed"], meta["seed_rule"] = best[1], best[1], "followed_name_link"
+                home = fetch_html(seed, cdir)
         if home and len(to_text(home, seed)) > 300:
             (rd / "home.html").write_text(home)
             meta["pages"]["home"] = seed
@@ -90,8 +109,32 @@ def crawl(cfg, b):
                     (rd / f"{kind}{'' if n == 1 else n}.html").write_text(h)
                     meta["pages"][f"{kind}{'' if n == 1 else n}"] = u
                     plat |= set(fingerprint(h))
+            # in-unit appliance lists usually live one click deeper, on a floor-plan detail page
+            fpp = rd / "floorplans.html"
+            if fpp.exists():
+                fu = meta["pages"]["floorplans"]
+                det = [u for u, t in links(fpp.read_text(errors="replace"), fu)
+                       if re.search(r"floor[-_]?plans?/[^/?]+/?$|floorplan[s]?/.+|/plans?/.+|unit[-_]?detail|/details?/", urlparse(u).path, re.I)
+                       and u.rstrip("/") != fu.rstrip("/")]
+                for u in det[:1]:
+                    h = fetch_html(u, cdir)
+                    if h and len(to_text(h, u)) > 300:
+                        (rd / "fpdetail.html").write_text(h)
+                        meta["pages"]["fpdetail"] = u
             meta["platforms"] = sorted(plat)
             meta["status"] = "ok"
+    # Condos / small buildings: no single official site. Read every other page that names the building
+    # (realtor community pages, HOA page) and union what they say.
+    n = 0
+    for u in [x for x in named if x.split("?")[0].rstrip("/") != (seed or "").rstrip("/")][:3]:
+        h = fetch_html(u.split("?")[0], cfg["dir"] / "cache" / "site" / slug)
+        if h and len(to_text(h, u)) > 300:
+            n += 1
+            (rd / f"alt{n}.html").write_text(h)
+            meta["pages"][f"alt{n}"] = u
+            meta["platforms"] = sorted(set(meta["platforms"]) | set(fingerprint(h)))
+            if meta["status"] != "ok":
+                meta["status"] = "ok"
         else:
             meta["status"] = "blocked_or_empty"
     meta_p.write_text(json.dumps(meta, indent=1))

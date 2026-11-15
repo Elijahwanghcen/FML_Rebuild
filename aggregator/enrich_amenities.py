@@ -53,7 +53,7 @@ def qualifier(s):
     return "present"
 
 
-def extract(cfg, b_slug):
+def extract(cfg, b_slug, extra=None):
     rd = cfg["dir"] / "raw" / b_slug
     meta = json.loads((rd / "meta.json").read_text())
     out_p = rd / "amenities.json"
@@ -69,10 +69,17 @@ def extract(cfg, b_slug):
                 if term in TERMS and term not in found:
                     found[term] = {"status": qualifier(it), "evidence": it, "evidence_type": "stated",
                                    "source_url": url, "method": "alias_map"}
-        texts.append((kind, url, to_text(h, url, keep_links=False, limit=22000)))
-    order = {"amenities": 0, "amenities2": 1, "home": 2, "floorplans": 3, "gallery": 4}
+        texts.append((kind, url, to_text(h, url, keep_links=False, limit=30000)))
+    if extra and extra.get("strings"):       # campus-directory feature checklist for the same building
+        for it in extra["strings"]:
+            for term in ALIAS.get(norm_string(it), []):
+                if term in TERMS and term not in found:
+                    found[term] = {"status": qualifier(it), "evidence": it, "evidence_type": "stated",
+                                   "source_url": extra["url"], "method": "alias_map_directory"}
+        texts.append(("directory", extra["url"], "Feature checklist: " + "; ".join(extra["strings"])))
+    order = {"amenities": 0, "amenities2": 1, "home": 2, "fpdetail": 3, "floorplans": 4, "gallery": 5}
     texts.sort(key=lambda x: order.get(x[0], 5))
-    blob = "\n\n".join(f"=== PAGE {k} ({u}) ===\n{t}" for k, u, t in texts)[:60000]
+    blob = "\n\n".join(f"=== PAGE {k} ({u}) ===\n{t}" for k, u, t in texts)[:95000]
     if len(blob) > 400:
         r = ask_json(
             "You are extracting apartment-building amenities for a housing database. Use ONLY this fixed vocabulary:\n"
@@ -105,13 +112,26 @@ def extract(cfg, b_slug):
     return res
 
 
-def main(slug):
+def main(slug, roster_file="roster_final.json"):
+    from common import norm_name, name_sim
+    from enrich_site import slugify
     cfg = campus(slug)
-    slugs = [p.parent.name for p in (cfg["dir"] / "raw").glob("*/meta.json") if json.loads(p.read_text())["status"] == "ok"]
+    cw = set(cfg.get("city_words", []))
+    rcp = json.load(open(cfg["dir"] / "cand_rcp.json")) if (cfg["dir"] / "cand_rcp.json").exists() else []
+    jobs = []
+    for b in json.load(open(cfg["dir"] / roster_file)):
+        s = slugify(b["canonical_name"])
+        mp = cfg["dir"] / "raw" / s / "meta.json"
+        if not mp.exists():
+            continue
+        names = [norm_name(n, cw) for n in [b["canonical_name"]] + b["aliases"]]
+        m = next((x for x in rcp if x.get("feature_strings") and any(name_sim(norm_name(x["name"], cw), n) >= 90 for n in names)), None)
+        if json.loads(mp.read_text())["status"] == "ok" or m:
+            jobs.append((s, {"strings": m["feature_strings"], "url": m["url"]} if m else None))
     with ThreadPoolExecutor(4) as ex:
-        res = list(ex.map(lambda s: extract(cfg, s), slugs))
+        res = list(ex.map(lambda j: extract(cfg, *j), jobs))
     print("buildings:", len(res), "median amenities:", sorted(r["n"] for r in res)[len(res) // 2] if res else 0)
 
 
 if __name__ == "__main__":
-    main(sys.argv[1])
+    main(*sys.argv[1:3])

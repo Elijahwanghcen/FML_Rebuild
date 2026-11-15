@@ -81,5 +81,11 @@
   "https://housing.offcampus.utexas.edu/listing",
   "https://www.rentcollegepads.com/off-campus-housing/ut-austin/search"
  ],
- "extra_pm_sites": []
+ "extra_pm_sites": [
+  "https://campusandcentral.appfolio.com/listings",
+  "https://austinpmg.appfolio.com/listings",
+  "https://urbanchoice.appfolio.com/listings",
+  "https://respacellc.appfolio.com/listings",
+  "https://bramlettresidential.com/areas/central/west-campus-78705"
+ ]
 }
