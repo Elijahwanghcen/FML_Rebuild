@@ -25,6 +25,8 @@ PM_NAME = re.compile(r"\b(realty|realtors?|real estate|management|mgmt|locators?
 BLDG_NAME = re.compile(r"apartment|apts|condo|lofts?\b|flats?\b|villas?\b|co-?op\b|residen|tower|place\b|court\b|"
                        r"house\b|hall\b|dorm|square|terrace|manor|arms\b|plaza|gardens?\b|pointe?\b|commons|village|"
                        r"townhomes|student living|on \d|at \d", re.I)
+NOT_STUDENT = re.compile(r"55\+|senior|active adult|assisted living|retirement|nursing|memory care|selling team|"
+                         r"leasing office|visitor parking|\bparking\b|\bbuilding \d+|\bbldg\b|^apt\b|\bhoa\b|association", re.I)
 LISTING_TITLE = re.compile(r"\bsq\.? ?f|\bwalk to\b|\bmin(ute)?s? (walk|to|from)|\b\d ?(br|bd|bed(room)?s?)\b|\bnear ut\b|"
                            r"\bpool view|\bcozy\b|\bspacious\b|\bcharming\b|\bentire\b|\bgetaway\b|\bstay\b|!|\$", re.I)
 UNIT = re.compile(r"\s*(#|unit|apt\.?|suite|ste\.?)\s*[\w-]+\s*$", re.I)
@@ -62,6 +64,12 @@ def load(cfg):
         if pt in DROP_TYPES or (ts & DROP_TYPES and not ts & RES_TYPES) or x.get("status") == "CLOSED_PERMANENTLY":
             continue
         res = bool(ts & RES_TYPES)
+        if NOT_STUDENT.search(nm):
+            continue
+        # People drop personal pins typed "apartment" ("Charlie", "Grace and Joey's", "Building 32"). A real complex
+        # has reviews or a building-like name.
+        if (x.get("rating_count") or 0) == 0 and not x.get("website") and not BLDG_NAME.search(nm):
+            continue
         if PM_NAME.search(nm) and not BLDG_NAME.search(PM_NAME.sub("", nm)):
             continue
         review = False
@@ -168,11 +176,17 @@ def build(cfg, groups):
     cw = set(cfg.get("city_words", []))
     for g in groups:
         g.sort(key=lambda r: (FAM_RANK[r["fam"]], -(r.get("rating_count") or 0)))
-        named = [r for r in g if not street_number(r["name"])] or g
+        named = [r for r in g if not street_number(r["name"]) and not NOT_STUDENT.search(r["name"])] or g
         head = named[0]
+        top = max(named, key=lambda r: r.get("rating_count") or 0)
+        if (top.get("rating_count") or 0) >= 20 and len(norm_name(head["name"], cw)) < 5:
+            head = top
         names = Counter()
         for r in g:
-            names[r["name"]] += 1
+            junk = r["fam"] == "places" and (r.get("rating_count") or 0) < 3 and not BLDG_NAME.search(r["name"])
+            if not junk and not NOT_STUDENT.search(r["name"]):
+                names[r["name"]] += 1
+        names[head["name"]] += 0
         aliases, seen = [], {norm_name(head["name"], cw).replace(" ", "")}
         for n, _ in names.most_common():
             k = norm_name(n, cw).replace(" ", "")

@@ -26,6 +26,11 @@ def main(slug, min_n=150):
         if not b["neighborhood"]:
             if not ({"rcp", "reddit", "manual"} & set(b["source_families"])):
                 continue                      # outside the named areas and no student evidence
+        # University-run residence halls sit on campus and are not off-campus listings. A private dorm shows up
+        # in the campus directory, on Reddit or on an operator site; a hall known only from map data does not.
+        if b["building_type"] == "dorm" and not ({"rcp", "reddit", "pm", "manual"} & set(b["source_families"])) \
+                and b["dist_campus_m"] <= cfg.get("campus_radius_m", 1300):
+            continue
         pin = (b["pin_lat"], b["pin_lng"])
         nad = geo.geocode(cfg, b["address"]) if b.get("address") else None
         fp = geo.footprint(cfg, *(nad or pin))

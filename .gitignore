@@ -6,3 +6,11 @@ data/*/cache/
 data/_llm_cache/
 data/*/*.log
 .DS_Store
+data/*/raw/
+data/*/cand_*.json
+data/*/roster_*.json
+data/*/pm_*.json
+data/*/unresolved_candidates.json
+data/*/coverage_eval.json
+data/*/reddit_mentions.json
+data/*.log

@@ -69,7 +69,7 @@ def extract(cfg, b_slug, extra=None):
                 if term in TERMS and term not in found:
                     found[term] = {"status": qualifier(it), "evidence": it, "evidence_type": "stated",
                                    "source_url": url, "method": "alias_map"}
-        texts.append((kind, url, to_text(h, url, keep_links=False, limit=30000)))
+        texts.append((kind, url, to_text(h, url, keep_links=False, limit=18000)))
     if extra and extra.get("strings"):       # campus-directory feature checklist for the same building
         for it in extra["strings"]:
             for term in ALIAS.get(norm_string(it), []):
@@ -79,7 +79,8 @@ def extract(cfg, b_slug, extra=None):
         texts.append(("directory", extra["url"], "Feature checklist: " + "; ".join(extra["strings"])))
     order = {"amenities": 0, "amenities2": 1, "home": 2, "fpdetail": 3, "floorplans": 4, "gallery": 5}
     texts.sort(key=lambda x: order.get(x[0], 5))
-    blob = "\n\n".join(f"=== PAGE {k} ({u}) ===\n{t}" for k, u, t in texts)[:95000]
+    r = []
+    blob = "\n\n".join(f"=== PAGE {k} ({u}) ===\n{t}" for k, u, t in texts)[:50000]
     if len(blob) > 400:
         r = ask_json(
             "You are extracting apartment-building amenities for a housing database. Use ONLY this fixed vocabulary:\n"
@@ -108,6 +109,9 @@ def extract(cfg, b_slug, extra=None):
     res = {"slug": b_slug, "amenities": found,
            "features": {L: sorted(t for t in found if LAYER.get(t) == L) for L in ("apartment", "community", "premium")},
            "n": len(found), "pages_read": list(meta["pages"])}
+    if len(blob) > 400 and r is None:
+        res["llm_failed"] = True      # usage limit / timeout: do not cache a lists-only result as final
+        return res
     out_p.write_text(json.dumps(res, indent=1))
     return res
 

@@ -1,0 +1,120 @@
+# Texas A&M University - QC report (2026-11-15)
+
+- buildings: **173**  by type: {'student_housing': 21, 'condo': 37, 'apartment': 112, 'dorm': 3}
+- by area: {'Eastgate': 9, 'Northgate': 41, 'Southside': 11, 'Holleman': 33, 'Wolf Pen Creek': 40, 'West Villa Maria': 12, 'campus_core': 3, 'Harvey Mitchell South': 4, None: 8, 'South Bryan': 7, 'Southwest Parkway': 5}
+- coord methods: {'nad_address+footprint_centroid': 133, 'nad_address_point': 3, 'places_pin+footprint_centroid': 27, 'pin_unverified': 10}
+- with amenities: 117  (median 13)
+- price status: {'listed': 69, 'not_publicly_listed': 104}  unit rows: 649
+- with aliases: 33
+
+## Coordinates needing a manual right-click check
+
+- Domain Northgate (101 Church Ave, College Station, TX) - nad_address+footprint_centroid
+- Ion College Station (711 University Dr, College Station, TX) - nad_address+footprint_centroid
+- University Square (313 Lincoln Ave, College Station, TX) - nad_address+footprint_centroid
+- The Aria at College Station (117 Holleman Dr W, College Station, TX) - nad_address+footprint_centroid
+- The Ivy Apartments (1201 Harvey Rd, College Station, TX) - nad_address+footprint_centroid
+- The Doce Student Living (601 Luther St W, College Station, TX) - nad_address+footprint_centroid
+- University Trails (1101 Luther St W, College Station, TX) - nad_address+footprint_centroid
+- Reveille Ranch (3645 Wellborn Rd, College Station, TX) - nad_address+footprint_centroid
+- Redpoint at College Station (2045 Jones Butler Rd, College Station, TX) - nad_address+footprint_centroid
+- Holleman Crossing (2200 Cottage Ln, College Station, TX) - nad_address+footprint_centroid
+- The Ridge (2250 Dartmouth St, College Station, TX) - nad_address+footprint_centroid
+- Lory of Bryan (3150 Finfeather Rd, Bryan, TX) - nad_address+footprint_centroid
+- U Centre at Northgate (907 Cross St, College Station, TX 77840, USA) - nad_address+footprint_centroid
+- The Gardens Apartments (250 Calvin Moore Ave, College Station, TX 77840, USA) - nad_address+footprint_centroid
+- Arbors At Wolf Pen Creek (301 Holleman Dr E, College Station, TX 77840, USA) - nad_address+footprint_centroid
+- Residence at Oakmont Apartments (4225 Pendleton Dr, Bryan, TX) - pin_unverified
+- Callaway Villas (305 Marion Pugh Dr, College Station, TX 77840, USA) - nad_address+footprint_centroid
+- Southgate Village Apartments (134 Luther St, College Station, TX 77840, USA) - nad_address+footprint_centroid
+- Holleman Oaks (1501 Holleman Dr, College Station, TX) - nad_address+footprint_centroid
+- The Atrium (505 Harvey Rd, College Station, TX 77840, USA) - nad_address+footprint_centroid
+- The Jane at College Station (950 Colgate Dr, College Station, TX) - nad_address+footprint_centroid
+- Regency Gardens (2551 W Villa Maria Rd, Bryan, TX) - pin_unverified
+- Quiet setteled subdivision in Sumitt Crossing (3810 Black Hawk Lane, College Station, TX) - pin_unverified
+- SoCo at Tower Point (4340 Decatur Dr, College Station, TX) - pin_unverified
+- University Rents (707 Texas Ave Ste 108E, College Station, TX 77840, USA) - nad_address+footprint_centroid
+- Domain Northgate (101 Church Ave) - nad_address+footprint_centroid
+- Z Islander (3803 Wellborn Rd, Bryan, TX 77801, USA) - nad_address+footprint_centroid
+- U Club Townhomes on Marion Pugh (801 Marion Pugh Dr, College Station, TX 77840, USA) - nad_address+footprint_centroid
+- The Landing College Station (800 Marion Pugh Dr, College Station, TX 77840, USA) - nad_address+footprint_centroid
+- Sundance Apartments (811 Harvey Rd, College Station, TX 77840, USA) - nad_address+footprint_centroid
+- River Oaks Townhomes (305 Holleman Dr E, College Station, TX 77840, USA) - nad_address+footprint_centroid
+- Campus Village Apartments (1711 Harvey Mitchell Pkwy S, College Station, TX 77840, USA) - nad_address+footprint_centroid
+- Treehouse Apartments and Condominiums (200 Marion Pugh Dr, College Station, TX 77840, USA) - nad_address+footprint_centroid
+- Parkway Place Apartments (1350 Harvey Mitchell Pkwy S, College Station, TX 77840, USA) - nad_address+footprint_centroid
+- Top student apartment in college station (1725 Harvey Mitchell Parkway South # 1613, College Station, TX) - nad_address+footprint_centroid
+- The Grove at Southwood (603 Southwest Pkwy, College Station, TX 77840, USA) - nad_address+footprint_centroid
+- Woodstock Condos (1902 Dartmouth St, College Station, TX 77840, USA) - nad_address+footprint_centroid
+- Arbor Square Apartments (1700 Southwest Pkwy, College Station, TX 77840, USA) - nad_address+footprint_centroid
+- The Ridge (2250 Dartmouth St) - nad_address+footprint_centroid
+- Charleston Mills Luxury Townhomes (4097 General Parkway, College Station, TX) - pin_unverified
+- Camber Villas (2888 Nash St, Bryan, TX) - pin_unverified
+- Brazos Oaks (6000 Jones Rd, Bryan, TX) - pin_unverified
+- Caprock Crossing (1545 Arrington Rd, College Station, TX 77845, USA) - pin_unverified
+- The Penny (1025 University Dr #106, College Station, TX 77840, USA) - nad_address+footprint_centroid
+- 361RENT (1511 Texas Ave S, College Station, TX 77840, USA) - nad_address+footprint_centroid
+- Falcon Point Condos (1915 Dartmouth St, College Station, TX 77840, USA) - nad_address+footprint_centroid
+- Asher College Station (10001 Turkey Creek Rd, College Station, TX 77845, USA) - pin_unverified
+- EnVue Apartment (3535 Plainsman Ln, Bryan, TX 77802, USA) - nad_address+footprint_centroid
+- Parcside Townhomes Apartments (2500 Central Park Ln, College Station, TX 77840, USA) - nad_address+footprint_centroid
+- Charleston Mills Townhomes (4100 Maycomb Dr, College Station, TX 77845, USA) - pin_unverified
+
+## No amenity data (site missing / blocked / condo without a page)
+
+- Aggie Station Apartments - blocked_or_empty - https://www.americancampus.com/student-apartments/tx/college-station/aggie-station
+- The Tradition - no_website - http://www.livethetradition.com/
+- University Heights - no_website - https://aggiesearch.tamu.edu/housing/property/x/c66b5sf
+- EVER College Station - no_website - https://aggiesearch.tamu.edu/housing/property/x/8ks5tn2
+- Howdy Apartments - ok - https://howdyapartments.com/
+- The Gables Apartments - no_website - https://aggiesearch.tamu.edu/housing/property/x/1br7z35
+- The Penny - no_website - https://aggiesearch.tamu.edu/housing/property/x/crv24xf
+- Country Place Apartment Homes - ok - http://countryplaceapts.net/
+- The Atrium - no_website - https://stayus.cfd/atrium-retreat-k2636u
+- Regency Gardens - no_website - https://aggiesearch.tamu.edu/housing/property/x/2n8lszc
+- Quiet setteled subdivision in Sumitt Crossing - no_website - https://aggiesearch.tamu.edu/housing/property/x/ocpehhhhvm
+- Gardens Community Center - no_website - None
+- EVER College Station - no_website - https://aggiesearch.tamu.edu/housing/property/x/8ks5tn2
+- University Rents - ok - https://universityrents.com/
+- Village On The Creek Condos - ok - https://collegestationhomesource.com/search/condo_search/
+- Hidden Bridge Condominiums - ok - https://hiddenbridgecoa.org
+- Copper Creek Condos - no_website - https://bealbcshoa.com/managed_community/copper-creek/
+- Huntington Apartments - ok - http://www.dtiproperties.com/
+- Gateway Villas - ok - http://www.aggielandproperties.com/
+- Galleria Village - ok - http://www.galleriavillage.com/
+- AgTech Gardens - no_website - None
+- Academic Village - no_website - None
+- North Ramparts - ok - https://www.bcsonlinerealestate.com/
+- Northgate Lofts - ok - https://brickandparcel.com/
+- Treehouse Apartments and Condominiums - ok - https://treehouseapartmentscstx.com/
+- Midtown Townhomes - blocked_or_empty - https://www.midtown-foxmeadows.com/
+- University Place Condominiums - ok - http://www.equitybcs.com
+- Top student apartment in college station - no_website - https://aggiesearch.tamu.edu/housing/property/x/ocptw7tnk9
+- University Apartments Community Center - 3198 - no_website - None
+- Cayman Crossing Apartments - no_website - None
+- Aggieland Apartment Finders - ok - https://www.aggielandapartmentfinders.com/
+- Pearl Apartments Buildings A-P - no_website - http://pearlapt.com/
+- Woodstock Condos - ok - http://bhhscaliber.com/
+- Aspen Heights College Station - no_website - https://www.myaspenheights.com/our-locations/college-station
+- Oak Ridge Condos - ok - https://collegestationhomesource.com/search/condo_search/
+- Camber Villas - no_website - https://aggiesearch.tamu.edu/housing/property/x/yhv4jyv
+- Brazos Oaks - no_website - https://aggiesearch.tamu.edu/housing/property/x/y0jhtdt
+- Southern Pointe Woodbird - no_website - None
+- Aggie Manor Apartments - no_website - None
+- Disability Resources - ok - https://disability.tamu.edu/
+- Texas A&M Transportation Services - IT Sys Support & GIS Services - ok - http://transport.tamu.edu/default.aspx
+- The Penny - no_website - https://aggiesearch.tamu.edu/housing/property/x/crv24xf
+- Normandy Square - ok - http://www.northgatebcs.com/normandy-square.html
+- Northgate Villas - ok - http://rentmaroon.com/
+- SOHO lofts and Apartment Homes - ok - http://www.oakforestmanagement.com/
+- Double Tree Condos - ok - https://milesofgracerealty.com/condos-for-sale-in-brazos-county-tx
+- University Park Apartments - no_website - http://universityparkbcs.com
+- Woodbrook Condos - ok - https://treehousere.com/results-gallery/?userID=all
+- April Court Townhomes - ok - https://collegestationhomesource.com/search/condo_search/
+- Fox Meadows Apartments - blocked_or_empty - https://www.midtown-foxmeadows.com/
+- 31Thirty Apartments - no_website - https://www.31thirtyapts.net/
+- Charlestone Place Apartments - no_website - None
+- A&M Courtyard Apartments - no_website - None
+- Azura Student Living - no_website - None
+- Lexington Court Phase II Ltd - no_website - None
+- Landmark on Longmire - no_website - None

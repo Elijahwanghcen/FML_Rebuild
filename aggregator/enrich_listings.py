@@ -43,7 +43,9 @@ def from_page(cfg, b, rd, meta):
         "price_label (the price exactly as written, or null), per (\"person\"|\"unit\"|null - only if the page says), "
         "availability (text or null), concession (any special/discount text for it or null), image_url (floor plan image link if present or null).\n"
         "Only what the page shows. Never guess a price. If the page shows no plans return [].\n\n" + blob, model="haiku")
-    return [x for x in (r or []) if isinstance(x, dict)], blob
+    if r is None:
+        return None, blob             # LLM failed: caller must not cache
+    return [x for x in r if isinstance(x, dict)], blob
 
 
 def main(slug, roster_file="roster_final.json"):
@@ -62,10 +64,11 @@ def main(slug, roster_file="roster_final.json"):
         rows, src = [], None
         mp = rd / "meta.json"
         meta = json.loads(mp.read_text()) if mp.exists() else {"pages": {}}
-        blob = ""
+        blob, failed = "", False
         if meta.get("pages"):
             plans, blob = from_page(cfg, b, rd, meta)
-            for x in plans:
+            failed = plans is None
+            for x in plans or []:
                 rows.append({"name": x.get("name"), "beds": x.get("beds"), "baths": x.get("baths"), "sqft": x.get("sqft"),
                              "price_min": x.get("price_min"), "price_max": x.get("price_max"), "price_label": x.get("price_label"),
                              "rent_basis": basis((x.get("price_label") or "") + " " + blob[:4000], b["building_type"], x.get("per")),
@@ -85,7 +88,8 @@ def main(slug, roster_file="roster_final.json"):
         res = {"slug": s, "listings": rows, "source": src,
                "price_status": "listed" if any(r.get("price_min") for r in rows) else "not_publicly_listed"}
         rd.mkdir(parents=True, exist_ok=True)
-        out_p.write_text(json.dumps(res, indent=1))
+        if not (meta.get("pages") and failed):
+            out_p.write_text(json.dumps(res, indent=1))
         return res
 
     with ThreadPoolExecutor(6) as ex:
