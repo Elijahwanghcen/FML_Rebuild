@@ -2,6 +2,8 @@
 
 Campus apartment-listing rebuild for UT Austin, Texas A&M, and later campuses.
 
+**Start here if you are a Grok Bot (or a manager bot) running scrapes, adding a campus, or updating Rate My Rent:** [docs/GROKBOT_HANDBOOK.md](docs/GROKBOT_HANDBOOK.md). Discovery and enrichment rules stay in the playbooks that handbook links to.
+
 ## Scrape archive
 
 `tools/scrape_archive/` saves every scrape and catalogues what changed between runs. A run that only refreshes some listings does not drop the rest: the master keeps last-seen values, `first_seen`, `last_seen`, and `last_changed`.
