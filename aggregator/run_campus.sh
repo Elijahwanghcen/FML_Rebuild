@@ -10,10 +10,7 @@ python3 discover_reddit.py $C
 python3 merge_candidates.py $C
 python3 select_roster.py $C
 python3 apply_resolutions.py $C roster_final.json      # hand-verified identities: data/<campus>/resolutions.json
-python3 -c "
-import json,sys
-from common import campus
-d=campus('$C')['dir']; f=json.load(open(d/'roster_final.json')); json.dump(f[:$N],open(d/'roster_enrich.json','w'),indent=1); print('enrich',len(f[:$N]))"
+python3 include_pinned.py $C $N                         # ADD / locked pins survive the top-N cut
 python3 enrich_site.py $C roster_enrich.json
 python3 enrich_amenities.py $C roster_enrich.json
 python3 enrich_listings.py $C roster_enrich.json

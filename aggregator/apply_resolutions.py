@@ -7,6 +7,7 @@ following docs/PLAYBOOK_1_DISCOVERY.md section 5b. Status codes:
   ALIAS_TO             row describes another roster building: merge its names and URLs into that one, drop the row
   REVIEW               plausible but unverified: keep the row, never auto-merge, publish only after review
   REJECT_PROPERTY_ROW  not a rentable community (single unit, owner entity, facility, locator): drop, keep reason
+  ADD                  a building the rank cut missed. Insert it. Do not use ADD to replace a row that is already there.
 A website_url given here is LOCKED: enrich_site will not swap it for a URL that "names the building".
 Rejected and aliased rows go to data/<campus>/rejected_rows.json with their reason, so nothing disappears silently.
 
@@ -27,7 +28,7 @@ def merge_into(dst, src):
 
 
 def apply(cfg, roster, res, log):
-    by = {r["original_name"]: r for r in res}
+    by = {r["original_name"]: r for r in res if r.get("original_name") and r.get("status") != "ADD"}
     names = {b["canonical_name"]: b for b in roster}
     out, seen = [], {}
     for b in roster:
@@ -70,6 +71,33 @@ def apply(cfg, roster, res, log):
                                                 "status": "DUPLICATE_ROW", "alias_to": seen[s]["canonical_name"]}); continue
         seen[s] = b
         out.append(b)
+    names = {b["canonical_name"] for b in out}
+    for r in res:
+        if r.get("status") != "ADD":
+            continue
+        name = r.get("canonical_name") or r.get("original_name")
+        if not name or name in names:
+            continue
+        out.append({
+            "canonical_name": name,
+            "aliases": list(r.get("aliases_add") or []),
+            "address": r.get("property_address") or r.get("address") or "",
+            "website": r.get("website_url") or r.get("floorplans_url"),
+            "website_locked": bool(r.get("website_url") or r.get("floorplans_url")),
+            "floorplans_url": r.get("floorplans_url"),
+            "building_type": r.get("building_type") or "apartment",
+            "source_families": ["manual", "add"],
+            "neighborhood": r.get("neighborhood"),
+            "pin_lat": r.get("lat"),
+            "pin_lng": r.get("lng"),
+            "dist_campus_m": r.get("dist_campus_m"),
+            "rating_count": 0,
+            "needs_review": True,
+            "resolution_status": "ADD",
+            "miss_cause": r.get("miss_cause") or "ranked_below_cut",
+        })
+        names.add(name)
+        log.append({"name": name, "status": "ADD", "miss_cause": r.get("miss_cause")})
     return out
 
 

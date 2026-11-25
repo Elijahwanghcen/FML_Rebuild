@@ -1,74 +1,79 @@
 {
- "_comment": "written by enrich_listings.py (build phase); read by refresh_listings.py",
+ "_comment": "Locked rows are imported from FML_Data properties_config.json and are not replaced by detection. Unlocked rows are Rebuild discoveries.",
  "properties": [
   {
    "objectID": "crest-at-pearl",
-   "property_name": "Crest At Pearl",
-   "address": "706 W Martin Luther King Jr BlvdAustin, TX 78701",
+   "property_name": "Crest at Pearl",
+   "address": "706 W Martin Luther King Jr Blvd, Austin, TX 78701",
    "building_type": "apartment",
-   "source_id": "src_c27751b9",
+   "source_id": "src_10",
    "backend": "acc_lightning",
+   "extractor_type": "http",
    "url": "https://www.americancampus.com/student-apartments/tx/austin/crest-at-pearl/floor-plans",
    "params": {
     "list_id": 675
    },
-   "detected_rows": 26,
-   "detected_priced": 26,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "the-mark-austin",
    "property_name": "The Mark Austin",
-   "address": "812 W 23rd StAustin, TX 78705",
+   "address": "812 W 23rd St, Austin, TX 78705",
    "building_type": "dorm",
-   "source_id": "src_3edd4393",
+   "source_id": "b3_11",
    "backend": "landmark",
+   "extractor_type": "dom",
    "url": "https://www.themarkatx.com/floorplans/",
    "params": {},
-   "detected_rows": 36,
-   "detected_priced": 27,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "sparq-on-rio",
    "property_name": "Sparq on Rio",
-   "address": "2704 Rio Grande Street, Austin, TX 78705",
+   "address": "Austin, TX 78705",
    "building_type": "student_housing",
-   "source_id": "src_aea49dd7",
+   "source_id": "b4_03",
    "backend": "webflow_cms_floorplans",
+   "extractor_type": "http",
    "url": "https://www.sparqonrio.com/floor-plans",
    "params": {},
-   "detected_rows": 6,
-   "detected_priced": 6,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "the-castilian",
    "property_name": "The Castilian",
-   "address": "2323 San Antonio StAustin, TX 78705",
+   "address": "2323 San Antonio Street, Austin, TX 78705",
    "building_type": "dorm",
-   "source_id": "src_310e3a01",
+   "source_id": "src_12",
    "backend": "acc_lightning",
+   "extractor_type": "http",
    "url": "https://www.americancampus.com/student-apartments/tx/austin/the-castilian/floor-plans",
    "params": {
     "list_id": 674
    },
-   "detected_rows": 3,
-   "detected_priced": 3,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "skyloft-austin",
    "property_name": "Skyloft Austin",
    "address": "507 West 23rd Street, Austin, TX 78705",
    "building_type": "student_housing",
-   "source_id": "src_48e2344a",
+   "source_id": "src_13",
    "backend": "fp_units_modal_v2",
-   "url": "https://skyloftaustintx.com/floor-plans",
+   "extractor_type": "http",
+   "url": "https://skyloftatx.com/floor-plans/",
    "params": {},
-   "detected_rows": 36,
-   "detected_priced": 36,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "river-oaks",
@@ -92,80 +97,74 @@
   {
    "objectID": "union-on-san-antonio",
    "property_name": "Union on San Antonio",
-   "address": "2011 San Antonio Street, Austin, TX 78705",
+   "address": "Austin, TX 78705",
    "building_type": "apartment",
-   "source_id": "src_8e9ce64d",
-   "backend": "sightmap",
+   "source_id": "b3_21",
+   "backend": "entrata_pp",
+   "extractor_type": "dom",
    "url": "https://www.uniononsanantonio.com/austin/union-on-san-antonio/student/",
-   "params": {
-    "api_url": "https://sightmap.com/app/api/v1/x1p8j072vd6/sightmaps/115034"
-   },
-   "detected_rows": 191,
-   "detected_priced": 189,
-   "detected_at": "2026-11-18"
+   "params": {},
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "the-callaway-house-austin",
-   "property_name": "The Callaway House Austin",
-   "address": "505 W 22nd StAustin, TX 78705",
+   "property_name": "Callaway House",
+   "address": "505 West 22nd Street, Austin, TX 78705",
    "building_type": "apartment",
-   "source_id": "src_c7b4e160",
+   "source_id": "src_17",
    "backend": "acc_lightning",
+   "extractor_type": "http",
    "url": "https://www.americancampus.com/student-apartments/tx/austin/the-callaway-house-austin/floor-plans",
    "params": {
     "list_id": 685
    },
-   "detected_rows": 19,
-   "detected_priced": 19,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "centennial",
-   "property_name": "Centennial",
-   "address": "501 W 26th StAustin, TX 78705",
+   "property_name": "Centennial Condos",
+   "address": "501 W. 26th, Austin, TX 78705",
    "building_type": "condo",
-   "source_id": "src_49f956d3",
-   "backend": "text_plan_list",
-   "url": "https://austinresidence.com/ut-austin-apartments",
-   "params": {
-    "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/ut_austin/raw/centennial/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/ut_austin/raw/centennial/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/ut_austin/raw/centennial/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/ut_austin/raw/centennial/home.html"
-    ]
-   },
-   "detected_rows": 9,
-   "detected_priced": 9,
-   "detected_at": "2026-11-18"
+   "source_id": "src_49",
+   "backend": "uptown_realty",
+   "extractor_type": "http",
+   "url": "https://uptownrealtyaustin.com/communities/centennial/",
+   "params": {},
+   "source_type": "managing_broker_site",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "signature-1909",
    "property_name": "Signature 1909",
    "address": "1909 Rio Grande St, Austin, TX 78705",
    "building_type": "apartment",
-   "source_id": "src_bdec06cb",
+   "source_id": "b3_16",
    "backend": "villas_wp",
-   "url": "https://www.signature1909.com/floor-plans",
+   "extractor_type": "dom",
+   "url": "https://www.signature1909.com/floor-plans/",
    "params": {},
-   "detected_rows": 18,
-   "detected_priced": 17,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "union-on-24th",
    "property_name": "Union on 24th",
-   "address": "701 W 24th Street, Austin, TX 78705",
+   "address": "Austin, TX 78705",
    "building_type": "student_housing",
-   "source_id": "src_ebd3f8fe",
-   "backend": "sightmap",
+   "source_id": "b3_20",
+   "backend": "entrata_pp",
+   "extractor_type": "dom",
    "url": "https://www.unionon24th.com/austin/union-on-24th/student/",
-   "params": {
-    "api_url": "https://sightmap.com/app/api/v1/gow3omerw2m/sightmaps/111337"
-   },
-   "detected_rows": 239,
-   "detected_priced": 235,
-   "detected_at": "2026-11-18"
+   "params": {},
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "mark-embers",
@@ -194,19 +193,20 @@
   },
   {
    "objectID": "the-block-on-25-east",
-   "property_name": "The Block on 25 East",
-   "address": "702 West 25th Street Austin, TX 78705",
+   "property_name": "The Block on 25th East",
+   "address": "2501 Pearl St (leasing office), Austin, TX 78705",
    "building_type": "apartment",
-   "source_id": "src_f424e3fa",
+   "source_id": "src_01",
    "backend": "acc_lightning",
+   "extractor_type": "http",
    "url": "https://www.americancampus.com/student-apartments/tx/austin/the-block/floor-plans",
    "params": {
     "list_id": 671,
     "location_filter": "LocationFilter_25th-East"
    },
-   "detected_rows": 26,
-   "detected_priced": 26,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "hilltop-atx",
@@ -226,107 +226,104 @@
   {
    "objectID": "camino-flats",
    "property_name": "Camino Flats",
-   "address": "2810 Salado Street Austin, TX 78705",
+   "address": "Austin, TX 78705",
    "building_type": "student_housing",
-   "source_id": "src_05aee951",
+   "source_id": "b4_09",
    "backend": "realpage_cms_proxy",
+   "extractor_type": "http",
    "url": "https://www.liveatcaminoflats.com/Floor-plans.aspx",
    "params": {},
-   "detected_rows": 69,
-   "detected_priced": 69,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "the-nine-at-west-campus",
    "property_name": "The Nine at West Campus",
-   "address": "2518 Leon St, Austin, TX 78705",
+   "address": "2518 Leon Street, Austin, TX 78705",
    "building_type": "student_housing",
-   "source_id": "src_38995d47",
+   "source_id": "src_27",
    "backend": "landmark",
+   "extractor_type": "dom",
    "url": "https://theninewestcampus.com/floorplans/",
    "params": {},
-   "detected_rows": 14,
-   "detected_priced": 11,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "moontower",
    "property_name": "Moontower",
    "address": "2204 San Antonio St, Austin, TX 78705",
    "building_type": "apartment",
-   "source_id": "src_bf99028b",
+   "source_id": "b3_12",
    "backend": "landmark",
+   "extractor_type": "dom",
    "url": "https://moontoweratx.com/floorplans/",
    "params": {},
-   "detected_rows": 17,
-   "detected_priced": 17,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "yugo-austin-waterloo",
    "property_name": "Yugo Austin Waterloo",
-   "address": "2400 Seton Avenue, Austin, TX 78705",
+   "address": "Austin, TX 78705",
    "building_type": "condo",
-   "source_id": "src_75c0750c",
-   "backend": "text_plan_list",
+   "source_id": "b3_32",
+   "backend": "yugo",
+   "extractor_type": "dom",
    "url": "https://yugo.com/en-us/global/united-states-of-america/austin-tx/yugo-austin-waterloo/rooms",
    "params": {
-    "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/ut_austin/raw/yugo-austin-waterloo/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/ut_austin/raw/yugo-austin-waterloo/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/ut_austin/raw/yugo-austin-waterloo/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/ut_austin/raw/yugo-austin-waterloo/home.html"
-    ]
+    "gtm_name": "Yugo Austin Waterloo"
    },
-   "detected_rows": 9,
-   "detected_priced": 9,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "yugo-austin-rio",
    "property_name": "Yugo Austin Rio",
-   "address": "620 West 24th Street, Austin, TX 78705",
+   "address": "620 W 24th St, Austin, TX 78705",
    "building_type": "condo",
-   "source_id": "src_853bc5d3",
-   "backend": "text_plan_list",
+   "source_id": "src_14",
+   "backend": "yugo",
+   "extractor_type": "dom",
    "url": "https://yugo.com/en-us/global/united-states-of-america/austin-tx/yugo-austin-rio/rooms",
    "params": {
-    "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/ut_austin/raw/yugo-austin-rio/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/ut_austin/raw/yugo-austin-rio/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/ut_austin/raw/yugo-austin-rio/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/ut_austin/raw/yugo-austin-rio/home.html"
-    ]
+    "gtm_name": "Yugo Austin Rio"
    },
-   "detected_rows": 19,
-   "detected_priced": 7,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "tradition-on-rio",
    "property_name": "Tradition on Rio",
    "address": "1901 Rio Grande Street, Austin, TX 78705",
    "building_type": "condo",
-   "source_id": "src_b7e8540f",
+   "source_id": "b3_36",
    "backend": "landmark",
+   "extractor_type": "dom",
    "url": "https://www.traditiononrio.com/floorplans/",
    "params": {},
-   "detected_rows": 31,
-   "detected_priced": 26,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "the-nine-at-rio",
    "property_name": "The Nine at Rio",
-   "address": "2100 Rio Grande St, Austin, TX 78705",
+   "address": "2100 Rio Grande, Austin, TX 78705",
    "building_type": "apartment",
-   "source_id": "src_cf146268",
+   "source_id": "b3_15",
    "backend": "landmark",
+   "extractor_type": "dom",
    "url": "https://www.the9rio.com/floorplans/",
    "params": {},
-   "detected_rows": 29,
-   "detected_priced": 22,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "the-hive-red-river",
@@ -351,28 +348,30 @@
   {
    "objectID": "legacy-on-rio",
    "property_name": "Legacy on Rio",
-   "address": "2614 Rio Grande St., Austin, TX 78705",
+   "address": "Austin, TX 78705 (Rio Grande St)",
    "building_type": "apartment",
-   "source_id": "src_9b41aeba",
+   "source_id": "b4_12",
    "backend": "landmark",
+   "extractor_type": "dom",
    "url": "https://legacyonrio.com/floorplans/",
    "params": {},
-   "detected_rows": 33,
-   "detected_priced": 24,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "vanderbilt-condos",
-   "property_name": "Vanderbilt Condos",
-   "address": "912 W 22nd St, Austin, TX 78705, USA",
+   "property_name": "Vanderbilt Condominiums",
+   "address": "912 W 22nd St, Austin, TX 78705",
    "building_type": "condo",
-   "source_id": "src_5e611214",
+   "source_id": "src_29",
    "backend": "uptown_realty",
+   "extractor_type": "http",
    "url": "https://uptownrealtyaustin.com/communities/vanderbilt_condos/",
    "params": {},
-   "detected_rows": 2,
-   "detected_priced": 2,
-   "detected_at": "2026-11-18"
+   "source_type": "managing_broker_site",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "envoy-apartments-west-campus",
@@ -401,115 +400,121 @@
   },
   {
    "objectID": "the-block-on-28th",
-   "property_name": "The Block On 28th",
-   "address": "701 West 28th Street Austin, TX 78705",
+   "property_name": "The Block on 28th",
+   "address": "2501 Pearl St (leasing office), Austin, TX 78705",
    "building_type": "apartment",
-   "source_id": "src_f424e3fa",
+   "source_id": "src_01",
    "backend": "acc_lightning",
+   "extractor_type": "http",
    "url": "https://www.americancampus.com/student-apartments/tx/austin/the-block/floor-plans",
    "params": {
     "list_id": 671,
     "location_filter": "LocationFilter_28th"
    },
-   "detected_rows": 17,
-   "detected_priced": 17,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "regents-west-at-26th",
    "property_name": "Regents West at 26th",
-   "address": "900 W 26TH STREET, Austin, TX 78705-4314",
+   "address": "900 W 26th Street, Austin, TX 78705",
    "building_type": "apartment",
-   "source_id": "src_3fd3502f",
-   "backend": "repli360_feed",
-   "url": "http://www.regentswest26.com/floor-plans",
-   "params": {
-    "script_url": "https://app.repli360.com/admin/rrac-website-script/eyJpdiI6IlV2NUhJTkNBc3ZGejhkNnllVEwyOUE9PSIsInZhbHVlIjoiNEloWFlQS2xIZC9LNWJPQ25lRjVzdz09IiwibWFjIjoiN2UxOTQ3MDE1MzkwNTRhNzY1YzhmNTlkNWMwZTY5NDQxNGI5ZDM3OTAzYWUyNzczMmNhYWU5ODUzNjQwNmI0ZCJ9"
-   },
-   "detected_rows": 36,
-   "detected_priced": 35,
-   "detected_at": "2026-11-18"
+   "source_id": "b3_14",
+   "backend": "repli360",
+   "extractor_type": "dom",
+   "url": "https://www.regentswest26.com/floor-plans",
+   "params": {},
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "axis-west-campus",
    "property_name": "Axis West Campus",
-   "address": "2505 Longview St, Austin, TX 78705",
+   "address": "2505 Longview Street, Austin, TX 78705",
    "building_type": "apartment",
-   "source_id": "src_62024c9f",
+   "source_id": "b3_06",
    "backend": "villas_wp",
-   "url": "https://www.axiswestcampus.com/floor-plans",
+   "extractor_type": "dom",
+   "url": "https://www.axiswestcampus.com/floor-plans/",
    "params": {},
-   "detected_rows": 15,
-   "detected_priced": 8,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "orange-tree-condos",
-   "property_name": "Orange Tree Condos",
-   "address": "2529 Rio Grande St, Austin, TX 78705,",
+   "property_name": "Orange Tree Condominiums",
+   "address": "2529 rio grande, Austin, TX 78705",
    "building_type": "condo",
-   "source_id": "src_d75dbe7a",
+   "source_id": "src_52",
    "backend": "uptown_realty",
+   "extractor_type": "http",
    "url": "https://uptownrealtyaustin.com/communities/orange_tree/",
    "params": {},
-   "detected_rows": 7,
-   "detected_priced": 7,
-   "detected_at": "2026-11-18"
+   "source_type": "managing_broker_site",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "the-standard-at-austin",
-   "property_name": "The Standard at Austin",
-   "address": "715 W 23rd St, Austin, TX 78705, USA",
+   "property_name": "The Standard",
+   "address": "715 W 23rd St, Austin, TX 78705",
    "building_type": "apartment",
-   "source_id": "src_4acc32bb",
+   "source_id": "src_16",
    "backend": "landmark",
-   "url": "https://thestandardaustin.com/floorplans/",
+   "extractor_type": "dom",
+   "url": "https://thestandardaustin.landmark-properties.com/floorplans/",
    "params": {},
-   "detected_rows": 33,
-   "detected_priced": 30,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "croix",
-   "property_name": "Croix",
-   "address": "806 W 24th St, Austin, TX 78705,",
+   "property_name": "Croix Condominiums",
+   "address": "806 W. 24th, Austin, TX 78705",
    "building_type": "condo",
-   "source_id": "src_ea26820e",
+   "source_id": "src_56",
    "backend": "uptown_realty",
+   "extractor_type": "http",
    "url": "https://uptownrealtyaustin.com/communities/croix/",
    "params": {},
-   "detected_rows": 3,
-   "detected_priced": 3,
-   "detected_at": "2026-11-18"
+   "source_type": "managing_broker_site",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "the-block-on-pearl-north",
    "property_name": "The Block on Pearl North",
-   "address": "2208 Pearl Street Austin, TX 78705",
+   "address": "2501 Pearl St (leasing office), Austin, TX 78705",
    "building_type": "apartment",
-   "source_id": "src_f28cbbcd",
+   "source_id": "src_01",
    "backend": "acc_lightning",
-   "url": "https://www.americancampus.com/api/lightning/floorplans/671",
+   "extractor_type": "http",
+   "url": "https://www.americancampus.com/student-apartments/tx/austin/the-block/floor-plans",
    "params": {
     "list_id": 671,
     "location_filter": "LocationFilter_Pearl-North"
    },
-   "detected_rows": 15,
-   "detected_priced": 15,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "villas-on-guadalupe",
    "property_name": "Villas on Guadalupe",
    "address": "2810 Hemphill Park, Austin, TX 78705",
    "building_type": "apartment",
-   "source_id": "src_b09608ed",
+   "source_id": "src_11",
    "backend": "villas_wp",
-   "url": "https://www.villasonguadalupe.com/floor-plans",
+   "extractor_type": "dom",
+   "url": "https://www.villasonguadalupe.com/floor-plans/",
    "params": {},
-   "detected_rows": 45,
-   "detected_priced": 37,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "diplomat-west-campus",
@@ -538,16 +543,17 @@
   },
   {
    "objectID": "san-gabriel-square-apartments",
-   "property_name": "San Gabriel Square Apartments",
-   "address": "2212 San Gabriel St, Austin, TX 78705,",
+   "property_name": "San Gabriel Square",
+   "address": "2212 San Gabriel St, Austin, TX 78705",
    "building_type": "apartment",
-   "source_id": "src_3eae97aa",
+   "source_id": "b2_20",
    "backend": "sgs_static",
+   "extractor_type": "http",
    "url": "https://www.liveatsangabrielsquareaustin.com/floor-plans/",
    "params": {},
-   "detected_rows": 7,
-   "detected_priced": 0,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "rio-grande-square",
@@ -576,39 +582,30 @@
   {
    "objectID": "west-campus-flats",
    "property_name": "West Campus Flats",
-   "address": "2104 San Gabriel St, Austin, TX 78705",
+   "address": "2102 San Gabriel Street #TBD, Austin, TX 78705",
    "building_type": "apartment",
-   "source_id": "src_68e5807e",
-   "backend": "appfolio_smart",
-   "url": "https://www.westsidegroup.com/",
-   "params": {
-    "portal": "https://westsidegroup.appfolio.com",
-    "names": [
-     "West Campus Flats"
-    ],
-    "lat": 30.285031,
-    "lng": -97.74855,
-    "street": [
-     2104,
-     "san"
-    ]
-   },
-   "detected_rows": 1,
-   "detected_priced": 1,
-   "detected_at": "2026-11-18"
+   "source_id": "src_40",
+   "backend": "uptown_realty",
+   "extractor_type": "http",
+   "url": "https://uptownrealtyaustin.com/ut_austin_rentals/west_campus_flats/",
+   "params": {},
+   "source_type": "managing_broker_site",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "waterford-condos",
-   "property_name": "Waterford Condos",
-   "address": "2401 Leon St\r\nAustin, TX 78705",
+   "property_name": "Waterford Condominiums",
+   "address": "2401 Leon, Austin, TX 78705",
    "building_type": "condo",
-   "source_id": "src_28effb9a",
+   "source_id": "src_50",
    "backend": "uptown_realty",
+   "extractor_type": "http",
    "url": "https://uptownrealtyaustin.com/communities/waterford/",
    "params": {},
-   "detected_rows": 3,
-   "detected_priced": 3,
-   "detected_at": "2026-11-18"
+   "source_type": "managing_broker_site",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "the-block-rio-grande",
@@ -629,18 +626,19 @@
   {
    "objectID": "the-block-on-leon",
    "property_name": "The Block on Leon",
-   "address": "2510 Leon Street Austin, TX 78705",
+   "address": "2501 Pearl St (leasing office), Austin, TX 78705",
    "building_type": "apartment",
-   "source_id": "src_f28cbbcd",
+   "source_id": "src_01",
    "backend": "acc_lightning",
-   "url": "https://www.americancampus.com/api/lightning/floorplans/671",
+   "extractor_type": "http",
+   "url": "https://www.americancampus.com/student-apartments/tx/austin/the-block/floor-plans",
    "params": {
     "list_id": 671,
     "location_filter": "LocationFilter_Leon"
    },
-   "detected_rows": 30,
-   "detected_priced": 30,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "warwick-apartments",
@@ -669,35 +667,30 @@
   {
    "objectID": "ballpark-north",
    "property_name": "Ballpark North",
-   "address": "4600 Elmont Dr, Austin, TX 78741",
+   "address": "Austin, TX 78741 (Riverside)",
    "building_type": "student_housing",
-   "source_id": "src_2012017d",
+   "source_id": "b4_21",
    "backend": "ballpark_static",
+   "extractor_type": "http",
    "url": "https://www.theballparkaustin.com/floor-plans/",
    "params": {},
-   "detected_rows": 6,
-   "detected_priced": 6,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "inspire-on-22nd",
    "property_name": "Inspire on 22nd",
-   "address": "2200 NUECES ST, Austin, TX 78705",
+   "address": "Austin, TX 78705",
    "building_type": "apartment",
-   "source_id": "src_155f9c96",
-   "backend": "text_plan_list",
-   "url": "https://inspire22nd.com/floor-plans/",
-   "params": {
-    "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/ut_austin/raw/inspire-on-22nd/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/ut_austin/raw/inspire-on-22nd/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/ut_austin/raw/inspire-on-22nd/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/ut_austin/raw/inspire-on-22nd/home.html"
-    ]
-   },
-   "detected_rows": 15,
-   "detected_priced": 10,
-   "detected_at": "2026-11-18"
+   "source_id": "b3_33",
+   "backend": "entrata_pp",
+   "extractor_type": "dom",
+   "url": "https://entrata.inspire22nd.com/austin/inspire-on-22nd/student/",
+   "params": {},
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "lantana-apartments",
@@ -742,15 +735,18 @@
   {
    "objectID": "venue-on-guadalupe",
    "property_name": "Venue on Guadalupe",
-   "address": "2815 Guadalupe St, Austin, TX 78705",
+   "address": "Austin, TX 78705",
    "building_type": "apartment",
-   "source_id": "src_077c91aa",
-   "backend": "villas_wp",
-   "url": "https://www.venueonguadalupe.com/floor-plans",
-   "params": {},
-   "detected_rows": 20,
-   "detected_priced": 14,
-   "detected_at": "2026-11-18"
+   "source_id": "b3_22",
+   "backend": "no_public_pricing",
+   "extractor_type": "http",
+   "url": "https://venueonguadalupe.prospectportal.com/austin/venue-on-guadalupe/student/",
+   "params": {
+    "reason": "Entrata ProspectPortal loads but reports 'No lease terms available for this property' \u2014 no plans or rates published"
+   },
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "somerset",
@@ -768,15 +764,16 @@
   {
    "objectID": "noble-2500",
    "property_name": "Noble 2500",
-   "address": "2500 San Gabriel St, Austin, TX 78705, USA",
+   "address": "2500 Nueces St, Austin, TX 78705",
    "building_type": "student_housing",
-   "source_id": "src_4d3303ac",
+   "source_id": "b4_02",
    "backend": "gogetter_wc_floorplans",
-   "url": "https://noble2500.com/rates-floorplans/",
+   "extractor_type": "dom",
+   "url": "https://noble2500.com/rates-floorplans/?_sort=_price_asc&_lease_term=fall",
    "params": {},
-   "detected_rows": 10,
-   "detected_priced": 10,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "barranca-square-student-apartments",
@@ -801,27 +798,23 @@
   {
    "objectID": "montage-apartments",
    "property_name": "Montage Apartments",
-   "address": "2812 Rio Grande StAustin, TX 78705",
+   "address": "2812 Rio Grande St / 2812 San Gabriel St, Austin, TX 78705",
    "building_type": "apartment",
-   "source_id": "src_46ad7dfd",
-   "backend": "appfolio_smart",
-   "url": "https://www.westsidegroup.com/",
+   "source_id": "src_26",
+   "backend": "appfolio_listings",
+   "extractor_type": "http",
+   "url": "https://www.westsidegroup.com/montage-apartments/",
    "params": {
     "portal": "https://westsidegroup.appfolio.com",
-    "names": [
-     "Montage Apartments",
-     "Montage Apartments West Campus"
-    ],
-    "lat": 30.294584,
-    "lng": -97.744496,
-    "street": [
-     2812,
-     "rio"
+    "address_match": [
+     "2812 Rio Grande",
+     "2812 San Gabriel",
+     "Montage"
     ]
    },
-   "detected_rows": 1,
-   "detected_priced": 1,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "volume",
@@ -848,107 +841,98 @@
    "property_name": "Hyde Park Court",
    "address": "302 W 38th St, Austin, TX 78705",
    "building_type": "apartment",
-   "source_id": "src_68a055a9",
-   "backend": "text_plan_list",
-   "url": "https://www.westsidegroup.com/hyde-park-court/apartments/",
+   "source_id": "b4_20",
+   "backend": "westside_prose",
+   "extractor_type": "http",
+   "url": "https://www.westsidegroup.com/hyde-park-court/",
    "params": {
-    "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/ut_austin/raw/hyde-park-court/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/ut_austin/raw/hyde-park-court/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/ut_austin/raw/hyde-park-court/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/ut_austin/raw/hyde-park-court/home.html"
+    "portal": "https://westsidegroup.appfolio.com",
+    "address_match": [
+     "hyde park court"
     ]
    },
-   "detected_rows": 4,
-   "detected_priced": 0,
-   "detected_at": "2026-11-18"
+   "source_type": "managing_broker_site",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "yugo-austin-nueces",
    "property_name": "Yugo Austin Nueces",
-   "address": "2502 Nueces St, Austin, TX 78705, USA",
+   "address": "Austin, TX 78705",
    "building_type": "condo",
-   "source_id": "src_a53c5be1",
-   "backend": "text_plan_list",
+   "source_id": "b3_30",
+   "backend": "yugo",
+   "extractor_type": "dom",
    "url": "https://yugo.com/en-us/global/united-states-of-america/austin-tx/yugo-austin-nueces/rooms",
    "params": {
-    "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/ut_austin/raw/yugo-austin-nueces/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/ut_austin/raw/yugo-austin-nueces/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/ut_austin/raw/yugo-austin-nueces/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/ut_austin/raw/yugo-austin-nueces/home.html"
-    ]
+    "gtm_name": "Yugo Austin Nueces"
    },
-   "detected_rows": 15,
-   "detected_priced": 9,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "26-west",
    "property_name": "26 West",
-   "address": "600 W 26th St, Austin, TX 78705, USA",
+   "address": "600 West 26th Street, Austin, TX 78705",
    "building_type": "apartment",
-   "source_id": "src_0dfd6f72",
+   "source_id": "src_06",
    "backend": "acc_lightning",
+   "extractor_type": "http",
    "url": "https://www.americancampus.com/student-apartments/tx/austin/26-west/floor-plans",
    "params": {
     "list_id": 687
    },
-   "detected_rows": 13,
-   "detected_priced": 13,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "aura-thirty2",
    "property_name": "Aura Thirty2",
    "address": "3233 Harmon Avenue, Austin, TX 78705",
    "building_type": "apartment",
-   "source_id": "src_1d747d15",
-   "backend": "rentcafe_inline",
+   "source_id": "b2_08",
+   "backend": "rentcafe_ysi",
+   "extractor_type": "dom",
    "url": "https://www.aurathirty2.com/floorplans",
-   "params": {
-    "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/ut_austin/raw/aura-thirty2/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/ut_austin/raw/aura-thirty2/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/ut_austin/raw/aura-thirty2/fingerprint.html",
-     "/Users/elijahwangchen/FML_rebuild/data/ut_austin/raw/aura-thirty2/home.html"
-    ]
-   },
-   "detected_rows": 34,
-   "detected_priced": 34,
-   "detected_at": "2026-11-18"
+   "params": {},
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "the-sinclair",
    "property_name": "The Sinclair",
-   "address": "2710 Nueces Street, Austin, TX 78705",
+   "address": "2710 Nueces St, Austin, TX 78705",
    "building_type": "apartment",
-   "source_id": "src_497e8066",
+   "source_id": "src_19",
    "backend": "sinclair_wp",
+   "extractor_type": "dom",
    "url": "https://thesinclairut.com/floor-plans/",
    "params": {},
-   "detected_rows": 20,
-   "detected_priced": 20,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "texan-pearl",
    "property_name": "Texan Pearl",
-   "address": "2515 Pearl St, Austin, TX 78705, USA",
+   "address": "2515 Pearl St, Austin, TX 78705",
    "building_type": "apartment",
-   "source_id": "src_c2a4ad9a",
+   "source_id": "b4_01",
    "backend": "duda_appfolio_feed",
-   "url": "https://www.texanproperties.net/availability",
+   "extractor_type": "http",
+   "url": "https://www.texanproperties.net/texan-pearl",
    "params": {
     "feed_url": "https://www.texanproperties.net/rts/collections/public/d8a43377/runtime/collection/appfolio-listings/query-data?pageSize=100",
     "address_match": [
-     "Texan Pearl",
-     "2515 Pearl St"
+     "pearl"
     ]
    },
-   "detected_rows": 12,
-   "detected_priced": 12,
-   "detected_at": "2026-11-18"
+   "source_type": "managing_broker_site",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "melroy-apartments",
@@ -1016,145 +1000,146 @@
   {
    "objectID": "ion-austin",
    "property_name": "Ion Austin",
-   "address": "2100 San Antonio St, Austin, TX 78705, USA",
+   "address": "2100 Nueces St, Austin, TX 78705",
    "building_type": "apartment",
-   "source_id": "src_31e7a9e7",
+   "source_id": "src_15",
    "backend": "ion_wp",
-   "url": "https://ion-austin.com/rates-floorplans",
+   "extractor_type": "dom",
+   "url": "https://ion-austin.com/rates-floorplans/",
    "params": {},
-   "detected_rows": 5,
-   "detected_priced": 5,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "the-quarters-nueces-house",
-   "property_name": "The Quarters Nueces House",
-   "address": "2300 Nueces St, Austin, TX 78705, USA",
+   "property_name": "Quarters on Campus \u2013 Nueces",
+   "address": "2222 Rio Grande St (leasing office), Austin, TX 78705",
    "building_type": "apartment",
-   "source_id": "src_7db6919c",
-   "backend": "text_plan_list",
-   "url": "https://www.quartersoncampus.com/nueceshouse/austin/nueces/",
-   "params": {
-    "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/ut_austin/raw/the-quarters-nueces-house/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/ut_austin/raw/the-quarters-nueces-house/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/ut_austin/raw/the-quarters-nueces-house/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/ut_austin/raw/the-quarters-nueces-house/home.html"
-    ]
-   },
-   "detected_rows": 29,
-   "detected_priced": 29,
-   "detected_at": "2026-11-18"
+   "source_id": "src_03",
+   "backend": "entrata_pp",
+   "extractor_type": "dom",
+   "url": "https://www.quartersoncampus.com/austin/nueces/student/",
+   "params": {},
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "villas-on-rio",
    "property_name": "Villas on Rio",
-   "address": "2111 Rio Grande St, Austin, TX 78705, USA",
+   "address": "2111 Rio Grande St, Austin, TX 78705",
    "building_type": "apartment",
-   "source_id": "src_dcbfeb4c",
+   "source_id": "b3_27",
    "backend": "sinclair_wp",
+   "extractor_type": "dom",
    "url": "https://villasonrio.com/floor-plans/",
    "params": {},
-   "detected_rows": 66,
-   "detected_priced": 66,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "21-rio-apartments",
-   "property_name": "21 Rio Apartments",
-   "address": "2101 Rio Grande St, Austin, TX 78705, USA",
+   "property_name": "21 Rio",
+   "address": "2101 Rio Grande St, Austin, TX 78705",
    "building_type": "apartment",
-   "source_id": "src_f4bf426b",
+   "source_id": "src_08",
    "backend": "wp_entrata_json",
+   "extractor_type": "http",
    "url": "https://www.21rio.com/floor-plans/",
    "params": {
     "api_url": "https://www.21rio.com/wp-json/theme/entrata/v1/floor-plans"
    },
-   "detected_rows": 82,
-   "detected_priced": 82,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "villas-on-24th",
    "property_name": "Villas on 24th",
-   "address": "2313 Rio Grande St, Austin, TX 78705, USA",
+   "address": "2313 Rio Grande St, Austin, TX 78705",
    "building_type": "student_housing",
-   "source_id": "src_aa0c3c92",
+   "source_id": "b3_24",
    "backend": "wp_entrata_json",
+   "extractor_type": "http",
    "url": "https://www.villason24th.com/floor-plans/",
    "params": {
     "api_url": "https://www.villason24th.com/wp-json/theme/entrata/v1/floor-plans"
    },
-   "detected_rows": 11,
-   "detected_priced": 0,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "rambler-austin",
-   "property_name": "Rambler Austin",
-   "address": "2513 Seton Ave, Austin, TX 78705, USA",
+   "property_name": "Rambler Apartments",
+   "address": "2513 Seton Ave, Austin, TX 78705",
    "building_type": "apartment",
-   "source_id": "src_793eb766",
+   "source_id": "src_18",
    "backend": "rambler_lvbode",
+   "extractor_type": "dom",
    "url": "https://www.rambleratx.com/floorplans/",
    "params": {},
-   "detected_rows": 85,
-   "detected_priced": 85,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "buena-vista-condo",
-   "property_name": "Buena Vista Condo",
-   "address": "1908 San Antonio St APT 312\r\nAustin, TX 78705",
+   "property_name": "Buena Vista Condominiums",
+   "address": "Austin, TX 78705",
    "building_type": "condo",
-   "source_id": "src_4805b97e",
-   "backend": "uptown_realty",
-   "url": "https://uptownrealtyaustin.com/communities/buena_vista/",
+   "source_id": "b4_05",
+   "backend": "ut_offcampus_directory",
+   "extractor_type": "http",
+   "url": "https://housing.offcampus.utexas.edu/city/austin-tx/listing/buena-vista-condo-70594",
    "params": {},
-   "detected_rows": 3,
-   "detected_priced": 3,
-   "detected_at": "2026-11-18"
+   "source_type": "third_party_directory",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "21-pearl",
    "property_name": "21 Pearl",
-   "address": "911 W 21st St, Austin, TX 78705, USA",
+   "address": "Austin, TX 78705 (Pearl St)",
    "building_type": "apartment",
-   "source_id": "src_08f5c3bf",
+   "source_id": "b3_05",
    "backend": "villas_wp",
+   "extractor_type": "dom",
    "url": "https://www.21pearlst.com/floor-plans/",
    "params": {},
-   "detected_rows": 15,
-   "detected_priced": 14,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "regents-west-at-24th",
    "property_name": "Regents West at 24th",
-   "address": "2401 San Gabriel St, Austin, TX 78705, USA",
+   "address": "2401 San Gabriel St, Austin, TX 78705",
    "building_type": "apartment",
-   "source_id": "src_b49ff6e7",
-   "backend": "repli360_feed",
+   "source_id": "b3_13",
+   "backend": "repli360",
+   "extractor_type": "dom",
    "url": "https://www.regentswest24.com/floor-plans",
-   "params": {
-    "script_url": "https://app.repli360.com/admin/rrac-website-script/eyJpdiI6IkxLdExVZ3hJSGlEVnE2cW9kTWhMYmc9PSIsInZhbHVlIjoiTnlXZDBSRnAxeWxrWmN2eGJsWVE0Zz09IiwibWFjIjoiZjcyODQ0ZWY3YWFkOGU5NTA1NjA0NzA4ZTczOWZlZDM1YjEzZTk5NDM1ODZjM2I3ZjBlODAzOThhNWMxZDE2YyJ9"
-   },
-   "detected_rows": 22,
-   "detected_priced": 22,
-   "detected_at": "2026-11-18"
+   "params": {},
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "parapet",
-   "property_name": "Parapet",
-   "address": "2801 Rio Grande St, Austin, TX 78705,",
+   "property_name": "Parapet Condominiums",
+   "address": "2801 Rio Grande, Austin, TX 78705",
    "building_type": "condo",
-   "source_id": "src_21cae66c",
+   "source_id": "src_58",
    "backend": "uptown_realty",
+   "extractor_type": "http",
    "url": "https://uptownrealtyaustin.com/communities/parapet/",
    "params": {},
-   "detected_rows": 2,
-   "detected_priced": 2,
-   "detected_at": "2026-11-18"
+   "source_type": "managing_broker_site",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "tree-house",
@@ -1171,29 +1156,31 @@
   },
   {
    "objectID": "the-villas-at-san-gabriel",
-   "property_name": "The Villas at San Gabriel",
-   "address": "2414 San Gabriel St, Austin, TX 78705, USA",
+   "property_name": "Villas at San Gabriel",
+   "address": "2414 San Gabriel St, Austin, TX 78705",
    "building_type": "apartment",
-   "source_id": "src_57c685cf",
+   "source_id": "b3_28",
    "backend": "vsg_static",
+   "extractor_type": "http",
    "url": "https://villasatsangabriel.com/floor-plans/",
    "params": {},
-   "detected_rows": 14,
-   "detected_priced": 14,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "24-longview",
    "property_name": "24 Longview",
-   "address": "2401 Longview St, Austin, TX 78705, USA",
+   "address": "2401 Longview St, Austin, TX 78705",
    "building_type": "apartment",
-   "source_id": "src_cc1c1ee4",
+   "source_id": "b3_04",
    "backend": "webflow_product7",
+   "extractor_type": "http",
    "url": "https://www.24longview.com/floor-plans",
    "params": {},
-   "detected_rows": 4,
-   "detected_priced": 0,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "nob-hill-homes",
@@ -1264,28 +1251,30 @@
   {
    "objectID": "villas-on-nueces",
    "property_name": "Villas on Nueces",
-   "address": "2207 Nueces St, Austin, TX 78705, USA",
+   "address": "2207 Nueces St, Austin, TX 78705",
    "building_type": "apartment",
-   "source_id": "src_42433791",
+   "source_id": "b3_26",
    "backend": "mmc_ajax",
+   "extractor_type": "http",
    "url": "https://villasonnueces.com/floorplans/",
    "params": {},
-   "detected_rows": 38,
-   "detected_priced": 36,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "lark-austin",
    "property_name": "Lark Austin",
-   "address": "2100 Nueces St, Austin, TX 78705, USA",
+   "address": "2100 Nueces Street, Austin, TX 78705",
    "building_type": "apartment",
-   "source_id": "src_585051f2",
+   "source_id": "b3_34",
    "backend": "ion_wp",
-   "url": "https://larkaustin.com/rates-floorplans",
+   "extractor_type": "dom",
+   "url": "https://larkaustin.com/rates-floorplans/",
    "params": {},
-   "detected_rows": 7,
-   "detected_priced": 7,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "university-quarters",
@@ -1357,42 +1346,36 @@
   {
    "objectID": "yugo-austin-corner",
    "property_name": "Yugo Austin Corner",
-   "address": "2504 San Gabriel St, Austin, TX 78705, USA",
+   "address": "Austin, TX 78705",
    "building_type": "condo",
-   "source_id": "src_9d3ed28b",
-   "backend": "text_plan_list",
+   "source_id": "b3_29",
+   "backend": "yugo",
+   "extractor_type": "dom",
    "url": "https://yugo.com/en-us/global/united-states-of-america/austin-tx/yugo-austin-corner/rooms",
    "params": {
-    "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/ut_austin/raw/yugo-austin-corner/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/ut_austin/raw/yugo-austin-corner/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/ut_austin/raw/yugo-austin-corner/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/ut_austin/raw/yugo-austin-corner/home.html"
-    ]
+    "gtm_name": "Yugo Austin Corner"
    },
-   "detected_rows": 17,
-   "detected_priced": 10,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "lone-star-lofts",
    "property_name": "Lone Star Lofts",
-   "address": "2408 Leon St, Austin, TX 78705, USA",
+   "address": "Austin, TX 78705 (West Campus)",
    "building_type": "apartment",
-   "source_id": "src_c93878d6",
-   "backend": "text_plan_list",
-   "url": "https://thelonestarlofts.com/floor-plans",
+   "source_id": "b3_35",
+   "backend": "appfolio_listings",
+   "extractor_type": "http",
+   "url": "https://www.thelonestarlofts.com/availability",
    "params": {
-    "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/ut_austin/raw/lone-star-lofts/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/ut_austin/raw/lone-star-lofts/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/ut_austin/raw/lone-star-lofts/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/ut_austin/raw/lone-star-lofts/home.html"
-    ]
+    "portal": "https://gordonandbilyeupm.appfolio.com",
+    "listings_url": "https://gordonandbilyeupm.appfolio.com/listings?filters%5Bproperty_list%5D=Lone%20Star%20Lofts",
+    "address_match": []
    },
-   "detected_rows": 6,
-   "detected_priced": 0,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "alexan-waterloo",
@@ -1411,22 +1394,17 @@
   },
   {
    "objectID": "texan-shoal-creek",
-   "property_name": "Texan Shoal Creek",
-   "address": "2502 Leon St, Austin, TX 78705, USA",
+   "property_name": "Texan Shoal Creek Condominiums",
+   "address": "2502 Leon, Austin, TX 78705",
    "building_type": "condo",
-   "source_id": "src_aeeda445",
-   "backend": "duda_appfolio_feed",
-   "url": "https://texanproperties.net/availability",
-   "params": {
-    "feed_url": "https://texanproperties.net/rts/collections/public/d8a43377/runtime/collection/appfolio-listings/query-data?pageSize=100",
-    "address_match": [
-     "Texan Shoal Creek",
-     "2502 Leon St"
-    ]
-   },
-   "detected_rows": 3,
-   "detected_priced": 3,
-   "detected_at": "2026-11-18"
+   "source_id": "src_30",
+   "backend": "uptown_realty",
+   "extractor_type": "http",
+   "url": "https://uptownrealtyaustin.com/communities/texan_shoal_creek/",
+   "params": {},
+   "source_type": "managing_broker_site",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "fountain-terrace",
@@ -1598,15 +1576,16 @@
   {
    "objectID": "9hundred",
    "property_name": "9HUNDRED",
-   "address": "900 W 23rd St, Austin, TX 78705, USA",
+   "address": "900 West 23rd Street, Austin, TX 78705",
    "building_type": "apartment",
-   "source_id": "src_5fd22d9b",
+   "source_id": "b2_04",
    "backend": "ninehundred_static",
-   "url": "https://9hundred.com/floorplans",
+   "extractor_type": "http",
+   "url": "https://9hundred.com/floorplans/",
    "params": {},
-   "detected_rows": 4,
-   "detected_priced": 0,
-   "detected_at": "2026-11-18"
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "wedgewood-condos",
@@ -1664,32 +1643,30 @@
   {
    "objectID": "marq-uptown",
    "property_name": "Marq Uptown",
-   "address": "3320 Harmon Ave, Austin, TX 78705, USA",
+   "address": "Austin, TX",
    "building_type": "apartment",
-   "source_id": "src_051c831e",
-   "backend": "repli360_feed",
-   "url": "http://www.marquptown.com/floor-plans",
-   "params": {
-    "script_url": "https://app.repli360.com/admin/rrac-website-script/eyJpdiI6InZNNTZheDlkelpERWtFOWtERXpnYlE9PSIsInZhbHVlIjoiZ2piR3pjY3ZWVURwOER2VjBwd2prUT09IiwibWFjIjoiMTFiZjViNmI1YWU0ZmE3MmE1NDFiZWE1ZDYzYThhYzgxMmY0NzZhNDAwYjc1YzUwY2I4ODc0MDNjNTJjMmI5MiJ9"
-   },
-   "detected_rows": 30,
-   "detected_priced": 12,
-   "detected_at": "2026-11-18"
+   "source_id": "b4_19",
+   "backend": "repli360",
+   "extractor_type": "dom",
+   "url": "https://www.marquptown.com/floor-plans",
+   "params": {},
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "sabina",
-   "property_name": "Sabina",
-   "address": "3400 Harmon Ave, Austin, TX 78705, USA",
+   "property_name": "Sabina Condominiums",
+   "address": "3400 Harmon Ave, Austin, TX",
    "building_type": "apartment",
-   "source_id": "src_ad7a51cf",
-   "backend": "repli360_feed",
-   "url": "http://www.sabinaaustin.com/floor-plans",
-   "params": {
-    "script_url": "https://app.repli360.com/admin/rrac-website-script/eyJpdiI6ImQ2SGwrMEFNRkRvNFQ1clNqdGplV3c9PSIsInZhbHVlIjoiR1pGSXJ4M3ZZY0h6NUVsWWY0M3BjQT09IiwibWFjIjoiZjJkZTUzMjY3NjliY2VmN2MwZjlmZDhlNzVkMzA2MGI5YjNhNzZhYTllZTYzY2NhMWI0ODZjZWNjYTc4MGM3YSJ9"
-   },
-   "detected_rows": 34,
-   "detected_priced": 10,
-   "detected_at": "2026-11-18"
+   "source_id": "src_23",
+   "backend": "repli360",
+   "extractor_type": "dom",
+   "url": "https://www.sabinaaustin.com/floor-plans",
+   "params": {},
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   },
   {
    "objectID": "west-ridge-condos",
@@ -1710,6 +1687,1258 @@
    "detected_rows": 4,
    "detected_priced": 0,
    "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "the-block-on-25th-west",
+   "property_name": "The Block on 25th West",
+   "address": "2501 Pearl St (leasing office), Austin, TX 78705",
+   "building_type": "student_housing",
+   "source_id": "src_01",
+   "backend": "acc_lightning",
+   "extractor_type": "http",
+   "url": "https://www.americancampus.com/student-apartments/tx/austin/the-block/floor-plans",
+   "params": {
+    "list_id": 671,
+    "location_filter": "LocationFilter_25th-West"
+   },
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "the-block-on-pearl-south",
+   "property_name": "The Block on Pearl South",
+   "address": "2501 Pearl St (leasing office), Austin, TX 78705",
+   "building_type": "student_housing",
+   "source_id": "src_01",
+   "backend": "acc_lightning",
+   "extractor_type": "http",
+   "url": "https://www.americancampus.com/student-apartments/tx/austin/the-block/floor-plans",
+   "params": {
+    "list_id": 671,
+    "location_filter": "LocationFilter_Pearl-South"
+   },
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "the-block-23",
+   "property_name": "The Block 23",
+   "address": "2501 Pearl St (leasing office), Austin, TX 78705",
+   "building_type": "student_housing",
+   "source_id": "src_01",
+   "backend": "acc_lightning",
+   "extractor_type": "http",
+   "url": "https://www.americancampus.com/student-apartments/tx/austin/the-block/floor-plans",
+   "params": {
+    "list_id": 671,
+    "location_filter": "LocationFilter_23rd"
+   },
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "quarters-on-campus-grayson",
+   "property_name": "Quarters on Campus \u2013 Grayson",
+   "address": "2222 Rio Grande St (leasing office), Austin, TX 78705",
+   "building_type": "student_housing",
+   "source_id": "src_02",
+   "backend": "entrata_pp",
+   "extractor_type": "dom",
+   "url": "https://www.quartersoncampus.com/austin/grayson/student/",
+   "params": {},
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "quarters-on-campus-karnes-house",
+   "property_name": "Quarters on Campus \u2013 Karnes House",
+   "address": "2222 Rio Grande St (leasing office), Austin, TX 78705",
+   "building_type": "student_housing",
+   "source_id": "src_04",
+   "backend": "entrata_pp",
+   "extractor_type": "dom",
+   "url": "https://www.quartersoncampus.com/karneshouse/austin/karnes/student/",
+   "params": {},
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "quarters-on-campus-sterling-house",
+   "property_name": "Quarters on Campus \u2013 Sterling House",
+   "address": "2222 Rio Grande St (leasing office), Austin, TX 78705",
+   "building_type": "student_housing",
+   "source_id": "src_05",
+   "backend": "entrata_pp",
+   "extractor_type": "dom",
+   "url": "https://www.quartersoncampus.com/austin/sterling/student/",
+   "params": {},
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "1883-at-cameron-house",
+   "property_name": "1883 at Cameron House",
+   "address": "2707 Rio Grande Street, Austin, TX 78705",
+   "building_type": "student_housing",
+   "source_id": "src_28",
+   "backend": "entrata_pp",
+   "extractor_type": "dom",
+   "url": "https://www.1883atx.com/austin/1883-at-cameron/student/",
+   "params": {},
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "2400-nueces",
+   "property_name": "2400 Nueces",
+   "address": "2400 Nueces St, Austin, TX 78705",
+   "building_type": "dorm",
+   "source_id": "src_07",
+   "backend": "ut_housing_nueces",
+   "extractor_type": "http",
+   "url": "https://housing.utexas.edu/housing/2400-nueces-apartments/2400-nueces-rates",
+   "params": {},
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "dobie-twenty21",
+   "property_name": "Dobie Twenty21",
+   "address": "2021 Guadalupe St, Austin, TX 78705",
+   "building_type": "dorm",
+   "source_id": "src_09",
+   "backend": "ut_housing_dobie",
+   "extractor_type": "http",
+   "url": "https://housing.utexas.edu/housing/residence-halls/residence-hall-locations/dobie-twenty21",
+   "params": {},
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "marq-on-burnet",
+   "property_name": "Marq on Burnet",
+   "address": "6701 Burnet Rd, Austin, TX",
+   "building_type": "apartment",
+   "source_id": "src_21",
+   "backend": "repli360",
+   "extractor_type": "dom",
+   "url": "https://www.marqonburnet.com/floor-plans",
+   "params": {},
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "the-sondery",
+   "property_name": "The Sondery",
+   "address": "1700 Willow Creek Dr, Austin, TX 78741",
+   "building_type": "apartment",
+   "source_id": "src_20",
+   "backend": "sightmap",
+   "extractor_type": "http",
+   "url": "https://sonderyaustin.com/floorplans/",
+   "params": {
+    "api_url": "https://sightmap.com/app/api/v1/dqw9klk3po9/sightmaps/64764"
+   },
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "oak-grove-apartments",
+   "property_name": "Oak Grove Apartments",
+   "address": "3625 S 1st Street, Austin, TX 78704",
+   "building_type": "apartment",
+   "source_id": "b2_01",
+   "backend": "spearhead_static",
+   "extractor_type": "http",
+   "url": "https://www.spearheadproperties.com/property/oak-i/",
+   "params": {},
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "avon-at-22nd",
+   "property_name": "Avon at 22nd",
+   "address": "911 W 22nd St, Austin, TX 78705",
+   "building_type": "apartment",
+   "source_id": "b2_02",
+   "backend": "appfolio_listings",
+   "extractor_type": "http",
+   "url": "https://www.gbatx.com/properties/avon-22nd",
+   "params": {
+    "portal": "https://gordonandbilyeupm.appfolio.com",
+    "address_match": [
+     "911 W 22nd",
+     "911 West 22nd",
+     "911 w. 22nd st"
+    ],
+    "fallback_range": {
+     "min": 1100,
+     "max": 3100,
+     "label": "property-wide advertised range $1,100-$3,100/mo"
+    }
+   },
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "the-marian-condominiums",
+   "property_name": "The Marian Condominiums",
+   "address": "Austin, TX (West Campus)",
+   "building_type": "condo",
+   "source_id": "b2_03",
+   "backend": "resolute_static",
+   "extractor_type": "http",
+   "url": "https://resolutereco.com/marian-condominiums/",
+   "params": {},
+   "source_type": "managing_broker_site",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "west-campus-elloras",
+   "property_name": "West Campus Elloras",
+   "address": "908 W 21st St, Austin, TX 78705",
+   "building_type": "apartment",
+   "source_id": "b2_05",
+   "backend": "ut_offcampus_directory",
+   "extractor_type": "http",
+   "url": "https://housing.offcampus.utexas.edu/city/austin-tx/listing/west-campus-elloras-114561",
+   "params": {},
+   "source_type": "third_party_directory",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "penthouse-apartments",
+   "property_name": "Penthouse Apartments",
+   "address": "604 West 18th St, Austin, TX 78701",
+   "building_type": "apartment",
+   "source_id": "b2_06",
+   "backend": "duda_appfolio_feed",
+   "extractor_type": "http",
+   "url": "https://www.rainieratx.com/penthouse",
+   "params": {
+    "feed_url": "https://www.rainieratx.com/rts/collections/public/609bac3c/runtime/collection/appfolio-listings/query-data?pageSize=100",
+    "address_match": [
+     "604 West 18th",
+     "604 W 18th"
+    ]
+   },
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "point-north",
+   "property_name": "Point North",
+   "address": "415 E 30th St, Austin, TX 78705",
+   "building_type": "student_housing",
+   "source_id": "b2_07",
+   "backend": "entrata_pp",
+   "extractor_type": "dom",
+   "url": "https://www.pointnorthaustin.com/austin/point-north/student/",
+   "params": {},
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "troubadour",
+   "property_name": "Troubadour",
+   "address": "3403 Harmon Ave, Austin, TX 78705",
+   "building_type": "apartment",
+   "source_id": "b2_09",
+   "backend": "jonah_detail_json",
+   "extractor_type": "http",
+   "url": "https://troubadourliving.com/floorplans/",
+   "params": {},
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "presidium-tech-ridge-apartments",
+   "property_name": "Presidium Tech Ridge Apartments",
+   "address": "12210 Tech Ridge Blvd, Austin, TX",
+   "building_type": "apartment",
+   "source_id": "b2_10",
+   "backend": "sightmap",
+   "extractor_type": "http",
+   "url": "https://www.presidiumtechridge.com/floor-plans/",
+   "params": {
+    "api_url": "https://sightmap.com/app/api/v1/yjp2z55zpxl/sightmaps/62249"
+   },
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "high-point-preserve",
+   "property_name": "High Point Preserve",
+   "address": "9301 E US Hwy 290, Austin, TX",
+   "building_type": "apartment",
+   "source_id": "b2_11",
+   "backend": "rentcafe_ysi",
+   "extractor_type": "dom",
+   "url": "https://www.highpointpreserve.com/floorplans",
+   "params": {},
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "the-waller",
+   "property_name": "The Waller",
+   "address": "Austin, TX (Symphony Square)",
+   "building_type": "student_housing",
+   "source_id": "b2_12",
+   "backend": "entrata_pp",
+   "extractor_type": "dom",
+   "url": "https://www.thewallersymphonysquare.com/austin/the-waller/1-bedroom-apartments/",
+   "params": {
+    "extra_urls": [
+     "https://www.thewallersymphonysquare.com/austin/the-waller/2-bedroom-apartments/"
+    ]
+   },
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "promontory-point",
+   "property_name": "Promontory Point",
+   "address": "2250 Ridgepoint Dr, Austin, TX",
+   "building_type": "apartment",
+   "source_id": "b2_13",
+   "backend": "g5_sniff",
+   "extractor_type": "dom",
+   "url": "https://www.missionrockresidential.com/apartments/tx/austin/promontory-point-apartments/floor-plans-interactive-map",
+   "params": {},
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "hillside-creek",
+   "property_name": "Hillside Creek",
+   "address": "1730 East Oltorf Street, Austin, TX",
+   "building_type": "apartment",
+   "source_id": "b2_14",
+   "backend": "rentcafe_ysi",
+   "extractor_type": "dom",
+   "url": "https://www.liveathillsidecreek.com/floorplans",
+   "params": {},
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "keystone-apartments",
+   "property_name": "Keystone Apartments",
+   "address": "5230 Thunder Creek Road, Austin, TX",
+   "building_type": "apartment",
+   "source_id": "b2_15",
+   "backend": "knock_doorway",
+   "extractor_type": "http",
+   "url": "https://www.keystoneapts.com/keystone-apartments-austin-tx/floorplans",
+   "params": {
+    "property_id": 2022162
+   },
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "preserve-at-wells-branch",
+   "property_name": "Preserve at Wells Branch",
+   "address": "Austin, TX (Wells Branch)",
+   "building_type": "apartment",
+   "source_id": "b2_16",
+   "backend": "knock_doorway",
+   "extractor_type": "http",
+   "url": "https://www.preserveatwellsbranch.com/floorplans",
+   "params": {
+    "property_id": 2008743
+   },
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "oaks-at-chisholm-trail",
+   "property_name": "Oaks at Chisholm Trail",
+   "address": "3000 Chisholm Trail Road, Round Rock, TX 78681",
+   "building_type": "apartment",
+   "source_id": "b2_17",
+   "backend": "realpage_sniff",
+   "extractor_type": "dom",
+   "url": "https://www.theoaksonchisholmtrail.com/Floor-plans.aspx",
+   "params": {},
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "redpoint-san-marcos",
+   "property_name": "Redpoint San Marcos",
+   "address": "650 River Road, San Marcos, TX",
+   "building_type": "student_housing",
+   "source_id": "b2_18",
+   "backend": "ion_wp",
+   "extractor_type": "dom",
+   "url": "https://redpoint-sanmarcos.com/rates-floorplans/",
+   "params": {},
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "veer-apartments",
+   "property_name": "VEER Apartments",
+   "address": "Austin, TX",
+   "building_type": "apartment",
+   "source_id": "b2_19",
+   "backend": "appfolio_listings",
+   "extractor_type": "http",
+   "url": "https://www.veeraustin.com/content/availability",
+   "params": {
+    "portal": "https://pghnexus.appfolio.com",
+    "listings_url": "https://pghnexus.appfolio.com/listings?filters%5Bproperty_list%5D=Veer",
+    "address_match": [],
+    "fallback_range": {
+     "min": 685,
+     "max": 885,
+     "label": "property-wide advertised range $685-$885/mo (schema.org priceRange)"
+    }
+   },
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "duval-villas",
+   "property_name": "Duval Villas",
+   "address": "4305 Duval Street, Austin, TX 78751",
+   "building_type": "apartment",
+   "source_id": "b2_21",
+   "backend": "rentcafe_ysi",
+   "extractor_type": "dom",
+   "url": "https://www.duvalvilla.com/floorplans",
+   "params": {},
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "estates-at-east-riverside",
+   "property_name": "Estates at East Riverside",
+   "address": "1300 Crossing Place, Austin, TX 78741",
+   "building_type": "apartment",
+   "source_id": "b3_01",
+   "backend": "jonah_detail_json",
+   "extractor_type": "http",
+   "url": "https://estatesateastriverside.com/floorplans/",
+   "params": {},
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "ballpark-east-collective-on-riverside",
+   "property_name": "Ballpark East (Collective on Riverside)",
+   "address": "1515 Wickersham Lane, Austin, TX 78741",
+   "building_type": "apartment",
+   "source_id": "b3_02",
+   "backend": "rentcafe_ysi",
+   "extractor_type": "dom",
+   "url": "https://www.collectiveonriverside.com/floorplans",
+   "params": {},
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "town-lake-condos",
+   "property_name": "Town Lake Condos",
+   "address": "1109 South Pleasant Valley Road, Austin, TX 78741",
+   "building_type": "condo",
+   "source_id": "b3_03",
+   "backend": "no_public_pricing",
+   "extractor_type": "http",
+   "url": "https://www.townlakeataustin.com/floor-plans",
+   "params": {
+    "reason": "floor-plans page is a Webflow shell with no plan cards or rates; pricing only via Entrata apply flow (login)"
+   },
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "elan-east-apartments",
+   "property_name": "Elan East Apartments",
+   "address": "2900 Manor Rd, Austin, TX 78722",
+   "building_type": "apartment",
+   "source_id": "b3_07",
+   "backend": "realpage_cms_proxy",
+   "extractor_type": "http",
+   "url": "https://www.elaneast.com/Floor-plans.aspx",
+   "params": {},
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "grandmarc-austin",
+   "property_name": "GrandMarc Austin",
+   "address": "Austin, TX 78705",
+   "building_type": "student_housing",
+   "source_id": "b3_08",
+   "backend": "entrata_pp",
+   "extractor_type": "dom",
+   "url": "https://entrata.grandmarcaustin.com/austin/grandmarc-austin/student/",
+   "params": {},
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "haus-535-haus-5350",
+   "property_name": "Haus 535 (Haus 5350)",
+   "address": "5350 Burnet Rd, Austin, TX",
+   "building_type": "apartment",
+   "source_id": "b3_09",
+   "backend": "jonah_detail_json",
+   "extractor_type": "http",
+   "url": "https://haus5350.com/floorplans/",
+   "params": {},
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "rise-at-west-campus",
+   "property_name": "Rise at West Campus",
+   "address": "Austin, TX 78705",
+   "building_type": "apartment",
+   "source_id": "b3_17",
+   "backend": "rise_units",
+   "extractor_type": "dom",
+   "url": "https://www.riseatwestcampus.com/floorplans",
+   "params": {},
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "torre",
+   "property_name": "Torre",
+   "address": "2020 Nueces St, Austin, TX 78705",
+   "building_type": "apartment",
+   "source_id": "b3_18",
+   "backend": "wp_entrata_json",
+   "extractor_type": "http",
+   "url": "https://torreatx.com/floor-plans/",
+   "params": {
+    "api_url": "https://torreatx.com/wp-json/gmh-student/floorplans/categories"
+   },
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "twenty-two15",
+   "property_name": "Twenty Two15",
+   "address": "2215 San Gabriel St, Austin, TX 78705",
+   "building_type": "student_housing",
+   "source_id": "b3_19",
+   "backend": "entrata_pp",
+   "extractor_type": "dom",
+   "url": "https://www.2215west.com/austin/twenty-two-15/student/",
+   "params": {},
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "villas-on-26th",
+   "property_name": "Villas on 26th",
+   "address": "800 W 26th St, Austin, TX 78705",
+   "building_type": "apartment",
+   "source_id": "b3_25",
+   "backend": "vnue_grid_static",
+   "extractor_type": "http",
+   "url": "https://villason26.com/floorplans/",
+   "params": {},
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "texan-vintage-west-campus",
+   "property_name": "Texan & Vintage West Campus",
+   "address": "Austin, TX 78705",
+   "building_type": "student_housing",
+   "source_id": "src_acc672",
+   "backend": "acc_lightning",
+   "extractor_type": "http",
+   "url": "https://www.americancampus.com/student-apartments/tx/austin/texan-and-vintage-west-campus/floor-plans",
+   "params": {
+    "list_id": 672
+   },
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "texan-26",
+   "property_name": "Texan 26",
+   "address": "Austin, TX 78705",
+   "building_type": "apartment",
+   "source_id": "b4_06",
+   "backend": "no_public_pricing",
+   "extractor_type": "http",
+   "url": "https://www.texan26.com/floor-plans",
+   "params": {
+    "reason": "first-party page is an image slider with no plan data; Entrata portal (entrata.texan26.com student path) is hard-blocked by Cloudflare \u2014 needs manual handling"
+   },
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "envoy-apartments",
+   "property_name": "Envoy Apartments",
+   "address": "2108 San Gabriel St, Austin, TX 78705",
+   "building_type": "apartment",
+   "source_id": "b4_08",
+   "backend": "westside_prose",
+   "extractor_type": "http",
+   "url": "https://www.westsidegroup.com/envoy-apartments/",
+   "params": {
+    "portal": "https://westsidegroup.appfolio.com",
+    "address_match": [
+     "envoy"
+    ]
+   },
+   "source_type": "managing_broker_site",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "east-campus-graduate-apartments",
+   "property_name": "East Campus Graduate Apartments",
+   "address": "Austin, TX (East Campus)",
+   "building_type": "dorm",
+   "source_id": "b4_10",
+   "backend": "ut_rates_table",
+   "extractor_type": "http",
+   "url": "https://housing.utexas.edu/housing/east-campus-graduate-apartments/ecga-rates",
+   "params": {
+    "availability_note": "UT graduate housing monthly rate (per person)"
+   },
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "leon-place-condominiums",
+   "property_name": "Leon Place Condominiums",
+   "address": "2302 Leon St, Austin, TX 78705",
+   "building_type": "condo",
+   "source_id": "b4_11",
+   "backend": "appfolio_listings",
+   "extractor_type": "http",
+   "url": "https://centralproperties.com/leon-place-condominiums/",
+   "params": {
+    "portal": "https://campusandcentral.appfolio.com",
+    "address_match": [
+     "2302 leon"
+    ]
+   },
+   "source_type": "managing_broker_site",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "hilltop",
+   "property_name": "Hilltop",
+   "address": "Austin, TX 78705",
+   "building_type": "apartment",
+   "source_id": "b4_13",
+   "backend": "wp_entrata_json",
+   "extractor_type": "http",
+   "url": "https://www.hilltopatx.com/floor-plans/",
+   "params": {
+    "api_url": "https://www.hilltopatx.com/wp-json/theme/entrata/v1/floor-plans"
+   },
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "the-block-on-rio",
+   "property_name": "The Block on Rio",
+   "address": "2501 Pearl St (leasing office), Austin, TX 78705",
+   "building_type": "student_housing",
+   "source_id": "src_01",
+   "backend": "acc_lightning",
+   "extractor_type": "http",
+   "url": "https://www.americancampus.com/student-apartments/tx/austin/the-block/floor-plans",
+   "params": {
+    "list_id": 671,
+    "location_filter": "LocationFilter_Rio-Grande"
+   },
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "icon-at-austin",
+   "property_name": "Icon at Austin",
+   "address": "Austin, TX 78705",
+   "building_type": "student_housing",
+   "source_id": "b4_16",
+   "backend": "entrata_pp",
+   "extractor_type": "dom",
+   "url": "https://www.iconataustin.com/austin/icon-at-austin/student/",
+   "params": {
+    "clean_labels": true
+   },
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "town-lake-apartments",
+   "property_name": "Town Lake Apartments",
+   "address": "1109 South Pleasant Valley Road, Austin, TX 78741",
+   "building_type": "apartment",
+   "source_id": "b4_17",
+   "backend": "no_public_pricing",
+   "extractor_type": "http",
+   "url": "https://www.townlakeataustin.com/floor-plans",
+   "params": {
+    "reason": "floor-plans page is a Webflow shell with no plan cards or rates (full-page screenshot: output/verify/townlake.png). hy.ly promo active: 'LIMITED TIME: up to $1,600 in savings & gift cards'"
+   },
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "1883-at-montgomery-house",
+   "property_name": "1883 at Montgomery House",
+   "address": "Austin, TX 78705",
+   "building_type": "student_housing",
+   "source_id": "b4_18",
+   "backend": "entrata_pp",
+   "extractor_type": "dom",
+   "url": "https://www.1883atx.com/austin/1883-at-montgomery/student/",
+   "params": {},
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "village-at-east-riverside",
+   "property_name": "Village at East Riverside",
+   "address": "Austin, TX 78741",
+   "building_type": "apartment",
+   "source_id": "b4_22",
+   "backend": "jonah_detail_json",
+   "extractor_type": "http",
+   "url": "https://villageateastriverside.com/floorplans/",
+   "params": {},
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "town-lake-at-austin",
+   "property_name": "Town Lake at Austin",
+   "address": "1109 South Pleasant Valley Road, Austin, TX 78741",
+   "building_type": "apartment",
+   "source_id": "b4_17",
+   "backend": "no_public_pricing",
+   "extractor_type": "http",
+   "url": "https://www.townlakeataustin.com/floor-plans",
+   "params": {
+    "reason": "same shared Town Lake source as 'Town Lake Apartments' (one feed, two seed names); no published pricing"
+   },
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "gateway-apartments",
+   "property_name": "Gateway Apartments",
+   "address": "Austin, TX (UT University Apartments)",
+   "building_type": "dorm",
+   "source_id": "b4_24",
+   "backend": "ut_rates_table",
+   "extractor_type": "http",
+   "url": "https://housing.utexas.edu/housing/university-apartments/university-apartments-rates",
+   "params": {
+    "row_filter": "(?i)GAT|Gateway",
+    "label_note": "Gateway",
+    "availability_note": "UT university apartments monthly rate"
+   },
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "laurel-house-co-op",
+   "property_name": "Laurel House Co-op",
+   "address": "Austin, TX",
+   "building_type": "co_op",
+   "source_id": "b4_25",
+   "backend": "collegehouses_rates",
+   "extractor_type": "http",
+   "url": "https://collegehouses.org/laurel/",
+   "params": {
+    "house": "Laurel"
+   },
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "nueces-co-op",
+   "property_name": "Nueces Co-op",
+   "address": "1905 Nueces St (Floor 3), Austin, TX 78705",
+   "building_type": "co_op",
+   "source_id": "src_chrates",
+   "backend": "collegehouses_rates",
+   "extractor_type": "http",
+   "url": "https://collegehouses.org/nueces/",
+   "params": {
+    "house": "Nueces Co-op"
+   },
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "halstead-co-op",
+   "property_name": "Halstead Co-op",
+   "address": "1905 Nueces St (Floors 4-5), Austin, TX 78705",
+   "building_type": "co_op",
+   "source_id": "src_chrates",
+   "backend": "collegehouses_rates",
+   "extractor_type": "http",
+   "url": "https://collegehouses.org/halstead/",
+   "params": {
+    "house": "Halstead Co-op"
+   },
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "escala-condominiums",
+   "property_name": "Escala Condominiums",
+   "address": "1000 W. 26th, Austin, TX 78705",
+   "building_type": "condo",
+   "source_id": "src_31",
+   "backend": "uptown_realty",
+   "extractor_type": "http",
+   "url": "https://uptownrealtyaustin.com/communities/escala_at_san_gabriel/",
+   "params": {},
+   "source_type": "managing_broker_site",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "dos-rios",
+   "property_name": "Dos Rios",
+   "address": "2818 Nueces #101, Austin, TX 78705",
+   "building_type": "apartment",
+   "source_id": "src_32",
+   "backend": "uptown_realty",
+   "extractor_type": "http",
+   "url": "https://uptownrealtyaustin.com/ut_austin_rentals/dos_rios_apartments_101/",
+   "params": {},
+   "source_type": "managing_broker_site",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "treehouse-condominiums",
+   "property_name": "Treehouse Condominiums",
+   "address": "202 E 45th, Austin, TX 78751",
+   "building_type": "condo",
+   "source_id": "src_33",
+   "backend": "uptown_realty",
+   "extractor_type": "http",
+   "url": "https://uptownrealtyaustin.com/communities/treehouse_condominiums/",
+   "params": {},
+   "source_type": "managing_broker_site",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "pecan-square-apartments",
+   "property_name": "Pecan Square Apartments",
+   "address": "507 W. 37th, Austin, TX 78705",
+   "building_type": "apartment",
+   "source_id": "src_34",
+   "backend": "uptown_realty",
+   "extractor_type": "http",
+   "url": "https://uptownrealtyaustin.com/communities/pecan_square/",
+   "params": {},
+   "source_type": "managing_broker_site",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "landmark-square",
+   "property_name": "Landmark Square",
+   "address": "706 W. 22nd, Austin, TX 78705",
+   "building_type": "apartment",
+   "source_id": "src_35",
+   "backend": "uptown_realty",
+   "extractor_type": "http",
+   "url": "https://uptownrealtyaustin.com/communities/landmark_square/",
+   "params": {},
+   "source_type": "managing_broker_site",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "wedgewood-condominiums",
+   "property_name": "Wedgewood Condominiums",
+   "address": "2802 nueces, Austin, TX 78705",
+   "building_type": "condo",
+   "source_id": "src_36",
+   "backend": "uptown_realty",
+   "extractor_type": "http",
+   "url": "https://uptownrealtyaustin.com/communities/wedgewood/",
+   "params": {},
+   "source_type": "managing_broker_site",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "piazza-navona-condominiums",
+   "property_name": "Piazza Navona Condominiums",
+   "address": "711 W. 26th St, Austin, TX 78705",
+   "building_type": "condo",
+   "source_id": "src_37",
+   "backend": "uptown_realty",
+   "extractor_type": "http",
+   "url": "https://uptownrealtyaustin.com/communities/piazza_navona/",
+   "params": {},
+   "source_type": "managing_broker_site",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "greenwood-condominiums",
+   "property_name": "Greenwood Condominiums",
+   "address": "1800 Lavaca, Austin, TX 78701",
+   "building_type": "condo",
+   "source_id": "src_38",
+   "backend": "uptown_realty",
+   "extractor_type": "http",
+   "url": "https://uptownrealtyaustin.com/communities/greenwood_towers/",
+   "params": {},
+   "source_type": "managing_broker_site",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "1907-robbins-place-apartments",
+   "property_name": "1907 Robbins Place Apartments",
+   "address": "1906 Robbins Place, Austin, TX 78705",
+   "building_type": "apartment",
+   "source_id": "src_41",
+   "backend": "uptown_realty",
+   "extractor_type": "http",
+   "url": "https://uptownrealtyaustin.com/communities/robbins_place/",
+   "params": {},
+   "source_type": "managing_broker_site",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "lantern-lane-condominiums-unit-302",
+   "property_name": "Lantern Lane Condominiums (Unit 302)",
+   "address": "2008 San Antonio #302, Austin, TX 78705",
+   "building_type": "condo",
+   "source_id": "src_42",
+   "backend": "uptown_realty",
+   "extractor_type": "http",
+   "url": "https://uptownrealtyaustin.com/ut_austin_rentals/lantern_lane_unit_302/",
+   "params": {},
+   "source_type": "managing_broker_site",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "lantern-lane-condominiums-unit-203",
+   "property_name": "Lantern Lane Condominiums (Unit 203)",
+   "address": "2008 San Antonio #203, Austin, TX 78705",
+   "building_type": "condo",
+   "source_id": "src_43",
+   "backend": "uptown_realty",
+   "extractor_type": "http",
+   "url": "https://uptownrealtyaustin.com/ut_austin_rentals/lantern_lane_unit_203-2/",
+   "params": {},
+   "source_type": "managing_broker_site",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "littlefield-apartments",
+   "property_name": "Littlefield Apartments",
+   "address": "2606 Rio Grande, Austin, TX 78705",
+   "building_type": "apartment",
+   "source_id": "src_44",
+   "backend": "uptown_realty",
+   "extractor_type": "http",
+   "url": "https://uptownrealtyaustin.com/communities/littlefield_house/",
+   "params": {},
+   "source_type": "managing_broker_site",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "galileo-condominiums",
+   "property_name": "Galileo Condominiums",
+   "address": "910 West 25th, Austin, TX 78705",
+   "building_type": "condo",
+   "source_id": "src_45",
+   "backend": "uptown_realty",
+   "extractor_type": "http",
+   "url": "https://uptownrealtyaustin.com/communities/galileo/",
+   "params": {},
+   "source_type": "managing_broker_site",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "san-pedro-flats",
+   "property_name": "San Pedro Flats",
+   "address": "2708 San Pedro #302, Austin, TX 78705",
+   "building_type": "apartment",
+   "source_id": "src_46",
+   "backend": "uptown_realty",
+   "extractor_type": "http",
+   "url": "https://uptownrealtyaustin.com/ut_austin_rentals/san_pedro_flats_302/",
+   "params": {},
+   "source_type": "managing_broker_site",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "tom-green-condominiums",
+   "property_name": "Tom Green Condominiums",
+   "address": "3115 Tom Green, Austin, TX 78705",
+   "building_type": "condo",
+   "source_id": "src_47",
+   "backend": "uptown_realty",
+   "extractor_type": "http",
+   "url": "https://uptownrealtyaustin.com/communities/tom_green_condominiums/",
+   "params": {},
+   "source_type": "managing_broker_site",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "park-place-condominiums",
+   "property_name": "Park Place Condominiums",
+   "address": "4306 Avenue A, Austin, TX 78751",
+   "building_type": "condo",
+   "source_id": "src_48",
+   "backend": "uptown_realty",
+   "extractor_type": "http",
+   "url": "https://uptownrealtyaustin.com/communities/park_place_condo/",
+   "params": {},
+   "source_type": "managing_broker_site",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "pecan-walks",
+   "property_name": "Pecan Walks",
+   "address": "3506 Speedway, Austin, TX 78705",
+   "building_type": "apartment",
+   "source_id": "src_51",
+   "backend": "uptown_realty",
+   "extractor_type": "http",
+   "url": "https://uptownrealtyaustin.com/communities/pecan_walk/",
+   "params": {},
+   "source_type": "managing_broker_site",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "gables-condominiums",
+   "property_name": "Gables Condominiums",
+   "address": "1808 Rio Grande, Austin, TX 78705",
+   "building_type": "condo",
+   "source_id": "src_53",
+   "backend": "uptown_realty",
+   "extractor_type": "http",
+   "url": "https://uptownrealtyaustin.com/communities/gables/",
+   "params": {},
+   "source_type": "managing_broker_site",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "speedway-condominiums",
+   "property_name": "Speedway Condominiums",
+   "address": "305 E 31st St, Austin, TX 78705",
+   "building_type": "condo",
+   "source_id": "src_54",
+   "backend": "uptown_realty",
+   "extractor_type": "http",
+   "url": "https://uptownrealtyaustin.com/communities/speedway_condos/",
+   "params": {},
+   "source_type": "managing_broker_site",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "3000-guadalupe-st",
+   "property_name": "3000 Guadalupe St",
+   "address": "3000 Guadalupe, Austin, TX 78705",
+   "building_type": "apartment",
+   "source_id": "src_55",
+   "backend": "uptown_realty",
+   "extractor_type": "http",
+   "url": "https://uptownrealtyaustin.com/communities/3000_guadalupe/",
+   "params": {},
+   "source_type": "managing_broker_site",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "palmetto-condominiums",
+   "property_name": "Palmetto Condominiums",
+   "address": "2110 Rio Grande, Austin, TX 78705",
+   "building_type": "condo",
+   "source_id": "src_57",
+   "backend": "uptown_realty",
+   "extractor_type": "http",
+   "url": "https://uptownrealtyaustin.com/communities/palmetto/",
+   "params": {},
+   "source_type": "managing_broker_site",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "texan-tower",
+   "property_name": "Texan Tower",
+   "address": "2505 San Gabriel, Austin, TX 78705",
+   "building_type": "apartment",
+   "source_id": "src_59",
+   "backend": "uptown_realty",
+   "extractor_type": "http",
+   "url": "https://uptownrealtyaustin.com/communities/texan_tower/",
+   "params": {},
+   "source_type": "managing_broker_site",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "delphi-condominiums",
+   "property_name": "Delphi Condominiums",
+   "address": "706 W 24th St, Austin, TX 78705",
+   "building_type": "condo",
+   "source_id": "src_60",
+   "backend": "uptown_realty",
+   "extractor_type": "http",
+   "url": "https://uptownrealtyaustin.com/communities/delphi/",
+   "params": {},
+   "source_type": "managing_broker_site",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "windtree-condominiums",
+   "property_name": "Windtree Condominiums",
+   "address": "106 E. 30th, Austin, TX 78705",
+   "building_type": "condo",
+   "source_id": "src_61",
+   "backend": "uptown_realty",
+   "extractor_type": "http",
+   "url": "https://uptownrealtyaustin.com/communities/windtree/",
+   "params": {},
+   "source_type": "managing_broker_site",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "nueces-corner-condos",
+   "property_name": "Nueces Corner Condos",
+   "address": "2714 Nueces, Austin, TX 78705",
+   "building_type": "condo",
+   "source_id": "src_62",
+   "backend": "uptown_realty",
+   "extractor_type": "http",
+   "url": "https://uptownrealtyaustin.com/communities/nueces_corner/",
+   "params": {},
+   "source_type": "managing_broker_site",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "tower-view-apartments",
+   "property_name": "Tower View Apartments",
+   "address": "926 E. Dean Keeton, Austin, TX 78705",
+   "building_type": "apartment",
+   "source_id": "src_63",
+   "backend": "no_public_pricing",
+   "extractor_type": "http",
+   "url": "https://www.rentable.co/austin-tx/926-e-dean-keeton",
+   "params": {
+    "reason": "No live AppFolio units. eqrealestate.appfolio.com 302s to the AppFolio corporate page-not-found. https://eqre.appfolio.com/listings currently lists 924 E. Dean Keeton (Red River Place Apartments) only, not 926 / Tower View. Rentable shows units rented / not accepting tenants. Listings scrape deferred pending a real public pricing source."
+   },
+   "source_type": "third_party_directory",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
+  },
+  {
+   "objectID": "preservation-square",
+   "property_name": "Preservation Square",
+   "address": "901 W 22nd St & 904 W 21st St, Austin, TX 78705",
+   "building_type": "apartment",
+   "source_id": "src_64",
+   "backend": "appfolio_listings",
+   "extractor_type": "http",
+   "url": "https://www.gbatx.com/properties-managed/preservation%20square",
+   "params": {
+    "portal": "https://gordonandbilyeupm.appfolio.com",
+    "address_match": [
+     "901 w. 22nd st",
+     "901 w 22nd st",
+     "904 w. 21st st",
+     "904 w 21st st"
+    ],
+    "fallback_range": {
+     "min": 1100,
+     "max": 3000,
+     "label": "property-wide advertised range $1,100-$3,000/mo"
+    }
+   },
+   "source_type": "managing_broker_site",
+   "locked": true,
+   "locked_from": "fml_data_properties_config"
   }
  ]
 }

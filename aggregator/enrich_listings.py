@@ -89,15 +89,28 @@ def priced(rows):
     return sum(1 for r in rows if r.get("price_min"))
 
 
+def take_llm_if_better(rows, src, adapter, chosen, lr):
+    """If the LLM read has more priced rows, it produced them. Do not freeze the previous adapter."""
+    if (priced(lr), len(lr)) > (priced(rows), len(rows)):
+        return lr, "first_party_site", "llm_page_read", None
+    return rows, src, adapter, chosen
+
+
 def write_listing_config(cfg, roster, res):
-    """Freeze what detection found into data/<campus>/listing_config.json - the legacy properties_config.json.
-    refresh_listings.py reads only this file: no crawling, no detection, no LLM. Buildings fed by one source (one ACC
-    feed for several Block buildings) share a source_id and are fetched once."""
+    """Freeze what detection found. Locked pins are kept as-is (merge, not overwrite).
+
+    llm_page_read, text_plan_list and any adapter that only has html_files are not frozen:
+    a production refresh refuses saved HTML, and an LLM win must not be stored as the
+    adapter that happened to be tried before it.
+    """
     import hashlib
+    from pinned_sources import merge_detected
     props, sources = [], {}
     for b, r in zip(roster, res):
         sc = r.get("source_config")
-        if not sc or sc["backend"] in ("llm_page_read",):
+        if not sc or sc["backend"] in ("llm_page_read", "text_plan_list"):
+            continue
+        if (sc.get("params") or {}).get("html_files"):
             continue
         key = json.dumps([sc["backend"], sc["url"], {k: v for k, v in sc["params"].items() if k != "location_filter"}], sort_keys=True)
         sid = sources.setdefault(key, "src_" + hashlib.sha1(key.encode()).hexdigest()[:8])
@@ -106,9 +119,12 @@ def write_listing_config(cfg, roster, res):
                       "params": sc["params"], "detected_rows": len(r["listings"]),
                       "detected_priced": priced(r["listings"]), "detected_at": time.strftime("%Y-%m-%d")})
     p = cfg["dir"] / "listing_config.json"
-    p.write_text(json.dumps({"_comment": "written by enrich_listings.py (build phase); read by refresh_listings.py",
-                             "properties": props}, indent=1))
-    print(f"listing_config.json: {len(props)} buildings on {len(set(x['source_id'] for x in props))} sources")
+    existing = json.loads(p.read_text()).get("properties", []) if p.exists() else []
+    merged = merge_detected(existing, props)
+    p.write_text(json.dumps({"_comment": "written by enrich_listings.py; locked pins are kept verbatim",
+                             "properties": merged}, indent=1))
+    n_locked = sum(1 for x in merged if x.get("locked"))
+    print(f"listing_config.json: {len(merged)} buildings ({n_locked} locked) on {len(set(x['source_id'] for x in merged))} sources")
 
 
 def main(slug, roster_file="roster_final.json", refresh=False, use_llm=False):
@@ -161,8 +177,7 @@ def main(slug, roster_file="roster_final.json", refresh=False, use_llm=False):
                 plans, blob = from_page(cfg, b, rd, meta)
                 failed = plans is None
                 lr = llm_rows(b, plans, blob, meta)
-            if (priced(lr), len(lr)) > (priced(rows), len(rows)):
-                rows, src, adapter = lr, "first_party_site", "llm_page_read"
+            rows, src, adapter, chosen = take_llm_if_better(rows, src, adapter, chosen, lr)
         # No third step: aggregators and campus directories (RentCollegePads, CoStar, Zillow ...) are never a rent source.
         # A building with no first-party / local-realtor rows stays `not_publicly_listed`.
         text_blob = blob or "\n".join(to_text(htmls[k], limit=200000) for k in ("floorplans", "floorplans2") if k in htmls)
