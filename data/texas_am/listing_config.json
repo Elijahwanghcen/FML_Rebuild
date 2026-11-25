@@ -24,19 +24,17 @@
    "address": "101 Church Ave, College Station, TX",
    "building_type": "condo",
    "source_id": "src_0f3920f7",
-   "backend": "text_plan_list",
+   "backend": "entrata_pp",
    "url": "https://www.domainatnorthgate.com/college-station-tx-apartments/domain-northgate/student/",
-   "params": {
-    "html_files": [
-     "data/texas_am/raw/domain-northgate/floorplans.html",
-     "data/texas_am/raw/domain-northgate/floorplans2.html",
-     "data/texas_am/raw/domain-northgate/fpdetail.html",
-     "data/texas_am/raw/domain-northgate/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 11,
    "detected_priced": 11,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-25",
+   "source_note": "moved off saved HTML 2026-11-25 (live adapter, checked by hand)",
+   "extractor_type": "dom",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "lark-northgate",
@@ -61,19 +59,17 @@
    "address": "503 George Bush Dr, College Station, TX",
    "building_type": "student_housing",
    "source_id": "src_595dc73f",
-   "backend": "text_plan_list",
+   "backend": "text_plan_live",
    "url": "https://parkwestlife.com/floor-plans",
-   "params": {
-    "html_files": [
-     "data/texas_am/raw/park-west/floorplans.html",
-     "data/texas_am/raw/park-west/floorplans2.html",
-     "data/texas_am/raw/park-west/fpdetail.html",
-     "data/texas_am/raw/park-west/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 18,
    "detected_priced": 18,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-25",
+   "source_note": "moved off saved HTML 2026-11-25 (live adapter, checked by hand)",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "ion-college-station",
@@ -134,19 +130,17 @@
    "address": "117 Holleman Dr W, College Station, TX",
    "building_type": "apartment",
    "source_id": "src_6a570d7c",
-   "backend": "text_plan_list",
+   "backend": "text_plan_live",
    "url": "https://theariastudentliving.com/floor-plans/",
-   "params": {
-    "html_files": [
-     "data/texas_am/raw/the-aria-at-college-station/floorplans.html",
-     "data/texas_am/raw/the-aria-at-college-station/floorplans2.html",
-     "data/texas_am/raw/the-aria-at-college-station/fpdetail.html",
-     "data/texas_am/raw/the-aria-at-college-station/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 6,
    "detected_priced": 6,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-25",
+   "source_note": "moved off saved HTML 2026-11-25 (live adapter, checked by hand)",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "the-zone",
@@ -173,19 +167,17 @@
    "address": "1600 Southwest Pky, College Station, TX",
    "building_type": "apartment",
    "source_id": "src_8e860972",
-   "backend": "rentcafe_inline",
+   "backend": "rentcafe_cards",
    "url": "https://www.dwellat1600.com/floorplans",
-   "params": {
-    "html_files": [
-     "data/texas_am/raw/dwell-at-1600/floorplans.html",
-     "data/texas_am/raw/dwell-at-1600/floorplans2.html",
-     "data/texas_am/raw/dwell-at-1600/fingerprint.html",
-     "data/texas_am/raw/dwell-at-1600/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 9,
    "detected_priced": 7,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-25",
+   "source_note": "moved off saved HTML 2026-11-25 (live adapter, checked by hand)",
+   "extractor_type": "dom",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "the-ivy-apartments",
@@ -284,19 +276,17 @@
    "address": "999 W Villa Maria Rd, Bryan, TX",
    "building_type": "apartment",
    "source_id": "src_f167529c",
-   "backend": "text_plan_list",
+   "backend": "swifty_fp_ajax",
    "url": "https://www.westugardens.com/floorplans/",
-   "params": {
-    "html_files": [
-     "data/texas_am/raw/west-university-gardens/floorplans.html",
-     "data/texas_am/raw/west-university-gardens/floorplans2.html",
-     "data/texas_am/raw/west-university-gardens/fpdetail.html",
-     "data/texas_am/raw/west-university-gardens/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 6,
    "detected_priced": 4,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-25",
+   "source_note": "moved off saved HTML 2026-11-25 (live adapter, checked by hand)",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "the-grand-1501",
@@ -357,19 +347,17 @@
    "address": "1800 Holleman Dr, College Station, TX",
    "building_type": "condo",
    "source_id": "src_093793fe",
-   "backend": "text_plan_list",
+   "backend": "entrata_pp",
    "url": "https://www.enclaveatcollegestation.com/college-station-college-station/the-enclave-the-enclave/",
-   "params": {
-    "html_files": [
-     "data/texas_am/raw/the-enclave/floorplans.html",
-     "data/texas_am/raw/the-enclave/floorplans2.html",
-     "data/texas_am/raw/the-enclave/fpdetail.html",
-     "data/texas_am/raw/the-enclave/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 7,
    "detected_priced": 7,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-25",
+   "source_note": "moved off saved HTML 2026-11-25 (live adapter, checked by hand)",
+   "extractor_type": "dom",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "reveille-ranch",
@@ -377,19 +365,17 @@
    "address": "3645 Wellborn Rd, College Station, TX",
    "building_type": "apartment",
    "source_id": "src_41a38cef",
-   "backend": "text_plan_list",
+   "backend": "entrata_pp",
    "url": "https://www.reveilleranchapartments.com/bryan/reveille-ranch/student/",
-   "params": {
-    "html_files": [
-     "data/texas_am/raw/reveille-ranch/floorplans.html",
-     "data/texas_am/raw/reveille-ranch/floorplans2.html",
-     "data/texas_am/raw/reveille-ranch/fpdetail.html",
-     "data/texas_am/raw/reveille-ranch/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 8,
    "detected_priced": 5,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-25",
+   "source_note": "moved off saved HTML 2026-11-25 (live adapter, checked by hand)",
+   "extractor_type": "dom",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "global-college-station",
@@ -397,19 +383,17 @@
    "address": "404 Harvey Mitchell Pky S, College Station, TX",
    "building_type": "student_housing",
    "source_id": "src_531a8082",
-   "backend": "text_plan_list",
+   "backend": "entrata_pp",
    "url": "https://www.globalcollegestation.com/college-station/95262-global-college-station/student/",
-   "params": {
-    "html_files": [
-     "data/texas_am/raw/global-college-station/floorplans.html",
-     "data/texas_am/raw/global-college-station/floorplans2.html",
-     "data/texas_am/raw/global-college-station/fpdetail.html",
-     "data/texas_am/raw/global-college-station/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 18,
    "detected_priced": 18,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-25",
+   "source_note": "moved off saved HTML 2026-11-25 (live adapter, checked by hand)",
+   "extractor_type": "dom",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "parkway-circle-apartments",
@@ -417,19 +401,17 @@
    "address": "401 Southwest Pky, College Station, TX",
    "building_type": "apartment",
    "source_id": "src_abb6b166",
-   "backend": "text_plan_list",
+   "backend": "text_plan_live",
    "url": "https://www.liveatparkwaycirclecollegestation.com/floor-plans/",
-   "params": {
-    "html_files": [
-     "data/texas_am/raw/parkway-circle-apartments/floorplans.html",
-     "data/texas_am/raw/parkway-circle-apartments/floorplans2.html",
-     "data/texas_am/raw/parkway-circle-apartments/fpdetail.html",
-     "data/texas_am/raw/parkway-circle-apartments/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 4,
    "detected_priced": 0,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-25",
+   "source_note": "moved off saved HTML 2026-11-25 (live adapter, checked by hand)",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "redpoint-at-college-station",
@@ -528,19 +510,17 @@
    "address": "170 Century Square Dr, College Station, TX 77840, USA",
    "building_type": "apartment",
    "source_id": "src_f0e629a2",
-   "backend": "rentcafe_inline",
+   "backend": "rentcafe_cards",
    "url": "https://www.100parkliving.com/floorplans",
-   "params": {
-    "html_files": [
-     "data/texas_am/raw/100-park/floorplans.html",
-     "data/texas_am/raw/100-park/floorplans2.html",
-     "data/texas_am/raw/100-park/fingerprint.html",
-     "data/texas_am/raw/100-park/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 9,
    "detected_priced": 9,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-25",
+   "source_note": "moved off saved HTML 2026-11-25 (live adapter, checked by hand)",
+   "extractor_type": "dom",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "cambridge-hall-at-college-station",
@@ -548,19 +528,17 @@
    "address": "501 University Oaks Blvd, College Station, TX",
    "building_type": "dorm",
    "source_id": "src_798be769",
-   "backend": "text_plan_list",
+   "backend": "villas_wp",
    "url": "https://www.cambridgehallcs.com/floorplans/",
-   "params": {
-    "html_files": [
-     "data/texas_am/raw/cambridge-hall-at-college-station/floorplans.html",
-     "data/texas_am/raw/cambridge-hall-at-college-station/floorplans2.html",
-     "data/texas_am/raw/cambridge-hall-at-college-station/fpdetail.html",
-     "data/texas_am/raw/cambridge-hall-at-college-station/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 6,
    "detected_priced": 6,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-25",
+   "source_note": "moved off saved HTML 2026-11-25 (live adapter, checked by hand)",
+   "extractor_type": "dom",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "walden-pond-apartments",
@@ -568,19 +546,17 @@
    "address": "1331 S Harvey Mitchell Pky, College Station, TX",
    "building_type": "apartment",
    "source_id": "src_e7604b9d",
-   "backend": "text_plan_list",
+   "backend": "text_plan_live",
    "url": "https://www.liveatwaldenpondcollegestation.com/floor-plans/",
-   "params": {
-    "html_files": [
-     "data/texas_am/raw/walden-pond-apartments/floorplans.html",
-     "data/texas_am/raw/walden-pond-apartments/floorplans2.html",
-     "data/texas_am/raw/walden-pond-apartments/fpdetail.html",
-     "data/texas_am/raw/walden-pond-apartments/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 3,
    "detected_priced": 0,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-25",
+   "source_note": "moved off saved HTML 2026-11-25 (live adapter, checked by hand)",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "the-ridge",
@@ -641,19 +617,17 @@
    "address": "3695 General Pky, College Station, TX",
    "building_type": "apartment",
    "source_id": "src_a7af5140",
-   "backend": "text_plan_list",
+   "backend": "text_plan_live",
    "url": "https://theharborbcs.com/floor-plans/",
-   "params": {
-    "html_files": [
-     "data/texas_am/raw/the-harbor-at-the-barracks/floorplans.html",
-     "data/texas_am/raw/the-harbor-at-the-barracks/floorplans2.html",
-     "data/texas_am/raw/the-harbor-at-the-barracks/fpdetail.html",
-     "data/texas_am/raw/the-harbor-at-the-barracks/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 4,
    "detected_priced": 4,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-25",
+   "source_note": "moved off saved HTML 2026-11-25 (live adapter, checked by hand)",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "the-barracks-townhomes",
@@ -661,19 +635,17 @@
    "address": "514 Deacon Dr W, College Station, TX",
    "building_type": "student_housing",
    "source_id": "src_d58bced6",
-   "backend": "text_plan_list",
-   "url": "https://barrackstownhomes.com/3x3-house/",
-   "params": {
-    "html_files": [
-     "data/texas_am/raw/the-barracks-townhomes/floorplans.html",
-     "data/texas_am/raw/the-barracks-townhomes/floorplans2.html",
-     "data/texas_am/raw/the-barracks-townhomes/fpdetail.html",
-     "data/texas_am/raw/the-barracks-townhomes/home.html"
-    ]
-   },
+   "backend": "text_plan_live",
+   "url": "https://barrackstownhomes.com/floorplans/",
+   "params": {},
    "detected_rows": 10,
    "detected_priced": 10,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-25",
+   "source_note": "moved off saved HTML 2026-11-25 (live adapter, checked by hand)",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "the-stack-at-legacy-point",
@@ -814,19 +786,17 @@
    "address": "4302 College Main, Bryan, TX",
    "building_type": "apartment",
    "source_id": "src_b1e28be6",
-   "backend": "text_plan_list",
+   "backend": "text_plan_live",
    "url": "https://www.liveatcollegemaincollegestation.com/floor-plans/",
-   "params": {
-    "html_files": [
-     "data/texas_am/raw/college-main-apartments/floorplans.html",
-     "data/texas_am/raw/college-main-apartments/floorplans2.html",
-     "data/texas_am/raw/college-main-apartments/fpdetail.html",
-     "data/texas_am/raw/college-main-apartments/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 5,
    "detected_priced": 0,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-25",
+   "source_note": "moved off saved HTML 2026-11-25 (live adapter, checked by hand)",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "scandia-apartments",
@@ -834,19 +804,17 @@
    "address": "401 Anderson Dr, College Station, TX",
    "building_type": "apartment",
    "source_id": "src_91b5079b",
-   "backend": "text_plan_list",
+   "backend": "text_plan_live",
    "url": "https://www.liveatscandiacollegestation.com/floor-plans/",
-   "params": {
-    "html_files": [
-     "data/texas_am/raw/scandia-apartments/floorplans.html",
-     "data/texas_am/raw/scandia-apartments/floorplans2.html",
-     "data/texas_am/raw/scandia-apartments/fpdetail.html",
-     "data/texas_am/raw/scandia-apartments/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 4,
    "detected_priced": 0,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-25",
+   "source_note": "moved off saved HTML 2026-11-25 (live adapter, checked by hand)",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "the-gables-apartments",
@@ -854,19 +822,17 @@
    "address": "401 University Oaks Blvd, College Station, TX",
    "building_type": "apartment",
    "source_id": "src_bac69a0a",
-   "backend": "text_plan_list",
+   "backend": "text_plan_live",
    "url": "https://www.liveatgablescollegestation.com/floor-plans/",
-   "params": {
-    "html_files": [
-     "data/texas_am/raw/the-gables-apartments/floorplans.html",
-     "data/texas_am/raw/the-gables-apartments/floorplans2.html",
-     "data/texas_am/raw/the-gables-apartments/fpdetail.html",
-     "data/texas_am/raw/the-gables-apartments/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 6,
    "detected_priced": 0,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-25",
+   "source_note": "moved off saved HTML 2026-11-25 (live adapter, checked by hand)",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "arbors-at-wolf-pen-creek",
@@ -874,19 +840,17 @@
    "address": "301 Holleman Dr E, College Station, TX 77840, USA",
    "building_type": "dorm",
    "source_id": "src_f189216e",
-   "backend": "rentcafe_inline",
+   "backend": "rentcafe_ysi",
    "url": "https://www.myarbors.com/floorplans",
-   "params": {
-    "html_files": [
-     "data/texas_am/raw/arbors-at-wolf-pen-creek/floorplans.html",
-     "data/texas_am/raw/arbors-at-wolf-pen-creek/floorplans2.html",
-     "data/texas_am/raw/arbors-at-wolf-pen-creek/fingerprint.html",
-     "data/texas_am/raw/arbors-at-wolf-pen-creek/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 4,
    "detected_priced": 4,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-25",
+   "source_note": "moved off saved HTML 2026-11-25 (live adapter, checked by hand)",
+   "extractor_type": "dom",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "sonoma-apartments",
@@ -894,19 +858,17 @@
    "address": "1903 Dartmouth, College Station, TX",
    "building_type": "apartment",
    "source_id": "src_213b09ce",
-   "backend": "text_plan_list",
+   "backend": "text_plan_live",
    "url": "https://www.sonomaapartmenthomes.com/floor-plans/",
-   "params": {
-    "html_files": [
-     "data/texas_am/raw/sonoma-apartments/floorplans.html",
-     "data/texas_am/raw/sonoma-apartments/floorplans2.html",
-     "data/texas_am/raw/sonoma-apartments/fpdetail.html",
-     "data/texas_am/raw/sonoma-apartments/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 3,
    "detected_priced": 0,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-25",
+   "source_note": "moved off saved HTML 2026-11-25 (live adapter, checked by hand)",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "residence-at-oakmont-apartments",
@@ -1005,19 +967,17 @@
    "address": "134 Luther St, College Station, TX 77840, USA",
    "building_type": "apartment",
    "source_id": "src_2ad7868a",
-   "backend": "rentcafe_inline",
+   "backend": "rentcafe_cards",
    "url": "https://www.southgate-village-apartments.com/floorplans",
-   "params": {
-    "html_files": [
-     "data/texas_am/raw/southgate-village-apartments/floorplans.html",
-     "data/texas_am/raw/southgate-village-apartments/floorplans2.html",
-     "data/texas_am/raw/southgate-village-apartments/fingerprint.html",
-     "data/texas_am/raw/southgate-village-apartments/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 4,
    "detected_priced": 3,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-25",
+   "source_note": "moved off saved HTML 2026-11-25 (live adapter, checked by hand)",
+   "extractor_type": "dom",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "sierra-condos",
@@ -1059,19 +1019,17 @@
    "address": "1301 Barthelow Dr, College Station, TX",
    "building_type": "apartment",
    "source_id": "src_58deba85",
-   "backend": "text_plan_list",
+   "backend": "text_plan_live",
    "url": "https://www.liveatredstonecollegestation.com/floor-plans/",
-   "params": {
-    "html_files": [
-     "data/texas_am/raw/redstone-apartments/floorplans.html",
-     "data/texas_am/raw/redstone-apartments/floorplans2.html",
-     "data/texas_am/raw/redstone-apartments/fpdetail.html",
-     "data/texas_am/raw/redstone-apartments/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 1,
    "detected_priced": 0,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-25",
+   "source_note": "moved off saved HTML 2026-11-25 (live adapter, checked by hand)",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "the-jane-at-college-station",
@@ -1256,19 +1214,17 @@
    "address": "1601 Holleman Dr, College Station, TX 77840, USA",
    "building_type": "apartment",
    "source_id": "src_42483e30",
-   "backend": "text_plan_list",
-   "url": "http://www.towerparkapts.com/tower-park-apartments-floor-plans/",
-   "params": {
-    "html_files": [
-     "data/texas_am/raw/tower-park-apartments/floorplans.html",
-     "data/texas_am/raw/tower-park-apartments/floorplans2.html",
-     "data/texas_am/raw/tower-park-apartments/fpdetail.html",
-     "data/texas_am/raw/tower-park-apartments/home.html"
-    ]
-   },
+   "backend": "text_plan_live",
+   "url": "https://towerparkapts.com/tower-park-apartments-floor-plans/",
+   "params": {},
    "detected_rows": 5,
    "detected_priced": 5,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-25",
+   "source_note": "moved off saved HTML 2026-11-25 (live adapter, checked by hand)",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "z-islander",
@@ -1312,19 +1268,17 @@
    "address": "800 Marion Pugh Dr, College Station, TX 77840, USA",
    "building_type": "condo",
    "source_id": "src_7b378629",
-   "backend": "text_plan_list",
+   "backend": "leaseleads_embed",
    "url": "https://thelandingcollegestation.com/floor-plans/",
-   "params": {
-    "html_files": [
-     "data/texas_am/raw/the-landing-college-station/floorplans.html",
-     "data/texas_am/raw/the-landing-college-station/floorplans2.html",
-     "data/texas_am/raw/the-landing-college-station/fpdetail.html",
-     "data/texas_am/raw/the-landing-college-station/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 6,
    "detected_priced": 0,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-25",
+   "source_note": "moved off saved HTML 2026-11-25 (live adapter, checked by hand)",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "copper-creek-condos",
@@ -1352,19 +1306,17 @@
    "address": "811 Harvey Rd, College Station, TX 77840, USA",
    "building_type": "condo",
    "source_id": "src_fba04695",
-   "backend": "rentcafe_inline",
+   "backend": "rentcafe_cards",
    "url": "https://www.sundance-and-sausalito.com/featuredfloorplans/sundance-floor-plans",
-   "params": {
-    "html_files": [
-     "data/texas_am/raw/sundance-apartments/floorplans.html",
-     "data/texas_am/raw/sundance-apartments/floorplans2.html",
-     "data/texas_am/raw/sundance-apartments/fingerprint.html",
-     "data/texas_am/raw/sundance-apartments/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 5,
    "detected_priced": 2,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-25",
+   "source_note": "moved off saved HTML 2026-11-25 (live adapter, checked by hand)",
+   "extractor_type": "dom",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "hillstone-on-the-parkway",
@@ -1555,19 +1507,17 @@
    "address": "1612 F, Holleman Dr, College Station, TX 77840, USA",
    "building_type": "student_housing",
    "source_id": "src_42afe763",
-   "backend": "text_plan_list",
+   "backend": "text_plan_live",
    "url": "https://www.midtown-foxmeadows.com/campus/midtown-townhomes/index.html",
-   "params": {
-    "html_files": [
-     "data/texas_am/raw/midtown-townhomes/floorplans.html",
-     "data/texas_am/raw/midtown-townhomes/floorplans2.html",
-     "data/texas_am/raw/midtown-townhomes/fpdetail.html",
-     "data/texas_am/raw/midtown-townhomes/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 3,
    "detected_priced": 2,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-25",
+   "source_note": "moved off saved HTML 2026-11-25 (live adapter, checked by hand)",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "saddlewood-club",
@@ -1575,19 +1525,17 @@
    "address": "3625 Wellborn Rd, Bryan, TX 77801, USA",
    "building_type": "condo",
    "source_id": "src_24026b7f",
-   "backend": "text_plan_list",
+   "backend": "text_plan_live",
    "url": "https://www.saddlewoodclubapts.com/floorplans.html",
-   "params": {
-    "html_files": [
-     "data/texas_am/raw/saddlewood-club/floorplans.html",
-     "data/texas_am/raw/saddlewood-club/floorplans2.html",
-     "data/texas_am/raw/saddlewood-club/fpdetail.html",
-     "data/texas_am/raw/saddlewood-club/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 3,
    "detected_priced": 3,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-25",
+   "source_note": "moved off saved HTML 2026-11-25 (live adapter, checked by hand)",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "richmond-ridge-townhomes",
@@ -1624,19 +1572,17 @@
    "address": "300 Holleman Dr E, College Station, TX 77840, USA",
    "building_type": "apartment",
    "source_id": "src_9ea69774",
-   "backend": "text_plan_list",
+   "backend": "text_plan_live",
    "url": "https://www.broadstoneranch.com/floor-plans",
-   "params": {
-    "html_files": [
-     "data/texas_am/raw/broadstone-ranch-at-wolf-pen-creek/floorplans.html",
-     "data/texas_am/raw/broadstone-ranch-at-wolf-pen-creek/floorplans2.html",
-     "data/texas_am/raw/broadstone-ranch-at-wolf-pen-creek/fpdetail.html",
-     "data/texas_am/raw/broadstone-ranch-at-wolf-pen-creek/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 4,
    "detected_priced": 2,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-25",
+   "source_note": "moved off saved HTML 2026-11-25 (live adapter, checked by hand)",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "sausalito-apartments",
@@ -1663,19 +1609,17 @@
    "address": "3902 E 29th St, Bryan, TX 77802, USA",
    "building_type": "condo",
    "source_id": "src_7ef40120",
-   "backend": "rentcafe_inline",
+   "backend": "rentcafe_ysi",
    "url": "https://www.willowoaksapt.com/floorplans",
-   "params": {
-    "html_files": [
-     "data/texas_am/raw/willow-oaks-apartments/floorplans.html",
-     "data/texas_am/raw/willow-oaks-apartments/floorplans2.html",
-     "data/texas_am/raw/willow-oaks-apartments/fingerprint.html",
-     "data/texas_am/raw/willow-oaks-apartments/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 10,
    "detected_priced": 10,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-25",
+   "source_note": "moved off saved HTML 2026-11-25 (live adapter, checked by hand)",
+   "extractor_type": "dom",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "cherry-hill-apartments",
@@ -1754,19 +1698,19 @@
    "address": "1101 Southwest Pkwy, College Station, TX 77840, USA",
    "building_type": "apartment",
    "source_id": "src_bfb959ba",
-   "backend": "text_plan_list",
+   "backend": "duda_appfolio_feed",
    "url": "https://www.vintageaptscollegestation.com/availability",
    "params": {
-    "html_files": [
-     "data/texas_am/raw/the-vintage-at-college-station/floorplans.html",
-     "data/texas_am/raw/the-vintage-at-college-station/floorplans2.html",
-     "data/texas_am/raw/the-vintage-at-college-station/fpdetail.html",
-     "data/texas_am/raw/the-vintage-at-college-station/home.html"
-    ]
+    "feed_url": "https://www.vintageaptscollegestation.com/rts/collections/public/0892cdb5/runtime/collection/appfolio-listings/query-data?pageSize=100"
    },
    "detected_rows": 4,
    "detected_priced": 4,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-25",
+   "source_note": "moved off saved HTML 2026-11-25 (live adapter, checked by hand)",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "the-wick",
@@ -1774,19 +1718,17 @@
    "address": "502 Southwest Pkwy, College Station, TX 77840, USA",
    "building_type": "condo",
    "source_id": "src_506f06ed",
-   "backend": "rentcafe_inline",
+   "backend": "rentcafe_ysi",
    "url": "https://www.willowickapt.com/floorplans",
-   "params": {
-    "html_files": [
-     "data/texas_am/raw/the-wick/floorplans.html",
-     "data/texas_am/raw/the-wick/floorplans2.html",
-     "data/texas_am/raw/the-wick/fingerprint.html",
-     "data/texas_am/raw/the-wick/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 5,
    "detected_priced": 5,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-25",
+   "source_note": "moved off saved HTML 2026-11-25 (live adapter, checked by hand)",
+   "extractor_type": "dom",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "villa-west",
@@ -1794,19 +1736,17 @@
    "address": "3500 Finfeather Rd, Bryan, TX 77801, USA",
    "building_type": "apartment",
    "source_id": "src_9472cd17",
-   "backend": "text_plan_list",
+   "backend": "text_plan_live",
    "url": "https://www.liveatvillawestbryan.com/floor-plans/",
-   "params": {
-    "html_files": [
-     "data/texas_am/raw/villa-west/floorplans.html",
-     "data/texas_am/raw/villa-west/floorplans2.html",
-     "data/texas_am/raw/villa-west/fpdetail.html",
-     "data/texas_am/raw/villa-west/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 8,
    "detected_priced": 0,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-25",
+   "source_note": "moved off saved HTML 2026-11-25 (live adapter, checked by hand)",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "arbor-square-apartments",
@@ -1814,19 +1754,17 @@
    "address": "1700 Southwest Pkwy, College Station, TX 77840, USA",
    "building_type": "apartment",
    "source_id": "src_2f64521a",
-   "backend": "text_plan_list",
+   "backend": "text_plan_live",
    "url": "https://www.liveatarborsquarecollegestation.com/floor-plans/",
-   "params": {
-    "html_files": [
-     "data/texas_am/raw/arbor-square-apartments/floorplans.html",
-     "data/texas_am/raw/arbor-square-apartments/floorplans2.html",
-     "data/texas_am/raw/arbor-square-apartments/fpdetail.html",
-     "data/texas_am/raw/arbor-square-apartments/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 2,
    "detected_priced": 0,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-25",
+   "source_note": "moved off saved HTML 2026-11-25 (live adapter, checked by hand)",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "sterling-college-station",
@@ -1851,19 +1789,17 @@
    "address": "3055 Holleman Drive S",
    "building_type": "condo",
    "source_id": "src_2e0bf5fd",
-   "backend": "text_plan_list",
+   "backend": "lv_fp_ajax",
    "url": "https://www.theheightscs.com/floorplans/",
-   "params": {
-    "html_files": [
-     "data/texas_am/raw/the-heights-at-college-station/floorplans.html",
-     "data/texas_am/raw/the-heights-at-college-station/floorplans2.html",
-     "data/texas_am/raw/the-heights-at-college-station/fpdetail.html",
-     "data/texas_am/raw/the-heights-at-college-station/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 9,
    "detected_priced": 9,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-25",
+   "source_note": "moved off saved HTML 2026-11-25 (live adapter, checked by hand)",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "charleston-mills-luxury-townhomes",
@@ -1871,19 +1807,17 @@
    "address": "4097 General Parkway, College Station, TX",
    "building_type": "apartment",
    "source_id": "src_b6285683",
-   "backend": "text_plan_list",
+   "backend": "text_plan_live",
    "url": "https://charleston-mills.com/floorplans/",
-   "params": {
-    "html_files": [
-     "data/texas_am/raw/charleston-mills-luxury-townhomes/floorplans.html",
-     "data/texas_am/raw/charleston-mills-luxury-townhomes/floorplans2.html",
-     "data/texas_am/raw/charleston-mills-luxury-townhomes/fpdetail.html",
-     "data/texas_am/raw/charleston-mills-luxury-townhomes/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 3,
    "detected_priced": 3,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-25",
+   "source_note": "moved off saved HTML 2026-11-25 (live adapter, checked by hand)",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "pershing-pointe-villas",
@@ -2011,19 +1945,17 @@
    "address": "1270 Harvey Mitchell Pkwy S, College Station, TX 77840, USA",
    "building_type": "apartment",
    "source_id": "src_612378c4",
-   "backend": "text_plan_list",
+   "backend": "inventory_models",
    "url": "https://www.limestoneterrace.live/models",
-   "params": {
-    "html_files": [
-     "data/texas_am/raw/limestone-terrace-apartments/floorplans.html",
-     "data/texas_am/raw/limestone-terrace-apartments/floorplans2.html",
-     "data/texas_am/raw/limestone-terrace-apartments/fpdetail.html",
-     "data/texas_am/raw/limestone-terrace-apartments/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 3,
    "detected_priced": 2,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-25",
+   "source_note": "moved off saved HTML 2026-11-25 (live adapter, checked by hand)",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "asher-college-station",
@@ -2069,19 +2001,17 @@
    "address": "701 Balcones Drive Building A&B, Units #1-#32, College Station, TX 77845, USA",
    "building_type": "apartment",
    "source_id": "src_0f6f2b86",
-   "backend": "text_plan_list",
+   "backend": "text_plan_live",
    "url": "https://www.midtown-foxmeadows.com/campus/fox-meadows/index.html",
-   "params": {
-    "html_files": [
-     "data/texas_am/raw/fox-meadows-apartments/floorplans.html",
-     "data/texas_am/raw/fox-meadows-apartments/floorplans2.html",
-     "data/texas_am/raw/fox-meadows-apartments/fpdetail.html",
-     "data/texas_am/raw/fox-meadows-apartments/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 3,
    "detected_priced": 0,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-25",
+   "source_note": "moved off saved HTML 2026-11-25 (live adapter, checked by hand)",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "envue-apartment",
@@ -2089,19 +2019,17 @@
    "address": "3535 Plainsman Ln, Bryan, TX 77802, USA",
    "building_type": "condo",
    "source_id": "src_dcbaaf0d",
-   "backend": "rentcafe_inline",
+   "backend": "rentcafe_ysi",
    "url": "https://www.envueapt.com/floorplans",
-   "params": {
-    "html_files": [
-     "data/texas_am/raw/envue-apartment/floorplans.html",
-     "data/texas_am/raw/envue-apartment/floorplans2.html",
-     "data/texas_am/raw/envue-apartment/fingerprint.html",
-     "data/texas_am/raw/envue-apartment/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 4,
    "detected_priced": 4,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-25",
+   "source_note": "moved off saved HTML 2026-11-25 (live adapter, checked by hand)",
+   "extractor_type": "dom",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "parcside-townhomes-apartments",
@@ -2156,19 +2084,17 @@
    "address": "4100 Maycomb Dr, College Station, TX 77845, USA",
    "building_type": "student_housing",
    "source_id": "src_6344c94f",
-   "backend": "text_plan_list",
+   "backend": "text_plan_live",
    "url": "https://charleston-mills.com/floorplans/",
-   "params": {
-    "html_files": [
-     "data/texas_am/raw/charleston-mills-townhomes/floorplans.html",
-     "data/texas_am/raw/charleston-mills-townhomes/floorplans2.html",
-     "data/texas_am/raw/charleston-mills-townhomes/fpdetail.html",
-     "data/texas_am/raw/charleston-mills-townhomes/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 3,
    "detected_priced": 3,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-25",
+   "source_note": "moved off saved HTML 2026-11-25 (live adapter, checked by hand)",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "31thirty-apartments",
@@ -2176,19 +2102,19 @@
    "address": "3130 E 29th St #1112, Bryan, TX 77802, USA",
    "building_type": "apartment",
    "source_id": "src_1a5d105d",
-   "backend": "text_plan_list",
+   "backend": "duda_appfolio_feed",
    "url": "https://www.originalmanagement.net/vacancies",
    "params": {
-    "html_files": [
-     "data/texas_am/raw/31thirty-apartments/floorplans.html",
-     "data/texas_am/raw/31thirty-apartments/floorplans2.html",
-     "data/texas_am/raw/31thirty-apartments/fpdetail.html",
-     "data/texas_am/raw/31thirty-apartments/home.html"
+    "feed_url": "https://www.originalmanagement.net/rts/collections/public/e3b4ae8c/runtime/collection/appfolio-listings/query-data?pageSize=100",
+    "address_match": [
+     "31Thirty",
+     "3130 E 29th"
     ]
    },
    "detected_rows": 11,
    "detected_priced": 0,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-25",
+   "source_note": "moved off saved HTML 2026-11-25 (live adapter, checked by hand)"
   },
   {
    "objectID": "azura-residences",

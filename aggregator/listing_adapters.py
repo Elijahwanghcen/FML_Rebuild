@@ -63,7 +63,7 @@ HOST_ADAPTERS = {
     "rambleratx.com": "rambler_lvbode",
     "thesinclairut.com": "sinclair_wp", "riseatwestcampus.com": "rise_units",
 }
-DOM_BACKENDS = {"entrata_pp", "landmark", "rambler_lvbode", "sinclair_wp", "repli360", "jonah_fp", "yugo", "ion_wp",
+DOM_BACKENDS = {"rentcafe_cards", "entrata_pp", "landmark", "rambler_lvbode", "sinclair_wp", "repli360", "jonah_fp", "yugo", "ion_wp",
                 "rentcafe_ysi", "rise_units", "villas_wp", "gogetter_wc_floorplans", "g5_sniff", "realpage_sniff"}
 UNIT_PRICED = {"buildium_search", "appfolio_listings", "duda_appfolio_feed", "uptown_realty"}
 _acc_cache = {}      # list_id -> API json (shared by sister buildings on one ACC page)
@@ -193,6 +193,17 @@ def detect(b, meta, html_by_kind, cfg):
         add("knock_doorway", fp_url, {"property_id": m.group(1)}, "Knock doorway id in page")
     if "jd-fp" in low:
         add("jonah_detail_json", _https(fp_url), {}, "Jonah jd-fp markers")
+    # 2026-11-25 A&M rescue of saved-HTML buildings (all plain HTTP):
+    if "lv-master-template-theme" in low:
+        add("lv_fp_ajax", fp_url, {}, "Landmark lv-master-template: cards from admin-ajax fp_submit_search")
+    if "leaseleadsembed(" in low or "embed.leaseleads.co/" in low:
+        add("leaseleads_embed", fp_url, {}, "LeaseLeads iframe: floorPlans JSON (Referer = property site)")
+    if '"$inventory"' in low and '"models":[{' in low:
+        add("inventory_models", fp_url, {}, "$inventory models JSON on /models")
+    if "data-floorplan-price" in low and "rentcafe" in low:
+        add("rentcafe_cards", fp_url, {}, "RentCafe oculus cards (data-floorplan-*), headless; plain HTTP is walled")
+    if "beswifty-core" in low or "swifty_floorplan_section_details_with_ajax" in low:
+        add("swifty_fp_ajax", fp_url, {}, "beSwifty: cards from admin-ajax swifty_floorplan_section_details_with_ajax")
     if "floor-plan-units-modal-v2" in low:
         add("fp_units_modal_v2", fp_url, {}, "units-modal-v2 component")
     m = re.search(r"SiteAlias:\s*'(\w+)'", blob)
@@ -340,9 +351,14 @@ PROFILE = os.path.expanduser("~/.fml_dom_profile")
 HEADED_OK = os.environ.get("FML_ALLOW_HEADED", "1") == "1"   # set 0 on a machine with no display
 
 
+# Rebuild-owned DOM scripts, kept out of the synced FML_Data dom_extract.js
+REBUILD_DOM_JS = {"rentcafe_cards": Path(__file__).resolve().parent / "dom_rentcafe_cards.js"}
+
+
 def _dom(cand, env_extra):
     npm_root = subprocess.run(["npm", "root", "-g"], capture_output=True, text=True).stdout.strip()
-    out = subprocess.run(["node", str(DOM_JS), cand["backend"], cand["url"], json.dumps(cand["params"])],
+    script = REBUILD_DOM_JS.get(cand["backend"], DOM_JS)
+    out = subprocess.run(["node", str(script), cand["backend"], cand["url"], json.dumps(cand["params"])],
                          capture_output=True, text=True, timeout=480,
                          env={**os.environ, "NODE_PATH": npm_root, **env_extra}).stdout
     j = json.loads(out.strip().splitlines()[-1])
@@ -973,12 +989,18 @@ def text_plan_list(url, params):
     Reads the saved floor-plans page text: the plan line gives beds/baths/sqft, the nearest non-empty line above is
     the name, a $ amount within the next 3 lines (or on the same line) is the price. No price -> unpriced row
     (these sites often publish none: 'contact us about availability'). Nothing is guessed."""
+    pages = (open(f, errors="replace").read() for f in params.get("html_files") or [] if os.path.exists(f))
+    return _text_plan_rows(pages)
+
+
+def _text_plan_rows(pages):
+    """Plan lines from page HTML; the first page that yields rows wins (shared by text_plan_list and text_plan_live)."""
     from webtext import to_text
     out, seen = [], set()
-    for f in params.get("html_files") or []:
-        if not os.path.exists(f):
+    for html in pages:
+        if not html:
             continue
-        lines = [l.strip() for l in to_text(open(f, errors="replace").read(), keep_links=False, limit=300000).split("\n")]
+        lines = [l.strip() for l in to_text(html, keep_links=False, limit=300000).split("\n")]
         lines = [l for l in lines if l]
         for i, l in enumerate(lines):
             m = PLAN_LINE.search(l)
@@ -1019,6 +1041,178 @@ def text_plan_list(url, params):
 JUNK_NAME = re.compile(r"^\(img|^img\b|floor ?plan|view |coming soon|available|call for|button|^home$|-->|^\W*$|summary|"
                        r"show unavailable|pricing|ready for|^bed ?/ ?bath$|^\*", re.I)
 HX.EXTRACTORS["text_plan_list"] = text_plan_list
+
+
+def text_plan_live(url, params):
+    """text_plan_list on the LIVE page: fetch params.urls (or url) with the pipeline's HTTP client and read printed plan
+    lines. Production-safe replacement for text_plan_list, which reads saved HTML and is refused in refresh runs.
+    Added 2026-11-25: 19 A&M sites gave the same rows live as from their saved copies."""
+    pages = (HX.fetch(u) for u in (params.get("urls") or [url]) if u)
+    return _text_plan_rows(pages)
+
+
+HX.EXTRACTORS["text_plan_live"] = text_plan_live
+
+
+def lv_fp_ajax(url, params):
+    """Landmark 'lv-master-template' WordPress sites (The Heights at College Station, 2026-11-25): the floor-plans page
+    is an empty shell; floorplan.js POSTs action=fp_submit_search to /wp-admin/admin-ajax.php (no nonce) and gets the
+    cards back as HTML. Each .floorplan-listing__card has the name (h3), 'N BR | N BA', 'N SF', 'Starting at $X'
+    and the plan image. Plain HTTP, no browser."""
+    import urllib.request, urllib.parse
+    from lxml import html as LH
+    u = urllib.parse.urlparse(url)
+    endpoint = f"{u.scheme}://{u.netloc}/wp-admin/admin-ajax.php"
+    body = urllib.parse.urlencode({"action": "fp_submit_search", "sort": "", "order": ""}).encode()
+    req = urllib.request.Request(endpoint, data=body, headers={
+        "User-Agent": HX.UA, "X-Requested-With": "XMLHttpRequest",
+        "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8", "Referer": url})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        h = r.read().decode("utf-8", errors="replace")
+    if "floorplan-listing__card" not in h:
+        return []
+    doc = LH.fromstring(h)
+    out = []
+    for card in doc.xpath('//div[contains(@class,"floorplan-listing__card")]'):
+        name = " ".join(" ".join(card.xpath('.//h3[contains(@class,"floorplan-listing__name")]//text()')).split())
+        det = " ".join(" ".join(card.xpath('.//div[contains(@class,"floorplan-listing__details")]//text()')).split())
+        if not name:
+            continue
+        bb = re.search(r"(\d+|studio)\s*BR\s*\|?\s*([\d.]+)\s*BA", det, re.I)
+        sf = re.search(r"([\d,]+)\s*SF", det)
+        pm = re.search(r"\$\s?([\d,]+)", det)
+        price = HX._num(pm.group(1)) if pm else ""
+        sold = card.get("data-sold") == "1" or re.search(r"sold out", det, re.I)
+        img = (card.xpath('.//div[contains(@class,"floorplan-listing__image")]//img/@src') or [""])[0]
+        beds = (bb.group(1) if bb else "")
+        out.append(HX._row(unit_or_floorplan_label=name, beds="0" if beds.lower() == "studio" else beds,
+                           baths=bb.group(2) if bb else "", sqft=sf.group(1).replace(",", "") if sf else "",
+                           base_rent=price, price_basis="base" if price != "" else "",
+                           availability="sold out" if sold else ("starting at" if price != "" else ""),
+                           layout_image_url=img,
+                           price_status="listed" if price != "" else "not_publicly_listed"))
+    return out
+
+
+HX.EXTRACTORS["lv_fp_ajax"] = lv_fp_ajax
+
+
+def leaseleads_embed(url, params):
+    """LeaseLeads iframe (embed.leaseleads.co/<property-uuid>/floor-plans), e.g. The Landing College Station 2026-11-25.
+    The iframe answers 403 without the property site as Referer and 200 with it. Its HTML carries the whole plan list
+    as HTML-escaped JSON ("floorPlans":[{name, bedrooms, bathrooms, price_min, price_max, size, status, images}]).
+    params.embed_url, or the iframe src found on the page at url. Plain HTTP, no browser."""
+    import html as H, urllib.request
+    emb = params.get("embed_url")
+    if not emb:
+        page = HX.fetch(url)
+        m = re.search(r"embed\.leaseleads\.co/([0-9a-f-]{36})/floor-plans", page) or \
+            re.search(r"LeaseLeadsEmbed\(\s*['\"]([0-9a-f-]{36})['\"]", page)
+        if not m:
+            return []
+        emb = f"https://embed.leaseleads.co/{m.group(1)}/floor-plans"
+    req = urllib.request.Request(emb, headers={"User-Agent": HX.UA, "Referer": url, "Accept": "text/html"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        h = H.unescape(r.read().decode("utf-8", errors="replace"))
+    i = h.find('"floorPlans":[')
+    if i < 0:
+        return []
+    plans, _ = json.JSONDecoder().raw_decode(h[i + len('"floorPlans":'):])
+    out = []
+    for f in plans:
+        lo, hi = f.get("price_min"), f.get("price_max")
+        lo_f = f.get("price_min_with_fees")
+        sq = re.search(r"[\d,]+", str(f.get("size") or f.get("size_min") or ""))
+        img = next((x.get("url") for x in f.get("images") or [] if isinstance(x, dict) and x.get("url")), "")
+        out.append(HX._row(unit_or_floorplan_label=(f.get("name") or "").strip(),
+                           beds=str(f.get("bedrooms") if f.get("bedrooms") is not None else ""),
+                           baths=str(f.get("bathrooms") if f.get("bathrooms") is not None else ""),
+                           sqft=sq.group(0).replace(",", "") if sq else "",
+                           base_rent=lo if lo else "", total_price_with_mandatory_fees=lo_f if lo_f else "",
+                           price_basis="total" if lo_f else ("base" if lo else ""),
+                           availability=" — ".join(x for x in [f.get("status") or "",
+                                                               f"up to ${hi}" if hi and hi != lo else ""] if x),
+                           layout_image_url=img,
+                           price_status="listed" if lo or lo_f else "not_publicly_listed"))
+    return out
+
+
+HX.EXTRACTORS["leaseleads_embed"] = leaseleads_embed
+
+
+def inventory_models(url, params):
+    """Sites whose /models page embeds an "$inventory" store (Limestone Terrace, Razz; ResMan leasing behind it).
+    The page HTML holds "models":[{id, label, beds, baths, sqft{min,max}, rent{min,max}, images[uploadcare]}]; the
+    visible cards are drawn from it by JS, so text parsing finds nothing. Plain HTTP, no browser. 2026-11-25."""
+    h = HX.fetch(url)
+    i = h.find('"models":[{')
+    if i < 0:
+        return []
+    models, _ = json.JSONDecoder().raw_decode(h[i + len('"models":'):])
+    out = []
+    for m in models:
+        if not isinstance(m, dict) or m.get("disabled") is True:
+            continue
+        rent, sq = m.get("rent") or {}, m.get("sqft") or {}
+        lo, hi = rent.get("min"), rent.get("max")
+        img = next((f"https://ucarecdn.com/{x['uuid']}/" for x in m.get("images") or []
+                    if isinstance(x, dict) and x.get("uuid")), "")
+        label = " ".join(x for x in [str(m.get("id") or ""), f"({m['label']})" if m.get("label") else ""] if x)
+        out.append(HX._row(unit_or_floorplan_label=label, beds=str(m.get("beds", "")), baths=str(m.get("baths", "")),
+                           sqft=str(sq.get("min") or ""), base_rent=lo if lo else "",
+                           price_basis="base" if lo else "",
+                           availability=f"up to ${hi}" if hi and hi != lo else "",
+                           concessions_raw=m.get("special") or "",
+                           layout_image_url=img,
+                           price_status="listed" if lo else "not_publicly_listed"))
+    return out
+
+
+HX.EXTRACTORS["inventory_models"] = inventory_models
+
+
+def swifty_fp_ajax(url, params):
+    """beSwifty WordPress sites (West University Gardens, 2026-11-25; plugin path wp-content/plugins/beswifty-core):
+    the floor-plans page loads its cards by POSTing action=swifty_floorplan_section_details_with_ajax,
+    pageType=floorplans to /wp-admin/admin-ajax.php (no nonce). Each card is div.single-floorplan with
+    listing-sqft / listing-price attributes, an 'N-bed' class and an h3.flp-title. 'Call for Pricing' -> unpriced.
+    Plain HTTP, no browser."""
+    import urllib.request, urllib.parse
+    from lxml import html as LH
+    u = urllib.parse.urlparse(url)
+    body = urllib.parse.urlencode({"action": "swifty_floorplan_section_details_with_ajax",
+                                   "pageType": "floorplans", "nocache": "1"}).encode()
+    req = urllib.request.Request(f"{u.scheme}://{u.netloc}/wp-admin/admin-ajax.php", data=body, headers={
+        "User-Agent": HX.UA, "X-Requested-With": "XMLHttpRequest", "Referer": url,
+        "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        h = r.read().decode("utf-8", errors="replace")
+    if "single-floorplan" not in h:
+        return []
+    out, seen = [], set()
+    for card in LH.fromstring(h).xpath('//div[contains(concat(" ", normalize-space(@class), " "), " single-floorplan ")]'):
+        name = " ".join(" ".join(card.xpath('.//h3[contains(@class,"flp-title")]//text()')).split())
+        if not name or (card.get("data_id"), name) in seen:
+            continue
+        seen.add((card.get("data_id"), name))
+        cls = card.get("class") or ""
+        bm = re.search(r"\b(\d+)-bed\b", cls)
+        beds = bm.group(1) if bm else ("0" if re.search(r"studio", name, re.I) else "")
+        ba = re.search(r"([\d.]+)\s*bath", name, re.I)
+        price = HX._num((card.get("listing-price") or "").strip()) if (card.get("listing-price") or "").strip() else ""
+        if price != "" and price < HX.MIN_PLAUSIBLE_RENT:
+            price = ""
+        sqft = re.sub(r"[^\d]", "", card.get("listing-sqft") or "")
+        avail = " ".join(" ".join(card.xpath('.//*[contains(@class,"flp-availability")]//text()')).split())
+        img = (card.xpath('.//img/@src') or [""])[0]
+        out.append(HX._row(unit_or_floorplan_label=name, beds=beds, baths=ba.group(1) if ba else "", sqft=sqft,
+                           base_rent=price, price_basis="base" if price != "" else "",
+                           availability=avail, layout_image_url=img,
+                           price_status="listed" if price != "" else "not_publicly_listed"))
+    return out
+
+
+HX.EXTRACTORS["swifty_fp_ajax"] = swifty_fp_ajax
 
 
 CG_SYNERGY = "https://cgsynergyapi-prod.wonderfulisland-00679a9d.centralus.azurecontainerapps.io/api/community/"

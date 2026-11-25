@@ -108,6 +108,13 @@ def write_listing_config(cfg, roster, res):
     props, sources = [], {}
     for b, r in zip(roster, res):
         sc = r.get("source_config")
+        if sc and sc["backend"] == "text_plan_list" and sc.get("url"):
+            # saved-page win -> freeze the same parser on the live page (refresh refuses saved HTML)
+            sc = {**sc, "backend": "text_plan_live", "params": {}}
+        elif sc and sc["backend"] == "rentcafe_inline" and (sc.get("params") or {}).get("html_files"):
+            # RentCafe 403s plain HTTP; headless rentcafe_ysi reads ysi/fee-button pages. Oculus-theme pages
+            # (data-floorplan-* cards only) need rentcafe_cards: re-run detection or set it by hand if ysi is empty.
+            sc = {**sc, "backend": "rentcafe_ysi", "params": {}}
         if not sc or sc["backend"] in ("llm_page_read", "text_plan_list"):
             continue
         if (sc.get("params") or {}).get("html_files"):
