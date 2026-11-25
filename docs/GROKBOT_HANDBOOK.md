@@ -14,6 +14,7 @@ This file is the operator runbook and the lesson log. It does **not** replace th
 | [docs/POSTMORTEM_DISCOVERY_2026-11-24.md](POSTMORTEM_DISCOVERY_2026-11-24.md) | Discovery postmortem |
 | [docs/POSTMORTEM_PLAN_IMAGES_2026-11-24.md](POSTMORTEM_PLAN_IMAGES_2026-11-24.md) | Plan-image postmortem |
 | [docs/RESULTS.md](RESULTS.md) | Measured discovery/enrichment results |
+| [docs/lessons/2026-11-25-rebuild-scrape.md](lessons/2026-11-25-rebuild-scrape.md) | Field notes from the 2026-11-25 box refresh (UT + A&M); summarized in section 10 |
 | [tools/scrape_archive/README.md](../tools/scrape_archive/README.md) | Snapshot, change log, master list, Drive upload |
 | [austin_leases_units/scraper/CLAUDE_WEEKLY.md](https://github.com/Elijahwanghcen/FML_Data/blob/main/austin_leases_units/scraper/CLAUDE_WEEKLY.md) (FML_Data) | Deterministic refresh rules (no new extractors mid-run) |
 | [austin_leases_units/scraper/CLAUDE_BUILD.md](https://github.com/Elijahwanghcen/FML_Data/blob/main/austin_leases_units/scraper/CLAUDE_BUILD.md) (FML_Data) | Writing or fixing extractors |
@@ -39,7 +40,7 @@ The work has two GitHub repos, both under Elijahwanghcen:
 - Rebuild emits the same 20-column legacy sheet as `run.py`.
 - **Tier A and Tier B parity is exact for the 36 HTTP-feed buildings** (ACC, Torre/wp-json Entrata, SightMap, Knock, RealPage, AppFolio, Jonah, and similar). See [docs/PARITY_PHASE0.md](PARITY_PHASE0.md).
 - The 2026-11-25 FML_Data baseline is **2,627 plans / 145 properties** (full `run.py` on `402b54a`, plus the four `villas_wp` buildings re-run on `a953774`).
-- Browser-family parity (Entrata DOM, RentCafe, Yugo, Repli360, `villas_wp`) was not finished on the cloud agent because Playwright was not installed there. Run that on the box or the Mac, which can have the browser tools.
+- Cloud-agent Playwright was missing, so browser-family parity was unfinished there. The later box refresh (2026-11-25, America/Chicago) matched all **49/49** locked DOM properties exactly against the FML_Data baseline. See [section 10](#10-lessons-from-the-2026-11-25-rebuild-scrape).
 - Switching the 36 HTTP-feed buildings onto Rebuild in the every-4-days routine, with FML_Data running alongside as a check, was proposed and is **not automatic**. Do it only if Elijah says yes.
 
 Useful local checkouts:
@@ -315,6 +316,20 @@ Ingest the first full scrape into a new campus folder in the archive, upload to 
 | Fall 2027 (or "next year's lease") plans marked not available | Availability text was not treated as a current leasing cycle. | Fall 2027 counts as **Available**. Normalize to the fixed set: Available / Limited / Sold Out / Waitlist / No longer advertised. |
 | Live images or prices went blank | A write filled empty scrape fields over good live values. | Never blank a price or an image. Refresh images when they *differ*; use `--no-refresh-images` only to fill blanks. Re-read each building before write; skip the call on drift. |
 | Apply run retried errors or wrote two buildings at once | Process not followed. | One building at a time. Approval file + `RMR_APPLY_CONFIRM=I_REVIEWED_THE_PLAN`. No retries, stop on the first write error, 3 seconds between writes. Held buildings need `override_held: true` in the approval file. |
+| Cloning `FML_Rebuild` or `FML_Data` on the box returns 404 / auth required | The box has no `gh` login; both repos are private. | Pull `origin/main` on the Mac (`gh` is already logged in), stage a tarball or git bundle under `~/fml-migration/` (not `/tmp`), and transfer with `CopyToBox`. See also the next two rows. |
+| `CopyToBox` fails with `Path is outside the allowed local-exec root` | Staging the archive in `/tmp` on the Mac is outside the allowed root. | Put the tarball or bundle in the user's project workspace, e.g. `~/fml-migration/fml_repos_main.tar.gz`, then call `CopyToBox`. |
+| `git clone repo.bundle dest` is an empty `master` with no files | `git bundle create <file> origin/main` omitted `HEAD`. | Include HEAD when bundling (`git bundle create repo.bundle HEAD origin/main`), or `git init`, `git fetch <bundle> '+refs/*:refs/*'`, then `checkout -b main <commit_sha>`. |
+| DOM extractors fail or silently fall back on the box even when Playwright is installed under `/workspace/pwdeps` | Node cannot resolve `playwright` from `npm root -g`, or Chromium has no Xvfb display. | Symlink `/workspace/pwdeps/node_modules/playwright` to `/home/box/.local/lib/node_modules/playwright`. Confirm Chromium in `~/.cache/ms-playwright/`. For `DOM_HEADED=1`, run Xvfb and set `DISPLAY=:4`. For FML_Data `run.py`, set `NODE_PATH=/workspace/pwdeps/node_modules`. |
+| `refresh_listings.py` exits `2` even though `units_YYYY-MM-DD.json` and the 20-column files were written | One or more `listing_config.json` entries hit `saved_html_banned` (`text_plan_list`, or any backend with `params.html_files`). The script raises `SystemExit(2)` *after* writing outputs. On 2026-11-25: 9 unlocked UT buildings; 54 A&M buildings. | Do not chain the refresh with `&&`. Capture `; RC=$?` and confirm the output files exist. Re-enrich banned entries to a live HTTP/DOM adapter (or a checked-in rescue). Do not treat exit 2 as "the scrape produced nothing." |
+| A&M `headed_rescue` buildings fail with `[Errno 2]` for `/Users/elijahwangchen/FML_rebuild/data/texas_am/rescues/<slug>.json` | `listing_config.json` stores absolute Mac paths in `params.file`. The 13 rescue JSONs are already in git under `data/texas_am/rescues/`. | Store `params.file` as a repo-relative path (`data/<campus>/rescues/<slug>.json`), or resolve it from the repo root. In a read-only run, remap the Mac prefix only in the runner. Never commit `/Users/<user>/...` paths. |
+| `refresh_listings.py texas_am` writes `units_*.json` but no `advertised_prices_*.csv` / `.json` / `.unit_ids.json` | `write_legacy()` runs only for `"locked": true` properties. A&M currently has **0** locked pins. | For a one-off, call `legacy_emit.property_record()` + `write_legacy()` over the extracted rows. For production, lock verified live configs (or change the locked-only gate in a later phase) so the 20-column emit happens on every refresh. |
+| Stdout from `refresh_listings.py` stops for 5–8+ minutes on a `jonah_detail_json` building (e.g. Elle West Ave) | The extractor sleeps **2 seconds after every floorplan slug**. Elle West Ave has 156 plans, so ~8 minutes with no per-slug log. `ps` may show `hrtimer_nanosleep` and no socket. | Do not kill the process. Watch `/proc/<pid>/io` `rchar`/`syscr` over 4–5 seconds — bytes read should keep climbing between sleeps. A full UT refresh is about 20–25 minutes (22m 13s on 2026-11-25). |
+| Batch DOM refresh stalls ~5 minutes per blocked site | `FML_SOLVE_WAIT_S` defaults to **300** seconds when a headed/profile run hits a challenge page. | Export `FML_SOLVE_WAIT_S=25` (or similar) for batch runs so hard-blocked sites fail fast. Never bypass an interactive CAPTCHA or Cloudflare challenge. |
+| Joining `advertised_prices_*.json` to `listing_config.json` by `objectID` drops ~17 UT properties | `legacy_emit` keeps FML_Data canonical slugs (`callaway-house`, `quarters-on-campus-nueces`, `sabina-condominiums`); Rebuild `listing_config.json` uses roster slugs (`the-callaway-house-austin`, `the-quarters-nueces-house`, `sabina`). | Fall back to `property_name` (or `source_id`) when the `objectID` is not found. |
+| `g5_sniff` (Promontory Point, 50 units) looks like a parity mismatch against an otherwise identical baseline | Unit order from the DOM sniff is not stable. The 50 objects were field-for-field identical as a multiset. | Compare `g5_sniff` (and similar sniffed lists) as a multiset, or sort by `(unit_or_floorplan_label, base_rent, availability)`. Do not require identical array index order. |
+| `common.name_sim()` raises `ModuleNotFoundError: No module named 'rapidfuzz'` | `rapidfuzz` is not installed on the box. | `refresh_listings.py` and `test_phase0.py` do not call `name_sim()`, so a refresh can run without it. Install `rapidfuzz` in a venv before discovery/matching scripts from Playbook 1. |
+| A&M `rentcafe_inline` sites are `saved_html_banned`, and fail with HTTP 403 if you only strip `html_files` and retry over `urllib` | Eight A&M configs still point at gitignored Mac HTML snapshots; the live RentCafe pages 403 to plain HTTP. | During an enrichment pass, move them to Playwright DOM (`rentcafe_ysi`). Do not treat a 403-to-urllib as "the building has no plans." |
+| A&M `jsonld_offers` / `university_rates` are banned because of `params.html_files`, but most work live | The ban is triggered by the Mac snapshot path, not by a dead adapter. Diagnostic with `html_files` stripped: 6/8 `jsonld_offers` ok, 2 HTTP 500 (`Sierra Condos`, `Canyon Village Apartments`); both `university_rates` ok (`The Gardens Apartments`, `White Creek Apartments`). | Drop `html_files` from those configs and keep the live adapter. Leave the two HTTP 500 buildings as known live failures; do not "fix" them in a refresh. |
 
 ---
 
@@ -412,18 +427,62 @@ Do not say a scrape, a campus, or a migration step is done until all of these th
 
 ---
 
-## Lessons from the 2026-11-25 Rebuild scrape
+## 10. Lessons from the 2026-11-25 Rebuild scrape
 
-> **TODO — fill this section from the UT + A&M Rebuild scrape that was in progress when this handbook was written (2026-11-25, America/Chicago).**
->
-> Do not invent results. When that run finishes, replace this placeholder with:
->
-> - Engine and commit (Rebuild `refresh_listings.py` / `locked_scrape.py` vs FML_Data `run.py`; SHAs).
-> - UT counts vs the morning baseline of 2,627 plans / 145 properties: exact matches, mismatches, unreachable buildings.
-> - A&M counts, failures, and any completeness misses vs the A&M roster / rescues.
-> - Buildings that hit Cloudflare, CAPTCHA, 403, `no_rows`, or no public pricing (expect Villas on 26th, Montgomery, Texan 26, and the no-public-rent cluster unless the run shows otherwise).
-> - Whether Playwright / headed rescue was required, and where it ran (box vs Mac vs cloud).
-> - Archive ingest + Drive upload paths, and whether the 2026-11-17 export was marked or excluded.
-> - Any new miss-cause or extractor fix that should be merged to `main` and added to the troubleshooting table above.
->
-> Until this is filled, treat [docs/PARITY_PHASE0.md](PARITY_PHASE0.md) and the 2026-11-25 FML_Data baseline as the last completed comparison, and do not claim the in-progress Rebuild scrape is done.
+Field notes and full commands: [docs/lessons/2026-11-25-rebuild-scrape.md](lessons/2026-11-25-rebuild-scrape.md) (copied from the run's `difficulties.md`). Source summaries: `/workspace/fml-scrape/2026-11-25-rebuild/ut-austin/summary.md` and `texas-am/summary.md`.
+
+**Run meta (America/Chicago):** Rebuild `refresh_listings.py` at [`0e2981b`](https://github.com/Elijahwanghcen/FML_Rebuild/commit/0e2981b3297d3368f3088c5e362dcc8f77879856) (Phase 0 `main`). Compared to the morning FML_Data baseline (`402b54a` full pass + [`a953774`](https://github.com/Elijahwanghcen/FML_Data/commit/a953774aed5fd176d22f815d96a473588ecb9d8a) `villas_wp` merge): **2,627 rows / 145 locked properties**. Linux box, `FML_SOLVE_WAIT_S=25`, Playwright 1.64.1 under `/workspace/pwdeps`, Xvfb `DISPLAY=:4`. UT ran 10:12:40–10:34:53 CST (**22m 13s**). A&M ran ~10:12–10:19 CST. No CAPTCHA or Cloudflare challenge was bypassed; nothing was written to Algolia or Rate My Rent; this scrape did not itself ingest the archive or upload Drive (outputs remain under `/workspace/fml-scrape/2026-11-25-rebuild/`).
+
+### UT Austin
+
+`listing_config.json` has **185** properties (**145** locked, **40** unlocked). Exit code **2** because of `saved_html_banned` on unlocked entries; the 20-column legacy CSV/JSON and `units_2026-11-25.json` were written before that exit.
+
+- **Locked 145 / 2,627 rows** matched the FML_Data baseline property set and row counts **145/145** (2,220 `listed`, 407 unpriced or stub).
+- Full refresh across 185: **174** ok (**3,038** ok unit rows: 2,625 from 143 ok locked + 413 from 31 ok unlocked), **11** failed.
+- **Locked failures (same as the morning baseline):** Villas on 26th (`vnue_grid_static`) HTTP **403**; 1883 at Montgomery House (`entrata_pp`) `no_rows`. Texan 26 stays a `no_public_pricing` placeholder (Entrata portal Cloudflare-blocked; not bypassed). Other locked no-public-rent / unpriced clusters include the Town Lake names, Tower View, Venue on Guadalupe, Icon (Sold Out), 1883 at Cameron House (contact/unpriced), and the co-ops.
+- **DOM Tier B (Playwright, 49 properties, 1,354 rows): 49/49 exact** vs the baseline (48 ordered exact; **1** exact as a multiset — Promontory Point, `g5_sniff`, 50/50 units identical when order is ignored). Families: `entrata_pp` 14, `landmark` 7, `rentcafe_ysi` 5, `repli360` 5, `villas_wp` 4 (93/93, including the LeaseLeads fix), `yugo` 4, plus `ion_wp`, `sinclair_wp`, `g5_sniff`, `gogetter_wc_floorplans`, `rambler_lvbode`, `realpage_sniff`, `rise_units`.
+- **Only live drift:** two `jonah_detail_json` buildings whose floor-plan pages changed between the morning scrape and ~10:30 AM — Estates at East Riverside (`3X3` advertised range `$1311-$1495` → `$1311-$1489`) and Village at East Riverside (`Two Bedroom` dropped the `$1154-$1157` range text). Row counts still matched (30/30). This is site change, not an extractor bug.
+- **9 unlocked UT `saved_html_banned`:** The Hive Red River, Barranca Square Student Apartments, Melroy Apartments, Wedgewood Condos, Lenox Condos, West Ridge Condos (`text_plan_list`); Volume, North 40, Avana Apartments (`rentcafe_inline` with `params.html_files`). The other 31 unlocked buildings were ok (413 rows, 225 priced).
+
+### Texas A&M
+
+A&M is **not** production-ready as a locked 20-column refresh yet.
+
+- `roster_final.csv`: **173** rows, including three exact-name duplicates (Domain Northgate, The Ridge, EVER College Station). `listing_config.json`: **113** properties, **0** with `"locked": true`, so unmodified `refresh_listings.py` **does not call `write_legacy()`** — only `units_2026-11-25.json` and `refresh_2026-11-25.md`. About **59** roster rows are missing from the config (33 Tier A, 26 Tier B), e.g. The Lory of College Station, Lory of Bryan, University Heights, Howdy Apartments, The Penny, Country Place Apartment Homes, The Atrium.
+- **13 `headed_rescue` entries** use hardcoded `/Users/elijahwangchen/FML_rebuild/data/texas_am/rescues/<slug>.json` paths. The JSON files *are* in git under `data/texas_am/rescues/`; they failed on Linux only with `Errno 2`. Remapping the prefix recovered all 13 (229 rows, 221 priced).
+- **54 `saved_html_banned`:** **36** `text_plan_list` (no live adapter); **8** `rentcafe_inline` (banned for Mac `html_files`; all 8 also **403 to urllib** live — need Playwright `rentcafe_ysi`); **8** `jsonld_offers` (banned for `html_files`; **6 live ok** / 43 rows, 39 priced; **2 HTTP 500:** Sierra Condos, Canyon Village Apartments); **2** `university_rates` (banned for `html_files`; **both ok live:** The Gardens Apartments, White Creek Apartments).
+- Unmodified refresh: **46** ok / **472** unit rows, **67** failed (54 banned + 13 path errors), **539** records in `units_*.json`, exit code 2, no 20-column emit. A read-only legacy emit that remapped only the 13 rescue paths produced **755** CSV rows (59 ok / 701 units, plus 54 stubs). Six ok buildings still had no public rents (Berkeley House, The Element at University Park, Sterling College Station, Caprock Crossing, Falcon Point Condos, Eastmark Apartments).
+
+### Difficulties and fixes from this run
+
+These are also in the [troubleshooting table](#5-troubleshooting) and in [docs/lessons/2026-11-25-rebuild-scrape.md](lessons/2026-11-25-rebuild-scrape.md).
+
+1. **Private repos, no `gh` on the box.** Pull on the Mac, stage the transfer under `~/fml-migration/` (not `/tmp` — `CopyToBox` rejects that path), then `CopyToBox`.
+2. **Git bundle without `HEAD` clones an empty repo.** Bundle `HEAD origin/main`, or `git init` + `fetch '+refs/*:refs/*'` + `checkout -b main <sha>`.
+3. **Playwright symlink + `DISPLAY`.** Link `/workspace/pwdeps/node_modules/playwright` at `npm root -g` (`/home/box/.local/lib/node_modules/playwright`); Chromium in `~/.cache/ms-playwright/`; Xvfb `DISPLAY=:4` if headed; `NODE_PATH=/workspace/pwdeps/node_modules` for FML_Data `run.py`.
+4. **Exit code 2 from `saved_html_banned` after outputs are written.** Do not use `&&`. Capture `RC=$?` and verify the files. Then re-enrich banned configs.
+5. **Hardcoded `/Users/elijahwangchen/...` rescue paths.** Use repo-relative `data/<campus>/rescues/<slug>.json`.
+6. **Zero `"locked": true` means no 20-column emit.** Lock verified A&M (and new-campus) configs, or call `write_legacy()` explicitly.
+7. **`jonah_detail_json` 2s/plan pauses look like a hang.** Check `/proc/<pid>/io`; do not kill it. Budget ~20–25 minutes for a full UT run.
+8. **`FML_SOLVE_WAIT_S` defaults to 300.** Set `FML_SOLVE_WAIT_S=25` on batch runs. Never bypass challenges.
+9. **Legacy vs Rebuild `objectID` mismatch (17 UT properties).** Join on `property_name` or `source_id` when the slug differs.
+10. **`g5_sniff` order is unstable.** Compare as a multiset / sorted by label, rent, and availability.
+11. **`rapidfuzz` is missing on the box.** Refreshes still run; install it before Playbook 1 discovery matching.
+
+### Onboarding and refresh commands (from this run)
+
+Always use `python3 -u` so logs stream line by line. Refresh into a scratch checkout if you need the reference clone left untouched (`refresh_listings.py` writes `data/<campus>/out/` and `legacy_emit.py` creates `csv outputs/`).
+
+```bash
+export FML_SOLVE_WAIT_S=25
+python3 -u aggregator/refresh_listings.py ut_austin
+# expect exit 2 when saved_html_banned entries exist; check that outputs were written
+python3 -u aggregator/refresh_listings.py ut_austin --only <objectID_or_source_id> --patch
+
+python3 -m tools.scrape_archive ingest --campus ut-austin \
+  --input "data/ut_austin/out/csv outputs/advertised_prices_YYYY-MM-DD.csv"
+
+python3 aggregator/test_phase0.py   # after touching extractors or legacy_emit
+```
+
+For **Texas A&M or a new campus:** write `campuses/<slug>.json` (include `neighbor_cities`); follow Playbook 1 (dedupe by `place_id` / normalized address — A&M already has leasing-office / exact-name duplicates); run completeness against the full roster (A&M config is missing ~59 names); follow Playbook 2 so `listing_config.json` has **zero** `text_plan_list` and **zero** `params.html_files` Mac paths; store rescues as repo-relative paths; mark verified live configs `"locked": true` so `write_legacy()` emits the 20-column CSV, JSON, and `unit_ids.json`.
