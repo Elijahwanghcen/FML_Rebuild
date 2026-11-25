@@ -1,0 +1,12 @@
+{
+  "fml_data_root": "https://github.com/Elijahwanghcen/FML_Data",
+  "fml_data_commit": "a953774aed5fd176d22f815d96a473588ecb9d8a",
+  "files": {
+    "extractors/http_extractors.py": "c1ed364c9cbc84a7e8b07a4abdb1e3da79ae85affad13a0bb202e496cb9935e8",
+    "extractors/dom_extract.js": "9eec316e35080c6e462274e2dab3ed76fbd86e3ccbf49620454d82bcaf2ac88c",
+    "run.py": "df9f2cdaf91a293ca9591550bea644933bb24ffa5be16408e1280834687c4c6c",
+    "properties_config.json": "49279fece3388bf46315e3733cfd082b87be45af5b941760bc13315fc00e4d09"
+  },
+  "dom_overlay": "default-off DOM_PROFILE / DOM_HEADED / DOM_CHALLENGE_WAIT_S",
+  "note": "Byte-copies except dom_extract.js, which adds the gated browser options."
+}

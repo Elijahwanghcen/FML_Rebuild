@@ -439,7 +439,45 @@ const PARSERS = {
   villas_wp: () => {
     const rows = [];
     const txt = (el) => (el ? el.textContent.replace(/\s+/g, ' ').trim() : '');
-    // sitewide promo bar (e.g. "APPLY FOR FREE TODAY AND SAVE UP TO $4,236 FOR THE YEAR!")
+    const json = (s, dflt) => { try { return s ? JSON.parse(s) : dflt; } catch (e) { return dflt; } };
+    // LeaseLeads plugin (current markup): each [data-ll-floor-plan-card] carries its
+    // lease terms as JSON in data-ll-floor-plan-lease-terms and filter facets
+    // (bedrooms, size, move-in date, marketing labels) in data-filters.
+    const llCards = document.querySelectorAll('[data-ll-floor-plan-card]');
+    if (llCards.length) {
+      // sitewide specials: announcement bar details + timed "nudge" popup
+      const specials = [];
+      const ann = document.querySelector('[data-ll-announcement-details-title]');
+      if (ann) specials.push([txt(ann), txt(document.querySelector('[data-ll-announcement-details-description]'))].filter(Boolean).join(' — '));
+      const nudge = document.querySelector('[data-ll-nudge-title]');
+      if (nudge) specials.push([txt(nudge), txt(document.querySelector('[data-ll-nudge-description]'))].filter(Boolean).join(' — '));
+      const seen = new Set();
+      llCards.forEach((card) => {
+        const id = card.getAttribute('data-ll-floor-plan-id') || '';
+        if (id && seen.has(id)) return;
+        seen.add(id);
+        const filters = json(card.getAttribute('data-filters'), {});
+        const availEl = card.querySelector('[data-ll-floor-plan-card-availability]');
+        rows.push({
+          ll: true,
+          name: txt(card.querySelector('[data-ll-floor-plan-name]')),
+          details: txt(card.querySelector('[data-ll-floor-plan-details]')).replace(txt(availEl), '').trim(),
+          terms: json(card.getAttribute('data-ll-floor-plan-lease-terms'), []),
+          filters,
+          price: txt(card.querySelector('[data-ll-floor-plan-card-price-value]')),
+          baseText: txt(card.querySelector('[data-ll-floor-plan-card-base-rent-value]')),
+          priceLabel: txt(card.querySelector('[data-ll-floor-plan-card-price-label]')),
+          availState: availEl ? availEl.getAttribute('data-state') || '' : '',
+          availText: txt(availEl),
+          units: txt(card.querySelector('[data-ll-floor-plan-card-units-available]')),
+          labels: Array.from(card.querySelectorAll('[data-ll-floor-plan-card-marketing-labels] span')).map((s) => txt(s)).filter(Boolean),
+          img: imgUrl(card.querySelector('[data-ll-floor-plan-images] img, img')),
+          specials,
+        });
+      });
+      return { rows };
+    }
+    // legacy markup (.floor-plan-card) — sitewide promo bar (e.g. "APPLY FOR FREE TODAY AND SAVE UP TO $4,236 FOR THE YEAR!")
     const bannerEl = document.querySelector('.leaseleads-banner, .promo-bar, .top-bar, header .banner, .announcement');
     let banner = bannerEl ? txt(bannerEl) : '';
     if (!banner) {
@@ -771,7 +809,48 @@ function normalize(backend, data) {
       });
     }
   } else if (backend === 'villas_wp') {
+    const promoRe = /\$|% ?off|free|save|special|discount|waive|gift/i;
     for (const r of data.rows) {
+      if (r.ll) {
+        // LeaseLeads card: one row per floor plan at its lowest advertised term
+        // (the price the card itself shows); other term prices go to availability.
+        const f = r.filters || {};
+        const bb = bedsBathsFromText(r.details);
+        const beds = f.bedrooms != null && f.bedrooms !== '' ? String(num(f.bedrooms)) : (bb.beds || bedsBathsFromText(r.name).beds);
+        const sMin = num(f.size_min), sMax = num(f.size_max);
+        const sqft = sMin ? (sMax && sMax !== sMin ? `${sMin}-${sMax}` : String(sMin)) : sqftFromText(r.details);
+        const terms = (Array.isArray(r.terms) ? r.terms : [])
+          .map((t) => ({ name: t.name || '', total: num(t.price_with_fees ?? t.price), base: num(t.base_rent) }))
+          .filter((t) => t.total != null || t.base != null);
+        terms.sort((a, b) => (a.total ?? a.base) - (b.total ?? b.base));
+        const best = terms[0] || { name: '', total: num(r.price), base: num(r.baseText) };
+        const total = best.total ?? null;
+        const base = best.base ?? null;
+        const labels = (r.labels && r.labels.length) ? r.labels : (Array.isArray(f.marketing_label) ? f.marketing_label : []);
+        const promoLabels = labels.filter((l) => promoRe.test(l));
+        const infoLabels = labels.filter((l) => !promoLabels.includes(l));
+        const siteSpecials = (r.specials || []).filter((s) => promoRe.test(s));
+        const conc = [...promoLabels, ...siteSpecials].join(' | ');
+        // type the card's own special first; sitewide specials only when it has none
+        const cc = parseConcession((promoLabels.length ? promoLabels : siteSpecials).join(' | '));
+        const soldOut = /sold[\s-]?out/i.test(r.availState) || /sold\s*out/i.test(r.availText);
+        const prices = terms.map((t) => t.total ?? t.base);
+        const range = prices.length > 1 && Math.max(...prices) > Math.min(...prices)
+          ? `advertised range $${Math.min(...prices)}-$${Math.max(...prices)}` : '';
+        push({
+          unit_or_floorplan_label: r.name,
+          beds, baths: bb.baths, sqft,
+          base_rent: base ?? '',
+          total_price_with_mandatory_fees: total ?? '',
+          price_basis: total != null ? 'total' : (base != null ? 'base' : ''),
+          concessions_raw: conc,
+          concessions_type: conc ? cc.type : '', concessions_value: conc ? cc.value : '',
+          availability: soldOut ? 'Sold Out' : [r.availText || 'Available', r.units, best.name, range, ...infoLabels].filter(Boolean).join(' — '),
+          layout_image_url: r.img || '',
+          price_status: total != null || base != null ? 'listed' : 'not_publicly_listed',
+        });
+        continue;
+      }
       const bb = bedsBathsFromText(`${r.beds} ${r.baths}`);
       const struck = num(r.struck);
       const current = num(r.current);
@@ -969,7 +1048,7 @@ const WAIT_SELECTORS = {
   jonah_fp: '.jd-fp-floorplan-card:not(.jd-fp-floorplan-card--preload)',
   yugo: '.product-tile',
   ion_wp: '.floorplan .fp-option-rates',
-  villas_wp: '.floor-plan-card',
+  villas_wp: '[data-ll-floor-plan-card], .floor-plan-card',
   rentcafe_ysi: '#fp-container',
   rise_units: '.unit-detail-modal',
   gogetter_wc_floorplans: '.floorplan-cards .floorplan-title',
@@ -982,12 +1061,22 @@ const WAIT_SELECTORS = {
     process.exit(1);
   }
   const params = paramsJson ? JSON.parse(paramsJson) : {};
-  // DOM_PROFILE: persistent Chromium profile, so a Cloudflare clearance cookie earned once is reused on later runs.
-  // DOM_HEADED=1: visible browser (the legacy "headed rescue" route). Both only on retry; see listing_adapters._run.
-  const prof = process.env.DOM_PROFILE, headed = process.env.DOM_HEADED === '1';
+  // Rebuild addition. Default off: with DOM_PROFILE, DOM_HEADED and DOM_CHALLENGE_WAIT_S
+  // unset, launch and context match FML_Data (headless chromium.launch + newContext).
+  const domOptsOn = !!(process.env.DOM_PROFILE || process.env.DOM_HEADED === '1' || process.env.DOM_CHALLENGE_WAIT_S);
   const opts = { userAgent: UA, viewport: { width: 1440, height: 900 } };
-  const browser = prof ? await chromium.launchPersistentContext(prof, { headless: !headed, ...opts }) : await chromium.launch({ headless: !headed });
-  const ctx = prof ? browser : await browser.newContext(opts);
+  let browser, ctx;
+  if (!domOptsOn) {
+    browser = await chromium.launch();
+    ctx = await browser.newContext(opts);
+  } else {
+    const prof = process.env.DOM_PROFILE;
+    const headed = process.env.DOM_HEADED === '1';
+    browser = prof
+      ? await chromium.launchPersistentContext(prof, { headless: !headed, ...opts })
+      : await chromium.launch({ headless: !headed });
+    ctx = prof ? browser : await browser.newContext(opts);
+  }
   const page = await ctx.newPage();
   let status = 'ok', rows = [];
   const sniffer = SNIFFERS[backend];
@@ -1023,10 +1112,14 @@ const WAIT_SELECTORS = {
         await page.goto(one, { waitUntil: 'domcontentloaded', timeout: 60000 });
         const title = await page.title();
         if (/just a moment|attention required|access denied/i.test(title)) {
-          const ws = parseInt(process.env.DOM_CHALLENGE_WAIT_S || (process.env.DOM_HEADED === '1' ? '170' : '8'), 10);
-          for (let w = 0; w < ws; w += 2) {
-            await page.waitForTimeout(2000);
-            if (!/just a moment|attention required|access denied/i.test(await page.title())) break;
+          if (process.env.DOM_PROFILE || process.env.DOM_HEADED === '1' || process.env.DOM_CHALLENGE_WAIT_S) {
+            const ws = parseInt(process.env.DOM_CHALLENGE_WAIT_S || (process.env.DOM_HEADED === '1' ? '170' : '8'), 10);
+            for (let w = 0; w < ws; w += 2) {
+              await page.waitForTimeout(2000);
+              if (!/just a moment|attention required|access denied/i.test(await page.title())) break;
+            }
+          } else {
+            await page.waitForTimeout(8000);
           }
           const t2 = await page.title();
           if (/just a moment|attention required|access denied/i.test(t2)) return 'blocked';
@@ -1056,13 +1149,15 @@ const WAIT_SELECTORS = {
     await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
     const title = await page.title();
     if (/just a moment|attention required|access denied/i.test(title)) {
-      // give the Cloudflare check a chance to clear. DOM_CHALLENGE_WAIT_S (default 12) keeps a visible window open
-      // long enough for a person to solve an interactive challenge; polls every 2 s and continues as soon as it clears.
-      // a visible window exists so a person can solve the challenge: give them ~3 minutes unless told otherwise (fits the 240 s subprocess limit of older runs)
-      const waitS = parseInt(process.env.DOM_CHALLENGE_WAIT_S || (process.env.DOM_HEADED === '1' ? '170' : '12'), 10);
-      for (let w = 0; w < waitS; w += 2) {
-        await page.waitForTimeout(2000);
-        if (!/just a moment|attention required|access denied/i.test(await page.title())) break;
+      // give the Cloudflare managed (non-interactive) check a chance to clear
+      if (process.env.DOM_PROFILE || process.env.DOM_HEADED === '1' || process.env.DOM_CHALLENGE_WAIT_S) {
+        const ws = parseInt(process.env.DOM_CHALLENGE_WAIT_S || (process.env.DOM_HEADED === '1' ? '170' : '8'), 10);
+        for (let w = 0; w < ws; w += 2) {
+          await page.waitForTimeout(2000);
+          if (!/just a moment|attention required|access denied/i.test(await page.title())) break;
+        }
+      } else {
+        await page.waitForTimeout(12000);
       }
       const t2 = await page.title();
       if (/just a moment|attention required|access denied/i.test(t2)) {

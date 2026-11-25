@@ -94,6 +94,39 @@ def run_dom_extractor(backend, url, npath, params=None):
         return {"status": f"error: {e}", "rows": []}
 
 
+LABEL_TAIL_RE = re.compile(r"\s+(?:Studio,|\d+\s*Beds?,|\d+\s*Bed\b|Call for Pricing|\d+\s*Space Option).*$", re.I)
+
+
+def clean_dedupe_rows(rows):
+    """params.clean_labels: some Entrata white-label pages render each plan in
+    several overlapping layouts, so the DOM extractor returns the same plan 2-3
+    times, with card text glued onto the label and the image on only one copy.
+    Cut the glued text, parse beds/baths from it, merge copies by clean label."""
+    merged, order = {}, []
+    for r in rows:
+        raw = r.get("unit_or_floorplan_label") or ""
+        label = LABEL_TAIL_RE.sub("", raw).strip() or raw
+        m_b = re.search(r"(\d+)\s*Beds?\b", raw, re.I)
+        m_ba = re.search(r"(\d+(?:\.\d+)?)\s*Baths?\b", raw, re.I)
+        beds = r.get("beds")
+        if beds in (None, ""):
+            beds = 0 if re.search(r"\bStudio\b", raw, re.I) else (m_b.group(1) if m_b else "")
+        baths = r.get("baths")
+        if baths in (None, "") and m_ba:
+            baths = m_ba.group(1)
+        new = dict(r, unit_or_floorplan_label=label, beds=beds, baths=baths)
+        key = label.casefold()
+        if key not in merged:
+            merged[key] = new
+            order.append(key)
+            continue
+        cur = merged[key]
+        for k, v in new.items():
+            if cur.get(k) in (None, "") and v not in (None, ""):
+                cur[k] = v
+    return [merged[k] for k in order]
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--only", help="run only this source_id")
@@ -164,6 +197,9 @@ def main():
                     rows = result["rows"]
             except Exception as e:  # keep the run going; log the failure
                 status = f"error: {e}"
+
+            if rows and p.get("params", {}).get("clean_labels"):
+                rows = clean_dedupe_rows(rows)
 
             if status != "ok" or not rows:
                 stats["failures"].append((name, status if status != "ok" else "no rows"))

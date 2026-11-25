@@ -318,7 +318,7 @@
    "property_name": "Quarters on Campus – Grayson",
    "address": "2222 Rio Grande St (leasing office), Austin, TX 78705",
    "source_id": "src_02",
-   "url": "https://www.quartersoncampus.com/graysonhouse/austin/grayson/student/",
+   "url": "https://www.quartersoncampus.com/austin/grayson/student/",
    "backend": "entrata_pp",
    "params": {}
   },
@@ -326,7 +326,7 @@
    "property_name": "Quarters on Campus – Nueces",
    "address": "2222 Rio Grande St (leasing office), Austin, TX 78705",
    "source_id": "src_03",
-   "url": "https://www.quartersoncampus.com/nueceshouse/austin/nueces/student/",
+   "url": "https://www.quartersoncampus.com/austin/nueces/student/",
    "backend": "entrata_pp",
    "params": {}
   },
@@ -342,7 +342,7 @@
    "property_name": "Quarters on Campus – Sterling House",
    "address": "2222 Rio Grande St (leasing office), Austin, TX 78705",
    "source_id": "src_05",
-   "url": "https://www.quartersoncampus.com/sterlinghouse/austin/sterling/student/",
+   "url": "https://www.quartersoncampus.com/austin/sterling/student/",
    "backend": "entrata_pp",
    "params": {}
   },
@@ -748,8 +748,8 @@
    "property_name": "GrandMarc Austin",
    "address": "Austin, TX 78705",
    "source_id": "b3_08",
-   "url": "https://www.grandmarcaustin.com/floor-plans",
-   "backend": "webflow_cms_floorplans",
+   "url": "https://entrata.grandmarcaustin.com/austin/grandmarc-austin/student/",
+   "backend": "entrata_pp",
    "params": {}
   },
   {
@@ -831,8 +831,7 @@
    "url": "https://torreatx.com/floor-plans/",
    "backend": "wp_entrata_json",
    "params": {
-    "api_url": "https://torreatx.com/wp-json/gmh-student/floorplans/categories",
-    "force_not_listed": true
+    "api_url": "https://torreatx.com/wp-json/gmh-student/floorplans/categories"
    }
   },
   {
@@ -945,7 +944,7 @@
    "property_name": "Inspire on 22nd",
    "address": "Austin, TX 78705",
    "source_id": "b3_33",
-   "url": "https://www.inspire22nd.com/austin/inspire-on-22nd/student/",
+   "url": "https://entrata.inspire22nd.com/austin/inspire-on-22nd/student/",
    "backend": "entrata_pp",
    "params": {}
   },
@@ -1128,7 +1127,9 @@
    "source_id": "b4_16",
    "url": "https://www.iconataustin.com/austin/icon-at-austin/student/",
    "backend": "entrata_pp",
-   "params": {}
+   "params": {
+    "clean_labels": true
+   }
   },
   {
    "property_name": "Town Lake Apartments",
