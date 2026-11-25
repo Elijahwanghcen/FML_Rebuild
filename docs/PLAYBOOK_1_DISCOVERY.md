@@ -469,6 +469,41 @@ Run after the first merge:
    campus that truly has fewer is acceptable only with the per-source counts as evidence.
    The floor is a reason to look harder. It is never a reason to keep an unverified name.
 
+### 5c. Reference-list completeness (UT scrape misses, 2026-11-25)
+
+A one-shot campus run is not done when the top 150 look full. It is done when every name on a reference list is either on the roster or written down with a cause. `aggregator/campus_completeness.py` compares the roster with that list and exits non-zero while names are missing. `aggregator/include_pinned.py` puts locked pins and `ADD` resolutions back into the enrich set after the rank cut.
+
+Collect the reference list from all of these. None of them is optional:
+
+1. Google Places grid (`discover_places.py`) and Overture footprints (`discover_overture.py`).
+2. The university off-campus housing list (`discover_rcp.py`, or `discover_ocp.py` after a person saves the directory in their own browser). Names and addresses only. Never scrape rent from the directory.
+3. Property-manager portfolios (`discover_pm_sites.py`), including a condo landlord's `/communities/` index. One row per community URL.
+4. Aggregators (Apartments.com, Zillow, Rentable, RentCollegePads) as a lead list only. `common.is_ils` still blocks them as a rent source.
+5. An existing catalog: last year's scrape, an RMR export, or `properties_config.json`. For UT that file is the synced pin list.
+
+Causes below are the UT buildings Rebuild's top-150 roster did not already name, plus the extractor gaps that made a present building data-poor. The rule is what the next campus must do. `aggregator/miss_causes.py` assigns the cause from the backend and URL.
+
+| Cause | What went missing | Rule |
+|---|---|---|
+| `condo_unit_landlord` | Uptown Realty condos (Escala, Treehouse, Pecan Square, Landmark Square, Greenwood, Wedgewood, Robbins Place, both Lantern Lane units, Littlefield, Galileo, San Pedro Flats, Tom Green, Park Place, Gables, Speedway, 3000 Guadalupe, Palmetto, Delphi, Windtree, Nueces Corner, and the ones matched by alias such as Vanderbilt, Waterford, Croix, Parapet) | Crawl the portfolio index. Lock each community URL. Do not require a Google place per condo. |
+| `ranked_below_cut` | Sondery, Oak Grove, Marian, Troubadour, Presidium Tech Ridge, Promontory Point, Keystone, Preserve at Wells Branch, Oaks at Chisholm, Redpoint San Marcos, Estates and Village at East Riverside, Elan East, Haus 535, and similar low-review buildings | Top-N is not the roster. Pins and `ADD` are unioned in after the cut. |
+| `entrata_bot_wall` | Quarters houses when the portal URL was stale, Point North, The Waller, Twenty Two15, Icon | Pin `/<city>/<slug>/student/` or `entrata.<site>`. Do not freeze `text_plan_list` when the status is `blocked_bot_wall`. Rescue with a price mode. |
+| `rentcafe_bot_wall` | High Point, Hillside Creek, Duval Villas, Ballpark East | Pin `rentcafe_ysi` or `rentcafe_inline`. Saved `html_files` are banned on a production refresh. |
+| `manager_portal_filter` | Avon, Penthouse, VEER, Leon Place, Preservation Square | Pin `address_match`, `listings_url`, and `fallback_range`. A geo guess does not replace that list. |
+| `university_or_coop_table` | Dobie Twenty21, East Campus Graduate, Gateway, Laurel House | Route the university housing host to the table parser. Co-op rates are one shared URL plus `params.house`. |
+| `layouts_only` | Town Lake (three FML names), Tower View, and any `no_public_pricing` pin | Keep the placeholder row and `params.reason`. Do not invent a rent. |
+| `shared_feed_filter` | The Block 23, and any ACC sister the auto location filter drops | Pin every `location_filter`. Fetch the feed once per `source_id`. |
+| `repli360_feed_shorter` | Marq on Burnet | Locked `repli360` stays on the DOM parser. The feed is the fallback when the DOM run is blocked, because the feed dedupes tabs and returns fewer rows. |
+| `directory_lead_only` | West Campus Elloras | The directory name is a lead. Rent comes from the manager page, or an explicit unpriced pin. |
+| `leaseleads_markup` | Villas on Guadalupe, 21 Pearl, Axis West Campus, Signature 1909 | Fingerprint `data-ll-floor-plan-lease-terms`. The synced `villas_wp` parser (FML_Data `a953774`) reads `[data-ll-floor-plan-card]` in the browser. Do not replace it with a partial HTTP read of the same JSON. |
+| `per_room_type` | Yugo Rio, Corner, Nueces, Waterloo | Fingerprint `product-tile`. Pin `gtm_name`. Do not let `text_plan_list` win. |
+| `query_string_matters` | Noble 2500 `?_lease_term=fall` | A locked URL keeps its query string. |
+| `name_collision` | 1883 Cameron vs Montgomery, the four Quarters houses, the three Town Lake names | Do not alias distinct pins because they share a leasing office. |
+
+`data/ut_austin/added_buildings.json` is the current UT set of reference names that `out/buildings.json` does not already contain. `listing_config.json` locks all 145 FML sources (`"locked": true`). Detection may add a building. It may not replace a locked backend, URL, or params.
+
+A&M is the second reference and it is richer than a Places-only cut for concrete reasons: `campuses/texas_am.json` sets `neighbor_cities` (Bryan), a wider `pm_radius_m`, `ocp_base` (aggiesearch) and `extra_pm_sites`; `resolutions.json` locks websites and floor-plan URLs after a person checked buildings that had no site; bot-walled communities have hand-saved rescues under `data/texas_am/rescues/`; the frozen adapters include RentCafe, JSON-LD, and Gogetter, not only page text. Copy that shape for a new campus: directory plus PM portfolios plus locked URLs plus rescues, then the rank cut.
+
 <!-- VERBAL NUANCE: -->
 
 ## 6. Run order
@@ -483,6 +518,9 @@ node reddit_fetch.js <out> <subs> "<queries>" 120     # user logs in once
 python3 discover_reddit.py <campus>
 python3 merge_candidates.py <campus>
 python3 select_roster.py <campus>         # -> roster_final.json / .csv
+python3 apply_resolutions.py <campus> roster_final.json
+python3 include_pinned.py <campus>        # ADD / locked pins survive the top-N cut
+python3 campus_completeness.py <campus> --reference <reference.json>
 ```
 
 Outputs per campus are in `data/<campus>/`. Every network response is cached, so re-runs

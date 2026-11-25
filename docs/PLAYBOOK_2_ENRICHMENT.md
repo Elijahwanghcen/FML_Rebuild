@@ -390,6 +390,39 @@ reads, and not the site's own domain.
 | none of the above | `text_plan_list` | printed lines "name / N bed \| N bath \| N sqft / $X" | Last deterministic step. Wins only with more priced rows. Junk names fall back to "N bed / N bath"; >60 rows means a multi-listing page and is rejected |
 | page states only a range | `advertised_range` | "Starting at $X" | One row, labelled as a range (FML_scraper `fallback_range`) |
 | Manager site with its own layout | `HOST_ADAPTERS`, or `listing_adapters` in the campus config | | |
+| `data-ll-floor-plan-lease-terms` | `villas_wp` (DOM, synced from FML_Data `a953774`) | JSON on `[data-ll-floor-plan-card]`: `base_rent`, `price`, `price_with_fees` | The old `.floor-plan-card` selector returned no rows. The synced parser reads the attribute. An HTTP skim of the same JSON is not auto-selected: it under-counts and would block the DOM parser |
+| `/wp-json/gmh-student/floorplans/categories` | `wp_entrata_json` with that `api_url` | GMH JSON | Torre. The theme path `/wp-json/theme/entrata/v1/floor-plans` is a different feed. `force_not_listed` is honored only when the pin sets it. FML_Data's current Torre pin does not set it |
+| `housing.utexas.edu` path `nueces-rates` / `dobie` / other rate table | `ut_housing_nueces`, `ut_housing_dobie`, `ut_rates_table` | the rate table | `university_rates` is the generic fallback, not a replacement for these |
+| `collegehouses.org` | `collegehouses_rates` | `https://collegehouses.org/rates/` | `params.house` selects the block. One fetch for every house |
+| `product-tile` and a residence `gtm_name` | `yugo` | rendered tiles, one row per room type | Pin `gtm_name`. Not `text_plan_list` |
+
+**Locked pins.** `listing_config.json` rows with `"locked": true` are the FML_Data source (backend, url, params, source_type, source_id). `write_listing_config` merges: detection adds unlocked buildings and does not replace a locked source. New buildings that discovery never ranked use status `ADD` in `resolutions.json` or `added_buildings.json`. `include_pinned.py` unions them into the enrich slice.
+
+**Post-processing hooks** (`aggregator/listing_post.py`), driven by the pin:
+
+| Hook | When |
+|---|---|
+| `clean_labels` | Icon. Merge overlapping Entrata cards and keep the copy that has the image |
+| `no_public_pricing` / a label starting with `(` and `price_status=not_publicly_listed` | Keep the placeholder and `params.reason`. Do not drop it |
+| `force_not_listed` | Inside `wp_entrata_json`. Clears rents only when the pin sets the flag |
+| failure stub | No rows or a bad status becomes `(extraction failed)` with the status in `availability` |
+
+**Rescue modes** (`aggregator/rescue_prices.py`), on a hand-saved file. Nobody solves a challenge.
+
+| Mode | Meaning |
+|---|---|
+| `split_total` | Base and total monthly are both real. `price_basis` is `total` |
+| `base_only` | One advertised figure |
+| `promo_current` | Struck price is a `flat_discount`; the current figure stays in `base_rent` |
+| `installment` | The per-installment figure is the rent, not a fee total |
+| `unpriced` | Keep the plan, no invented rent |
+| `empty` | Bot wall with no inventory. One unpriced stub |
+
+**Production refresh** (`refresh_listings.py`) refuses `text_plan_list` and any `params.html_files`. Those re-parse a snapshot that is not on the bot. The run prints `saved_html_banned` and exits non-zero. Locked pins are emitted as the 20-column CSV and nested JSON FML_Data writes (`aggregator/legacy_emit.py`). Unit ids for the Algolia / discrepancy-updater shape are `{property-slug}__{label-slug}` in the sibling `*.unit_ids.json`. `source_type` and `price_status` are copied from the pin and the row. They are not rewritten.
+
+**Frozen-adapter bug.** If an LLM read returns more priced rows than the adapter that just ran, `take_llm_if_better` clears `source_config`. The frozen file must not claim `text_plan_list` produced the LLM rows.
+
+**Price basis.** `convert()` treats a total-only row (base blank, total present) as priced, so an Entrata "Total Monthly" card is not marked unlisted.
 
 **When nothing matches: open the site once in the user's Chrome (Claude in Chrome).** This is
 a build step, not a weekly one, and it is how five of the adapters above were found.
