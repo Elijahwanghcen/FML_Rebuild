@@ -2,7 +2,7 @@
 
 Campus apartment-listing rebuild for UT Austin, Texas A&M, and later campuses.
 
-**Start here if you are a Grok Bot (or a manager bot) running scrapes, adding a campus, or updating Rate My Rent:** [docs/GROKBOT_HANDBOOK.md](docs/GROKBOT_HANDBOOK.md). Discovery and enrichment rules stay in the playbooks that handbook links to.
+**Start here if you are a Grok Bot maintaining an existing campus's listing scrape, adding a building, or preparing a Rate My Rent review:** [docs/GROKBOT_HANDBOOK.md](docs/GROKBOT_HANDBOOK.md). Discovery and enrichment rules stay in the playbooks that handbook links to.
 
 ## Scrape archive
 
