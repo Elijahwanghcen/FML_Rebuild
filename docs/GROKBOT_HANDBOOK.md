@@ -229,9 +229,9 @@ RMR_APPLY_CONFIRM=I_REVIEWED_THE_PLAN python3 discrepancy_updater.py --apply \
 
 | Symptom | Fix |
 |---|---|
-| `refresh_listings.py` exits `2` after writing outputs | `saved_html_banned`: `text_plan_list` or `params.html_files`. Do not use `&&`. Confirm the files, then move those configs to a live HTTP/DOM adapter or a checked-in rescue. |
-| Rescue / `headed_rescue` fails with `[Errno 2]` on `/Users/elijahwangchen/...` | Store `params.file` as `data/<campus>/rescues/<slug>.json`. Never commit absolute Mac paths. |
-| No `advertised_prices_*.csv` / `.json` | `write_legacy()` runs only for `"locked": true`. Lock verified configs, or the 20-column emit will be missing (A&M currently has none locked). |
+| `WARNING N buildings skipped` at the end of `refresh_listings.py` | `saved_html_banned`: `text_plan_list` or `params.html_files`. Outputs are written and the exit code is 0 (pass `--strict` to exit `2`). Move those configs to a live HTTP/DOM adapter or a checked-in rescue. |
+| Rescue / `headed_rescue` fails with `[Errno 2]` on `/Users/...` | Store `params.file` as `data/<campus>/rescues/<slug>.json` (repo-relative; `listing_adapters._abs_params` resolves it). The build now writes relative paths. Never commit absolute paths. |
+| No `advertised_prices_*.csv` / `.json` | `write_legacy()` runs only for `"locked": true`. Lock verified configs (A&M: 69 locked 2026-11-25, `locked_from: texas_am_live_verified_2026-11-25`). |
 | Stdout pauses 5–8+ minutes on `jonah_detail_json` (e.g. Elle West Ave) | The extractor sleeps 2s after every floorplan slug (156 plans ≈ 8 min, no per-slug log). Do not kill it. On the box, `/proc/<pid>/io` `rchar` should keep climbing. A full UT refresh is about 20–25 minutes. |
 | Batch DOM run stalls ~5 minutes per blocked site | `FML_SOLVE_WAIT_S` defaults to 300. Export `FML_SOLVE_WAIT_S=25`. Never bypass the challenge. |
 | DOM extractors fail or silently fall back on the box | Symlink `/workspace/pwdeps` Playwright to `npm root -g`; Chromium in `~/.cache/ms-playwright/`; `DISPLAY=:4` for headed; set `NODE_PATH` if Node cannot resolve Playwright. |

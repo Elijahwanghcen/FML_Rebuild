@@ -1,5 +1,5 @@
 {
- "_comment": "written by enrich_listings.py (build phase); read by refresh_listings.py",
+ "_comment": "written by enrich_listings.py; locked pins are kept verbatim. Paths in params are relative to the repo root.",
  "properties": [
   {
    "objectID": "northpoint-crossing",
@@ -12,7 +12,11 @@
    "params": {},
    "detected_rows": 13,
    "detected_priced": 13,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "dom",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "domain-northgate",
@@ -24,10 +28,10 @@
    "url": "https://www.domainatnorthgate.com/college-station-tx-apartments/domain-northgate/student/",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/domain-northgate/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/domain-northgate/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/domain-northgate/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/domain-northgate/home.html"
+     "data/texas_am/raw/domain-northgate/floorplans.html",
+     "data/texas_am/raw/domain-northgate/floorplans2.html",
+     "data/texas_am/raw/domain-northgate/fpdetail.html",
+     "data/texas_am/raw/domain-northgate/home.html"
     ]
    },
    "detected_rows": 11,
@@ -45,7 +49,11 @@
    "params": {},
    "detected_rows": 2,
    "detected_priced": 2,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "dom",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "park-west",
@@ -57,10 +65,10 @@
    "url": "https://parkwestlife.com/floor-plans",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/park-west/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/park-west/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/park-west/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/park-west/home.html"
+     "data/texas_am/raw/park-west/floorplans.html",
+     "data/texas_am/raw/park-west/floorplans2.html",
+     "data/texas_am/raw/park-west/fpdetail.html",
+     "data/texas_am/raw/park-west/home.html"
     ]
    },
    "detected_rows": 18,
@@ -78,7 +86,11 @@
    "params": {},
    "detected_rows": 7,
    "detected_priced": 7,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "dom",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "the-rise-at-northgate",
@@ -89,11 +101,15 @@
    "backend": "headed_rescue",
    "url": "https://riseatnorthgateapts.prospectportal.com/college-station/the-rise-at-northgate/student/",
    "params": {
-    "file": "/Users/elijahwangchen/FML_rebuild/data/texas_am/rescues/the-rise-at-northgate.json"
+    "file": "data/texas_am/rescues/the-rise-at-northgate.json"
    },
    "detected_rows": 16,
    "detected_priced": 16,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "university-square",
@@ -106,7 +122,11 @@
    "params": {},
    "detected_rows": 2,
    "detected_priced": 2,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "the-aria-at-college-station",
@@ -118,10 +138,10 @@
    "url": "https://theariastudentliving.com/floor-plans/",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-aria-at-college-station/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-aria-at-college-station/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-aria-at-college-station/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-aria-at-college-station/home.html"
+     "data/texas_am/raw/the-aria-at-college-station/floorplans.html",
+     "data/texas_am/raw/the-aria-at-college-station/floorplans2.html",
+     "data/texas_am/raw/the-aria-at-college-station/fpdetail.html",
+     "data/texas_am/raw/the-aria-at-college-station/home.html"
     ]
    },
    "detected_rows": 6,
@@ -137,11 +157,15 @@
    "backend": "headed_rescue",
    "url": "https://www.zoneatcollegestation.com/college-station-college-station/the-zone-the-zone/student/",
    "params": {
-    "file": "/Users/elijahwangchen/FML_rebuild/data/texas_am/rescues/the-zone.json"
+    "file": "data/texas_am/rescues/the-zone.json"
    },
    "detected_rows": 6,
    "detected_priced": 6,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "dwell-at-1600",
@@ -153,10 +177,10 @@
    "url": "https://www.dwellat1600.com/floorplans",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/dwell-at-1600/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/dwell-at-1600/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/dwell-at-1600/fingerprint.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/dwell-at-1600/home.html"
+     "data/texas_am/raw/dwell-at-1600/floorplans.html",
+     "data/texas_am/raw/dwell-at-1600/floorplans2.html",
+     "data/texas_am/raw/dwell-at-1600/fingerprint.html",
+     "data/texas_am/raw/dwell-at-1600/home.html"
     ]
    },
    "detected_rows": 9,
@@ -171,17 +195,14 @@
    "source_id": "src_69d25e0f",
    "backend": "jsonld_offers",
    "url": "https://www.liveativy.com/floorplans/",
-   "params": {
-    "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-ivy-apartments/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-ivy-apartments/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-ivy-apartments/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-ivy-apartments/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 16,
    "detected_priced": 16,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "rev-northgate-student-living",
@@ -196,7 +217,11 @@
    },
    "detected_rows": 19,
    "detected_priced": 19,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "the-doce-student-living",
@@ -207,11 +232,15 @@
    "backend": "headed_rescue",
    "url": "https://thedoce.prospectportal.com/college-station/the-doce/student/",
    "params": {
-    "file": "/Users/elijahwangchen/FML_rebuild/data/texas_am/rescues/the-doce-student-living.json"
+    "file": "data/texas_am/rescues/the-doce-student-living.json"
    },
    "detected_rows": 6,
    "detected_priced": 6,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "university-trails",
@@ -224,7 +253,11 @@
    "params": {},
    "detected_rows": 7,
    "detected_priced": 7,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "dom",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "woodlands-of-college-station",
@@ -235,11 +268,15 @@
    "backend": "headed_rescue",
    "url": "https://entrata.woodlandsofcollegestation.com/college-station/woodlands-apartments-721/student/",
    "params": {
-    "file": "/Users/elijahwangchen/FML_rebuild/data/texas_am/rescues/woodlands-of-college-station.json"
+    "file": "data/texas_am/rescues/woodlands-of-college-station.json"
    },
    "detected_rows": 7,
    "detected_priced": 7,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "west-university-gardens",
@@ -251,10 +288,10 @@
    "url": "https://www.westugardens.com/floorplans/",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/west-university-gardens/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/west-university-gardens/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/west-university-gardens/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/west-university-gardens/home.html"
+     "data/texas_am/raw/west-university-gardens/floorplans.html",
+     "data/texas_am/raw/west-university-gardens/floorplans2.html",
+     "data/texas_am/raw/west-university-gardens/fpdetail.html",
+     "data/texas_am/raw/west-university-gardens/home.html"
     ]
    },
    "detected_rows": 6,
@@ -269,17 +306,14 @@
    "source_id": "src_007a6cda",
    "backend": "jsonld_offers",
    "url": "https://www.thegrand1501.com/floorplans/",
-   "params": {
-    "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-grand-1501/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-grand-1501/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-grand-1501/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-grand-1501/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 6,
    "detected_priced": 6,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "aggie-station-apartments",
@@ -294,7 +328,11 @@
    },
    "detected_rows": 3,
    "detected_priced": 3,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "stadium-view-apartments",
@@ -307,7 +345,11 @@
    "params": {},
    "detected_rows": 3,
    "detected_priced": 3,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "the-enclave",
@@ -319,10 +361,10 @@
    "url": "https://www.enclaveatcollegestation.com/college-station-college-station/the-enclave-the-enclave/",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-enclave/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-enclave/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-enclave/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-enclave/home.html"
+     "data/texas_am/raw/the-enclave/floorplans.html",
+     "data/texas_am/raw/the-enclave/floorplans2.html",
+     "data/texas_am/raw/the-enclave/fpdetail.html",
+     "data/texas_am/raw/the-enclave/home.html"
     ]
    },
    "detected_rows": 7,
@@ -339,10 +381,10 @@
    "url": "https://www.reveilleranchapartments.com/bryan/reveille-ranch/student/",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/reveille-ranch/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/reveille-ranch/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/reveille-ranch/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/reveille-ranch/home.html"
+     "data/texas_am/raw/reveille-ranch/floorplans.html",
+     "data/texas_am/raw/reveille-ranch/floorplans2.html",
+     "data/texas_am/raw/reveille-ranch/fpdetail.html",
+     "data/texas_am/raw/reveille-ranch/home.html"
     ]
    },
    "detected_rows": 8,
@@ -359,10 +401,10 @@
    "url": "https://www.globalcollegestation.com/college-station/95262-global-college-station/student/",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/global-college-station/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/global-college-station/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/global-college-station/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/global-college-station/home.html"
+     "data/texas_am/raw/global-college-station/floorplans.html",
+     "data/texas_am/raw/global-college-station/floorplans2.html",
+     "data/texas_am/raw/global-college-station/fpdetail.html",
+     "data/texas_am/raw/global-college-station/home.html"
     ]
    },
    "detected_rows": 18,
@@ -379,10 +421,10 @@
    "url": "https://www.liveatparkwaycirclecollegestation.com/floor-plans/",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/parkway-circle-apartments/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/parkway-circle-apartments/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/parkway-circle-apartments/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/parkway-circle-apartments/home.html"
+     "data/texas_am/raw/parkway-circle-apartments/floorplans.html",
+     "data/texas_am/raw/parkway-circle-apartments/floorplans2.html",
+     "data/texas_am/raw/parkway-circle-apartments/fpdetail.html",
+     "data/texas_am/raw/parkway-circle-apartments/home.html"
     ]
    },
    "detected_rows": 4,
@@ -400,7 +442,11 @@
    "params": {},
    "detected_rows": 6,
    "detected_priced": 6,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "dom",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "holleman-crossing",
@@ -413,7 +459,11 @@
    "params": {},
    "detected_rows": 4,
    "detected_priced": 4,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "dom",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "aspire-reserve",
@@ -424,11 +474,15 @@
    "backend": "headed_rescue",
    "url": "https://aspirereserve.prospectportal.com/college-station/aspire-reserve/student/",
    "params": {
-    "file": "/Users/elijahwangchen/FML_rebuild/data/texas_am/rescues/aspire-reserve.json"
+    "file": "data/texas_am/rescues/aspire-reserve.json"
    },
    "detected_rows": 97,
    "detected_priced": 97,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "the-tradition",
@@ -443,7 +497,11 @@
    },
    "detected_rows": 14,
    "detected_priced": 14,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "yugo-apex-college-station",
@@ -458,7 +516,11 @@
    },
    "detected_rows": 18,
    "detected_priced": 18,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "dom",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "100-park",
@@ -470,10 +532,10 @@
    "url": "https://www.100parkliving.com/floorplans",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/100-park/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/100-park/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/100-park/fingerprint.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/100-park/home.html"
+     "data/texas_am/raw/100-park/floorplans.html",
+     "data/texas_am/raw/100-park/floorplans2.html",
+     "data/texas_am/raw/100-park/fingerprint.html",
+     "data/texas_am/raw/100-park/home.html"
     ]
    },
    "detected_rows": 9,
@@ -490,10 +552,10 @@
    "url": "https://www.cambridgehallcs.com/floorplans/",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/cambridge-hall-at-college-station/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/cambridge-hall-at-college-station/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/cambridge-hall-at-college-station/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/cambridge-hall-at-college-station/home.html"
+     "data/texas_am/raw/cambridge-hall-at-college-station/floorplans.html",
+     "data/texas_am/raw/cambridge-hall-at-college-station/floorplans2.html",
+     "data/texas_am/raw/cambridge-hall-at-college-station/fpdetail.html",
+     "data/texas_am/raw/cambridge-hall-at-college-station/home.html"
     ]
    },
    "detected_rows": 6,
@@ -510,10 +572,10 @@
    "url": "https://www.liveatwaldenpondcollegestation.com/floor-plans/",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/walden-pond-apartments/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/walden-pond-apartments/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/walden-pond-apartments/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/walden-pond-apartments/home.html"
+     "data/texas_am/raw/walden-pond-apartments/floorplans.html",
+     "data/texas_am/raw/walden-pond-apartments/floorplans2.html",
+     "data/texas_am/raw/walden-pond-apartments/fpdetail.html",
+     "data/texas_am/raw/walden-pond-apartments/home.html"
     ]
    },
    "detected_rows": 3,
@@ -533,7 +595,11 @@
    },
    "detected_rows": 24,
    "detected_priced": 24,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "the-junction-at-college-station",
@@ -546,7 +612,11 @@
    "params": {},
    "detected_rows": 17,
    "detected_priced": 17,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "dom",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "the-cottages-of-college-station",
@@ -559,7 +629,11 @@
    "params": {},
    "detected_rows": 14,
    "detected_priced": 14,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "dom",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "the-harbor-at-the-barracks",
@@ -571,10 +645,10 @@
    "url": "https://theharborbcs.com/floor-plans/",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-harbor-at-the-barracks/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-harbor-at-the-barracks/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-harbor-at-the-barracks/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-harbor-at-the-barracks/home.html"
+     "data/texas_am/raw/the-harbor-at-the-barracks/floorplans.html",
+     "data/texas_am/raw/the-harbor-at-the-barracks/floorplans2.html",
+     "data/texas_am/raw/the-harbor-at-the-barracks/fpdetail.html",
+     "data/texas_am/raw/the-harbor-at-the-barracks/home.html"
     ]
    },
    "detected_rows": 4,
@@ -591,10 +665,10 @@
    "url": "https://barrackstownhomes.com/3x3-house/",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-barracks-townhomes/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-barracks-townhomes/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-barracks-townhomes/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-barracks-townhomes/home.html"
+     "data/texas_am/raw/the-barracks-townhomes/floorplans.html",
+     "data/texas_am/raw/the-barracks-townhomes/floorplans2.html",
+     "data/texas_am/raw/the-barracks-townhomes/fpdetail.html",
+     "data/texas_am/raw/the-barracks-townhomes/home.html"
     ]
    },
    "detected_rows": 10,
@@ -610,11 +684,15 @@
    "backend": "headed_rescue",
    "url": "https://entrata.stackstudentliving.com/college-station/the-stack/student/",
    "params": {
-    "file": "/Users/elijahwangchen/FML_rebuild/data/texas_am/rescues/the-stack-at-legacy-point.json"
+    "file": "data/texas_am/rescues/the-stack-at-legacy-point.json"
    },
    "detected_rows": 7,
    "detected_priced": 7,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "ever-college-station",
@@ -627,7 +705,11 @@
    "params": {},
    "detected_rows": 16,
    "detected_priced": 16,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "cherry-street",
@@ -640,7 +722,11 @@
    "params": {},
    "detected_rows": 3,
    "detected_priced": 3,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "dom",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "otto-northgate",
@@ -653,7 +739,11 @@
    "params": {},
    "detected_rows": 28,
    "detected_priced": 28,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "dom",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "hudson",
@@ -666,7 +756,11 @@
    "params": {},
    "detected_rows": 4,
    "detected_priced": 4,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "dom",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "u-centre-at-northgate",
@@ -681,7 +775,11 @@
    },
    "detected_rows": 3,
    "detected_priced": 3,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "the-gardens-apartments",
@@ -700,14 +798,15 @@
      "Gardens  K",
      "Gardens G",
      "Gardens L"
-    ],
-    "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-gardens-apartments/floorplans.html"
     ]
    },
    "detected_rows": 10,
    "detected_priced": 10,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "college-main-apartments",
@@ -719,10 +818,10 @@
    "url": "https://www.liveatcollegemaincollegestation.com/floor-plans/",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/college-main-apartments/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/college-main-apartments/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/college-main-apartments/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/college-main-apartments/home.html"
+     "data/texas_am/raw/college-main-apartments/floorplans.html",
+     "data/texas_am/raw/college-main-apartments/floorplans2.html",
+     "data/texas_am/raw/college-main-apartments/fpdetail.html",
+     "data/texas_am/raw/college-main-apartments/home.html"
     ]
    },
    "detected_rows": 5,
@@ -739,10 +838,10 @@
    "url": "https://www.liveatscandiacollegestation.com/floor-plans/",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/scandia-apartments/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/scandia-apartments/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/scandia-apartments/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/scandia-apartments/home.html"
+     "data/texas_am/raw/scandia-apartments/floorplans.html",
+     "data/texas_am/raw/scandia-apartments/floorplans2.html",
+     "data/texas_am/raw/scandia-apartments/fpdetail.html",
+     "data/texas_am/raw/scandia-apartments/home.html"
     ]
    },
    "detected_rows": 4,
@@ -759,10 +858,10 @@
    "url": "https://www.liveatgablescollegestation.com/floor-plans/",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-gables-apartments/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-gables-apartments/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-gables-apartments/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-gables-apartments/home.html"
+     "data/texas_am/raw/the-gables-apartments/floorplans.html",
+     "data/texas_am/raw/the-gables-apartments/floorplans2.html",
+     "data/texas_am/raw/the-gables-apartments/fpdetail.html",
+     "data/texas_am/raw/the-gables-apartments/home.html"
     ]
    },
    "detected_rows": 6,
@@ -779,10 +878,10 @@
    "url": "https://www.myarbors.com/floorplans",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/arbors-at-wolf-pen-creek/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/arbors-at-wolf-pen-creek/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/arbors-at-wolf-pen-creek/fingerprint.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/arbors-at-wolf-pen-creek/home.html"
+     "data/texas_am/raw/arbors-at-wolf-pen-creek/floorplans.html",
+     "data/texas_am/raw/arbors-at-wolf-pen-creek/floorplans2.html",
+     "data/texas_am/raw/arbors-at-wolf-pen-creek/fingerprint.html",
+     "data/texas_am/raw/arbors-at-wolf-pen-creek/home.html"
     ]
    },
    "detected_rows": 4,
@@ -799,10 +898,10 @@
    "url": "https://www.sonomaapartmenthomes.com/floor-plans/",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/sonoma-apartments/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/sonoma-apartments/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/sonoma-apartments/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/sonoma-apartments/home.html"
+     "data/texas_am/raw/sonoma-apartments/floorplans.html",
+     "data/texas_am/raw/sonoma-apartments/floorplans2.html",
+     "data/texas_am/raw/sonoma-apartments/fpdetail.html",
+     "data/texas_am/raw/sonoma-apartments/home.html"
     ]
    },
    "detected_rows": 3,
@@ -817,17 +916,14 @@
    "source_id": "src_4e961f99",
    "backend": "jsonld_offers",
    "url": "https://www.residenceatoakmont.com/floorplans/",
-   "params": {
-    "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/residence-at-oakmont-apartments/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/residence-at-oakmont-apartments/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/residence-at-oakmont-apartments/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/residence-at-oakmont-apartments/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 8,
    "detected_priced": 7,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "honcho-student-apartments",
@@ -840,7 +936,11 @@
    "params": {},
    "detected_rows": 20,
    "detected_priced": 20,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "dom",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "the-jay-college-station",
@@ -851,11 +951,15 @@
    "backend": "headed_rescue",
    "url": "https://thejaycollegestation.prospectportal.com/college-station/the-jay/student/",
    "params": {
-    "file": "/Users/elijahwangchen/FML_rebuild/data/texas_am/rescues/the-jay-college-station.json"
+    "file": "data/texas_am/rescues/the-jay-college-station.json"
    },
    "detected_rows": 41,
    "detected_priced": 41,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "the-callaway-house",
@@ -870,7 +974,11 @@
    },
    "detected_rows": 5,
    "detected_priced": 5,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "callaway-villas",
@@ -885,7 +993,11 @@
    },
    "detected_rows": 5,
    "detected_priced": 5,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "southgate-village-apartments",
@@ -897,10 +1009,10 @@
    "url": "https://www.southgate-village-apartments.com/floorplans",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/southgate-village-apartments/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/southgate-village-apartments/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/southgate-village-apartments/fingerprint.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/southgate-village-apartments/home.html"
+     "data/texas_am/raw/southgate-village-apartments/floorplans.html",
+     "data/texas_am/raw/southgate-village-apartments/floorplans2.html",
+     "data/texas_am/raw/southgate-village-apartments/fingerprint.html",
+     "data/texas_am/raw/southgate-village-apartments/home.html"
     ]
    },
    "detected_rows": 4,
@@ -915,17 +1027,14 @@
    "source_id": "src_303093db",
    "backend": "jsonld_offers",
    "url": "http://sierracondosbcs.com/floorplans/",
-   "params": {
-    "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/sierra-condos/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/sierra-condos/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/sierra-condos/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/sierra-condos/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 5,
    "detected_priced": 3,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "holleman-oaks",
@@ -935,17 +1044,14 @@
    "source_id": "src_fba4e1eb",
    "backend": "jsonld_offers",
    "url": "https://www.hollemanoaksapts.com/floorplans/",
-   "params": {
-    "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/holleman-oaks/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/holleman-oaks/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/holleman-oaks/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/holleman-oaks/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 6,
    "detected_priced": 6,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "redstone-apartments",
@@ -957,10 +1063,10 @@
    "url": "https://www.liveatredstonecollegestation.com/floor-plans/",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/redstone-apartments/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/redstone-apartments/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/redstone-apartments/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/redstone-apartments/home.html"
+     "data/texas_am/raw/redstone-apartments/floorplans.html",
+     "data/texas_am/raw/redstone-apartments/floorplans2.html",
+     "data/texas_am/raw/redstone-apartments/fpdetail.html",
+     "data/texas_am/raw/redstone-apartments/home.html"
     ]
    },
    "detected_rows": 1,
@@ -976,11 +1082,15 @@
    "backend": "headed_rescue",
    "url": "https://entrata.livethejane.com/college-station/the-jane-at-college-station/student/",
    "params": {
-    "file": "/Users/elijahwangchen/FML_rebuild/data/texas_am/rescues/the-jane-at-college-station.json"
+    "file": "data/texas_am/rescues/the-jane-at-college-station.json"
    },
    "detected_rows": 7,
    "detected_priced": 6,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "regency-gardens",
@@ -990,17 +1100,14 @@
    "source_id": "src_26cf4624",
    "backend": "jsonld_offers",
    "url": "https://www.liveregencygardens.com/floorplans/",
-   "params": {
-    "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/regency-gardens/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/regency-gardens/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/regency-gardens/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/regency-gardens/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 6,
    "detected_priced": 6,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "fifteen12",
@@ -1015,7 +1122,11 @@
    },
    "detected_rows": 30,
    "detected_priced": 30,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "soco-at-tower-point",
@@ -1030,7 +1141,11 @@
    },
    "detected_rows": 7,
    "detected_priced": 2,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "warehouse-and-factory-apartments-at-northgate",
@@ -1041,11 +1156,15 @@
    "backend": "headed_rescue",
    "url": "https://entrata.warehouseandfactory.com/college-station/warehouse-and-factory/student/",
    "params": {
-    "file": "/Users/elijahwangchen/FML_rebuild/data/texas_am/rescues/warehouse-and-factory-apartments-at-northgate.json"
+    "file": "data/texas_am/rescues/warehouse-and-factory-apartments-at-northgate.json"
    },
    "detected_rows": 12,
    "detected_priced": 12,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "thomas-park-lofts",
@@ -1069,7 +1188,11 @@
    },
    "detected_rows": 16,
    "detected_priced": 16,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "white-creek-apartments",
@@ -1083,14 +1206,15 @@
     "section_names": [
      "White Creek",
      "White Creek Community Center"
-    ],
-    "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/white-creek-apartments/floorplans.html"
     ]
    },
    "detected_rows": 6,
    "detected_priced": 0,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "eastgate-apartments",
@@ -1103,7 +1227,11 @@
    "params": {},
    "detected_rows": 3,
    "detected_priced": 3,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "berkeley-house",
@@ -1116,7 +1244,11 @@
    "params": {},
    "detected_rows": 3,
    "detected_priced": 0,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "dom",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "tower-park-apartments",
@@ -1128,10 +1260,10 @@
    "url": "http://www.towerparkapts.com/tower-park-apartments-floor-plans/",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/tower-park-apartments/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/tower-park-apartments/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/tower-park-apartments/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/tower-park-apartments/home.html"
+     "data/texas_am/raw/tower-park-apartments/floorplans.html",
+     "data/texas_am/raw/tower-park-apartments/floorplans2.html",
+     "data/texas_am/raw/tower-park-apartments/fpdetail.html",
+     "data/texas_am/raw/tower-park-apartments/home.html"
     ]
    },
    "detected_rows": 5,
@@ -1149,7 +1281,11 @@
    "params": {},
    "detected_rows": 6,
    "detected_priced": 6,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "dom",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "u-club-townhomes-on-marion-pugh",
@@ -1164,7 +1300,11 @@
    },
    "detected_rows": 2,
    "detected_priced": 2,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "the-landing-college-station",
@@ -1176,10 +1316,10 @@
    "url": "https://thelandingcollegestation.com/floor-plans/",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-landing-college-station/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-landing-college-station/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-landing-college-station/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-landing-college-station/home.html"
+     "data/texas_am/raw/the-landing-college-station/floorplans.html",
+     "data/texas_am/raw/the-landing-college-station/floorplans2.html",
+     "data/texas_am/raw/the-landing-college-station/fpdetail.html",
+     "data/texas_am/raw/the-landing-college-station/home.html"
     ]
    },
    "detected_rows": 6,
@@ -1196,10 +1336,10 @@
    "url": "https://longitudebcs.com/search/listing/301-southwest-pkwy-unit-328-college-station-tx--25003613/",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/copper-creek-condos/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/copper-creek-condos/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/copper-creek-condos/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/copper-creek-condos/home.html"
+     "data/texas_am/raw/copper-creek-condos/floorplans.html",
+     "data/texas_am/raw/copper-creek-condos/floorplans2.html",
+     "data/texas_am/raw/copper-creek-condos/fpdetail.html",
+     "data/texas_am/raw/copper-creek-condos/home.html"
     ]
    },
    "detected_rows": 1,
@@ -1216,10 +1356,10 @@
    "url": "https://www.sundance-and-sausalito.com/featuredfloorplans/sundance-floor-plans",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/sundance-apartments/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/sundance-apartments/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/sundance-apartments/fingerprint.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/sundance-apartments/home.html"
+     "data/texas_am/raw/sundance-apartments/floorplans.html",
+     "data/texas_am/raw/sundance-apartments/floorplans2.html",
+     "data/texas_am/raw/sundance-apartments/fingerprint.html",
+     "data/texas_am/raw/sundance-apartments/home.html"
     ]
    },
    "detected_rows": 5,
@@ -1248,7 +1388,11 @@
    },
    "detected_rows": 4,
    "detected_priced": 4,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "crossing-place",
@@ -1261,7 +1405,11 @@
    "params": {},
    "detected_rows": 2,
    "detected_priced": 2,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "lakeridge-townhomes",
@@ -1273,10 +1421,10 @@
    "url": "https://kendrahudson.com/neighborhood/lakeridge-townhomes/",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/lakeridge-townhomes/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/lakeridge-townhomes/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/lakeridge-townhomes/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/lakeridge-townhomes/home.html"
+     "data/texas_am/raw/lakeridge-townhomes/floorplans.html",
+     "data/texas_am/raw/lakeridge-townhomes/floorplans2.html",
+     "data/texas_am/raw/lakeridge-townhomes/fpdetail.html",
+     "data/texas_am/raw/lakeridge-townhomes/home.html"
     ]
    },
    "detected_rows": 14,
@@ -1292,11 +1440,15 @@
    "backend": "headed_rescue",
    "url": "https://campusvillagecollegestationnew.prospectportal.com/college-station/campus-village-college-station/student/",
    "params": {
-    "file": "/Users/elijahwangchen/FML_rebuild/data/texas_am/rescues/campus-village-apartments.json"
+    "file": "data/texas_am/rescues/campus-village-apartments.json"
    },
    "detected_rows": 13,
    "detected_priced": 13,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "the-element-at-university-park",
@@ -1309,7 +1461,11 @@
    "params": {},
    "detected_rows": 12,
    "detected_priced": 0,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "dom",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "gateway-villas",
@@ -1333,7 +1489,11 @@
    },
    "detected_rows": 3,
    "detected_priced": 3,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "canyon-village-apartments",
@@ -1343,17 +1503,14 @@
    "source_id": "src_7971e6ac",
    "backend": "jsonld_offers",
    "url": "http://www.liveatcanyonvillage.com/floorplans/",
-   "params": {
-    "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/canyon-village-apartments/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/canyon-village-apartments/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/canyon-village-apartments/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/canyon-village-apartments/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 2,
    "detected_priced": 2,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "academic-village",
@@ -1363,17 +1520,14 @@
    "source_id": "src_b4b601dc",
    "backend": "jsonld_offers",
    "url": "https://bellpropertiesbcs.com/properties/3900-old-college-road-21-bryan-tx-77801-26000071",
-   "params": {
-    "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/academic-village/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/academic-village/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/academic-village/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/academic-village/home.html"
-    ]
-   },
+   "params": {},
    "detected_rows": 1,
    "detected_priced": 1,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "north-ramparts",
@@ -1385,10 +1539,10 @@
    "url": "https://www.bcsonlinerealestate.com/",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/north-ramparts/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/north-ramparts/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/north-ramparts/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/north-ramparts/home.html"
+     "data/texas_am/raw/north-ramparts/floorplans.html",
+     "data/texas_am/raw/north-ramparts/floorplans2.html",
+     "data/texas_am/raw/north-ramparts/fpdetail.html",
+     "data/texas_am/raw/north-ramparts/home.html"
     ]
    },
    "detected_rows": 1,
@@ -1405,10 +1559,10 @@
    "url": "https://www.midtown-foxmeadows.com/campus/midtown-townhomes/index.html",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/midtown-townhomes/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/midtown-townhomes/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/midtown-townhomes/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/midtown-townhomes/home.html"
+     "data/texas_am/raw/midtown-townhomes/floorplans.html",
+     "data/texas_am/raw/midtown-townhomes/floorplans2.html",
+     "data/texas_am/raw/midtown-townhomes/fpdetail.html",
+     "data/texas_am/raw/midtown-townhomes/home.html"
     ]
    },
    "detected_rows": 3,
@@ -1425,10 +1579,10 @@
    "url": "https://www.saddlewoodclubapts.com/floorplans.html",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/saddlewood-club/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/saddlewood-club/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/saddlewood-club/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/saddlewood-club/home.html"
+     "data/texas_am/raw/saddlewood-club/floorplans.html",
+     "data/texas_am/raw/saddlewood-club/floorplans2.html",
+     "data/texas_am/raw/saddlewood-club/fpdetail.html",
+     "data/texas_am/raw/saddlewood-club/home.html"
     ]
    },
    "detected_rows": 3,
@@ -1458,7 +1612,11 @@
    },
    "detected_rows": 4,
    "detected_priced": 4,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "broadstone-ranch-at-wolf-pen-creek",
@@ -1470,10 +1628,10 @@
    "url": "https://www.broadstoneranch.com/floor-plans",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/broadstone-ranch-at-wolf-pen-creek/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/broadstone-ranch-at-wolf-pen-creek/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/broadstone-ranch-at-wolf-pen-creek/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/broadstone-ranch-at-wolf-pen-creek/home.html"
+     "data/texas_am/raw/broadstone-ranch-at-wolf-pen-creek/floorplans.html",
+     "data/texas_am/raw/broadstone-ranch-at-wolf-pen-creek/floorplans2.html",
+     "data/texas_am/raw/broadstone-ranch-at-wolf-pen-creek/fpdetail.html",
+     "data/texas_am/raw/broadstone-ranch-at-wolf-pen-creek/home.html"
     ]
    },
    "detected_rows": 4,
@@ -1489,11 +1647,15 @@
    "backend": "headed_rescue",
    "url": "https://www.sundance-and-sausalito.com/featuredfloorplans/sausalito-floor-plans",
    "params": {
-    "file": "/Users/elijahwangchen/FML_rebuild/data/texas_am/rescues/sausalito-apartments.json"
+    "file": "data/texas_am/rescues/sausalito-apartments.json"
    },
    "detected_rows": 5,
    "detected_priced": 3,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "willow-oaks-apartments",
@@ -1505,10 +1667,10 @@
    "url": "https://www.willowoaksapt.com/floorplans",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/willow-oaks-apartments/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/willow-oaks-apartments/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/willow-oaks-apartments/fingerprint.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/willow-oaks-apartments/home.html"
+     "data/texas_am/raw/willow-oaks-apartments/floorplans.html",
+     "data/texas_am/raw/willow-oaks-apartments/floorplans2.html",
+     "data/texas_am/raw/willow-oaks-apartments/fingerprint.html",
+     "data/texas_am/raw/willow-oaks-apartments/home.html"
     ]
    },
    "detected_rows": 10,
@@ -1525,10 +1687,10 @@
    "url": "http://aggievillas.net/floor-plans/",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/cherry-hill-apartments/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/cherry-hill-apartments/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/cherry-hill-apartments/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/cherry-hill-apartments/home.html"
+     "data/texas_am/raw/cherry-hill-apartments/floorplans.html",
+     "data/texas_am/raw/cherry-hill-apartments/floorplans2.html",
+     "data/texas_am/raw/cherry-hill-apartments/fpdetail.html",
+     "data/texas_am/raw/cherry-hill-apartments/home.html"
     ]
    },
    "detected_rows": 1,
@@ -1558,7 +1720,11 @@
    },
    "detected_rows": 3,
    "detected_priced": 3,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "pearl-apartments-buildings-a-p",
@@ -1576,7 +1742,11 @@
    },
    "detected_rows": 1,
    "detected_priced": 1,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "the-vintage-at-college-station",
@@ -1588,10 +1758,10 @@
    "url": "https://www.vintageaptscollegestation.com/availability",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-vintage-at-college-station/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-vintage-at-college-station/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-vintage-at-college-station/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-vintage-at-college-station/home.html"
+     "data/texas_am/raw/the-vintage-at-college-station/floorplans.html",
+     "data/texas_am/raw/the-vintage-at-college-station/floorplans2.html",
+     "data/texas_am/raw/the-vintage-at-college-station/fpdetail.html",
+     "data/texas_am/raw/the-vintage-at-college-station/home.html"
     ]
    },
    "detected_rows": 4,
@@ -1608,10 +1778,10 @@
    "url": "https://www.willowickapt.com/floorplans",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-wick/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-wick/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-wick/fingerprint.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-wick/home.html"
+     "data/texas_am/raw/the-wick/floorplans.html",
+     "data/texas_am/raw/the-wick/floorplans2.html",
+     "data/texas_am/raw/the-wick/fingerprint.html",
+     "data/texas_am/raw/the-wick/home.html"
     ]
    },
    "detected_rows": 5,
@@ -1628,10 +1798,10 @@
    "url": "https://www.liveatvillawestbryan.com/floor-plans/",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/villa-west/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/villa-west/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/villa-west/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/villa-west/home.html"
+     "data/texas_am/raw/villa-west/floorplans.html",
+     "data/texas_am/raw/villa-west/floorplans2.html",
+     "data/texas_am/raw/villa-west/fpdetail.html",
+     "data/texas_am/raw/villa-west/home.html"
     ]
    },
    "detected_rows": 8,
@@ -1648,10 +1818,10 @@
    "url": "https://www.liveatarborsquarecollegestation.com/floor-plans/",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/arbor-square-apartments/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/arbor-square-apartments/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/arbor-square-apartments/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/arbor-square-apartments/home.html"
+     "data/texas_am/raw/arbor-square-apartments/floorplans.html",
+     "data/texas_am/raw/arbor-square-apartments/floorplans2.html",
+     "data/texas_am/raw/arbor-square-apartments/fpdetail.html",
+     "data/texas_am/raw/arbor-square-apartments/home.html"
     ]
    },
    "detected_rows": 2,
@@ -1669,7 +1839,11 @@
    "params": {},
    "detected_rows": 11,
    "detected_priced": 11,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "the-heights-at-college-station",
@@ -1681,10 +1855,10 @@
    "url": "https://www.theheightscs.com/floorplans/",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-heights-at-college-station/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-heights-at-college-station/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-heights-at-college-station/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-heights-at-college-station/home.html"
+     "data/texas_am/raw/the-heights-at-college-station/floorplans.html",
+     "data/texas_am/raw/the-heights-at-college-station/floorplans2.html",
+     "data/texas_am/raw/the-heights-at-college-station/fpdetail.html",
+     "data/texas_am/raw/the-heights-at-college-station/home.html"
     ]
    },
    "detected_rows": 9,
@@ -1701,10 +1875,10 @@
    "url": "https://charleston-mills.com/floorplans/",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/charleston-mills-luxury-townhomes/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/charleston-mills-luxury-townhomes/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/charleston-mills-luxury-townhomes/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/charleston-mills-luxury-townhomes/home.html"
+     "data/texas_am/raw/charleston-mills-luxury-townhomes/floorplans.html",
+     "data/texas_am/raw/charleston-mills-luxury-townhomes/floorplans2.html",
+     "data/texas_am/raw/charleston-mills-luxury-townhomes/fpdetail.html",
+     "data/texas_am/raw/charleston-mills-luxury-townhomes/home.html"
     ]
    },
    "detected_rows": 3,
@@ -1733,7 +1907,11 @@
    },
    "detected_rows": 9,
    "detected_priced": 9,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "camber-villas",
@@ -1748,7 +1926,11 @@
    },
    "detected_rows": 22,
    "detected_priced": 22,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "brazos-oaks",
@@ -1759,11 +1941,15 @@
    "backend": "headed_rescue",
    "url": "https://brazosoaksapts.com/floor-plans/",
    "params": {
-    "file": "/Users/elijahwangchen/FML_rebuild/data/texas_am/rescues/brazos-oaks.json"
+    "file": "data/texas_am/rescues/brazos-oaks.json"
    },
    "detected_rows": 7,
    "detected_priced": 7,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "caprock-crossing",
@@ -1776,7 +1962,11 @@
    "params": {},
    "detected_rows": 11,
    "detected_priced": 0,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "dom",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "soho-lofts-and-apartment-homes",
@@ -1788,10 +1978,10 @@
    "url": "http://www.oakforestmanagement.com/",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/soho-lofts-and-apartment-homes/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/soho-lofts-and-apartment-homes/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/soho-lofts-and-apartment-homes/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/soho-lofts-and-apartment-homes/home.html"
+     "data/texas_am/raw/soho-lofts-and-apartment-homes/floorplans.html",
+     "data/texas_am/raw/soho-lofts-and-apartment-homes/floorplans2.html",
+     "data/texas_am/raw/soho-lofts-and-apartment-homes/fpdetail.html",
+     "data/texas_am/raw/soho-lofts-and-apartment-homes/home.html"
     ]
    },
    "detected_rows": 4,
@@ -1809,7 +1999,11 @@
    "params": {},
    "detected_rows": 13,
    "detected_priced": 0,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "limestone-terrace-apartments",
@@ -1821,10 +2015,10 @@
    "url": "https://www.limestoneterrace.live/models",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/limestone-terrace-apartments/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/limestone-terrace-apartments/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/limestone-terrace-apartments/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/limestone-terrace-apartments/home.html"
+     "data/texas_am/raw/limestone-terrace-apartments/floorplans.html",
+     "data/texas_am/raw/limestone-terrace-apartments/floorplans2.html",
+     "data/texas_am/raw/limestone-terrace-apartments/fpdetail.html",
+     "data/texas_am/raw/limestone-terrace-apartments/home.html"
     ]
    },
    "detected_rows": 3,
@@ -1844,7 +2038,11 @@
    },
    "detected_rows": 21,
    "detected_priced": 10,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "eastmark-apartments",
@@ -1855,11 +2053,15 @@
    "backend": "headed_rescue",
    "url": "https://entrata.eastmarkaptsbcs.com/college-station/eastmark-apartments/conventional/",
    "params": {
-    "file": "/Users/elijahwangchen/FML_rebuild/data/texas_am/rescues/eastmark-apartments.json"
+    "file": "data/texas_am/rescues/eastmark-apartments.json"
    },
    "detected_rows": 5,
    "detected_priced": 4,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "fox-meadows-apartments",
@@ -1871,10 +2073,10 @@
    "url": "https://www.midtown-foxmeadows.com/campus/fox-meadows/index.html",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/fox-meadows-apartments/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/fox-meadows-apartments/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/fox-meadows-apartments/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/fox-meadows-apartments/home.html"
+     "data/texas_am/raw/fox-meadows-apartments/floorplans.html",
+     "data/texas_am/raw/fox-meadows-apartments/floorplans2.html",
+     "data/texas_am/raw/fox-meadows-apartments/fpdetail.html",
+     "data/texas_am/raw/fox-meadows-apartments/home.html"
     ]
    },
    "detected_rows": 3,
@@ -1891,10 +2093,10 @@
    "url": "https://www.envueapt.com/floorplans",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/envue-apartment/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/envue-apartment/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/envue-apartment/fingerprint.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/envue-apartment/home.html"
+     "data/texas_am/raw/envue-apartment/floorplans.html",
+     "data/texas_am/raw/envue-apartment/floorplans2.html",
+     "data/texas_am/raw/envue-apartment/fingerprint.html",
+     "data/texas_am/raw/envue-apartment/home.html"
     ]
    },
    "detected_rows": 4,
@@ -1914,7 +2116,11 @@
    },
    "detected_rows": 28,
    "detected_priced": 27,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "brazos-point-apartments",
@@ -1938,7 +2144,11 @@
    },
    "detected_rows": 1,
    "detected_priced": 1,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   },
   {
    "objectID": "charleston-mills-townhomes",
@@ -1950,10 +2160,10 @@
    "url": "https://charleston-mills.com/floorplans/",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/charleston-mills-townhomes/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/charleston-mills-townhomes/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/charleston-mills-townhomes/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/charleston-mills-townhomes/home.html"
+     "data/texas_am/raw/charleston-mills-townhomes/floorplans.html",
+     "data/texas_am/raw/charleston-mills-townhomes/floorplans2.html",
+     "data/texas_am/raw/charleston-mills-townhomes/fpdetail.html",
+     "data/texas_am/raw/charleston-mills-townhomes/home.html"
     ]
    },
    "detected_rows": 3,
@@ -1970,10 +2180,10 @@
    "url": "https://www.originalmanagement.net/vacancies",
    "params": {
     "html_files": [
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/31thirty-apartments/floorplans.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/31thirty-apartments/floorplans2.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/31thirty-apartments/fpdetail.html",
-     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/31thirty-apartments/home.html"
+     "data/texas_am/raw/31thirty-apartments/floorplans.html",
+     "data/texas_am/raw/31thirty-apartments/floorplans2.html",
+     "data/texas_am/raw/31thirty-apartments/fpdetail.html",
+     "data/texas_am/raw/31thirty-apartments/home.html"
     ]
    },
    "detected_rows": 11,
@@ -1997,7 +2207,11 @@
    },
    "detected_rows": 16,
    "detected_priced": 16,
-   "detected_at": "2026-11-18"
+   "detected_at": "2026-11-18",
+   "extractor_type": "http",
+   "source_type": "first_party",
+   "locked": true,
+   "locked_from": "texas_am_live_verified_2026-11-25"
   }
  ]
 }

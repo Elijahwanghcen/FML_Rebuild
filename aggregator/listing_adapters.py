@@ -230,25 +230,25 @@ def detect(b, meta, html_by_kind, cfg):
     if "floorplanslist" in low or "show-inclusive-fee-button" in low or 'id="fp-container-' in low or \
             ("resource.rentcafe.com" in low and 'class="card-title' in low):
         rd = cfg["dir"] / "raw" / meta.get("slug", "")
-        add("rentcafe_inline", fp_url, {"html_files": [str(rd / f"{k}.html") for k in ("floorplans", "floorplans2", "fingerprint", "home")]},
+        add("rentcafe_inline", fp_url, {"html_files": [repo_rel(rd / f"{k}.html") for k in ("floorplans", "floorplans2", "fingerprint", "home")]},
             "RentCafe page data (ysi JSON / fee buttons / fp-container cards)")
     if re.search(r'"@type"\s*:\s*"floorplan"', low):
         rd1 = cfg["dir"] / "raw" / meta.get("slug", "")
-        add("jsonld_floorplans", fp_url, {"html_files": [str(rd1 / f"{k}.html") for k in ("floorplans", "floorplans2", "home")]},
+        add("jsonld_floorplans", fp_url, {"html_files": [repo_rel(rd1 / f"{k}.html") for k in ("floorplans", "floorplans2", "home")]},
             "schema.org FloorPlan JSON-LD (name, size, beds, baths, layoutImage)")
     if "type-floor_plans" in low:
         rd2 = cfg["dir"] / "raw" / meta.get("slug", "")
-        add("elementor_fp_posts", fp_url, {"html_files": [str(rd2 / f"{k}.html") for k in ("floorplans", "floorplans2", "home")]},
+        add("elementor_fp_posts", fp_url, {"html_files": [repo_rel(rd2 / f"{k}.html") for k in ("floorplans", "floorplans2", "home")]},
             "WordPress Elementor 'floor_plans' post cards")
     if re.search(r'"@type"\s*:\s*"offer"', low):
         rd0 = cfg["dir"] / "raw" / meta.get("slug", "")
-        add("jsonld_offers", fp_url, {"html_files": [str(rd0 / f"{k}.html") for k in ("floorplans", "floorplans2", "fpdetail", "home")]},
+        add("jsonld_offers", fp_url, {"html_files": [repo_rel(rd0 / f"{k}.html") for k in ("floorplans", "floorplans2", "fpdetail", "home")]},
             "schema.org JSON-LD Offers in page")
     if re.search(r"(reslife|housing)\.[a-z]+\.edu/", fp_url or ""):
         # university rate page shared by every hall: pick this building's section by name
         nm = [re.sub(r"(?i)\b(apartments?|the|hall|of|at)\b", "", n).strip() for n in names]
         add("university_rates", fp_url, {"section_names": [x for x in nm if len(x) > 3],
-                                         "html_files": [str(cfg["dir"] / "raw" / meta.get("slug", "") / "floorplans.html")]},
+                                         "html_files": [repo_rel(cfg["dir"] / "raw" / meta.get("slug", "") / "floorplans.html")]},
             "university housing rate table, section by building name")
     # Entrata ProspectPortal: the plans live on /<city>/<property-slug>/(student|conventional)/, not on the marketing
     # "Floor Plans" page. The legacy UT scraper always pointed entrata_pp there (1883atx.com/austin/1883-at-cameron/student/).
@@ -349,12 +349,32 @@ def _dom(cand, env_extra):
     return j.get("rows", []), j.get("status", "ok")
 
 
+def repo_rel(path):
+    """Path as stored in listing_config.json: relative to the repo root, so a config works on any checkout."""
+    try:
+        return str(Path(path).resolve().relative_to(ROOT))
+    except ValueError:
+        return str(path)
+
+
+def _abs_params(params):
+    """Resolve repo-relative params.file / params.html_files against ROOT (configs store them relative)."""
+    params = dict(params or {})
+    fix = lambda f: f if os.path.isabs(f) else str(ROOT / f)
+    if isinstance(params.get("file"), str):
+        params["file"] = fix(params["file"])
+    if params.get("html_files"):
+        params["html_files"] = [fix(f) for f in params["html_files"]]
+    return params
+
+
 def _run(cand):
     """Run one adapter. Browser adapters that hit a Cloudflare wall are retried the way the legacy scraper got
     through: (1) headless, (2) headless with a persistent profile (clearance cookie survives between runs),
     (3) a visible browser with that profile. Interactive CAPTCHAs are never solved; those stay blocked and are
     flagged for a hand-saved rescue file (data/<campus>/rescues/<objectID>.json)."""
     backend = cand["backend"]
+    cand = dict(cand, params=_abs_params(cand.get("params")))
     try:
         if backend in DOM_BACKENDS:
             rows, status = [], "not_run"
@@ -1146,13 +1166,13 @@ def extract(b, meta, html_by_kind, cfg, basis_fn, log=None):
     if meta.get("slug") and (not best or best[0][0] == 0):
         # last deterministic step: printed plan lines on the saved pages (replaces most LLM page reads)
         before = best
-        files = [str(rd / f"{k}.html") for k in ("floorplans", "floorplans2", "fpdetail", "home")]
+        files = [repo_rel(rd / f"{k}.html") for k in ("floorplans", "floorplans2", "fpdetail", "home")]
         run_list([{"backend": "text_plan_list", "url": fpu or "", "params": {"html_files": files}, "why": "plan lines in page text"}])
         if before and best and best[3]["backend"] == "text_plan_list" and best[0][0] <= before[0][0]:
             best = before
     if resc.exists():               # local file, free: let it compete on priced rows with whatever the live run got
         run_list([{"backend": "headed_rescue", "url": json.loads(resc.read_text()).get("source_url") or fpu or "",
-                   "params": {"file": str(resc)}, "why": "hand-saved rescue file"}])
+                   "params": {"file": repo_rel(resc)}, "why": "hand-saved rescue file"}])
     if log:
         log(b["canonical_name"], tried)
     return (best[1], best[2], tried, best[3]) if best else ([], None, tried, None)

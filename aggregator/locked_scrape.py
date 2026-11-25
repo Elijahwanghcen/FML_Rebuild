@@ -27,14 +27,14 @@ def scrape_property(prop, backends=None):
     if saved_html_banned(prop):
         status = "error: saved_html_banned"
         return [failure_stub(status)], status, False
-    params = prop.get("params") or {}
+    import listing_adapters as LA
+    params = LA._abs_params(prop.get("params"))
     btype = backend_type(prop, backends)
     try:
         if btype == "http":
             rows = HX.EXTRACTORS[prop["backend"]](prop["url"], params)
             status = "ok"
         else:
-            import listing_adapters as LA
             rows, status = LA._run({"backend": prop["backend"], "url": prop["url"], "params": params})
             if status.startswith("ok") and rows:
                 status = "ok"

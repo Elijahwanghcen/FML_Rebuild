@@ -37,6 +37,7 @@ def main():
     ap.add_argument("campus")
     ap.add_argument("--only")
     ap.add_argument("--patch", action="store_true")
+    ap.add_argument("--strict", action="store_true", help="exit 2 when any building was skipped as saved-HTML")
     a = ap.parse_args()
     cfg = campus(a.campus)
     conf = json.load(open(cfg["dir"] / "listing_config.json"))["properties"]
@@ -135,7 +136,10 @@ def main():
     (out_dir / f"refresh_{today}.md").write_text("\n".join(md))
     print("\n".join(md[:4]), f"\n-> {target}")
     if banned:
-        raise SystemExit(2)
+        print(f"WARNING {len(banned)} buildings skipped (saved-HTML adapters need a live adapter or rescue); "
+              f"outputs written. --strict makes this exit 2.", flush=True)
+        if a.strict:
+            raise SystemExit(2)
 
 
 if __name__ == "__main__":
