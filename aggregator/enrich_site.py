@@ -91,7 +91,8 @@ def crawl(cfg, b):
     if named and not (seed and about(seed)) and not b.get("website_locked"):
         seed = named[0]
         meta["seed"], meta["seed_rule"] = seed, "building_named_url"
-    if seed:
+    if seed and not b.get("website_locked"):
+        # A locked pin may carry a lease-term query (?_lease_term=fall). Do not strip it.
         seed = seed.split("?")[0]
         cdir = cfg["dir"] / "cache" / "site" / slug
         home = fetch_html(seed, cdir)

@@ -20,6 +20,8 @@ from urllib.parse import urlparse
 from common import campus
 import listing_adapters as LA
 from enrich_listings import basis
+from listing_post import saved_html_banned
+from legacy_emit import property_record, scraped_stamps, unit_object_ids, write_legacy
 
 POLITE_DELAY_S = 4
 SWING = 0.15          # flag a building whose median rent moved more than 15%
@@ -49,18 +51,42 @@ def main():
         prev_by[u["property_objectID"]].append(u)
 
     raw_cache, last_host, units, log = {}, None, [], []
+    legacy_records, legacy_flat, legacy_ids = [], [], []
+    banned = []
+    scraped_at, scraped_ts, _day = scraped_stamps()
     for p in conf:
-        cand = {"backend": p["backend"], "url": p["url"], "params": p["params"]}
-        host = urlparse(p["url"]).netloc
-        key = (p["source_id"], json.dumps(p["params"], sort_keys=True))
+        params = p.get("params") or {}
+        cand = {"backend": p["backend"], "url": p["url"], "params": params}
+        host = urlparse(p["url"] or "").netloc
+        key = (p["source_id"], json.dumps(params, sort_keys=True), bool(p.get("locked")))
         if key not in raw_cache:
-            if host == last_host:
+            if host and host == last_host:
                 time.sleep(POLITE_DELAY_S)
             last_host = host
-            raw_cache[key] = LA._run(cand)
+            if saved_html_banned(p):
+                print(f"ERROR saved-html adapter banned for production: {p.get('property_name')} backend={p.get('backend')}", flush=True)
+                banned.append(p.get("property_name"))
+                raw_cache[key] = ([], "error: saved_html_banned")
+            elif p.get("locked"):
+                from locked_scrape import scrape_property
+                raw, status, _ok = scrape_property(p)
+                raw_cache[key] = (raw, status)
+            else:
+                raw_cache[key] = LA._run(cand)
         raw, status = raw_cache[key]
-        raw = [r for r in raw if (r.get("unit_or_floorplan_label") or "").strip() and not r["unit_or_floorplan_label"].startswith("(")]
-        rows = [LA.convert(r, cand, basis, p["building_type"]) for r in raw]
+        if p.get("locked"):
+            rec, csv_rows = property_record(p, raw, scraped_at, scraped_ts)
+            legacy_records.append(rec)
+            legacy_flat.extend(csv_rows)
+            made = unit_object_ids(rec["objectID"], rec["units"])
+            for item in made:
+                item["source_type"] = rec["source_type"]
+                item["property_name"] = rec["property_name"]
+            legacy_ids.extend(made)
+            rows = [LA.convert(r, cand, basis, p.get("building_type") or "apartment") for r in raw if (r.get("unit_or_floorplan_label") or "").strip()]
+        else:
+            raw = [r for r in raw if (r.get("unit_or_floorplan_label") or "").strip() and not str(r.get("unit_or_floorplan_label")).startswith("(")]
+            rows = [LA.convert(r, cand, basis, p.get("building_type")) for r in raw]
         if rows and any(not r.get("layout_image_url") for r in rows):
             # plan images from the build phase's saved pages (no new crawling, no plan-page follow-ups here)
             rd = cfg["dir"] / "raw" / p["objectID"]
@@ -85,6 +111,11 @@ def main():
                     "swing": bool(swing)})
         print(f"  {p['property_name'][:36]:36} {p['backend']:20} {status[:28]:28} rows={len(rows) if ok else 0}", flush=True)
 
+    if legacy_records:
+        write_legacy(legacy_records, legacy_flat, legacy_ids, out_dir, today)
+        print(f"legacy CSV+JSON: {len(legacy_records)} locked properties, {len(legacy_flat)} rows")
+    if banned:
+        print(f"ERROR {len(banned)} saved-html adapters refused: {', '.join(banned[:8])}", flush=True)
     target = out_dir / f"units_{today}.json"
     if a.patch and prev_files:
         ids = {p["objectID"] for p in conf}
@@ -103,6 +134,8 @@ def main():
           if x["ok"] and x["rows_before"] and abs(x["rows"] - x["rows_before"]) > max(3, 0.5 * x["rows_before"])]
     (out_dir / f"refresh_{today}.md").write_text("\n".join(md))
     print("\n".join(md[:4]), f"\n-> {target}")
+    if banned:
+        raise SystemExit(2)
 
 
 if __name__ == "__main__":

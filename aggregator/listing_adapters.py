@@ -48,6 +48,8 @@ FEED_MARKERS = [
     ("fp_units_modal_v2", r"floor-plan-units-modal-v2"),
     ("jsonld_floorplan", r'"@type"\s*:\s*"floorplan"'),
     ("elementor_fp_posts", r"type-floor_plans"),
+    ("leaseleads_terms", r"data-ll-floor-plan-lease-terms"),
+    ("gmh_floorplans", r"wp-json/gmh-student/floorplans"),
 ]
 
 # Parsers written for one manager's site layout. Host -> backend. Campus config "listing_adapters" adds to this.
@@ -151,6 +153,29 @@ def detect(b, meta, html_by_kind, cfg):
                 add("wp_entrata_json", fp_url, {"api_url": api}, "wp-json entrata endpoint answers")
         except Exception:
             pass
+        if "gmh-student" in low:
+            gmh = f"{origin}/wp-json/gmh-student/floorplans/categories"
+            try:
+                j = json.loads(HX.fetch(gmh))
+                if j:
+                    add("wp_entrata_json", fp_url, {"api_url": gmh}, "GMH floorplans categories (not the theme entrata path)")
+            except Exception:
+                pass
+    # LeaseLeads JSON is parsed by the synced villas_wp DOM extractor (FML_Data a953774).
+    # Do not also schedule leadeleads_terms here: an HTTP skim returns fewer rows and
+    # would skip the DOM parser once any priced row exists.
+    if "collegehouses.org" in (fp_url or ""):
+        house = re.sub(r"(?i)\b(the|house|co-?op)\b", " ", b.get("canonical_name") or "")
+        house = " ".join(house.split())
+        add("collegehouses_rates", "https://collegehouses.org/rates/", {"house": house.split()[0] if house else b.get("canonical_name")},
+            "college houses shared rates page; params.house picks the block")
+    if re.search(r"housing\.utexas\.edu", fp_url or ""):
+        if "nueces-rates" in fp_url or "2400-nueces" in fp_url:
+            add("ut_housing_nueces", fp_url, {}, "dedicated Nueces rate table")
+        elif "dobie" in fp_url:
+            add("ut_housing_dobie", fp_url, {}, "dedicated Dobie articles")
+        else:
+            add("ut_rates_table", fp_url, {}, "UT housing Type/Rate table")
     if re.search(r"cmssitemanager/callback\.aspx", low):
         add("realpage_cms_proxy", _https(fp_url), {}, "RealPage CMS proxy callback in page")
     m = re.search(r"sightmap\.com\\?/embed\\?/([a-z0-9]+)", low)
@@ -354,10 +379,74 @@ def _run(cand):
         return [], f"error: {str(e)[:120]}"
 
 
+def _keep_discovered_row(row):
+    """Drop blank labels. Keep an explicit unlisted placeholder (`(no public pricing...)`)."""
+    from listing_post import keep_row
+    return keep_row(row)
+
+
+def leadeleads_terms(url, params):
+    """Read LeaseLeads `data-ll-floor-plan-lease-terms` JSON. The old `.floor-plan-card` DOM parser matches nothing on these pages."""
+    html = ""
+    for f in (params or {}).get("html_files") or []:
+        try:
+            html += Path(f).read_text(errors="replace")
+        except OSError:
+            pass
+    if not html:
+        html = HX.fetch(url)
+    rows = []
+    for m in re.finditer(r"data-ll-floor-plan-lease-terms='(\[.*?\])'", html):
+        try:
+            terms = json.loads(m.group(1))
+        except json.JSONDecodeError:
+            continue
+        if not isinstance(terms, list) or not terms:
+            continue
+        window = html[max(0, m.start() - 2000):m.end() + 800]
+        name_m = re.search(r'data-ll-floor-plan-name="([^"]+)"', window) or re.search(r"<h[1-4][^>]*>\s*([^<]{2,80}?)\s*</h[1-4]>", window)
+        filters = {}
+        fm = re.search(r"data-filters='(\{.*?\})'", window)
+        if fm:
+            try:
+                filters = json.loads(fm.group(1))
+            except json.JSONDecodeError:
+                filters = {}
+        term = next((t for t in terms if "annual" in str(t.get("name") or "").lower()), terms[0])
+        base = term.get("base_rent")
+        total = term.get("price_with_fees")
+        if total == base:
+            total = ""
+        name = (name_m.group(1).strip() if name_m else "") or f"{filters.get('bedrooms', '?')} bed"
+        rows.append(HX._row(
+            unit_or_floorplan_label=re.sub(r"\s+", " ", name),
+            beds=filters.get("bedrooms", ""),
+            sqft=filters.get("size_min") or "",
+            base_rent="" if base in (None, "") else base,
+            total_price_with_mandatory_fees="" if total in (None, "") else total,
+            price_basis="base" if base not in (None, "") else "",
+            availability=filters.get("available_date") or "See site",
+            price_status="listed" if base not in (None, "") else "not_publicly_listed",
+        ))
+    return rows
+
+
+HX.EXTRACTORS["leadeleads_terms"] = leadeleads_terms
+
+
 def headed_rescue(url, params):
-    """Rows saved by hand from a real browser (legacy ingest_headed_rescues.py). File: {"source_url", "captured_at",
-    "rows": [legacy-schema rows]}. Used only when the live adapters return nothing."""
+    """Rows saved by hand from a real browser.
+
+    Legacy shape: {"source_url", "rows": [legacy rows]}.
+    Plan shape from ingest_headed_rescues.py: {"floor_plans": [...], "mode": "split_total"|...}.
+    Modes: split_total, base_only, promo_current, installment, unpriced, empty.
+    """
+    from rescue_prices import units_from_rescue
     d = json.loads(open(params["file"]).read())
+    mode = (params or {}).get("mode") or d.get("mode")
+    if d.get("floor_plans") or d.get("plans") or mode in ("empty", "marketing", "unpriced"):
+        rows = units_from_rescue(d, mode)
+        return [HX._row(**{k: v for k, v in r.items() if k in HX._row()}) for r in rows]
     return [HX._row(**{k: v for k, v in r.items() if k in HX._row()}) for r in d.get("rows", [])]
 
 
@@ -953,6 +1042,7 @@ NET_RULES = [
     (r"doorway-api\.knockrentals\.com/v1/property/(\w+)", "knock_doorway", lambda m, u: {"property_id": m.group(1)}),
     (r"/api/lightning/floorplans/(\d+)", "acc_lightning", lambda m, u: {"list_id": int(m.group(1))}),
     (r"https?://[^/]+/wp-json/theme/entrata/v1/floor-plans", "wp_entrata_json", lambda m, u: {"api_url": m.group(0)}),
+    (r"https?://[^/]+/wp-json/gmh-student/floorplans/categories", "wp_entrata_json", lambda m, u: {"api_url": m.group(0)}),
     (r"cmssitemanager/callback\.aspx", "realpage_cms_proxy", lambda m, u: {}),
     (r"inventory\.g5marketingcloud\.com/graphql", "g5_sniff", lambda m, u: {}),
     (r"cgsynergyapi[^/]*/api/community/([^/?#]+)", "cg_synergy", lambda m, u: {"domain": m.group(1)}),
@@ -999,6 +1089,9 @@ def convert(r, cand, basis_fn, btype):
     label = r.get("unit_or_floorplan_label") or ""
     avail = r.get("availability") or None
     pmin = _n(r.get("base_rent"))
+    if pmin is None:
+        # Total-only rows (Entrata "Total Monthly", no base) still count as priced.
+        pmin = _n(r.get("total_price_with_mandatory_fees"))
     if pmin is not None and pmin < HX.MIN_PLAUSIBLE_RENT:
         pmin = None
     rng = re.search(r"advertised range \$([\d.]+)-\$([\d.]+)", avail or "")
@@ -1035,7 +1128,7 @@ def extract(b, meta, html_by_kind, cfg, basis_fn, log=None):
             if is_dom and (got_dom or (best and best[0][0] > 0)):
                 continue
             raw, status = _run(cand)
-            raw = [r for r in raw if (r.get("unit_or_floorplan_label") or "").strip() and not (r.get("unit_or_floorplan_label") or "").startswith("(")]
+            raw = [r for r in raw if _keep_discovered_row(r)]
             rows = [convert(r, cand, basis_fn, b["building_type"]) for r in raw]
             tried.append({"backend": cand["backend"], "why": cand["why"], "status": status, "rows": len(rows),
                           "priced": sum(1 for r in rows if r["price_min"])})
