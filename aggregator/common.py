@@ -16,6 +16,34 @@ def load_env():
                 os.environ.setdefault(k.strip(), v.strip())
 
 
+# Listing aggregators (ILS) and campus directories built on them. They are NEVER a scraping destination for rent, floor plans,
+# amenities, photos or a building's website. Local realtor / property-manager firms (uptownrealtyaustin.com, westsidegroup.com ...)
+# are NOT in this list: they are the building's own leasing channel and are read like a first-party site.
+ILS_HOSTS = re.compile(
+    r"(^|\.)(rentcollegepads|zillow|redfin|realtor|trulia|hotpads|zumper|apartments|apartmentfinder|apartmentguide|apartmentlist|"
+    r"forrent|rent|rentable|padmapper|apartmentratings|rentals|homes|loopnet|costar|uloop|collegerentals|housingscout|"
+    r"studentrentals|airbnb|vrbo)\.(com|net|co|org)$|"
+    r"(^|\.)(housing\.offcampus|offcampus|offcampushousing|aggiesearch)\.[a-z.]+$|^housing\.offcampus\.", re.I)
+
+
+def is_ils(url, cfg=None):
+    """True when `url` is a listing aggregator or a campus off-campus directory (RentCollegePads / CoStar white-labels)."""
+    from urllib.parse import urlparse
+    u = url or ""
+    h = urlparse(u if "://" in u else "http://" + u).netloc.lower().replace("www.", "")
+    if not h:
+        return False
+    if ILS_HOSTS.search(h) or re.search(r"/housing/property/|/off-campus-housing/", u):
+        return True
+    if cfg:
+        extra = [x for k in ("rcp_urls", "ocp_base") for x in (cfg.get(k) if isinstance(cfg.get(k), list) else [cfg.get(k)]) if x]
+        for x in extra + list(cfg.get("ils_hosts", [])):
+            xh = urlparse(x if "://" in x else "http://" + x).netloc.lower().replace("www.", "")
+            if xh and (h == xh or h.endswith("." + xh)):
+                return True
+    return False
+
+
 def campus(slug):
     cfg = json.loads((ROOT / "campuses" / f"{slug}.json").read_text())
     cfg["slug"] = slug

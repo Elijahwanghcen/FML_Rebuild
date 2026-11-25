@@ -26,7 +26,7 @@ The weekly refresh must run `run.py` with **no or minimal LLM calls** — plain 
    - **Capture data per floor-plan / unit-type, not just per-property.** The same base floor plan often has multiple variants (e.g., "B1" vs. "B1-SHARED") with different prices, availability, and comments — each is a distinct row in the output.
    - **Treat each floor plan's status/comment field as first-class data, not noise.** These fields often mix availability status (e.g., "SOLD OUT," "1 spot left") with pricing promos (e.g., "FLASH SALE — LIMITED TIME"). Preserve the raw text in `concessions_raw` and attempt to separate the promo portion from the pure availability portion.
 3. **Fall back to the rendered DOM** only if no clean endpoint exists.
-4. **If no price is publicly shown**, set `price_status = not_publicly_listed`. Only then, as a fallback, check Apartments.com / Zillow / Rent.com for that property — and record `source_type` accordingly. Never scrape Reddit, Craigslist, or Facebook.
+4. **If no price is publicly shown**, set `price_status = not_publicly_listed` and stop. Do NOT fall back to Apartments.com / Zillow / Rent.com / RentCollegePads or any campus directory (rebuild rule, 2026-11-18). A local realtor / property-manager firm's own page for the building (e.g. Uptown Realty) is a valid source. Never scrape Reddit, Craigslist, or Facebook.
 
 ## Fields to capture (CSV schema)
 `property_name, address, unit_or_floorplan_label, beds, baths, sqft, base_rent, total_price_with_mandatory_fees, price_basis, concessions_raw, concessions_type, concessions_value, availability, layout_image_url, price_image_url, concessions_image_url, source_url, source_type, price_status, scraped_at`

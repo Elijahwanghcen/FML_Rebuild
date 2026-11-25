@@ -41,8 +41,14 @@
    "https://northpoint-crossing.com/photo-tour/"
   ],
   "n_amenities": 28,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "domain-northgate",
@@ -71,6 +77,7 @@
   "tier": "A",
   "reddit_threads": 4,
   "source_families": [
+   "overture",
    "places",
    "pm",
    "rcp"
@@ -86,8 +93,14 @@
    "https://www.domainatnorthgate.com/college-station-tx-apartments/domain-northgate/student/"
   ],
   "n_amenities": 24,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "lark-northgate",
@@ -130,8 +143,14 @@
    "https://larknorthgate.com/photo-tour/"
   ],
   "n_amenities": 30,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "park-west",
@@ -178,8 +197,14 @@
    "https://parkwestlife.com/gallery"
   ],
   "n_amenities": 27,
+  "entity_type": "community",
+  "identity_status": "KEEP",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "ion-college-station",
@@ -225,8 +250,14 @@
    "https://ion-collegestation.com/photo-tour/"
   ],
   "n_amenities": 34,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-rise-at-northgate",
@@ -270,8 +301,14 @@
    "https://www.riseatnorthgate.com/contact/"
   ],
   "n_amenities": 30,
+  "entity_type": "community",
+  "identity_status": "KEEP",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "university-square",
@@ -317,8 +354,14 @@
    "https://www.liveuniversitysquare.com/gallery"
   ],
   "n_amenities": 20,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-aria-at-college-station",
@@ -365,8 +408,14 @@
    "https://theariastudentliving.com/gallery/"
   ],
   "n_amenities": 16,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-zone",
@@ -411,8 +460,14 @@
    "https://www.zoneatcollegestation.com/college-station-college-station/the-zone-the-zone/photos/"
   ],
   "n_amenities": 32,
+  "entity_type": "community",
+  "identity_status": "KEEP",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "dwell-at-1600",
@@ -456,8 +511,14 @@
    "https://www.dwellat1600.com/photogallery"
   ],
   "n_amenities": 19,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-ivy-apartments",
@@ -501,8 +562,14 @@
    "https://www.liveativy.com/gallery/"
   ],
   "n_amenities": 13,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "rev-northgate-student-living",
@@ -548,8 +615,14 @@
    "https://revstudentliving.com/gallery/"
   ],
   "n_amenities": 29,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-doce-student-living",
@@ -595,8 +668,14 @@
    "https://www.thedocestudentliving.com/gallery"
   ],
   "n_amenities": 24,
+  "entity_type": "community",
+  "identity_status": "KEEP",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "university-trails",
@@ -641,14 +720,21 @@
    "https://www.utrailscollegestation.com/gallery/"
   ],
   "n_amenities": 29,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "woodlands-of-college-station",
   "canonical_name": "Woodlands of College Station",
   "aliases": [
-   "1725 Harvey Mitchell Parkway S"
+   "1725 Harvey Mitchell Parkway S",
+   "Top student apartment in college station"
   ],
   "address": "1725 Harvey Mitchell Pky S, College Station, TX",
   "lat": 30.591474,
@@ -688,8 +774,14 @@
    "https://www.woodlandsofcollegestation.com/gallery"
   ],
   "n_amenities": 24,
+  "entity_type": "community",
+  "identity_status": "KEEP",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "west-university-gardens",
@@ -728,14 +820,20 @@
    "http://www.westugardens.com/",
    "https://www.westugardens.com/amenities/",
    "https://www.westugardens.com/amenities/",
-   "https://www.westugardens.com/gallery/",
-   "https://www.westugardens.com/gallery/",
+   "https://www.westugardens.com/floorplans/",
+   "https://www.westugardens.com/floorplans/",
    "https://www.westugardens.com/gallery/",
    "https://www.westugardens.com/gallery/"
   ],
   "n_amenities": 17,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-grand-1501",
@@ -781,8 +879,14 @@
    "https://www.thegrand1501.com/gallery/"
   ],
   "n_amenities": 15,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "aggie-station-apartments",
@@ -819,8 +923,14 @@
    "https://www.americancampus.com/student-apartments/tx/college-station/aggie-station/floor-plans"
   ],
   "n_amenities": 0,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "stadium-view-apartments",
@@ -863,8 +973,14 @@
    "https://www.livestadiumview.com/gallery"
   ],
   "n_amenities": 15,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-lory-of-college-station",
@@ -907,8 +1023,14 @@
    "http://www.pointonredmond.com/gallery"
   ],
   "n_amenities": 19,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-enclave",
@@ -951,8 +1073,14 @@
    "https://www.enclaveatcollegestation.com/college-station-college-station/the-enclave-the-enclave/photos/"
   ],
   "n_amenities": 25,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "reveille-ranch",
@@ -994,8 +1122,14 @@
    "https://www.reveilleranchapartments.com/bryan/reveille-ranch/floorplans/1x1-611050/fp_name/occupancy_type/student/lease_start_window[id]/10068/lease_term[id]/8040/space_configuration_id/28/"
   ],
   "n_amenities": 21,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "global-college-station",
@@ -1039,8 +1173,14 @@
    "https://globalcollegestation.com/"
   ],
   "n_amenities": 20,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "parkway-circle-apartments",
@@ -1084,8 +1224,14 @@
    "https://www.liveatparkwaycirclecollegestation.com/photos/"
   ],
   "n_amenities": 23,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "redpoint-at-college-station",
@@ -1102,7 +1248,7 @@
   "dist_campus_m": 2862,
   "units_est": 2,
   "floors_est": 1,
-  "website_url": "https://www.retreatcollegestation.com/",
+  "website_url": "https://redpoint-collegestation.com/",
   "management_company": null,
   "site_platform": [
    "entrata",
@@ -1118,18 +1264,24 @@
    "rcp"
   ],
   "source_urls": [
-   "https://www.retreatcollegestation.com/",
-   "https://www.retreatcollegestation.com/",
-   "https://www.retreatcollegestation.com/features/",
-   "https://www.retreatcollegestation.com/community-map",
-   "https://www.retreatcollegestation.com/rates-floorplans",
-   "https://www.retreatcollegestation.com/rates-floorplans/",
-   "https://www.retreatcollegestation.com/photo-tour/",
-   "https://www.retreatcollegestation.com/360-virtual-tour"
+   "https://redpoint-collegestation.com/",
+   "https://redpoint-collegestation.com/",
+   "https://redpoint-collegestation.com/features/",
+   "https://redpoint-collegestation.com/features/",
+   "https://redpoint-collegestation.com/rates-floorplans",
+   "https://redpoint-collegestation.com/rates-floorplans/",
+   "https://redpoint-collegestation.com/photo-tour/",
+   "https://redpoint-collegestation.com/photo-tour/"
   ],
   "n_amenities": 14,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "KEEP",
+  "needs_review": false,
+  "website_source_type": "official_property",
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "holleman-crossing",
@@ -1173,8 +1325,14 @@
    "https://www.hollemancrossing.com/gallery/"
   ],
   "n_amenities": 25,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "aspire-reserve",
@@ -1218,8 +1376,14 @@
    "https://aspirereserve.com/gallery/"
   ],
   "n_amenities": 31,
+  "entity_type": "community",
+  "identity_status": "KEEP",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-tradition",
@@ -1238,10 +1402,14 @@
   "dist_campus_m": 750,
   "units_est": 116,
   "floors_est": null,
-  "website_url": "http://www.livethetradition.com/",
+  "website_url": "https://live12north.com/",
   "management_company": null,
-  "site_platform": [],
-  "site_status": "no_website",
+  "site_platform": [
+   "entrata",
+   "leaseleads",
+   "wordpress"
+  ],
+  "site_status": "blocked_or_empty",
   "photos": [],
   "student_score": 8.5,
   "tier": "A",
@@ -1251,11 +1419,24 @@
    "places"
   ],
   "source_urls": [
-   "http://www.livethetradition.com/"
+   "https://live12north.com/",
+   "https://live12north.com/",
+   "https://live12north.com/amenities/",
+   "https://live12north.com/amenities/",
+   "https://live12north.com/floor-plans/",
+   "https://live12north.com/floor-plans/",
+   "https://live12north.com/gallery/",
+   "https://live12north.com/gallery/"
   ],
   "n_amenities": 0,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "yugo-apex-college-station",
@@ -1278,7 +1459,6 @@
   "website_url": "https://yugo.com/en-us/global/united-states-of-america/college-station-tx/apex?utm_source=google&utm_medium=gmb&utm_campaign=apex",
   "management_company": null,
   "site_platform": [
-   "entrata",
    "yugo"
   ],
   "site_status": "ok",
@@ -1293,14 +1473,17 @@
   "source_urls": [
    "https://yugo.com/en-us/global/united-states-of-america/college-station-tx/apex?utm_source=google&utm_medium=gmb&utm_campaign=apex",
    "https://yugo.com/en-us/global/united-states-of-america/college-station-tx/apex",
-   "https://yugo.com/en-us/live-your-best-life",
-   "https://yugo.com/en-us/live-your-best-life",
-   "https://yugo.com/en-us/837584-837584",
    "https://yugo.com/en-us/global/united-states-of-america/college-station-tx/apex/rooms"
   ],
   "n_amenities": 33,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "KEEP",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "100-park",
@@ -1343,8 +1526,14 @@
    "https://www.100parkliving.com/photogallery"
   ],
   "n_amenities": 20,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "cambridge-hall-at-college-station",
@@ -1388,8 +1577,14 @@
    "https://www.cambridgehallcs.com/gallery/"
   ],
   "n_amenities": 24,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "walden-pond-apartments",
@@ -1432,8 +1627,14 @@
    "https://www.liveatwaldenpondcollegestation.com/photos/"
   ],
   "n_amenities": 23,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-ridge",
@@ -1464,6 +1665,7 @@
   "tier": "A",
   "reddit_threads": 2,
   "source_families": [
+   "overture",
    "places",
    "rcp"
   ],
@@ -1477,8 +1679,14 @@
    "https://www.ridgeapartments.com/college-station/the-ridge/floorplans/a2-elite-989942/fp_name/occupancy_type/conventional/"
   ],
   "n_amenities": 23,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "lory-of-bryan",
@@ -1521,8 +1729,14 @@
    "https://www.loryofbryan.com/gallery"
   ],
   "n_amenities": 25,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-junction-at-college-station",
@@ -1565,8 +1779,14 @@
    "https://thejunctionatcollegestation.com/gallery/"
   ],
   "n_amenities": 33,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-cottages-of-college-station",
@@ -1609,8 +1829,14 @@
    "https://www.thecottagesofcollegestation.com/gallery/"
   ],
   "n_amenities": 35,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "university-heights",
@@ -1627,10 +1853,10 @@
   "dist_campus_m": 4920,
   "units_est": 13,
   "floors_est": 1,
-  "website_url": "https://aggiesearch.tamu.edu/housing/property/x/c66b5sf",
+  "website_url": "https://brickandparcel.com/",
   "management_company": null,
   "site_platform": [],
-  "site_status": "no_website",
+  "site_status": "ok",
   "photos": [],
   "student_score": 8.5,
   "tier": "A",
@@ -1640,11 +1866,18 @@
    "rcp"
   ],
   "source_urls": [
-   "https://aggiesearch.tamu.edu/housing/property/x/c66b5sf"
+   "https://brickandparcel.com/",
+   "https://brickandparcel.com/"
   ],
   "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-harbor-at-the-barracks",
@@ -1687,8 +1920,14 @@
    "https://theharborbcs.com/gallery/"
   ],
   "n_amenities": 20,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-barracks-townhomes",
@@ -1731,8 +1970,14 @@
    "https://barrackstownhomes.com/gallery/"
   ],
   "n_amenities": 15,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-stack-at-legacy-point",
@@ -1774,8 +2019,14 @@
    "https://stackstudentliving.com/gallery/"
   ],
   "n_amenities": 28,
+  "entity_type": "community",
+  "identity_status": "KEEP",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "ever-college-station",
@@ -1794,24 +2045,44 @@
   "dist_campus_m": 816,
   "units_est": null,
   "floors_est": null,
-  "website_url": "https://aggiesearch.tamu.edu/housing/property/x/8ks5tn2",
+  "website_url": "https://evercollegestation.com/",
   "management_company": null,
-  "site_platform": [],
-  "site_status": "no_website",
+  "site_platform": [
+   "entrata",
+   "knock",
+   "realpage",
+   "rentcafe_yardi",
+   "wordpress"
+  ],
+  "site_status": "ok",
   "photos": [],
   "student_score": 7.5,
   "tier": "A",
   "reddit_threads": 1,
   "source_families": [
    "overture",
+   "places",
    "rcp"
   ],
   "source_urls": [
-   "https://aggiesearch.tamu.edu/housing/property/x/8ks5tn2"
+   "https://evercollegestation.com/",
+   "https://evercollegestation.com/",
+   "https://evercollegestation.com/features/",
+   "https://evercollegestation.com/features/",
+   "https://evercollegestation.com/floor-plans/",
+   "https://evercollegestation.com/floor-plans/",
+   "https://evercollegestation.com/gallery/",
+   "https://evercollegestation.com/gallery/"
   ],
   "n_amenities": 0,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "cherry-street",
@@ -1852,8 +2123,14 @@
    "https://cherrystreetapts.com/photo-tour/"
   ],
   "n_amenities": 22,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "otto-northgate",
@@ -1895,8 +2172,14 @@
    "https://ottostudentliving.com/gallery/"
   ],
   "n_amenities": 41,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "hudson",
@@ -1928,11 +2211,20 @@
   ],
   "source_urls": [
    "https://www.thehudsonnorthgate.com/",
-   "https://www.thehudsonnorthgate.com/"
+   "https://www.thehudsonnorthgate.com/",
+   "https://hudsonnorthgate.com/features/",
+   "https://hudsonnorthgate.com/rates-floorplans/",
+   "https://hudsonnorthgate.com/photo-tour/"
   ],
   "n_amenities": 5,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "u-centre-at-northgate",
@@ -1969,8 +2261,14 @@
    "https://www.americancampus.com/student-apartments/tx/college-station/u-centre-at-northgate/floor-plans"
   ],
   "n_amenities": 26,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-gardens-apartments",
@@ -2018,8 +2316,14 @@
    "https://reslife.tamu.edu/residence-hall-3d-tours/"
   ],
   "n_amenities": 27,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "college-main-apartments",
@@ -2062,51 +2366,14 @@
    "https://www.liveatcollegemaincollegestation.com/photos/"
   ],
   "n_amenities": 14,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
- },
- {
-  "objectID": "howdy-apartments",
-  "canonical_name": "Howdy Apartments",
-  "aliases": [
-   "University Terrace Apartments",
-   "Cherry Block"
-  ],
-  "address": "1700 George Bush Dr #309, College Station, TX 77840, USA",
-  "lat": 30.617033,
-  "lng": -96.323128,
-  "coord_method": "nad_address+footprint_centroid",
-  "coord_review": false,
-  "google_place_id": "ChIJVU-bEGRs9WAROkfwTryH7JM",
-  "property_type": "student_housing",
-  "area": "Wolf Pen Creek",
-  "dist_campus_m": 1706,
-  "units_est": 171,
-  "floors_est": 2,
-  "website_url": "https://howdyapartments.com/",
-  "management_company": null,
-  "site_platform": [
-   "wordpress"
-  ],
-  "site_status": "ok",
-  "photos": [],
-  "student_score": 7.5,
-  "tier": "A",
-  "reddit_threads": 2,
-  "source_families": [
-   "places",
-   "pm"
-  ],
-  "source_urls": [
-   "https://howdyapartments.com/",
-   "https://howdyapartments.com/",
-   "https://howdyapartments.com/grant/apts",
-   "https://howdyapartments.com/grant/tours",
-   "https://howdyapartments.com/grant/tours"
-  ],
-  "n_amenities": 0,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "scandia-apartments",
@@ -2152,8 +2419,14 @@
    "https://www.liveatscandiacollegestation.com/photos/"
   ],
   "n_amenities": 18,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-gables-apartments",
@@ -2170,10 +2443,13 @@
   "dist_campus_m": 2168,
   "units_est": 6,
   "floors_est": 2,
-  "website_url": "https://aggiesearch.tamu.edu/housing/property/x/1br7z35",
+  "website_url": "https://www.liveatgablescollegestation.com/",
   "management_company": null,
-  "site_platform": [],
-  "site_status": "no_website",
+  "site_platform": [
+   "realpage",
+   "wordpress"
+  ],
+  "site_status": "ok",
   "photos": [],
   "student_score": 7.5,
   "tier": "A",
@@ -2182,11 +2458,24 @@
    "rcp"
   ],
   "source_urls": [
-   "https://aggiesearch.tamu.edu/housing/property/x/1br7z35"
+   "https://www.liveatgablescollegestation.com/",
+   "https://www.liveatgablescollegestation.com/",
+   "https://www.liveatgablescollegestation.com/amenities/",
+   "https://www.liveatgablescollegestation.com/amenities/",
+   "https://www.liveatgablescollegestation.com/floor-plans/",
+   "https://www.liveatgablescollegestation.com/floor-plans/",
+   "https://www.liveatgablescollegestation.com/photos/",
+   "https://www.liveatgablescollegestation.com/photos/"
   ],
   "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "KEEP",
+  "needs_review": false,
+  "website_source_type": "official_property",
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "arbors-at-wolf-pen-creek",
@@ -2232,8 +2521,14 @@
    "https://www.myarbors.com/photogallery"
   ],
   "n_amenities": 20,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "sonoma-apartments",
@@ -2272,8 +2567,14 @@
    "https://www.sonomaapartmenthomes.com/gallery/"
   ],
   "n_amenities": 11,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "residence-at-oakmont-apartments",
@@ -2315,8 +2616,14 @@
    "https://www.residenceatoakmont.com/gallery/"
   ],
   "n_amenities": 26,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "honcho-student-apartments",
@@ -2359,8 +2666,14 @@
    "https://livehoncho.com/contact/"
   ],
   "n_amenities": 38,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-jay-college-station",
@@ -2403,13 +2716,21 @@
    "https://www.thejaycollegestation.com/gallery/"
   ],
   "n_amenities": 29,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
-  "objectID": "the-penny",
-  "canonical_name": "The Penny",
-  "aliases": [],
+  "objectID": "the-penny-on-college-main",
+  "canonical_name": "The Penny on College Main",
+  "aliases": [
+   "The Penny"
+  ],
   "address": "415 College Main, College Station, TX",
   "lat": 30.621026,
   "lng": -96.348156,
@@ -2421,23 +2742,39 @@
   "dist_campus_m": 912,
   "units_est": 5,
   "floors_est": 2,
-  "website_url": "https://aggiesearch.tamu.edu/housing/property/x/crv24xf",
+  "website_url": "https://www.livethepenny.com/",
   "management_company": null,
-  "site_platform": [],
-  "site_status": "no_website",
+  "site_platform": [
+   "squarespace"
+  ],
+  "site_status": "ok",
   "photos": [],
   "student_score": 6.5,
   "tier": "A",
   "reddit_threads": 1,
   "source_families": [
+   "places",
    "rcp"
   ],
   "source_urls": [
-   "https://aggiesearch.tamu.edu/housing/property/x/crv24xf"
+   "https://www.livethepenny.com/",
+   "https://www.livethepenny.com/",
+   "https://www.livethepenny.com/amenities",
+   "https://www.livethepenny.com/amenities-gallery",
+   "https://www.livethepenny.com/floor-plans",
+   "https://www.livethepenny.com/floor-plans",
+   "https://www.livethepenny.com/amenities-gallery",
+   "https://www.livethepenny.com/apartment-gallery"
   ],
   "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "KEEP",
+  "needs_review": false,
+  "website_source_type": "official_property",
+  "property_status": "planned",
+  "leasing_office_address": "1025 University Dr #106, College Station, TX 77840",
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-callaway-house",
@@ -2473,8 +2810,14 @@
    "https://www.americancampus.com/student-apartments/tx/college-station/the-callaway-house/floor-plans"
   ],
   "n_amenities": 26,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "callaway-villas",
@@ -2511,8 +2854,14 @@
    "https://www.americancampus.com/student-apartments/tx/college-station/callaway-villas/floor-plans"
   ],
   "n_amenities": 27,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "country-place-apartment-homes",
@@ -2545,11 +2894,18 @@
    "http://countryplaceapts.net/",
    "http://countryplaceapts.net/",
    "http://countryplaceapts.net/amenities/",
-   "http://countryplaceapts.net/floor-plans/"
+   "http://countryplaceapts.net/floorplans/",
+   "http://countryplaceapts.net/availability/"
   ],
   "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "southgate-village-apartments",
@@ -2591,8 +2947,14 @@
    "https://www.southgate-village-apartments.com/photogallery"
   ],
   "n_amenities": 7,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "sierra-condos",
@@ -2634,8 +2996,14 @@
    "http://sierracondosbcs.com/gallery/"
   ],
   "n_amenities": 13,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "holleman-oaks",
@@ -2675,16 +3043,20 @@
    "https://www.hollemanoaksapts.com/gallery/"
   ],
   "n_amenities": 8,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-atrium",
   "canonical_name": "The Atrium",
   "aliases": [
-   "Campus View College Station",
-   "Pearl Apartments",
-   "The Marc"
+   "Pearl Apartments"
   ],
   "address": "505 Harvey Rd, College Station, TX 77840, USA",
   "lat": 30.619264,
@@ -2697,7 +3069,7 @@
   "dist_campus_m": 2472,
   "units_est": 1,
   "floors_est": 1,
-  "website_url": "https://stayus.cfd/atrium-retreat-k2636u",
+  "website_url": null,
   "management_company": null,
   "site_platform": [],
   "site_status": "no_website",
@@ -2710,12 +3082,16 @@
    "places",
    "reddit"
   ],
-  "source_urls": [
-   "https://stayus.cfd/atrium-retreat-k2636u"
-  ],
+  "source_urls": [],
   "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "REVIEW",
+  "needs_review": true,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "redstone-apartments",
@@ -2758,8 +3134,14 @@
    "https://www.liveatredstonecollegestation.com/photos/"
   ],
   "n_amenities": 16,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-lofts-at-wolf-pen-creek",
@@ -2800,8 +3182,14 @@
    "https://www.loftsatwolfpen.com/gallery"
   ],
   "n_amenities": 39,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-jane-at-college-station",
@@ -2844,8 +3232,14 @@
    "https://www.livethejane.com/gallery"
   ],
   "n_amenities": 23,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "KEEP",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "regency-gardens",
@@ -2862,10 +3256,10 @@
   "dist_campus_m": 4737,
   "units_est": null,
   "floors_est": null,
-  "website_url": "https://aggiesearch.tamu.edu/housing/property/x/2n8lszc",
+  "website_url": "https://www.liveregencygardens.com/",
   "management_company": null,
   "site_platform": [],
-  "site_status": "no_website",
+  "site_status": "ok",
   "photos": [],
   "student_score": 6.5,
   "tier": "A",
@@ -2874,11 +3268,24 @@
    "rcp"
   ],
   "source_urls": [
-   "https://aggiesearch.tamu.edu/housing/property/x/2n8lszc"
+   "https://www.liveregencygardens.com/",
+   "https://www.liveregencygardens.com/",
+   "https://www.liveregencygardens.com/amenities/",
+   "https://www.liveregencygardens.com/amenities/",
+   "https://www.liveregencygardens.com/floorplans/",
+   "https://www.liveregencygardens.com/floorplans/",
+   "https://www.liveregencygardens.com/gallery/",
+   "https://www.liveregencygardens.com/gallery/"
   ],
   "n_amenities": 0,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "KEEP",
+  "needs_review": false,
+  "website_source_type": "official_property",
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "fifteen12",
@@ -2926,41 +3333,14 @@
    "https://fifteen12bryanapts.com/gallery/"
   ],
   "n_amenities": 21,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
- },
- {
-  "objectID": "quiet-setteled-subdivision-in-sumitt-crossing",
-  "canonical_name": "Quiet setteled subdivision in Sumitt Crossing",
-  "aliases": [],
-  "address": "3810 Black Hawk Lane, College Station, TX",
-  "lat": 30.6497,
-  "lng": -96.28495,
-  "coord_method": "pin_unverified",
-  "coord_review": true,
-  "google_place_id": null,
-  "property_type": "apartment",
-  "area": null,
-  "dist_campus_m": 6549,
-  "units_est": null,
-  "floors_est": null,
-  "website_url": "https://aggiesearch.tamu.edu/housing/property/x/ocpehhhhvm",
-  "management_company": null,
-  "site_platform": [],
-  "site_status": "no_website",
-  "photos": [],
-  "student_score": 6.5,
-  "tier": "A",
-  "reddit_threads": 3,
-  "source_families": [
-   "rcp"
-  ],
-  "source_urls": [
-   "https://aggiesearch.tamu.edu/housing/property/x/ocpehhhhvm"
-  ],
-  "n_amenities": 0,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "soco-at-tower-point",
@@ -3005,72 +3385,14 @@
    "https://www.socotowerpoint.com/gallery"
   ],
   "n_amenities": 28,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
- },
- {
-  "objectID": "gardens-community-center",
-  "canonical_name": "Gardens Community Center",
-  "aliases": [],
-  "address": "9 Calvin Moore Ave, College Station, TX 77840, USA",
-  "lat": 30.62673,
-  "lng": -96.340242,
-  "coord_method": "places_pin+footprint_centroid",
-  "coord_review": false,
-  "google_place_id": "ChIJZRcDM-uDRoYRCI5cfP9hCIQ",
-  "property_type": "apartment",
-  "area": "Northgate",
-  "dist_campus_m": 1211,
-  "units_est": 40,
-  "floors_est": 2,
-  "website_url": null,
-  "management_company": null,
-  "site_platform": [],
-  "site_status": "no_website",
-  "photos": [],
-  "student_score": 6.0,
-  "tier": "A",
-  "reddit_threads": 4,
-  "source_families": [
-   "places"
-  ],
-  "source_urls": [],
-  "n_amenities": 0,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
- },
- {
-  "objectID": "ever-college-station",
-  "canonical_name": "EVER College Station",
-  "aliases": [],
-  "address": "321 University Dr, College Station, TX 77840, USA",
-  "lat": 30.618225,
-  "lng": -96.346163,
-  "coord_method": "nad_address+footprint_centroid",
-  "coord_review": false,
-  "google_place_id": "ChIJ2fASqbKDRoYR0smXAOtnpWk",
-  "property_type": "apartment",
-  "area": "Northgate",
-  "dist_campus_m": 547,
-  "units_est": 76,
-  "floors_est": 2,
-  "website_url": "https://aggiesearch.tamu.edu/housing/property/x/8ks5tn2",
-  "management_company": null,
-  "site_platform": [],
-  "site_status": "no_website",
-  "photos": [],
-  "student_score": 5.5,
-  "tier": "A",
-  "reddit_threads": 1,
-  "source_families": [
-   "places"
-  ],
-  "source_urls": [
-   "https://aggiesearch.tamu.edu/housing/property/x/8ks5tn2"
-  ],
-  "n_amenities": 0,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "warehouse-and-factory-apartments-at-northgate",
@@ -3111,8 +3433,14 @@
    "https://www.warehouseandfactory.com/contact"
   ],
   "n_amenities": 21,
+  "entity_type": "community",
+  "identity_status": "KEEP",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "aggie-villas",
@@ -3147,13 +3475,20 @@
    "http://aggievillas.net/",
    "http://aggievillas.net/amenities/",
    "http://aggievillas.net/floor-plans/",
+   "http://aggievillas.net/floorplans/",
    "http://aggievillas.net/?page_id=250",
    "http://aggievillas.net/?page_id=250",
    "http://aggievillas.net/floor-plans/index.php"
   ],
   "n_amenities": 3,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "university-rents",
@@ -3192,8 +3527,14 @@
    "https://universityrents.com/"
   ],
   "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "thomas-park-lofts",
@@ -3234,8 +3575,14 @@
    "https://patriarchpm.com/wp-content/uploads/2024/01/thomas-park-lofts-college-station-tx-primary-photo.jpg"
   ],
   "n_amenities": 8,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "park-place-apartments",
@@ -3271,8 +3618,14 @@
    "https://www.parkplacecollegestation.com/apartments"
   ],
   "n_amenities": 8,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "white-creek-apartments",
@@ -3315,8 +3668,14 @@
    "https://reslife.tamu.edu/residence-hall-3d-tours/"
   ],
   "n_amenities": 15,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "village-on-the-creek-condos",
@@ -3349,13 +3708,19 @@
    "https://collegestationhomesource.com/search/condo_search/",
    "https://collegestationhomesource.com/search/condo_search/",
    "https://collegestationhomesource.com/search/condo_search/amenities/",
-   "https://collegestationhomesource.com/search/amenities/",
+   "https://collegestationhomesource.com/amenities/",
    "https://collegestationhomesource.com/search/condo_search/floor-plans/",
-   "https://collegestationhomesource.com/search/floor-plans/"
+   "https://collegestationhomesource.com/search/condo_search/floorplans/"
   ],
   "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "eastgate-apartments",
@@ -3398,51 +3763,14 @@
    "https://www.eastgatebcs.com/gallery"
   ],
   "n_amenities": 13,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
- },
- {
-  "objectID": "domain-northgate",
-  "canonical_name": "Domain Northgate",
-  "aliases": [],
-  "address": "101 Church Ave",
-  "lat": 30.617582,
-  "lng": -96.349161,
-  "coord_method": "nad_address+footprint_centroid",
-  "coord_review": true,
-  "google_place_id": null,
-  "property_type": "apartment",
-  "area": "Wolf Pen Creek",
-  "dist_campus_m": 1864,
-  "units_est": 95,
-  "floors_est": null,
-  "website_url": "https://domainatnorthgate.com/?switch_cls[id]=65377&utm_source=google%20-%20entrataseo&utm_medium=organic&utm_campaign=gmb&utm_content=websiteclick",
-  "management_company": null,
-  "site_platform": [
-   "entrata",
-   "sightmap"
-  ],
-  "site_status": "ok",
-  "photos": [],
-  "student_score": 5.5,
-  "tier": "A",
-  "reddit_threads": 4,
-  "source_families": [
-   "overture"
-  ],
-  "source_urls": [
-   "https://domainatnorthgate.com/?switch_cls[id]=65377&utm_source=google%20-%20entrataseo&utm_medium=organic&utm_campaign=gmb&utm_content=websiteclick",
-   "https://domainatnorthgate.com/",
-   "https://www.domainatnorthgate.com/college-station-tx-apartments/domain-northgate/amenities/",
-   "https://www.domainatnorthgate.com/college-station-tx-apartments/domain-northgate/amenities/",
-   "https://www.domainatnorthgate.com/college-station-tx-apartments/domain-northgate/student/",
-   "https://www.domainatnorthgate.com/college-station-tx-apartments/domain-northgate/student/",
-   "https://www.domainatnorthgate.com/college-station-tx-apartments/domain-northgate/photos/",
-   "https://www.domainatnorthgate.com/college-station-tx-apartments/domain-northgate/student/"
-  ],
-  "n_amenities": 24,
-  "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "berkeley-house",
@@ -3477,8 +3805,14 @@
    "https://www.liveberkeleyhouse.com/"
   ],
   "n_amenities": 9,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "tower-park-apartments",
@@ -3514,8 +3848,14 @@
    "http://www.towerparkapts.com/tower-park-apartments-gallery/"
   ],
   "n_amenities": 17,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "z-islander",
@@ -3556,8 +3896,14 @@
    "https://zislander.com/photo-tour/"
   ],
   "n_amenities": 24,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "u-club-townhomes-on-marion-pugh",
@@ -3593,8 +3939,14 @@
    "https://www.americancampus.com/student-apartments/tx/college-station/u-club-townhomes-on-marion-pugh/floor-plans"
   ],
   "n_amenities": 30,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-landing-college-station",
@@ -3637,8 +3989,14 @@
    "https://thelandingcollegestation.com/gallery/"
   ],
   "n_amenities": 26,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "hidden-bridge-condominiums",
@@ -3673,8 +4031,14 @@
    "https://hiddenbridgecoa.org"
   ],
   "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "copper-creek-condos",
@@ -3694,10 +4058,12 @@
   "dist_campus_m": 2739,
   "units_est": 6,
   "floors_est": 2,
-  "website_url": "https://bealbcshoa.com/managed_community/copper-creek/",
+  "website_url": "https://longitudebcs.com/search/listing/301-southwest-pkwy-unit-328-college-station-tx--25003613/",
   "management_company": null,
-  "site_platform": [],
-  "site_status": "no_website",
+  "site_platform": [
+   "wordpress"
+  ],
+  "site_status": "ok",
   "photos": [],
   "student_score": 5.5,
   "tier": "A",
@@ -3707,11 +4073,18 @@
    "pm"
   ],
   "source_urls": [
-   "https://bealbcshoa.com/managed_community/copper-creek/"
+   "https://longitudebcs.com/search/listing/301-southwest-pkwy-unit-328-college-station-tx--25003613/",
+   "https://longitudebcs.com/search/listing/301-southwest-pkwy-unit-328-college-station-tx--25003613/"
   ],
   "n_amenities": 0,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "condo_community",
+  "identity_status": "KEEP_UNIT_SOURCE",
+  "needs_review": false,
+  "website_source_type": "local_broker_unit",
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "madison-pointe-apartments",
@@ -3747,12 +4120,19 @@
    "https://madisonpointeapts.com/",
    "https://madisonpointeapts.com/amenities/",
    "https://madisonpointeapts.com/floor-plans/",
+   "https://madisonpointeapts.com/floorplans/",
    "https://madisonpointeapts.com/schedule-a-tour/",
    "https://madisonpointeapts.com/schedule-a-tour/"
   ],
   "n_amenities": 14,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "sundance-apartments",
@@ -3793,8 +4173,14 @@
    "https://www.sundance-and-sausalito.com/photogallery"
   ],
   "n_amenities": 16,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "hillstone-on-the-parkway",
@@ -3830,15 +4216,19 @@
   "source_urls": [
    "https://www.twincityproperties.com/hillstone",
    "https://www.twincityproperties.com/hillstone",
-   "https://www.twincityproperties.com/new-page",
-   "https://www.twincityproperties.com/new-page",
    "https://www.twincityproperties.com/${t6(e)}",
    "http://www.hillstoneparkway.com/",
    "https://twincityproperties.com/hillstone"
   ],
   "n_amenities": 5,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "river-oaks-townhomes",
@@ -3877,8 +4267,14 @@
    "https://kendrahudson.com/neighborhood/river-oaks-townhomes/"
   ],
   "n_amenities": 8,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "crossing-place",
@@ -3920,8 +4316,14 @@
    "https://www.crossingplacecollegestation.com/gallery"
   ],
   "n_amenities": 24,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "lakeridge-townhomes",
@@ -3959,13 +4361,17 @@
    "https://kendrahudson.com/neighborhood/lakeridge-townhomes/",
    "https://kendrahudson.com/neighborhood/lakeridge-townhomes/",
    "https://kendrahudson.com/life-in-bcs/",
-   "https://kendrahudson.com/life-in-bcs/",
-   "https://kendrahudson.com/neighborhood/lakeridge-townhomes/floor-plans/",
-   "https://kendrahudson.com/neighborhood/floor-plans/"
+   "https://kendrahudson.com/life-in-bcs/"
   ],
   "n_amenities": 15,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "campus-village-apartments",
@@ -4007,8 +4413,14 @@
    "http://www.campusvillageatcollegestation.com/gallery"
   ],
   "n_amenities": 32,
+  "entity_type": "community",
+  "identity_status": "KEEP",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "huntington-apartments",
@@ -4041,8 +4453,14 @@
    "http://www.dtiproperties.com/"
   ],
   "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-element-at-university-park",
@@ -4085,8 +4503,14 @@
    "https://www.theelementuniversitypark.com/apartments/tx/bryan/photo-gallery"
   ],
   "n_amenities": 17,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "gateway-villas",
@@ -4120,12 +4544,17 @@
   ],
   "source_urls": [
    "http://www.aggielandproperties.com/",
-   "http://www.aggielandproperties.com/",
-   "http://www.aggielandproperties.com/floor-plans/"
+   "http://www.aggielandproperties.com/"
   ],
   "n_amenities": 0,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "canyon-village-apartments",
@@ -4166,8 +4595,14 @@
    "http://www.liveatcanyonvillage.com/gallery/"
   ],
   "n_amenities": 13,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "galleria-village",
@@ -4200,8 +4635,14 @@
    "http://www.galleriavillage.com/"
   ],
   "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "agtech-gardens",
@@ -4218,10 +4659,13 @@
   "dist_campus_m": 1446,
   "units_est": 6,
   "floors_est": 2,
-  "website_url": null,
+  "website_url": "https://agtechgardens.managebuilding.com/Resident/public/home",
   "management_company": null,
-  "site_platform": [],
-  "site_status": "no_website",
+  "site_platform": [
+   "buildium",
+   "realpage"
+  ],
+  "site_status": "ok",
   "photos": [],
   "student_score": 5.0,
   "tier": "A",
@@ -4229,10 +4673,19 @@
   "source_families": [
    "places"
   ],
-  "source_urls": [],
+  "source_urls": [
+   "https://agtechgardens.managebuilding.com/Resident/public/home",
+   "https://agtechgardens.managebuilding.com/Resident/public/home"
+  ],
   "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "KEEP",
+  "needs_review": false,
+  "website_source_type": "manager_portal",
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "academic-village",
@@ -4249,10 +4702,10 @@
   "dist_campus_m": 2229,
   "units_est": 41,
   "floors_est": 2,
-  "website_url": null,
+  "website_url": "https://bellpropertiesbcs.com/properties/3900-old-college-road-21-bryan-tx-77801-26000071",
   "management_company": null,
   "site_platform": [],
-  "site_status": "no_website",
+  "site_status": "ok",
   "photos": [],
   "student_score": 5.0,
   "tier": "A",
@@ -4260,10 +4713,20 @@
   "source_families": [
    "places"
   ],
-  "source_urls": [],
+  "source_urls": [
+   "https://bellpropertiesbcs.com/properties/3900-old-college-road-21-bryan-tx-77801-26000071",
+   "https://bellpropertiesbcs.com/properties/3900-old-college-road-21-bryan-tx-77801-26000071",
+   "https://bellpropertiesbcs.com/properties/{{permalink}}"
+  ],
   "n_amenities": 0,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "KEEP_UNIT_SOURCE",
+  "needs_review": false,
+  "website_source_type": "local_broker_unit",
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-commons",
@@ -4296,15 +4759,21 @@
   "source_urls": [
    "https://reslife.tamu.edu/commons-hall/",
    "https://reslife.tamu.edu/commons-hall/",
-   "https://reslife.tamu.edu",
+   "https://reslife.tamu.edu/amenities/",
    "https://reslife.tamu.edu",
    "https://reslife.tamu.edu/rates/",
    "https://reslife.tamu.edu/rates/",
    "https://reslife.tamu.edu/tours/"
   ],
   "n_amenities": 6,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "north-ramparts",
@@ -4337,8 +4806,14 @@
    "https://www.bcsonlinerealestate.com/"
   ],
   "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "northgate-proper",
@@ -4378,8 +4853,14 @@
    "https://precisionpropertymanagement.appfolio.com/listings/detail/8b0536b5-d889-41ba-86b9-e41df6da6d0e"
   ],
   "n_amenities": 19,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "979-north",
@@ -4414,12 +4895,17 @@
   "source_urls": [
    "http://www.agshacks.com/",
    "http://www.agshacks.com/",
-   "http://www.agshacks.com/amenities/",
-   "http://www.agshacks.com/floor-plans/"
+   "http://www.agshacks.com/amenities/"
   ],
   "n_amenities": 2,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "northgate-lofts",
@@ -4453,8 +4939,14 @@
    "https://brickandparcel.com/"
   ],
   "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "treehouse-apartments-and-condominiums",
@@ -4484,12 +4976,17 @@
   ],
   "source_urls": [
    "https://treehouseapartmentscstx.com/",
-   "https://treehouseapartmentscstx.com/",
-   "https://treehouseapartmentscstx.com/floor-plans/"
+   "https://treehouseapartmentscstx.com/"
   ],
   "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "midtown-townhomes",
@@ -4506,10 +5003,10 @@
   "dist_campus_m": 2162,
   "units_est": 12,
   "floors_est": 2,
-  "website_url": "https://www.midtown-foxmeadows.com/",
+  "website_url": "https://www.midtown-foxmeadows.com/campus/midtown-townhomes/index.html",
   "management_company": null,
   "site_platform": [],
-  "site_status": "blocked_or_empty",
+  "site_status": "ok",
   "photos": [],
   "student_score": 4.5,
   "tier": "A",
@@ -4519,16 +5016,18 @@
    "pm"
   ],
   "source_urls": [
-   "https://www.midtown-foxmeadows.com/",
-   "https://www.midtown-foxmeadows.com/",
-   "https://www.midtown-foxmeadows.com/campus/fox-meadows/index.html",
-   "https://www.midtown-foxmeadows.com/campus/fox-meadows/index.html",
-   "https://www.midtown-foxmeadows.com/contact.html",
-   "https://www.midtown-foxmeadows.com/contact.html"
+   "https://www.midtown-foxmeadows.com/campus/midtown-townhomes/index.html",
+   "https://www.midtown-foxmeadows.com/campus/midtown-townhomes/index.html"
   ],
   "n_amenities": 0,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "KEEP",
+  "needs_review": false,
+  "website_source_type": "official_property",
+  "property_status": "open",
+  "leasing_office_address": "1612 Holleman Dr #F, College Station, TX 77840",
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "saddlewood-club",
@@ -4570,8 +5069,14 @@
    "https://www.saddlewoodclubapts.com/gallery.html"
   ],
   "n_amenities": 12,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "university-place-condominiums",
@@ -4605,13 +5110,18 @@
   "source_urls": [
    "http://www.equitybcs.com",
    "http://www.equitybcs.com",
-   "http://www.equitybcs.com/floor-plans/",
    "https://www.equitybcs.com/photo-album/",
    "https://www.equitybcs.com/photo-album/"
   ],
   "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "fox-run-condominiums",
@@ -4645,12 +5155,17 @@
   "source_urls": [
    "https://www.foxruncondos.net/",
    "https://www.foxruncondos.net/",
-   "https://www.foxruncondos.net/floor-plans/",
    "https://kendrahudson.com/neighborhood/fox-run-condos/"
   ],
   "n_amenities": 6,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "cedar-creek-apartments",
@@ -4688,15 +5203,18 @@
    "http://www.cedarbcs.com/",
    "http://www.cedarbcs.com/",
    "http://www.cedarbcs.com/amenities/",
-   "http://cedarbcs.com/floorplans/",
-   "http://cedarbcs.com/floorplans/",
    "http://cedarbcs.com/gallery/",
-   "http://cedarbcs.com/gallery/",
-   "http://cedarbcs.com/floorplans/brook-3d-floorplan-and-virtual-tour/"
+   "http://cedarbcs.com/gallery/"
   ],
   "n_amenities": 14,
+  "entity_type": "community",
+  "identity_status": "REVIEW",
+  "needs_review": true,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "richmond-ridge-townhomes",
@@ -4739,8 +5257,14 @@
    "https://richmondridge.com/"
   ],
   "n_amenities": 11,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "broadstone-ranch-at-wolf-pen-creek",
@@ -4778,8 +5302,14 @@
    "https://www.broadstoneranch.com/gallery"
   ],
   "n_amenities": 8,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "hunters-point-apartments",
@@ -4822,8 +5352,14 @@
    "https://www.hunterspointapts.com/gallery"
   ],
   "n_amenities": 11,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "sausalito-apartments",
@@ -4864,8 +5400,14 @@
    "https://www.sundance-and-sausalito.com/photogallery"
   ],
   "n_amenities": 16,
+  "entity_type": "community",
+  "identity_status": "KEEP",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "willow-oaks-apartments",
@@ -4906,109 +5448,14 @@
    "https://www.willowoaksapt.com/scheduletour"
   ],
   "n_amenities": 20,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
- },
- {
-  "objectID": "parkway-place-apartments",
-  "canonical_name": "Parkway Place Apartments",
-  "aliases": [],
-  "address": "1350 Harvey Mitchell Pkwy S, College Station, TX 77840, USA",
-  "lat": 30.584101,
-  "lng": -96.344885,
-  "coord_method": "nad_address+footprint_centroid",
-  "coord_review": true,
-  "google_place_id": null,
-  "property_type": "apartment",
-  "area": "Holleman",
-  "dist_campus_m": 3341,
-  "units_est": 20,
-  "floors_est": 2,
-  "website_url": "https://www.theparkwaylife.com/?switch_cls[id]=65688&utm_source=a53_gbp_website&utm_medium=organic",
-  "management_company": null,
-  "site_platform": [
-   "entrata",
-   "jonah"
-  ],
-  "site_status": "ok",
-  "photos": [],
-  "student_score": 4.5,
-  "tier": "A",
-  "reddit_threads": 4,
-  "source_families": [
-   "reddit"
-  ],
-  "source_urls": [
-   "https://www.theparkwaylife.com/?switch_cls[id]=65688&utm_source=a53_gbp_website&utm_medium=organic",
-   "https://www.theparkwaylife.com/"
-  ],
-  "n_amenities": 4,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
- },
- {
-  "objectID": "top-student-apartment-in-college-station",
-  "canonical_name": "Top student apartment in college station",
-  "aliases": [],
-  "address": "1725 Harvey Mitchell Parkway South # 1613, College Station, TX",
-  "lat": 30.590244,
-  "lng": -96.32409,
-  "coord_method": "nad_address+footprint_centroid",
-  "coord_review": true,
-  "google_place_id": null,
-  "property_type": "student_housing",
-  "area": "Holleman",
-  "dist_campus_m": 3508,
-  "units_est": 31,
-  "floors_est": 3,
-  "website_url": "https://aggiesearch.tamu.edu/housing/property/x/ocptw7tnk9",
-  "management_company": null,
-  "site_platform": [],
-  "site_status": "no_website",
-  "photos": [],
-  "student_score": 4.5,
-  "tier": "A",
-  "reddit_threads": 0,
-  "source_families": [
-   "rcp"
-  ],
-  "source_urls": [
-   "https://aggiesearch.tamu.edu/housing/property/x/ocptw7tnk9"
-  ],
-  "n_amenities": 0,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
- },
- {
-  "objectID": "university-apartments-community-center-3198",
-  "canonical_name": "University Apartments Community Center - 3198",
-  "aliases": [],
-  "address": null,
-  "lat": 30.62673,
-  "lng": -96.340242,
-  "coord_method": "places_pin+footprint_centroid",
-  "coord_review": false,
-  "google_place_id": "ChIJ6aOeNOuDRoYR-SRAm1jNo44",
-  "property_type": "apartment",
-  "area": "Northgate",
-  "dist_campus_m": 1208,
-  "units_est": 40,
-  "floors_est": 2,
-  "website_url": null,
-  "management_company": null,
-  "site_platform": [],
-  "site_status": "no_website",
-  "photos": [],
-  "student_score": 4.0,
-  "tier": "A",
-  "reddit_threads": 1,
-  "source_families": [
-   "places"
-  ],
-  "source_urls": [],
-  "n_amenities": 0,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "cayman-crossing-apartments",
@@ -5038,48 +5485,14 @@
   ],
   "source_urls": [],
   "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "KEEP",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
- },
- {
-  "objectID": "memorial-student-center-msc",
-  "canonical_name": "Memorial Student Center (MSC)",
-  "aliases": [],
-  "address": "275 Joe Routt Blvd, College Station, TX 77843, USA",
-  "lat": 30.612274,
-  "lng": -96.341457,
-  "coord_method": "nad_address+footprint_centroid",
-  "coord_review": false,
-  "google_place_id": "ChIJSYHRVJiDRoYRHSLC-CcTMZA",
-  "property_type": "student_housing",
-  "area": "Southside",
-  "dist_campus_m": 408,
-  "units_est": 853,
-  "floors_est": 4,
-  "website_url": "https://ucenter.tamu.edu/facilities/memorial-student-center/",
-  "management_company": null,
-  "site_platform": [
-   "wordpress"
-  ],
-  "site_status": "ok",
-  "photos": [],
-  "student_score": 3.5,
-  "tier": "B",
-  "reddit_threads": 0,
-  "source_families": [
-   "places"
-  ],
-  "source_urls": [
-   "https://ucenter.tamu.edu/facilities/memorial-student-center/",
-   "https://ucenter.tamu.edu/facilities/memorial-student-center/",
-   "https://ucenter.tamu.edu/facilities/memorial-student-center/floor-plans/",
-   "https://ucenter.tamu.edu/facilities/floor-plans/",
-   "https://ucenter.tamu.edu/ucengallery/",
-   "https://ucenter.tamu.edu/ucengallery/"
-  ],
-  "n_amenities": 1,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "cherry-hill-apartments",
@@ -5114,52 +5527,20 @@
    "http://aggievillas.net/?p=95",
    "http://aggievillas.net/amenities/",
    "http://aggievillas.net/floor-plans/",
+   "http://aggievillas.net/floorplans/",
    "http://aggievillas.net/?page_id=250",
    "http://aggievillas.net/?page_id=250",
    "http://aggievillas.net/floor-plans/index.php"
   ],
   "n_amenities": 4,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
- },
- {
-  "objectID": "aggieland-apartment-finders",
-  "canonical_name": "Aggieland Apartment Finders",
-  "aliases": [],
-  "address": "123 Walton Dr, College Station, TX 77840, USA",
-  "lat": 30.624261,
-  "lng": -96.329586,
-  "coord_method": "nad_address+footprint_centroid",
-  "coord_review": false,
-  "google_place_id": "ChIJa089YIyDRoYRwYMUq73fNdM",
-  "property_type": "apartment",
-  "area": "Eastgate",
-  "dist_campus_m": 1465,
-  "units_est": 16,
-  "floors_est": 1,
-  "website_url": "https://www.aggielandapartmentfinders.com/",
-  "management_company": null,
-  "site_platform": [
-   "squarespace",
-   "wordpress"
-  ],
-  "site_status": "ok",
-  "photos": [],
-  "student_score": 3.5,
-  "tier": "B",
-  "reddit_threads": 0,
-  "source_families": [
-   "places"
-  ],
-  "source_urls": [
-   "https://www.aggielandapartmentfinders.com/",
-   "https://www.aggielandapartmentfinders.com/",
-   "https://www.aggielandapartmentfinders.com/search-apartments/",
-   "https://www.aggielandapartmentfinders.com/search-apartments/"
-  ],
-  "n_amenities": 0,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "holleman-by-the-park",
@@ -5205,8 +5586,14 @@
    "https://www.hollemanbythepark.com"
   ],
   "n_amenities": 13,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "pearl-apartments-buildings-a-p",
@@ -5223,10 +5610,12 @@
   "dist_campus_m": 2531,
   "units_est": 14,
   "floors_est": 2,
-  "website_url": "http://pearlapt.com/",
-  "management_company": null,
-  "site_platform": [],
-  "site_status": "no_website",
+  "website_url": "https://originalgroup.appfolio.com/listings/detail/d8e124c8-89a7-4334-a500-a96b8aa1e12d",
+  "management_company": "Original Management",
+  "site_platform": [
+   "appfolio"
+  ],
+  "site_status": "ok",
   "photos": [],
   "student_score": 3.5,
   "tier": "B",
@@ -5235,11 +5624,22 @@
    "places"
   ],
   "source_urls": [
-   "http://pearlapt.com/"
+   "https://originalgroup.appfolio.com/listings/detail/d8e124c8-89a7-4334-a500-a96b8aa1e12d",
+   "https://originalgroup.appfolio.com/listings/detail/d8e124c8-89a7-4334-a500-a96b8aa1e12d",
+   "https://originalgroup.appfolio.com/listings/detail/amenities/",
+   "https://originalgroup.appfolio.com/listings/",
+   "https://originalgroup.appfolio.com/listings/detail/floor-plans/",
+   "https://originalgroup.appfolio.com/listings/detail/dc8859a7-fecb-4a88-a87f-266ccd77ec6d"
   ],
   "n_amenities": 0,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "KEEP_UNIT_SOURCE",
+  "needs_review": false,
+  "website_source_type": "manager_portal",
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "517-southwest-parkway",
@@ -5271,11 +5671,18 @@
    "https://amymelesky.jlarealty.com/",
    "https://amymelesky.jlarealty.com/",
    "https://amymelesky.jlarealty.com/amenities/",
-   "https://amymelesky.jlarealty.com/floor-plans/"
+   "https://amymelesky.jlarealty.com/floor-plans/",
+   "https://amymelesky.jlarealty.com/floorplans/"
   ],
   "n_amenities": 3,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-vintage-at-college-station",
@@ -5313,11 +5720,18 @@
    "https://www.vintageaptscollegestation.com/",
    "https://www.vintageaptscollegestation.com/availability",
    "https://www.vintageaptscollegestation.com/availability",
+   "https://www.vintageaptscollegestation.com/listings/detail/8c88b969-1cce-4671-af3e-f1059343ec99",
    "http://vintageatcollegestation.com/"
   ],
   "n_amenities": 26,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-grove-at-southwood",
@@ -5360,8 +5774,14 @@
    "http://www.grovesouthwood.com/gallery"
   ],
   "n_amenities": 18,
+  "entity_type": "community",
+  "identity_status": "KEEP",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "cripple-creek-condominiums",
@@ -5381,12 +5801,10 @@
   "dist_campus_m": 2882,
   "units_est": 10,
   "floors_est": 2,
-  "website_url": "https://motelus.cyou/cripple-creek-condominiums-ptd2u7",
+  "website_url": null,
   "management_company": null,
-  "site_platform": [
-   "wordpress"
-  ],
-  "site_status": "ok",
+  "site_platform": [],
+  "site_status": "no_website",
   "photos": [],
   "student_score": 3.5,
   "tier": "B",
@@ -5395,13 +5813,16 @@
    "places",
    "pm"
   ],
-  "source_urls": [
-   "https://motelus.cyou/cripple-creek-condominiums-ptd2u7",
-   "https://kendrahudson.com/neighborhood/cripple-creek-condos/"
-  ],
+  "source_urls": [],
   "n_amenities": 6,
+  "entity_type": "condo_community",
+  "identity_status": "KEEP_UNIT_SOURCE",
+  "needs_review": false,
+  "website_source_type": "none",
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-wick",
@@ -5443,8 +5864,14 @@
    "https://www.willowickapt.com/scheduletour"
   ],
   "n_amenities": 20,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "villa-west",
@@ -5486,8 +5913,14 @@
    "https://www.liveatvillawestbryan.com/photos/"
   ],
   "n_amenities": 9,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "woodstock-condos",
@@ -5524,11 +5957,18 @@
   "source_urls": [
    "http://bhhscaliber.com/",
    "http://bhhscaliber.com/",
-   "http://bhhscaliber.com/floor-plans/"
+   "http://bhhscaliber.com/floor-plans/",
+   "http://bhhscaliber.com/floorplans/"
   ],
   "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "arbor-square-apartments",
@@ -5570,57 +6010,21 @@
    "https://www.liveatarborsquarecollegestation.com/photos/"
   ],
   "n_amenities": 16,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
- },
- {
-  "objectID": "the-ridge",
-  "canonical_name": "The Ridge",
-  "aliases": [],
-  "address": "2250 Dartmouth St",
-  "lat": 30.614855,
-  "lng": -96.307773,
-  "coord_method": "nad_address+footprint_centroid",
-  "coord_review": true,
-  "google_place_id": null,
-  "property_type": "apartment",
-  "area": "Wolf Pen Creek",
-  "dist_campus_m": 3312,
-  "units_est": 23,
-  "floors_est": 2,
-  "website_url": "https://www.ridgeapartments.com/?switch_cls[id]=67805&utm_source=gmb&utm_medium=organic",
-  "management_company": null,
-  "site_platform": [
-   "entrata",
-   "realpage",
-   "rentcafe_yardi",
-   "sightmap"
-  ],
-  "site_status": "ok",
-  "photos": [],
-  "student_score": 3.5,
-  "tier": "B",
-  "reddit_threads": 2,
-  "source_families": [
-   "overture"
-  ],
-  "source_urls": [
-   "https://www.ridgeapartments.com/?switch_cls[id]=67805&utm_source=gmb&utm_medium=organic",
-   "https://www.ridgeapartments.com/",
-   "https://www.ridgeapartments.com/college-station/the-ridge/amenities/",
-   "https://www.ridgeapartments.com/college-station/the-ridge/conventional/",
-   "https://www.ridgeapartments.com/college-station/the-ridge/photos/",
-   "https://www.ridgeapartments.com/college-station/the-ridge/guest-card/contact-us/1",
-   "https://www.ridgeapartments.com/college-station/the-ridge/floorplans/a2-elite-989942/fp_name/occupancy_type/conventional/"
-  ],
-  "n_amenities": 23,
-  "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "sterling-college-station",
   "canonical_name": "Sterling College Station",
-  "aliases": [],
+  "aliases": [
+   "Parkway Place Apartments"
+  ],
   "address": "1300 Harvey Mitchell Pkwy S, College Station, TX 77840, USA",
   "lat": 30.584561,
   "lng": -96.342032,
@@ -5645,7 +6049,8 @@
   "tier": "B",
   "reddit_threads": 1,
   "source_families": [
-   "places"
+   "places",
+   "reddit"
   ],
   "source_urls": [
    "http://sterlingcollegestation.com/?utm_source=Google&utm_medium=Google%20Business%20Profile&utm_campaign=rebrand&utm_term=student%20apartments%20college%20station",
@@ -5658,13 +6063,22 @@
    "http://sterlingcollegestation.com/gallery/"
   ],
   "n_amenities": 26,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
-  "objectID": "aspen-heights-college-station",
-  "canonical_name": "Aspen Heights College Station",
-  "aliases": [],
+  "objectID": "the-heights-at-college-station",
+  "canonical_name": "The Heights at College Station",
+  "aliases": [
+   "Aspen Heights College Station",
+   "Aspen Heights"
+  ],
   "address": "3055 Holleman Drive S",
   "lat": 30.582645,
   "lng": -96.32844,
@@ -5676,10 +6090,13 @@
   "dist_campus_m": 3903,
   "units_est": 2,
   "floors_est": null,
-  "website_url": "https://www.myaspenheights.com/our-locations/college-station",
+  "website_url": "https://www.theheightscs.com/",
   "management_company": null,
-  "site_platform": [],
-  "site_status": "no_website",
+  "site_platform": [
+   "entrata",
+   "wordpress"
+  ],
+  "site_status": "ok",
   "photos": [],
   "student_score": 3.5,
   "tier": "B",
@@ -5688,11 +6105,24 @@
    "overture"
   ],
   "source_urls": [
-   "https://www.myaspenheights.com/our-locations/college-station"
+   "https://www.theheightscs.com/",
+   "https://www.theheightscs.com/",
+   "https://www.theheightscs.com/amenities/",
+   "https://www.theheightscs.com/amenities/",
+   "https://www.theheightscs.com/floorplans/",
+   "https://www.theheightscs.com/floorplans/",
+   "https://www.theheightscs.com/gallery/",
+   "https://www.theheightscs.com/gallery/"
   ],
   "n_amenities": 0,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "KEEP",
+  "needs_review": false,
+  "website_source_type": "official_property",
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "charleston-mills-luxury-townhomes",
@@ -5734,8 +6164,14 @@
    "https://charleston-mills.com/gallery/"
   ],
   "n_amenities": 18,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "oak-ridge-condos",
@@ -5768,13 +6204,19 @@
    "https://collegestationhomesource.com/search/condo_search/",
    "https://collegestationhomesource.com/search/condo_search/",
    "https://collegestationhomesource.com/search/condo_search/amenities/",
-   "https://collegestationhomesource.com/search/amenities/",
+   "https://collegestationhomesource.com/amenities/",
    "https://collegestationhomesource.com/search/condo_search/floor-plans/",
-   "https://collegestationhomesource.com/search/floor-plans/"
+   "https://collegestationhomesource.com/search/condo_search/floorplans/"
   ],
   "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "pershing-pointe-villas",
@@ -5812,8 +6254,14 @@
    "http://pershingpointe.com/floor-plans"
   ],
   "n_amenities": 3,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "camber-villas",
@@ -5830,10 +6278,16 @@
   "dist_campus_m": 6056,
   "units_est": null,
   "floors_est": null,
-  "website_url": "https://aggiesearch.tamu.edu/housing/property/x/yhv4jyv",
+  "website_url": "https://www.cambervillas.com/",
   "management_company": null,
-  "site_platform": [],
-  "site_status": "no_website",
+  "site_platform": [
+   "entrata",
+   "leaseleads",
+   "realpage",
+   "rentcafe_yardi",
+   "sightmap"
+  ],
+  "site_status": "ok",
   "photos": [],
   "student_score": 3.5,
   "tier": "B",
@@ -5842,11 +6296,22 @@
    "rcp"
   ],
   "source_urls": [
-   "https://aggiesearch.tamu.edu/housing/property/x/yhv4jyv"
+   "https://www.cambervillas.com/",
+   "https://www.cambervillas.com/",
+   "https://www.cambervillas.com/bryan/camber-villas/student/",
+   "https://www.cambervillas.com/bryan/camber-villas/photos/",
+   "https://www.cambervillas.com/bryan/camber-villas/guest-card/contact-us/1",
+   "https://www.cambervillas.com/bryan/camber-villas/floorplans/king-ranch-th-d3-furnished-725985/fp_name/occupancy_type/student/lease_start_window[id]/9197/lease_term[id]/8449/space_configuration_id/2/"
   ],
   "n_amenities": 0,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "KEEP",
+  "needs_review": false,
+  "website_source_type": "official_property",
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "brazos-oaks",
@@ -5863,10 +6328,13 @@
   "dist_campus_m": 6958,
   "units_est": null,
   "floors_est": null,
-  "website_url": "https://aggiesearch.tamu.edu/housing/property/x/y0jhtdt",
+  "website_url": "https://brazosoaksapts.com/",
   "management_company": null,
-  "site_platform": [],
-  "site_status": "no_website",
+  "site_platform": [
+   "rentcafe_yardi",
+   "wordpress"
+  ],
+  "site_status": "ok",
   "photos": [],
   "student_score": 3.5,
   "tier": "B",
@@ -5875,11 +6343,18 @@
    "rcp"
   ],
   "source_urls": [
-   "https://aggiesearch.tamu.edu/housing/property/x/y0jhtdt"
+   "https://brazosoaksapts.com/",
+   "https://brazosoaksapts.com/"
   ],
   "n_amenities": 0,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "KEEP",
+  "needs_review": false,
+  "website_source_type": "official_property",
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "caprock-crossing",
@@ -5921,39 +6396,14 @@
    "https://www.caprockcrossingapts.com/apartments/tx/college-station/photo-gallery"
   ],
   "n_amenities": 28,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
- },
- {
-  "objectID": "southern-pointe-woodbird",
-  "canonical_name": "Southern Pointe Woodbird",
-  "aliases": [],
-  "address": "6178 Kinney Ln, College Station, TX 77845, USA",
-  "lat": 30.621145,
-  "lng": -96.325178,
-  "coord_method": "places_pin+footprint_centroid",
-  "coord_review": false,
-  "google_place_id": "ChIJL6KEbgCDRoYRS_HHu3gT2pc",
-  "property_type": "apartment",
-  "area": "Wolf Pen Creek",
-  "dist_campus_m": 1598,
-  "units_est": 98,
-  "floors_est": 3,
-  "website_url": null,
-  "management_company": null,
-  "site_platform": [],
-  "site_status": "no_website",
-  "photos": [],
-  "student_score": 3.0,
-  "tier": "B",
-  "reddit_threads": 1,
-  "source_families": [
-   "places"
-  ],
-  "source_urls": [],
-  "n_amenities": 0,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "aggie-manor-apartments",
@@ -5983,120 +6433,14 @@
   ],
   "source_urls": [],
   "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "KEEP",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
- },
- {
-  "objectID": "disability-resources",
-  "canonical_name": "Disability Resources",
-  "aliases": [
-   "Texas A&M Student Life"
-  ],
-  "address": "471 Houston Street, 1224 TAMU Ste 122, College Station, TX 77843, USA",
-  "lat": 30.614171,
-  "lng": -96.341384,
-  "coord_method": "nad_address+footprint_centroid",
-  "coord_review": false,
-  "google_place_id": "ChIJgRW7h5iDRoYRtjgR90pHGDk",
-  "property_type": "student_housing",
-  "area": "Northgate",
-  "dist_campus_m": 216,
-  "units_est": 183,
-  "floors_est": 7,
-  "website_url": "https://disability.tamu.edu/",
-  "management_company": null,
-  "site_platform": [
-   "wordpress"
-  ],
-  "site_status": "ok",
-  "photos": [],
-  "student_score": 2.5,
-  "tier": "B",
-  "reddit_threads": 0,
-  "source_families": [
-   "places"
-  ],
-  "source_urls": [
-   "https://disability.tamu.edu/",
-   "https://disability.tamu.edu/",
-   "https://disability.tamu.edu/amenities/",
-   "https://disability.tamu.edu/floor-plans/"
-  ],
-  "n_amenities": 0,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
- },
- {
-  "objectID": "texas-a-m-transportation-services-it-sys-support-gis-services",
-  "canonical_name": "Texas A&M Transportation Services - IT Sys Support & GIS Services",
-  "aliases": [],
-  "address": null,
-  "lat": 30.623018,
-  "lng": -96.338301,
-  "coord_method": "places_pin+footprint_centroid",
-  "coord_review": false,
-  "google_place_id": "ChIJ76RUO_SDRoYRfIkt72PoPTQ",
-  "property_type": "apartment",
-  "area": "Northgate",
-  "dist_campus_m": 816,
-  "units_est": 124,
-  "floors_est": 3,
-  "website_url": "http://transport.tamu.edu/default.aspx",
-  "management_company": null,
-  "site_platform": [],
-  "site_status": "ok",
-  "photos": [],
-  "student_score": 2.5,
-  "tier": "B",
-  "reddit_threads": 0,
-  "source_families": [
-   "places"
-  ],
-  "source_urls": [
-   "http://transport.tamu.edu/default.aspx",
-   "http://transport.tamu.edu/default.aspx",
-   "http://transport.tamu.edu/default.aspx/amenities/",
-   "http://transport.tamu.edu/amenities/",
-   "http://transport.tamu.edu/default.aspx/floor-plans/",
-   "http://transport.tamu.edu/floor-plans/",
-   "http://transport.tamu.edu/MIS/Plans/All"
-  ],
-  "n_amenities": 0,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
- },
- {
-  "objectID": "the-penny",
-  "canonical_name": "The Penny",
-  "aliases": [],
-  "address": "1025 University Dr #106, College Station, TX 77840, USA",
-  "lat": 30.624447,
-  "lng": -96.339459,
-  "coord_method": "nad_address+footprint_centroid",
-  "coord_review": true,
-  "google_place_id": "ChIJhYLP-5mDRoYRFoFqozVKSAk",
-  "property_type": "apartment",
-  "area": "Northgate",
-  "dist_campus_m": 907,
-  "units_est": 14,
-  "floors_est": null,
-  "website_url": "https://aggiesearch.tamu.edu/housing/property/x/crv24xf",
-  "management_company": null,
-  "site_platform": [],
-  "site_status": "no_website",
-  "photos": [],
-  "student_score": 2.5,
-  "tier": "B",
-  "reddit_threads": 1,
-  "source_families": [
-   "places"
-  ],
-  "source_urls": [
-   "https://aggiesearch.tamu.edu/housing/property/x/crv24xf"
-  ],
-  "n_amenities": 0,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "normandy-square",
@@ -6126,13 +6470,17 @@
   ],
   "source_urls": [
    "http://www.northgatebcs.com/normandy-square.html",
-   "http://www.northgatebcs.com/normandy-square.html",
-   "http://www.northgatebcs.com/normandy-square.html/floor-plans/",
-   "http://www.northgatebcs.com/floor-plans/"
+   "http://www.northgatebcs.com/normandy-square.html"
   ],
   "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "northgate-villas",
@@ -6165,53 +6513,17 @@
   ],
   "source_urls": [
    "http://rentmaroon.com/",
-   "http://rentmaroon.com/",
-   "http://rentmaroon.com/floor-plans/"
+   "http://rentmaroon.com/"
   ],
   "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
- },
- {
-  "objectID": "361rent",
-  "canonical_name": "361RENT",
-  "aliases": [],
-  "address": "1511 Texas Ave S, College Station, TX 77840, USA",
-  "lat": 30.617384,
-  "lng": -96.320551,
-  "coord_method": "nad_address+footprint_centroid",
-  "coord_review": true,
-  "google_place_id": "ChIJ9ZcUxHeERoYRc760rbu3_Uo",
-  "property_type": "apartment",
-  "area": "Wolf Pen Creek",
-  "dist_campus_m": 1862,
-  "units_est": 57,
-  "floors_est": 2,
-  "website_url": "https://361rent.net/contact/",
-  "management_company": null,
-  "site_platform": [
-   "appfolio",
-   "wordpress"
-  ],
-  "site_status": "ok",
-  "photos": [],
-  "student_score": 2.5,
-  "tier": "B",
-  "reddit_threads": 0,
-  "source_families": [
-   "places"
-  ],
-  "source_urls": [
-   "https://361rent.net/contact/",
-   "https://361rent.net/contact/",
-   "https://361rent.net/contact/amenities/",
-   "https://361rent.net/amenities/",
-   "https://361rent.net/contact/floor-plans/",
-   "https://361rent.net/floor-plans/"
-  ],
-  "n_amenities": 4,
-  "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "soho-lofts-and-apartment-homes",
@@ -6241,12 +6553,17 @@
   ],
   "source_urls": [
    "http://www.oakforestmanagement.com/",
-   "http://www.oakforestmanagement.com/",
-   "http://www.oakforestmanagement.com/floor-plans/"
+   "http://www.oakforestmanagement.com/"
   ],
   "n_amenities": 0,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "double-tree-condos",
@@ -6279,13 +6596,17 @@
   ],
   "source_urls": [
    "https://milesofgracerealty.com/condos-for-sale-in-brazos-county-tx",
-   "https://milesofgracerealty.com/condos-for-sale-in-brazos-county-tx",
-   "https://milesofgracerealty.com/mortgage-rates",
-   "https://milesofgracerealty.com/mortgage-rates"
+   "https://milesofgracerealty.com/condos-for-sale-in-brazos-county-tx"
   ],
   "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "university-park-apartments",
@@ -6317,8 +6638,14 @@
    "http://universityparkbcs.com"
   ],
   "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "REVIEW",
+  "needs_review": true,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "woodbrook-condos",
@@ -6355,12 +6682,18 @@
    "https://treehousere.com/results-gallery/?userID=all",
    "https://treehousere.com/results-gallery/",
    "https://treehousere.com/results-gallery/floor-plans/",
-   "https://treehousere.com/floor-plans/",
+   "https://treehousere.com/results-gallery/floorplans/",
    "https://treehousere.com/results-gallery/?favs=1"
   ],
   "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "falcon-point-condos",
@@ -6400,8 +6733,14 @@
    "https://www.falconpointcondo.com/Gallery.aspx"
   ],
   "n_amenities": 3,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "april-court-townhomes",
@@ -6434,13 +6773,19 @@
    "https://collegestationhomesource.com/search/condo_search/",
    "https://collegestationhomesource.com/search/condo_search/",
    "https://collegestationhomesource.com/search/condo_search/amenities/",
-   "https://collegestationhomesource.com/search/amenities/",
+   "https://collegestationhomesource.com/amenities/",
    "https://collegestationhomesource.com/search/condo_search/floor-plans/",
-   "https://collegestationhomesource.com/search/floor-plans/"
+   "https://collegestationhomesource.com/search/condo_search/floorplans/"
   ],
   "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "limestone-terrace-apartments",
@@ -6484,8 +6829,14 @@
    "https://www.limestoneterrace.live/gallery"
   ],
   "n_amenities": 16,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "asher-college-station",
@@ -6528,8 +6879,14 @@
    "https://asherlivingtx.com/college-station/gallery/"
   ],
   "n_amenities": 23,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "eastmark-apartments",
@@ -6549,7 +6906,8 @@
   "website_url": "https://www.eastmarkaptsbcs.com/",
   "management_company": null,
   "site_platform": [
-   "entrata"
+   "entrata",
+   "sightmap"
   ],
   "site_status": "ok",
   "photos": [],
@@ -6563,11 +6921,19 @@
   "source_urls": [
    "https://www.eastmarkaptsbcs.com/",
    "https://www.eastmarkaptsbcs.com/",
+   "https://entrata.eastmarkaptsbcs.com/college-station/eastmark-apartments/conventional/",
+   "https://entrata.eastmarkaptsbcs.com/college-station/eastmark-apartments/floorplans/1office-735743/fp_name/occupancy_type/conventional/",
    "https://eastmarkaptsbcs.com/"
   ],
   "n_amenities": 4,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "KEEP",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "fox-meadows-apartments",
@@ -6605,8 +6971,14 @@
    "https://www.midtown-foxmeadows.com/contact.html"
   ],
   "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "envue-apartment",
@@ -6650,8 +7022,14 @@
    "https://www.envueapt.com/scheduletour"
   ],
   "n_amenities": 14,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "parcside-townhomes-apartments",
@@ -6694,8 +7072,14 @@
    "https://parcsidetownhomes.com/gallery/"
   ],
   "n_amenities": 21,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "brazos-point-apartments",
@@ -6731,14 +7115,21 @@
    "http://www.brazospointapartments.com/",
    "http://www.brazospointapartments.com/",
    "http://www.brazospointapartments.com/amenities/",
-   "http://www.brazospointapartments.com/new-page",
-   "http://www.brazospointapartments.com/new-page",
+   "http://www.brazospointapartments.com/floor-plans/",
+   "http://www.brazospointapartments.com/floorplans/",
    "http://www.brazospointapartments.com/${t6(e)}",
+   "http://www.brazospointapartments.com/listings/detail/06a39015-53a9-4541-9df6-260e207c3a14",
    "https://twincityproperties.com/brazospoint"
   ],
   "n_amenities": 5,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "waterwood-townhomes",
@@ -6775,12 +7166,17 @@
    "https://www.waterwoodtownhomes.com/",
    "https://www.waterwoodtownhomes.com/",
    "https://www.waterwoodtownhomes.com/amenities/",
-   "https://www.waterwoodtownhomes.com/floor-plans/",
    "https://kendrahudson.com/neighborhood/waterwood-townhomes/"
   ],
   "n_amenities": 7,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "charleston-mills-townhomes",
@@ -6825,8 +7221,14 @@
    "https://charleston-mills.com/gallery/"
   ],
   "n_amenities": 18,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "31thirty-apartments",
@@ -6843,10 +7245,13 @@
   "dist_campus_m": 4253,
   "units_est": 4,
   "floors_est": 2,
-  "website_url": "https://www.31thirtyapts.net/",
-  "management_company": null,
-  "site_platform": [],
-  "site_status": "no_website",
+  "website_url": "https://www.originalmanagement.net/31-thirty-apartments",
+  "management_company": "Original Management",
+  "site_platform": [
+   "appfolio",
+   "duda"
+  ],
+  "site_status": "ok",
   "photos": [],
   "student_score": 2.5,
   "tier": "B",
@@ -6856,11 +7261,21 @@
    "places"
   ],
   "source_urls": [
-   "https://www.31thirtyapts.net/"
+   "https://www.originalmanagement.net/31-thirty-apartments",
+   "https://www.originalmanagement.net/31-thirty-apartments",
+   "https://www.originalmanagement.net/vacancies",
+   "https://www.originalmanagement.net/${t6(e)}",
+   "https://www.originalmanagement.net/listings/detail/dc8859a7-fecb-4a88-a87f-266ccd77ec6d"
   ],
   "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "KEEP",
+  "needs_review": false,
+  "website_source_type": "operator_property",
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "charlestone-place-apartments",
@@ -6890,8 +7305,14 @@
   ],
   "source_urls": [],
   "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "REVIEW",
+  "needs_review": true,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "a-m-courtyard-apartments",
@@ -6921,13 +7342,21 @@
   ],
   "source_urls": [],
   "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "KEEP",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
-  "objectID": "azura-student-living",
-  "canonical_name": "Azura Student Living",
-  "aliases": [],
+  "objectID": "azura-residences",
+  "canonical_name": "Azura Residences",
+  "aliases": [
+   "Azura Student Living"
+  ],
   "address": "108 Sterling St Apt B, College Station, TX 77840, USA",
   "lat": 30.612374,
   "lng": -96.312912,
@@ -6939,10 +7368,12 @@
   "dist_campus_m": 2717,
   "units_est": 1,
   "floors_est": 1,
-  "website_url": null,
-  "management_company": null,
-  "site_platform": [],
-  "site_status": "no_website",
+  "website_url": "https://boardwalkbcs.managebuilding.com/Resident/PublicPages/ApartmentSearch.aspx",
+  "management_company": "Boardwalk Homes",
+  "site_platform": [
+   "buildium"
+  ],
+  "site_status": "ok",
   "photos": [],
   "student_score": 2.0,
   "tier": "B",
@@ -6950,47 +7381,28 @@
   "source_families": [
    "places"
   ],
-  "source_urls": [],
-  "n_amenities": 0,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
- },
- {
-  "objectID": "lexington-court-phase-ii-ltd",
-  "canonical_name": "Lexington Court Phase II Ltd",
-  "aliases": [],
-  "address": "4500 Carter Creek Pkwy Ste 101, Bryan, TX 77802, USA",
-  "lat": 30.644774,
-  "lng": -96.327783,
-  "coord_method": "nad_address+footprint_centroid",
-  "coord_review": false,
-  "google_place_id": "ChIJL2LfAfyDRoYRRWUvh6wKAXc",
-  "property_type": "apartment",
-  "area": "South Bryan",
-  "dist_campus_m": 3446,
-  "units_est": 19,
-  "floors_est": 2,
-  "website_url": null,
-  "management_company": null,
-  "site_platform": [],
-  "site_status": "no_website",
-  "photos": [],
-  "student_score": 2.0,
-  "tier": "B",
-  "reddit_threads": 0,
-  "source_families": [
-   "overture",
-   "places"
+  "source_urls": [
+   "https://boardwalkbcs.managebuilding.com/Resident/PublicPages/ApartmentSearch.aspx",
+   "https://boardwalkbcs.managebuilding.com/Resident/PublicPages/ApartmentSearch.aspx",
+   "https://boardwalkbcs.managebuilding.com/Resident/PublicPages/ApartmentSearch.aspx/floor-plans/",
+   "https://boardwalkbcs.managebuilding.com/Resident/PublicPages/ApartmentSearch.aspx/floorplans/"
   ],
-  "source_urls": [],
   "n_amenities": 0,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "multi_address_townhome_collection",
+  "identity_status": "KEEP_UNIT_SOURCE",
+  "needs_review": false,
+  "website_source_type": "manager_portal",
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
-  "objectID": "landmark-on-longmire",
-  "canonical_name": "Landmark on Longmire",
-  "aliases": [],
+  "objectID": "the-landmark-on-longmire",
+  "canonical_name": "The Landmark on Longmire",
+  "aliases": [
+   "Landmark on Longmire"
+  ],
   "address": "2306 Longmire Dr B, College Station, TX 77845, USA",
   "lat": 30.595413,
   "lng": -96.301662,
@@ -7002,10 +7414,12 @@
   "dist_campus_m": 4424,
   "units_est": 8,
   "floors_est": 2,
-  "website_url": null,
+  "website_url": "https://landmarkonlongmirecms.loftliving.com/",
   "management_company": null,
-  "site_platform": [],
-  "site_status": "no_website",
+  "site_platform": [
+   "realpage"
+  ],
+  "site_status": "ok",
   "photos": [],
   "student_score": 2.0,
   "tier": "B",
@@ -7013,9 +7427,18 @@
   "source_families": [
    "places"
   ],
-  "source_urls": [],
+  "source_urls": [
+   "https://landmarkonlongmirecms.loftliving.com/",
+   "https://landmarkonlongmirecms.loftliving.com/"
+  ],
   "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "KEEP",
+  "needs_review": false,
+  "website_source_type": "official_property",
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  }
 ]

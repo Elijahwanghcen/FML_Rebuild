@@ -1,0 +1,2003 @@
+{
+ "_comment": "written by enrich_listings.py (build phase); read by refresh_listings.py",
+ "properties": [
+  {
+   "objectID": "northpoint-crossing",
+   "property_name": "Northpoint Crossing",
+   "address": "1501 Northpoint Ln, College Station, TX",
+   "building_type": "student_housing",
+   "source_id": "src_2afa97fd",
+   "backend": "gogetter_wc_floorplans",
+   "url": "https://northpoint-crossing.com/rates-floorplans",
+   "params": {},
+   "detected_rows": 13,
+   "detected_priced": 13,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "domain-northgate",
+   "property_name": "Domain Northgate",
+   "address": "101 Church Ave, College Station, TX",
+   "building_type": "condo",
+   "source_id": "src_0f3920f7",
+   "backend": "text_plan_list",
+   "url": "https://www.domainatnorthgate.com/college-station-tx-apartments/domain-northgate/student/",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/domain-northgate/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/domain-northgate/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/domain-northgate/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/domain-northgate/home.html"
+    ]
+   },
+   "detected_rows": 11,
+   "detected_priced": 11,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "lark-northgate",
+   "property_name": "Lark Northgate",
+   "address": "500 Wellborn Rd N, College Station, TX",
+   "building_type": "apartment",
+   "source_id": "src_d38834e9",
+   "backend": "ion_wp",
+   "url": "https://larknorthgate.com/rates-floorplans",
+   "params": {},
+   "detected_rows": 2,
+   "detected_priced": 2,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "park-west",
+   "property_name": "Park West",
+   "address": "503 George Bush Dr, College Station, TX",
+   "building_type": "student_housing",
+   "source_id": "src_595dc73f",
+   "backend": "text_plan_list",
+   "url": "https://parkwestlife.com/floor-plans",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/park-west/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/park-west/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/park-west/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/park-west/home.html"
+    ]
+   },
+   "detected_rows": 18,
+   "detected_priced": 18,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "ion-college-station",
+   "property_name": "Ion College Station",
+   "address": "711 University Dr, College Station, TX",
+   "building_type": "apartment",
+   "source_id": "src_d00b0eb5",
+   "backend": "ion_wp",
+   "url": "https://ion-collegestation.com/rates-floorplans",
+   "params": {},
+   "detected_rows": 7,
+   "detected_priced": 7,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "the-rise-at-northgate",
+   "property_name": "The Rise at Northgate",
+   "address": "717 University Dr, College Station, TX",
+   "building_type": "apartment",
+   "source_id": "src_d75c5476",
+   "backend": "headed_rescue",
+   "url": "https://riseatnorthgateapts.prospectportal.com/college-station/the-rise-at-northgate/student/",
+   "params": {
+    "file": "/Users/elijahwangchen/FML_rebuild/data/texas_am/rescues/the-rise-at-northgate.json"
+   },
+   "detected_rows": 16,
+   "detected_priced": 16,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "university-square",
+   "property_name": "University Square",
+   "address": "313 Lincoln Ave, College Station, TX",
+   "building_type": "apartment",
+   "source_id": "src_6e3dd314",
+   "backend": "webflow_cms_floorplans",
+   "url": "https://www.liveuniversitysquare.com/floor-plans",
+   "params": {},
+   "detected_rows": 2,
+   "detected_priced": 2,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "the-aria-at-college-station",
+   "property_name": "The Aria at College Station",
+   "address": "117 Holleman Dr W, College Station, TX",
+   "building_type": "apartment",
+   "source_id": "src_6a570d7c",
+   "backend": "text_plan_list",
+   "url": "https://theariastudentliving.com/floor-plans/",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-aria-at-college-station/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-aria-at-college-station/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-aria-at-college-station/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-aria-at-college-station/home.html"
+    ]
+   },
+   "detected_rows": 6,
+   "detected_priced": 6,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "the-zone",
+   "property_name": "The Zone",
+   "address": "2001 W Holleman Dr, College Station, TX",
+   "building_type": "condo",
+   "source_id": "src_a16f9f4e",
+   "backend": "headed_rescue",
+   "url": "https://www.zoneatcollegestation.com/college-station-college-station/the-zone-the-zone/student/",
+   "params": {
+    "file": "/Users/elijahwangchen/FML_rebuild/data/texas_am/rescues/the-zone.json"
+   },
+   "detected_rows": 6,
+   "detected_priced": 6,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "dwell-at-1600",
+   "property_name": "Dwell at 1600",
+   "address": "1600 Southwest Pky, College Station, TX",
+   "building_type": "apartment",
+   "source_id": "src_8e860972",
+   "backend": "rentcafe_inline",
+   "url": "https://www.dwellat1600.com/floorplans",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/dwell-at-1600/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/dwell-at-1600/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/dwell-at-1600/fingerprint.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/dwell-at-1600/home.html"
+    ]
+   },
+   "detected_rows": 9,
+   "detected_priced": 7,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "the-ivy-apartments",
+   "property_name": "The Ivy Apartments",
+   "address": "1201 Harvey Rd, College Station, TX",
+   "building_type": "condo",
+   "source_id": "src_69d25e0f",
+   "backend": "jsonld_offers",
+   "url": "https://www.liveativy.com/floorplans/",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-ivy-apartments/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-ivy-apartments/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-ivy-apartments/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-ivy-apartments/home.html"
+    ]
+   },
+   "detected_rows": 16,
+   "detected_priced": 16,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "rev-northgate-student-living",
+   "property_name": "Rev Northgate Student Living",
+   "address": "315 College Main St, College Station, TX 77840, USA",
+   "building_type": "student_housing",
+   "source_id": "src_8de2956f",
+   "backend": "cg_synergy",
+   "url": "https://revstudentliving.com/floor-plans/",
+   "params": {
+    "domain": "revstudentliving.com"
+   },
+   "detected_rows": 19,
+   "detected_priced": 19,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "the-doce-student-living",
+   "property_name": "The Doce Student Living",
+   "address": "601 Luther St W, College Station, TX",
+   "building_type": "student_housing",
+   "source_id": "src_a2106d67",
+   "backend": "headed_rescue",
+   "url": "https://thedoce.prospectportal.com/college-station/the-doce/student/",
+   "params": {
+    "file": "/Users/elijahwangchen/FML_rebuild/data/texas_am/rescues/the-doce-student-living.json"
+   },
+   "detected_rows": 6,
+   "detected_priced": 6,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "university-trails",
+   "property_name": "University Trails",
+   "address": "1101 Luther St W, College Station, TX",
+   "building_type": "apartment",
+   "source_id": "src_89f60eb0",
+   "backend": "villas_wp",
+   "url": "https://www.utrailscollegestation.com/floor-plans",
+   "params": {},
+   "detected_rows": 7,
+   "detected_priced": 7,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "woodlands-of-college-station",
+   "property_name": "Woodlands of College Station",
+   "address": "1725 Harvey Mitchell Pky S, College Station, TX",
+   "building_type": "condo",
+   "source_id": "src_5c83f8d4",
+   "backend": "headed_rescue",
+   "url": "https://entrata.woodlandsofcollegestation.com/college-station/woodlands-apartments-721/student/",
+   "params": {
+    "file": "/Users/elijahwangchen/FML_rebuild/data/texas_am/rescues/woodlands-of-college-station.json"
+   },
+   "detected_rows": 7,
+   "detected_priced": 7,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "west-university-gardens",
+   "property_name": "West University Gardens",
+   "address": "999 W Villa Maria Rd, Bryan, TX",
+   "building_type": "apartment",
+   "source_id": "src_f167529c",
+   "backend": "text_plan_list",
+   "url": "https://www.westugardens.com/floorplans/",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/west-university-gardens/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/west-university-gardens/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/west-university-gardens/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/west-university-gardens/home.html"
+    ]
+   },
+   "detected_rows": 6,
+   "detected_priced": 4,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "the-grand-1501",
+   "property_name": "The Grand 1501",
+   "address": "1501 Harvey Rd, College Station, TX",
+   "building_type": "condo",
+   "source_id": "src_007a6cda",
+   "backend": "jsonld_offers",
+   "url": "https://www.thegrand1501.com/floorplans/",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-grand-1501/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-grand-1501/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-grand-1501/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-grand-1501/home.html"
+    ]
+   },
+   "detected_rows": 6,
+   "detected_priced": 6,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "aggie-station-apartments",
+   "property_name": "Aggie Station Apartments",
+   "address": "4151 Wellborn Road, Bryan, TX",
+   "building_type": "apartment",
+   "source_id": "src_797e2948",
+   "backend": "acc_lightning",
+   "url": "https://www.americancampus.com/student-apartments/tx/college-station/aggie-station/floor-plans",
+   "params": {
+    "list_id": 704
+   },
+   "detected_rows": 3,
+   "detected_priced": 3,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "stadium-view-apartments",
+   "property_name": "Stadium View Apartments",
+   "address": "400 Marion Pugh Dr, College Station, TX",
+   "building_type": "apartment",
+   "source_id": "src_118de48c",
+   "backend": "webflow_cms_floorplans",
+   "url": "https://www.livestadiumview.com/floor-plans",
+   "params": {},
+   "detected_rows": 3,
+   "detected_priced": 3,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "the-enclave",
+   "property_name": "The Enclave",
+   "address": "1800 Holleman Dr, College Station, TX",
+   "building_type": "condo",
+   "source_id": "src_093793fe",
+   "backend": "text_plan_list",
+   "url": "https://www.enclaveatcollegestation.com/college-station-college-station/the-enclave-the-enclave/",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-enclave/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-enclave/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-enclave/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-enclave/home.html"
+    ]
+   },
+   "detected_rows": 7,
+   "detected_priced": 7,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "reveille-ranch",
+   "property_name": "Reveille Ranch",
+   "address": "3645 Wellborn Rd, College Station, TX",
+   "building_type": "apartment",
+   "source_id": "src_41a38cef",
+   "backend": "text_plan_list",
+   "url": "https://www.reveilleranchapartments.com/bryan/reveille-ranch/student/",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/reveille-ranch/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/reveille-ranch/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/reveille-ranch/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/reveille-ranch/home.html"
+    ]
+   },
+   "detected_rows": 8,
+   "detected_priced": 5,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "global-college-station",
+   "property_name": "Global College Station",
+   "address": "404 Harvey Mitchell Pky S, College Station, TX",
+   "building_type": "student_housing",
+   "source_id": "src_531a8082",
+   "backend": "text_plan_list",
+   "url": "https://www.globalcollegestation.com/college-station/95262-global-college-station/student/",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/global-college-station/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/global-college-station/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/global-college-station/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/global-college-station/home.html"
+    ]
+   },
+   "detected_rows": 18,
+   "detected_priced": 18,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "parkway-circle-apartments",
+   "property_name": "Parkway Circle Apartments",
+   "address": "401 Southwest Pky, College Station, TX",
+   "building_type": "apartment",
+   "source_id": "src_abb6b166",
+   "backend": "text_plan_list",
+   "url": "https://www.liveatparkwaycirclecollegestation.com/floor-plans/",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/parkway-circle-apartments/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/parkway-circle-apartments/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/parkway-circle-apartments/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/parkway-circle-apartments/home.html"
+    ]
+   },
+   "detected_rows": 4,
+   "detected_priced": 0,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "redpoint-at-college-station",
+   "property_name": "Redpoint at College Station",
+   "address": "2045 Jones Butler Rd, College Station, TX",
+   "building_type": "apartment",
+   "source_id": "src_8818e4ce",
+   "backend": "ion_wp",
+   "url": "https://redpoint-collegestation.com/rates-floorplans",
+   "params": {},
+   "detected_rows": 6,
+   "detected_priced": 6,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "holleman-crossing",
+   "property_name": "Holleman Crossing",
+   "address": "2200 Cottage Ln, College Station, TX",
+   "building_type": "apartment",
+   "source_id": "src_99828eda",
+   "backend": "villas_wp",
+   "url": "https://www.hollemancrossing.com/floor-plans/",
+   "params": {},
+   "detected_rows": 4,
+   "detected_priced": 4,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "aspire-reserve",
+   "property_name": "Aspire Reserve",
+   "address": "100 Church Ave, College Station, TX 77840, USA",
+   "building_type": "student_housing",
+   "source_id": "src_47154c2c",
+   "backend": "headed_rescue",
+   "url": "https://aspirereserve.prospectportal.com/college-station/aspire-reserve/student/",
+   "params": {
+    "file": "/Users/elijahwangchen/FML_rebuild/data/texas_am/rescues/aspire-reserve.json"
+   },
+   "detected_rows": 97,
+   "detected_priced": 97,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "the-tradition",
+   "property_name": "The Tradition",
+   "address": "301 Church Ave, College Station, TX 77840, USA",
+   "building_type": "apartment",
+   "source_id": "src_93beff81",
+   "backend": "cg_synergy",
+   "url": "https://live12north.com/floor-plans/",
+   "params": {
+    "domain": "live12north.com"
+   },
+   "detected_rows": 14,
+   "detected_priced": 14,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "yugo-apex-college-station",
+   "property_name": "Yugo Apex College Station",
+   "address": "315 Boyett St, College Station, TX 77840, USA",
+   "building_type": "apartment",
+   "source_id": "src_b0527caa",
+   "backend": "yugo",
+   "url": "https://yugo.com/en-us/global/united-states-of-america/college-station-tx/apex/rooms",
+   "params": {
+    "gtm_name": "Apex"
+   },
+   "detected_rows": 18,
+   "detected_priced": 18,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "100-park",
+   "property_name": "100 Park",
+   "address": "170 Century Square Dr, College Station, TX 77840, USA",
+   "building_type": "apartment",
+   "source_id": "src_f0e629a2",
+   "backend": "rentcafe_inline",
+   "url": "https://www.100parkliving.com/floorplans",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/100-park/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/100-park/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/100-park/fingerprint.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/100-park/home.html"
+    ]
+   },
+   "detected_rows": 9,
+   "detected_priced": 9,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "cambridge-hall-at-college-station",
+   "property_name": "Cambridge Hall at College Station",
+   "address": "501 University Oaks Blvd, College Station, TX",
+   "building_type": "dorm",
+   "source_id": "src_798be769",
+   "backend": "text_plan_list",
+   "url": "https://www.cambridgehallcs.com/floorplans/",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/cambridge-hall-at-college-station/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/cambridge-hall-at-college-station/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/cambridge-hall-at-college-station/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/cambridge-hall-at-college-station/home.html"
+    ]
+   },
+   "detected_rows": 6,
+   "detected_priced": 6,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "walden-pond-apartments",
+   "property_name": "Walden Pond Apartments",
+   "address": "1331 S Harvey Mitchell Pky, College Station, TX",
+   "building_type": "apartment",
+   "source_id": "src_e7604b9d",
+   "backend": "text_plan_list",
+   "url": "https://www.liveatwaldenpondcollegestation.com/floor-plans/",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/walden-pond-apartments/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/walden-pond-apartments/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/walden-pond-apartments/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/walden-pond-apartments/home.html"
+    ]
+   },
+   "detected_rows": 3,
+   "detected_priced": 0,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "the-ridge",
+   "property_name": "The Ridge",
+   "address": "2250 Dartmouth St, College Station, TX",
+   "building_type": "apartment",
+   "source_id": "src_f775d1c3",
+   "backend": "sightmap",
+   "url": "https://www.ridgeapartments.com/college-station/the-ridge/conventional/",
+   "params": {
+    "api_url": "https://sightmap.com/app/api/v1/5eveq661vqo/sightmaps/114699"
+   },
+   "detected_rows": 24,
+   "detected_priced": 24,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "the-junction-at-college-station",
+   "property_name": "The Junction at College Station",
+   "address": "2415 Junction Boys Rd, College Station, TX",
+   "building_type": "apartment",
+   "source_id": "src_eaf10986",
+   "backend": "landmark",
+   "url": "https://thejunctionatcollegestation.com/floorplans/",
+   "params": {},
+   "detected_rows": 17,
+   "detected_priced": 17,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "the-cottages-of-college-station",
+   "property_name": "The Cottages of College Station",
+   "address": "2300 Cottage Ln, College Station, TX",
+   "building_type": "student_housing",
+   "source_id": "src_3382a37b",
+   "backend": "sinclair_wp",
+   "url": "https://thecottagesofcollegestation.com/floor-plans/",
+   "params": {},
+   "detected_rows": 14,
+   "detected_priced": 14,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "the-harbor-at-the-barracks",
+   "property_name": "The Harbor At The Barracks",
+   "address": "3695 General Pky, College Station, TX",
+   "building_type": "apartment",
+   "source_id": "src_a7af5140",
+   "backend": "text_plan_list",
+   "url": "https://theharborbcs.com/floor-plans/",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-harbor-at-the-barracks/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-harbor-at-the-barracks/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-harbor-at-the-barracks/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-harbor-at-the-barracks/home.html"
+    ]
+   },
+   "detected_rows": 4,
+   "detected_priced": 4,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "the-barracks-townhomes",
+   "property_name": "The Barracks Townhomes",
+   "address": "514 Deacon Dr W, College Station, TX",
+   "building_type": "student_housing",
+   "source_id": "src_d58bced6",
+   "backend": "text_plan_list",
+   "url": "https://barrackstownhomes.com/3x3-house/",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-barracks-townhomes/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-barracks-townhomes/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-barracks-townhomes/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-barracks-townhomes/home.html"
+    ]
+   },
+   "detected_rows": 10,
+   "detected_priced": 10,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "the-stack-at-legacy-point",
+   "property_name": "The Stack at Legacy Point",
+   "address": "711 Church Ave #101, College Station, TX 77840, USA",
+   "building_type": "apartment",
+   "source_id": "src_e31028a8",
+   "backend": "headed_rescue",
+   "url": "https://entrata.stackstudentliving.com/college-station/the-stack/student/",
+   "params": {
+    "file": "/Users/elijahwangchen/FML_rebuild/data/texas_am/rescues/the-stack-at-legacy-point.json"
+   },
+   "detected_rows": 7,
+   "detected_priced": 7,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "ever-college-station",
+   "property_name": "EVER College Station",
+   "address": "401 Stasney St, College Station, TX",
+   "building_type": "apartment",
+   "source_id": "src_f14e8e18",
+   "backend": "fp_units_modal_v2",
+   "url": "https://evercollegestation.com/floor-plans/",
+   "params": {},
+   "detected_rows": 16,
+   "detected_priced": 16,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "cherry-street",
+   "property_name": "Cherry Street",
+   "address": "200 Cherry St, College Station, TX 77840, USA",
+   "building_type": "apartment",
+   "source_id": "src_783e5934",
+   "backend": "gogetter_wc_floorplans",
+   "url": "https://cherrystreetapts.com/rates-floorplans/",
+   "params": {},
+   "detected_rows": 3,
+   "detected_priced": 3,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "otto-northgate",
+   "property_name": "Otto Northgate",
+   "address": "401 First St, College Station, TX 77840, USA",
+   "building_type": "apartment",
+   "source_id": "src_4a2a0217",
+   "backend": "rambler_lvbode",
+   "url": "https://ottostudentliving.com/floorplans/",
+   "params": {},
+   "detected_rows": 28,
+   "detected_priced": 28,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "hudson",
+   "property_name": "Hudson",
+   "address": "410 Stasney St, College Station, TX 77840, USA",
+   "building_type": "apartment",
+   "source_id": "src_0db3bb21",
+   "backend": "ion_wp",
+   "url": "https://hudsonnorthgate.com/rates-floorplans/",
+   "params": {},
+   "detected_rows": 4,
+   "detected_priced": 4,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "u-centre-at-northgate",
+   "property_name": "U Centre at Northgate",
+   "address": "907 Cross St, College Station, TX 77840, USA",
+   "building_type": "apartment",
+   "source_id": "src_071b6425",
+   "backend": "acc_lightning",
+   "url": "https://www.americancampus.com/student-apartments/tx/college-station/u-centre-at-northgate/floor-plans",
+   "params": {
+    "list_id": 706
+   },
+   "detected_rows": 3,
+   "detected_priced": 3,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "the-gardens-apartments",
+   "property_name": "The Gardens Apartments",
+   "address": "250 Calvin Moore Ave, College Station, TX 77840, USA",
+   "building_type": "apartment",
+   "source_id": "src_0ca8f4e5",
+   "backend": "university_rates",
+   "url": "https://reslife.tamu.edu/rates/",
+   "params": {
+    "section_names": [
+     "Gardens",
+     "Gardens M",
+     "Gardens Q",
+     "Gardens P",
+     "Gardens  K",
+     "Gardens G",
+     "Gardens L"
+    ],
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-gardens-apartments/floorplans.html"
+    ]
+   },
+   "detected_rows": 10,
+   "detected_priced": 10,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "college-main-apartments",
+   "property_name": "College Main Apartments",
+   "address": "4302 College Main, Bryan, TX",
+   "building_type": "apartment",
+   "source_id": "src_b1e28be6",
+   "backend": "text_plan_list",
+   "url": "https://www.liveatcollegemaincollegestation.com/floor-plans/",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/college-main-apartments/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/college-main-apartments/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/college-main-apartments/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/college-main-apartments/home.html"
+    ]
+   },
+   "detected_rows": 5,
+   "detected_priced": 0,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "scandia-apartments",
+   "property_name": "Scandia Apartments",
+   "address": "401 Anderson Dr, College Station, TX",
+   "building_type": "apartment",
+   "source_id": "src_91b5079b",
+   "backend": "text_plan_list",
+   "url": "https://www.liveatscandiacollegestation.com/floor-plans/",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/scandia-apartments/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/scandia-apartments/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/scandia-apartments/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/scandia-apartments/home.html"
+    ]
+   },
+   "detected_rows": 4,
+   "detected_priced": 0,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "the-gables-apartments",
+   "property_name": "The Gables Apartments",
+   "address": "401 University Oaks Blvd, College Station, TX",
+   "building_type": "apartment",
+   "source_id": "src_bac69a0a",
+   "backend": "text_plan_list",
+   "url": "https://www.liveatgablescollegestation.com/floor-plans/",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-gables-apartments/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-gables-apartments/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-gables-apartments/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-gables-apartments/home.html"
+    ]
+   },
+   "detected_rows": 6,
+   "detected_priced": 0,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "arbors-at-wolf-pen-creek",
+   "property_name": "Arbors At Wolf Pen Creek",
+   "address": "301 Holleman Dr E, College Station, TX 77840, USA",
+   "building_type": "dorm",
+   "source_id": "src_f189216e",
+   "backend": "rentcafe_inline",
+   "url": "https://www.myarbors.com/floorplans",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/arbors-at-wolf-pen-creek/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/arbors-at-wolf-pen-creek/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/arbors-at-wolf-pen-creek/fingerprint.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/arbors-at-wolf-pen-creek/home.html"
+    ]
+   },
+   "detected_rows": 4,
+   "detected_priced": 4,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "sonoma-apartments",
+   "property_name": "Sonoma Apartments",
+   "address": "1903 Dartmouth, College Station, TX",
+   "building_type": "apartment",
+   "source_id": "src_213b09ce",
+   "backend": "text_plan_list",
+   "url": "https://www.sonomaapartmenthomes.com/floor-plans/",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/sonoma-apartments/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/sonoma-apartments/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/sonoma-apartments/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/sonoma-apartments/home.html"
+    ]
+   },
+   "detected_rows": 3,
+   "detected_priced": 0,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "residence-at-oakmont-apartments",
+   "property_name": "Residence at Oakmont Apartments",
+   "address": "4225 Pendleton Dr, Bryan, TX",
+   "building_type": "apartment",
+   "source_id": "src_4e961f99",
+   "backend": "jsonld_offers",
+   "url": "https://www.residenceatoakmont.com/floorplans/",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/residence-at-oakmont-apartments/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/residence-at-oakmont-apartments/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/residence-at-oakmont-apartments/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/residence-at-oakmont-apartments/home.html"
+    ]
+   },
+   "detected_rows": 8,
+   "detected_priced": 7,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "honcho-student-apartments",
+   "property_name": "Honcho Student Apartments",
+   "address": "409 University Dr C, College Station, TX 77840, USA",
+   "building_type": "student_housing",
+   "source_id": "src_0960dd63",
+   "backend": "rambler_lvbode",
+   "url": "https://livehoncho.com/floor-plans/",
+   "params": {},
+   "detected_rows": 20,
+   "detected_priced": 20,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "the-jay-college-station",
+   "property_name": "The Jay College Station",
+   "address": "106 College Main St, College Station, TX 77840, USA",
+   "building_type": "student_housing",
+   "source_id": "src_9df1c0b1",
+   "backend": "headed_rescue",
+   "url": "https://thejaycollegestation.prospectportal.com/college-station/the-jay/student/",
+   "params": {
+    "file": "/Users/elijahwangchen/FML_rebuild/data/texas_am/rescues/the-jay-college-station.json"
+   },
+   "detected_rows": 41,
+   "detected_priced": 41,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "the-callaway-house",
+   "property_name": "The Callaway House",
+   "address": "301 George Bush Dr W, College Station, TX 77840, USA",
+   "building_type": "apartment",
+   "source_id": "src_a4e8177a",
+   "backend": "acc_lightning",
+   "url": "https://www.americancampus.com/student-apartments/tx/college-station/the-callaway-house/floor-plans",
+   "params": {
+    "list_id": 700
+   },
+   "detected_rows": 5,
+   "detected_priced": 5,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "callaway-villas",
+   "property_name": "Callaway Villas",
+   "address": "305 Marion Pugh Dr, College Station, TX 77840, USA",
+   "building_type": "apartment",
+   "source_id": "src_19d058d8",
+   "backend": "acc_lightning",
+   "url": "https://www.americancampus.com/student-apartments/tx/college-station/callaway-villas/floor-plans",
+   "params": {
+    "list_id": 702
+   },
+   "detected_rows": 5,
+   "detected_priced": 5,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "southgate-village-apartments",
+   "property_name": "Southgate Village Apartments",
+   "address": "134 Luther St, College Station, TX 77840, USA",
+   "building_type": "apartment",
+   "source_id": "src_2ad7868a",
+   "backend": "rentcafe_inline",
+   "url": "https://www.southgate-village-apartments.com/floorplans",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/southgate-village-apartments/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/southgate-village-apartments/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/southgate-village-apartments/fingerprint.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/southgate-village-apartments/home.html"
+    ]
+   },
+   "detected_rows": 4,
+   "detected_priced": 3,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "sierra-condos",
+   "property_name": "Sierra Condos",
+   "address": "4306 Old College Rd, Bryan, TX",
+   "building_type": "condo",
+   "source_id": "src_303093db",
+   "backend": "jsonld_offers",
+   "url": "http://sierracondosbcs.com/floorplans/",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/sierra-condos/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/sierra-condos/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/sierra-condos/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/sierra-condos/home.html"
+    ]
+   },
+   "detected_rows": 5,
+   "detected_priced": 3,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "holleman-oaks",
+   "property_name": "Holleman Oaks",
+   "address": "1501 Holleman Dr, College Station, TX",
+   "building_type": "apartment",
+   "source_id": "src_fba4e1eb",
+   "backend": "jsonld_offers",
+   "url": "https://www.hollemanoaksapts.com/floorplans/",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/holleman-oaks/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/holleman-oaks/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/holleman-oaks/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/holleman-oaks/home.html"
+    ]
+   },
+   "detected_rows": 6,
+   "detected_priced": 6,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "redstone-apartments",
+   "property_name": "Redstone Apartments",
+   "address": "1301 Barthelow Dr, College Station, TX",
+   "building_type": "apartment",
+   "source_id": "src_58deba85",
+   "backend": "text_plan_list",
+   "url": "https://www.liveatredstonecollegestation.com/floor-plans/",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/redstone-apartments/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/redstone-apartments/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/redstone-apartments/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/redstone-apartments/home.html"
+    ]
+   },
+   "detected_rows": 1,
+   "detected_priced": 0,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "the-jane-at-college-station",
+   "property_name": "The Jane at College Station",
+   "address": "950 Colgate Dr, College Station, TX",
+   "building_type": "apartment",
+   "source_id": "src_ffb07afa",
+   "backend": "headed_rescue",
+   "url": "https://entrata.livethejane.com/college-station/the-jane-at-college-station/student/",
+   "params": {
+    "file": "/Users/elijahwangchen/FML_rebuild/data/texas_am/rescues/the-jane-at-college-station.json"
+   },
+   "detected_rows": 7,
+   "detected_priced": 6,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "regency-gardens",
+   "property_name": "Regency Gardens",
+   "address": "2551 W Villa Maria Rd, Bryan, TX",
+   "building_type": "apartment",
+   "source_id": "src_26cf4624",
+   "backend": "jsonld_offers",
+   "url": "https://www.liveregencygardens.com/floorplans/",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/regency-gardens/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/regency-gardens/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/regency-gardens/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/regency-gardens/home.html"
+    ]
+   },
+   "detected_rows": 6,
+   "detected_priced": 6,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "fifteen12",
+   "property_name": "Fifteen12",
+   "address": "1512 Hollowhill Dr, Bryan, TX",
+   "building_type": "condo",
+   "source_id": "src_5443536a",
+   "backend": "sightmap",
+   "url": "https://fifteen12bryanapts.com/floorplans/",
+   "params": {
+    "api_url": "https://sightmap.com/app/api/v1/d7p1xo72vkx/sightmaps/110853"
+   },
+   "detected_rows": 30,
+   "detected_priced": 30,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "soco-at-tower-point",
+   "property_name": "SoCo at Tower Point",
+   "address": "4340 Decatur Dr, College Station, TX",
+   "building_type": "apartment",
+   "source_id": "src_6723e6de",
+   "backend": "repli360_feed",
+   "url": "https://www.socotowerpoint.com/floor-plans",
+   "params": {
+    "script_url": "https://app.repli360.com/admin/rrac-website-script/eyJpdiI6InVCaDJJZWNubi9lNUlkNTNGekdtVkE9PSIsInZhbHVlIjoiVUovMjJ4SjVoazNSblNoeVN2c1NZUT09IiwibWFjIjoiNTVlZGY3ZDg2YWUwMDFlZGU4MTkxZGUwZmMxYzk4OTBlYWI1ZmE4N2MxYjg2N2FmY2UzNDNhOTlmMzFjMzljNSJ9"
+   },
+   "detected_rows": 7,
+   "detected_priced": 2,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "warehouse-and-factory-apartments-at-northgate",
+   "property_name": "Warehouse and Factory Apartments at Northgate",
+   "address": "405 Cross St, College Station, TX 77840, USA",
+   "building_type": "apartment",
+   "source_id": "src_2b3a9edc",
+   "backend": "headed_rescue",
+   "url": "https://entrata.warehouseandfactory.com/college-station/warehouse-and-factory/student/",
+   "params": {
+    "file": "/Users/elijahwangchen/FML_rebuild/data/texas_am/rescues/warehouse-and-factory-apartments-at-northgate.json"
+   },
+   "detected_rows": 12,
+   "detected_priced": 12,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "thomas-park-lofts",
+   "property_name": "Thomas Park Lofts",
+   "address": "1026 Foster Ave, College Station, TX",
+   "building_type": "apartment",
+   "source_id": "src_5660941d",
+   "backend": "appfolio_smart",
+   "url": "https://patriarchpm.com/property/thomas-park-lofts/floor-plans/",
+   "params": {
+    "portal": "https://patriarchpropertymanagementllc.appfolio.com",
+    "names": [
+     "Thomas Park Lofts"
+    ],
+    "lat": 30.622342,
+    "lng": -96.326306,
+    "street": [
+     1026,
+     "foster"
+    ]
+   },
+   "detected_rows": 16,
+   "detected_priced": 16,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "white-creek-apartments",
+   "property_name": "White Creek Apartments",
+   "address": "225 Discovery Dr, College Station, TX 77843, USA",
+   "building_type": "apartment",
+   "source_id": "src_95e33e67",
+   "backend": "university_rates",
+   "url": "https://reslife.tamu.edu/rates/",
+   "params": {
+    "section_names": [
+     "White Creek",
+     "White Creek Community Center"
+    ],
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/white-creek-apartments/floorplans.html"
+    ]
+   },
+   "detected_rows": 6,
+   "detected_priced": 0,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "eastgate-apartments",
+   "property_name": "Eastgate Apartments",
+   "address": "401 Lincoln Ave, College Station, TX 77840, USA",
+   "building_type": "student_housing",
+   "source_id": "src_c71265ad",
+   "backend": "webflow_cms_floorplans",
+   "url": "https://www.eastgatebcs.com/floor-plans",
+   "params": {},
+   "detected_rows": 3,
+   "detected_priced": 3,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "berkeley-house",
+   "property_name": "Berkeley House",
+   "address": "801 Wellborn Rd, College Station, TX 77840, USA",
+   "building_type": "apartment",
+   "source_id": "src_fd7ec398",
+   "backend": "gogetter_wc_floorplans",
+   "url": "https://www.liveberkeleyhouse.com/",
+   "params": {},
+   "detected_rows": 3,
+   "detected_priced": 0,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "tower-park-apartments",
+   "property_name": "Tower Park Apartments",
+   "address": "1601 Holleman Dr, College Station, TX 77840, USA",
+   "building_type": "apartment",
+   "source_id": "src_42483e30",
+   "backend": "text_plan_list",
+   "url": "http://www.towerparkapts.com/tower-park-apartments-floor-plans/",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/tower-park-apartments/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/tower-park-apartments/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/tower-park-apartments/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/tower-park-apartments/home.html"
+    ]
+   },
+   "detected_rows": 5,
+   "detected_priced": 5,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "z-islander",
+   "property_name": "Z Islander",
+   "address": "3803 Wellborn Rd, Bryan, TX 77801, USA",
+   "building_type": "apartment",
+   "source_id": "src_c45bb4b5",
+   "backend": "gogetter_wc_floorplans",
+   "url": "https://zislander.com/rates-floorplans",
+   "params": {},
+   "detected_rows": 6,
+   "detected_priced": 6,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "u-club-townhomes-on-marion-pugh",
+   "property_name": "U Club Townhomes on Marion Pugh",
+   "address": "801 Marion Pugh Dr, College Station, TX 77840, USA",
+   "building_type": "apartment",
+   "source_id": "src_569837b7",
+   "backend": "acc_lightning",
+   "url": "https://www.americancampus.com/student-apartments/tx/college-station/u-club-townhomes-on-marion-pugh/floor-plans",
+   "params": {
+    "list_id": 705
+   },
+   "detected_rows": 2,
+   "detected_priced": 2,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "the-landing-college-station",
+   "property_name": "The Landing College Station",
+   "address": "800 Marion Pugh Dr, College Station, TX 77840, USA",
+   "building_type": "condo",
+   "source_id": "src_7b378629",
+   "backend": "text_plan_list",
+   "url": "https://thelandingcollegestation.com/floor-plans/",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-landing-college-station/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-landing-college-station/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-landing-college-station/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-landing-college-station/home.html"
+    ]
+   },
+   "detected_rows": 6,
+   "detected_priced": 0,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "copper-creek-condos",
+   "property_name": "Copper Creek Condos",
+   "address": "301 Southwest Pkwy, College Station, TX 77840, USA",
+   "building_type": "condo",
+   "source_id": "src_248c0a52",
+   "backend": "text_plan_list",
+   "url": "https://longitudebcs.com/search/listing/301-southwest-pkwy-unit-328-college-station-tx--25003613/",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/copper-creek-condos/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/copper-creek-condos/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/copper-creek-condos/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/copper-creek-condos/home.html"
+    ]
+   },
+   "detected_rows": 1,
+   "detected_priced": 1,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "sundance-apartments",
+   "property_name": "Sundance Apartments",
+   "address": "811 Harvey Rd, College Station, TX 77840, USA",
+   "building_type": "condo",
+   "source_id": "src_fba04695",
+   "backend": "rentcafe_inline",
+   "url": "https://www.sundance-and-sausalito.com/featuredfloorplans/sundance-floor-plans",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/sundance-apartments/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/sundance-apartments/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/sundance-apartments/fingerprint.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/sundance-apartments/home.html"
+    ]
+   },
+   "detected_rows": 5,
+   "detected_priced": 2,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "hillstone-on-the-parkway",
+   "property_name": "Hillstone on the Parkway",
+   "address": "528 Southwest Pkwy, College Station, TX 77840, USA",
+   "building_type": "apartment",
+   "source_id": "src_ae1bd56e",
+   "backend": "appfolio_smart",
+   "url": "https://www.twincityproperties.com/hillstone",
+   "params": {
+    "portal": "https://twincitypropmgmt.appfolio.com",
+    "names": [
+     "Hillstone on the Parkway"
+    ],
+    "lat": 30.594002,
+    "lng": -96.324477,
+    "street": [
+     528,
+     "southwest"
+    ]
+   },
+   "detected_rows": 4,
+   "detected_priced": 4,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "crossing-place",
+   "property_name": "Crossing Place",
+   "address": "400 Southwest Pkwy, College Station, TX 77840, USA",
+   "building_type": "apartment",
+   "source_id": "src_1551857c",
+   "backend": "webflow_cms_floorplans",
+   "url": "https://www.crossingplacecollegestation.com/floor-plans",
+   "params": {},
+   "detected_rows": 2,
+   "detected_priced": 2,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "lakeridge-townhomes",
+   "property_name": "Lakeridge Townhomes",
+   "address": "1198 Jones-Butler Rd, College Station, TX 77840, USA",
+   "building_type": "condo",
+   "source_id": "src_27482da5",
+   "backend": "text_plan_list",
+   "url": "https://kendrahudson.com/neighborhood/lakeridge-townhomes/",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/lakeridge-townhomes/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/lakeridge-townhomes/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/lakeridge-townhomes/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/lakeridge-townhomes/home.html"
+    ]
+   },
+   "detected_rows": 14,
+   "detected_priced": 14,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "campus-village-apartments",
+   "property_name": "Campus Village Apartments",
+   "address": "1711 Harvey Mitchell Pkwy S, College Station, TX 77840, USA",
+   "building_type": "apartment",
+   "source_id": "src_fab3d213",
+   "backend": "headed_rescue",
+   "url": "https://campusvillagecollegestationnew.prospectportal.com/college-station/campus-village-college-station/student/",
+   "params": {
+    "file": "/Users/elijahwangchen/FML_rebuild/data/texas_am/rescues/campus-village-apartments.json"
+   },
+   "detected_rows": 13,
+   "detected_priced": 13,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "the-element-at-university-park",
+   "property_name": "The Element at University Park",
+   "address": "4475 Carter Creek Pkwy, Bryan, TX 77802, USA",
+   "building_type": "condo",
+   "source_id": "src_31192ee0",
+   "backend": "g5_sniff",
+   "url": "https://www.theelementuniversitypark.com/apartments/tx/bryan/floor-plans",
+   "params": {},
+   "detected_rows": 12,
+   "detected_priced": 0,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "gateway-villas",
+   "property_name": "Gateway Villas",
+   "address": "101 Forest Dr Loop, College Station, TX 77840, USA",
+   "building_type": "apartment",
+   "source_id": "src_b717d66c",
+   "backend": "appfolio_smart",
+   "url": "http://www.aggielandproperties.com/",
+   "params": {
+    "portal": "https://aggielandproperties.appfolio.com",
+    "names": [
+     "Gateway Villas"
+    ],
+    "lat": 30.638501,
+    "lng": -96.318798,
+    "street": [
+     101,
+     "forest"
+    ]
+   },
+   "detected_rows": 3,
+   "detected_priced": 3,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "canyon-village-apartments",
+   "property_name": "Canyon Village Apartments",
+   "address": "3200 Finfeather Rd, Bryan, TX 77801, USA",
+   "building_type": "apartment",
+   "source_id": "src_7971e6ac",
+   "backend": "jsonld_offers",
+   "url": "http://www.liveatcanyonvillage.com/floorplans/",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/canyon-village-apartments/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/canyon-village-apartments/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/canyon-village-apartments/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/canyon-village-apartments/home.html"
+    ]
+   },
+   "detected_rows": 2,
+   "detected_priced": 2,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "academic-village",
+   "property_name": "Academic Village",
+   "address": "3900 Old College Rd, Bryan, TX 77801, USA",
+   "building_type": "apartment",
+   "source_id": "src_b4b601dc",
+   "backend": "jsonld_offers",
+   "url": "https://bellpropertiesbcs.com/properties/3900-old-college-road-21-bryan-tx-77801-26000071",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/academic-village/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/academic-village/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/academic-village/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/academic-village/home.html"
+    ]
+   },
+   "detected_rows": 1,
+   "detected_priced": 1,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "north-ramparts",
+   "property_name": "North Ramparts",
+   "address": "400 Nagle St, College Station, TX 77840, USA",
+   "building_type": "apartment",
+   "source_id": "src_40845495",
+   "backend": "text_plan_list",
+   "url": "https://www.bcsonlinerealestate.com/",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/north-ramparts/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/north-ramparts/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/north-ramparts/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/north-ramparts/home.html"
+    ]
+   },
+   "detected_rows": 1,
+   "detected_priced": 0,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "midtown-townhomes",
+   "property_name": "Midtown Townhomes",
+   "address": "1612 F, Holleman Dr, College Station, TX 77840, USA",
+   "building_type": "student_housing",
+   "source_id": "src_42afe763",
+   "backend": "text_plan_list",
+   "url": "https://www.midtown-foxmeadows.com/campus/midtown-townhomes/index.html",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/midtown-townhomes/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/midtown-townhomes/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/midtown-townhomes/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/midtown-townhomes/home.html"
+    ]
+   },
+   "detected_rows": 3,
+   "detected_priced": 2,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "saddlewood-club",
+   "property_name": "Saddlewood Club",
+   "address": "3625 Wellborn Rd, Bryan, TX 77801, USA",
+   "building_type": "condo",
+   "source_id": "src_24026b7f",
+   "backend": "text_plan_list",
+   "url": "https://www.saddlewoodclubapts.com/floorplans.html",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/saddlewood-club/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/saddlewood-club/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/saddlewood-club/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/saddlewood-club/home.html"
+    ]
+   },
+   "detected_rows": 3,
+   "detected_priced": 3,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "richmond-ridge-townhomes",
+   "property_name": "Richmond Ridge Townhomes",
+   "address": "3620 S Hampton Ct, Bryan, TX 77801, USA",
+   "building_type": "apartment",
+   "source_id": "src_478fd55b",
+   "backend": "appfolio_smart",
+   "url": "https://richmondridge.com/floor-plans/",
+   "params": {
+    "portal": "https://www979rent.appfolio.com",
+    "names": [
+     "Richmond Ridge Townhomes",
+     "Holleman by the Park"
+    ],
+    "lat": 30.632654,
+    "lng": -96.362357,
+    "street": [
+     3620,
+     "hampton"
+    ]
+   },
+   "detected_rows": 4,
+   "detected_priced": 4,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "broadstone-ranch-at-wolf-pen-creek",
+   "property_name": "Broadstone Ranch at Wolf Pen Creek",
+   "address": "300 Holleman Dr E, College Station, TX 77840, USA",
+   "building_type": "apartment",
+   "source_id": "src_9ea69774",
+   "backend": "text_plan_list",
+   "url": "https://www.broadstoneranch.com/floor-plans",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/broadstone-ranch-at-wolf-pen-creek/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/broadstone-ranch-at-wolf-pen-creek/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/broadstone-ranch-at-wolf-pen-creek/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/broadstone-ranch-at-wolf-pen-creek/home.html"
+    ]
+   },
+   "detected_rows": 4,
+   "detected_priced": 2,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "sausalito-apartments",
+   "property_name": "Sausalito Apartments",
+   "address": "1001 Harvey Rd, College Station, TX 77840, USA",
+   "building_type": "condo",
+   "source_id": "src_48b1880a",
+   "backend": "headed_rescue",
+   "url": "https://www.sundance-and-sausalito.com/featuredfloorplans/sausalito-floor-plans",
+   "params": {
+    "file": "/Users/elijahwangchen/FML_rebuild/data/texas_am/rescues/sausalito-apartments.json"
+   },
+   "detected_rows": 5,
+   "detected_priced": 3,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "willow-oaks-apartments",
+   "property_name": "Willow Oaks Apartments",
+   "address": "3902 E 29th St, Bryan, TX 77802, USA",
+   "building_type": "condo",
+   "source_id": "src_7ef40120",
+   "backend": "rentcafe_inline",
+   "url": "https://www.willowoaksapt.com/floorplans",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/willow-oaks-apartments/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/willow-oaks-apartments/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/willow-oaks-apartments/fingerprint.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/willow-oaks-apartments/home.html"
+    ]
+   },
+   "detected_rows": 10,
+   "detected_priced": 10,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "cherry-hill-apartments",
+   "property_name": "Cherry Hill Apartments",
+   "address": "317 Cherry St, College Station, TX 77840, USA",
+   "building_type": "apartment",
+   "source_id": "src_f1ee7029",
+   "backend": "text_plan_list",
+   "url": "http://aggievillas.net/floor-plans/",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/cherry-hill-apartments/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/cherry-hill-apartments/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/cherry-hill-apartments/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/cherry-hill-apartments/home.html"
+    ]
+   },
+   "detected_rows": 1,
+   "detected_priced": 0,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "holleman-by-the-park",
+   "property_name": "Holleman by the Park",
+   "address": "1402 Holleman Dr, College Station, TX 77840, USA",
+   "building_type": "condo",
+   "source_id": "src_406cd65d",
+   "backend": "appfolio_smart",
+   "url": "https://hollemanbythepark.com/availability/",
+   "params": {
+    "portal": "https://www979rent.appfolio.com",
+    "names": [
+     "Holleman by the Park",
+     "Holik Square"
+    ],
+    "lat": 30.607013,
+    "lng": -96.320793,
+    "street": [
+     1402,
+     "holleman"
+    ]
+   },
+   "detected_rows": 3,
+   "detected_priced": 3,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "pearl-apartments-buildings-a-p",
+   "property_name": "Pearl Apartments Buildings A-P",
+   "address": "600 University Oaks Blvd, College Station, TX 77840, USA",
+   "building_type": "apartment",
+   "source_id": "src_57d247b7",
+   "backend": "appfolio_listings",
+   "url": "https://originalgroup.appfolio.com/listings/",
+   "params": {
+    "portal": "https://originalgroup.appfolio.com",
+    "address_match": [
+     "600 University Oaks"
+    ]
+   },
+   "detected_rows": 1,
+   "detected_priced": 1,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "the-vintage-at-college-station",
+   "property_name": "The Vintage at College Station",
+   "address": "1101 Southwest Pkwy, College Station, TX 77840, USA",
+   "building_type": "apartment",
+   "source_id": "src_bfb959ba",
+   "backend": "text_plan_list",
+   "url": "https://www.vintageaptscollegestation.com/availability",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-vintage-at-college-station/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-vintage-at-college-station/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-vintage-at-college-station/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-vintage-at-college-station/home.html"
+    ]
+   },
+   "detected_rows": 4,
+   "detected_priced": 4,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "the-wick",
+   "property_name": "The Wick",
+   "address": "502 Southwest Pkwy, College Station, TX 77840, USA",
+   "building_type": "condo",
+   "source_id": "src_506f06ed",
+   "backend": "rentcafe_inline",
+   "url": "https://www.willowickapt.com/floorplans",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-wick/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-wick/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-wick/fingerprint.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-wick/home.html"
+    ]
+   },
+   "detected_rows": 5,
+   "detected_priced": 5,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "villa-west",
+   "property_name": "Villa West",
+   "address": "3500 Finfeather Rd, Bryan, TX 77801, USA",
+   "building_type": "apartment",
+   "source_id": "src_9472cd17",
+   "backend": "text_plan_list",
+   "url": "https://www.liveatvillawestbryan.com/floor-plans/",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/villa-west/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/villa-west/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/villa-west/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/villa-west/home.html"
+    ]
+   },
+   "detected_rows": 8,
+   "detected_priced": 0,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "arbor-square-apartments",
+   "property_name": "Arbor Square Apartments",
+   "address": "1700 Southwest Pkwy, College Station, TX 77840, USA",
+   "building_type": "apartment",
+   "source_id": "src_2f64521a",
+   "backend": "text_plan_list",
+   "url": "https://www.liveatarborsquarecollegestation.com/floor-plans/",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/arbor-square-apartments/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/arbor-square-apartments/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/arbor-square-apartments/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/arbor-square-apartments/home.html"
+    ]
+   },
+   "detected_rows": 2,
+   "detected_priced": 0,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "sterling-college-station",
+   "property_name": "Sterling College Station",
+   "address": "1300 Harvey Mitchell Pkwy S, College Station, TX 77840, USA",
+   "building_type": "apartment",
+   "source_id": "src_b3db0488",
+   "backend": "jonah_detail_json",
+   "url": "https://sterlingcollegestation.com/floorplans/",
+   "params": {},
+   "detected_rows": 11,
+   "detected_priced": 11,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "the-heights-at-college-station",
+   "property_name": "The Heights at College Station",
+   "address": "3055 Holleman Drive S",
+   "building_type": "condo",
+   "source_id": "src_2e0bf5fd",
+   "backend": "text_plan_list",
+   "url": "https://www.theheightscs.com/floorplans/",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-heights-at-college-station/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-heights-at-college-station/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-heights-at-college-station/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/the-heights-at-college-station/home.html"
+    ]
+   },
+   "detected_rows": 9,
+   "detected_priced": 9,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "charleston-mills-luxury-townhomes",
+   "property_name": "Charleston Mills Luxury Townhomes",
+   "address": "4097 General Parkway, College Station, TX",
+   "building_type": "apartment",
+   "source_id": "src_b6285683",
+   "backend": "text_plan_list",
+   "url": "https://charleston-mills.com/floorplans/",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/charleston-mills-luxury-townhomes/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/charleston-mills-luxury-townhomes/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/charleston-mills-luxury-townhomes/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/charleston-mills-luxury-townhomes/home.html"
+    ]
+   },
+   "detected_rows": 3,
+   "detected_priced": 3,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "pershing-pointe-villas",
+   "property_name": "Pershing Pointe Villas",
+   "address": "2847 Papa Bear Dr, College Station, TX 77845, USA",
+   "building_type": "student_housing",
+   "source_id": "src_988a3e0d",
+   "backend": "appfolio_smart",
+   "url": "http://pershingpointe.com/floor-plans",
+   "params": {
+    "portal": "https://aggielandproperties.appfolio.com",
+    "names": [
+     "Pershing Pointe Villas"
+    ],
+    "lat": 30.568486,
+    "lng": -96.324635,
+    "street": [
+     2847,
+     "papa"
+    ]
+   },
+   "detected_rows": 9,
+   "detected_priced": 9,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "camber-villas",
+   "property_name": "Camber Villas",
+   "address": "2888 Nash St, Bryan, TX",
+   "building_type": "apartment",
+   "source_id": "src_5c8424a1",
+   "backend": "sightmap",
+   "url": "https://www.cambervillas.com/bryan/camber-villas/student/",
+   "params": {
+    "api_url": "https://sightmap.com/app/api/v1/10pdq00ew2z/sightmaps/114696"
+   },
+   "detected_rows": 22,
+   "detected_priced": 22,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "brazos-oaks",
+   "property_name": "Brazos Oaks",
+   "address": "6000 Jones Rd, Bryan, TX",
+   "building_type": "apartment",
+   "source_id": "src_2042471a",
+   "backend": "headed_rescue",
+   "url": "https://brazosoaksapts.com/floor-plans/",
+   "params": {
+    "file": "/Users/elijahwangchen/FML_rebuild/data/texas_am/rescues/brazos-oaks.json"
+   },
+   "detected_rows": 7,
+   "detected_priced": 7,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "caprock-crossing",
+   "property_name": "Caprock Crossing",
+   "address": "1545 Arrington Rd, College Station, TX 77845, USA",
+   "building_type": "apartment",
+   "source_id": "src_27f1265b",
+   "backend": "g5_sniff",
+   "url": "https://www.caprockcrossingapts.com/apartments/tx/college-station/floor-plans",
+   "params": {},
+   "detected_rows": 11,
+   "detected_priced": 0,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "soho-lofts-and-apartment-homes",
+   "property_name": "SOHO lofts and Apartment Homes",
+   "address": "4004 Old College Rd, Bryan, TX 77801, USA",
+   "building_type": "apartment",
+   "source_id": "src_b3a2f0e1",
+   "backend": "text_plan_list",
+   "url": "http://www.oakforestmanagement.com/",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/soho-lofts-and-apartment-homes/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/soho-lofts-and-apartment-homes/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/soho-lofts-and-apartment-homes/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/soho-lofts-and-apartment-homes/home.html"
+    ]
+   },
+   "detected_rows": 4,
+   "detected_priced": 4,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "falcon-point-condos",
+   "property_name": "Falcon Point Condos",
+   "address": "1915 Dartmouth St, College Station, TX 77840, USA",
+   "building_type": "condo",
+   "source_id": "src_f547e0a2",
+   "backend": "realpage_cms_proxy",
+   "url": "https://www.falconpointcondo.com/Floor-Plans.aspx",
+   "params": {},
+   "detected_rows": 13,
+   "detected_priced": 0,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "limestone-terrace-apartments",
+   "property_name": "Limestone Terrace Apartments",
+   "address": "1270 Harvey Mitchell Pkwy S, College Station, TX 77840, USA",
+   "building_type": "apartment",
+   "source_id": "src_612378c4",
+   "backend": "text_plan_list",
+   "url": "https://www.limestoneterrace.live/models",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/limestone-terrace-apartments/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/limestone-terrace-apartments/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/limestone-terrace-apartments/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/limestone-terrace-apartments/home.html"
+    ]
+   },
+   "detected_rows": 3,
+   "detected_priced": 2,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "asher-college-station",
+   "property_name": "Asher College Station",
+   "address": "10001 Turkey Creek Rd, College Station, TX 77845, USA",
+   "building_type": "apartment",
+   "source_id": "src_a0376e68",
+   "backend": "sightmap",
+   "url": "https://asherlivingtx.com/college-station/floor-plans/",
+   "params": {
+    "api_url": "https://sightmap.com/app/api/v1/5eveqg81vqo/sightmaps/123735"
+   },
+   "detected_rows": 21,
+   "detected_priced": 10,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "eastmark-apartments",
+   "property_name": "Eastmark Apartments",
+   "address": "2400 Central Park Ln, College Station, TX 77840, USA",
+   "building_type": "apartment",
+   "source_id": "src_8ecc13ae",
+   "backend": "headed_rescue",
+   "url": "https://entrata.eastmarkaptsbcs.com/college-station/eastmark-apartments/conventional/",
+   "params": {
+    "file": "/Users/elijahwangchen/FML_rebuild/data/texas_am/rescues/eastmark-apartments.json"
+   },
+   "detected_rows": 5,
+   "detected_priced": 4,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "fox-meadows-apartments",
+   "property_name": "Fox Meadows Apartments",
+   "address": "701 Balcones Drive Building A&B, Units #1-#32, College Station, TX 77845, USA",
+   "building_type": "apartment",
+   "source_id": "src_0f6f2b86",
+   "backend": "text_plan_list",
+   "url": "https://www.midtown-foxmeadows.com/campus/fox-meadows/index.html",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/fox-meadows-apartments/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/fox-meadows-apartments/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/fox-meadows-apartments/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/fox-meadows-apartments/home.html"
+    ]
+   },
+   "detected_rows": 3,
+   "detected_priced": 0,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "envue-apartment",
+   "property_name": "EnVue Apartment",
+   "address": "3535 Plainsman Ln, Bryan, TX 77802, USA",
+   "building_type": "condo",
+   "source_id": "src_dcbaaf0d",
+   "backend": "rentcafe_inline",
+   "url": "https://www.envueapt.com/floorplans",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/envue-apartment/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/envue-apartment/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/envue-apartment/fingerprint.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/envue-apartment/home.html"
+    ]
+   },
+   "detected_rows": 4,
+   "detected_priced": 4,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "parcside-townhomes-apartments",
+   "property_name": "Parcside Townhomes Apartments",
+   "address": "2500 Central Park Ln, College Station, TX 77840, USA",
+   "building_type": "apartment",
+   "source_id": "src_60b69989",
+   "backend": "sightmap",
+   "url": "https://parcsidetownhomes.com/floorplans/",
+   "params": {
+    "api_url": "https://sightmap.com/app/api/v1/8ywk5oy9wlx/sightmaps/110850"
+   },
+   "detected_rows": 28,
+   "detected_priced": 27,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "brazos-point-apartments",
+   "property_name": "Brazos Point Apartments",
+   "address": "2401 Welsh Ave, College Station, TX 77845, USA",
+   "building_type": "apartment",
+   "source_id": "src_b84f43cd",
+   "backend": "appfolio_smart",
+   "url": "http://www.brazospointapartments.com/floor-plans/",
+   "params": {
+    "portal": "https://twincitypropmgmt.appfolio.com",
+    "names": [
+     "Brazos Point Apartments"
+    ],
+    "lat": 30.58756,
+    "lng": -96.313544,
+    "street": [
+     2401,
+     "welsh"
+    ]
+   },
+   "detected_rows": 1,
+   "detected_priced": 1,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "charleston-mills-townhomes",
+   "property_name": "Charleston Mills Townhomes",
+   "address": "4100 Maycomb Dr, College Station, TX 77845, USA",
+   "building_type": "student_housing",
+   "source_id": "src_6344c94f",
+   "backend": "text_plan_list",
+   "url": "https://charleston-mills.com/floorplans/",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/charleston-mills-townhomes/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/charleston-mills-townhomes/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/charleston-mills-townhomes/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/charleston-mills-townhomes/home.html"
+    ]
+   },
+   "detected_rows": 3,
+   "detected_priced": 3,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "31thirty-apartments",
+   "property_name": "31Thirty Apartments",
+   "address": "3130 E 29th St #1112, Bryan, TX 77802, USA",
+   "building_type": "apartment",
+   "source_id": "src_1a5d105d",
+   "backend": "text_plan_list",
+   "url": "https://www.originalmanagement.net/vacancies",
+   "params": {
+    "html_files": [
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/31thirty-apartments/floorplans.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/31thirty-apartments/floorplans2.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/31thirty-apartments/fpdetail.html",
+     "/Users/elijahwangchen/FML_rebuild/data/texas_am/raw/31thirty-apartments/home.html"
+    ]
+   },
+   "detected_rows": 11,
+   "detected_priced": 0,
+   "detected_at": "2026-11-18"
+  },
+  {
+   "objectID": "azura-residences",
+   "property_name": "Azura Residences",
+   "address": "108 Sterling St Apt B, College Station, TX 77840, USA",
+   "building_type": "student_housing",
+   "source_id": "src_97f06e81",
+   "backend": "buildium_search",
+   "url": "https://boardwalkbcs.managebuilding.com/Resident/PublicPages/ApartmentSearch.aspx/floor-plans/",
+   "params": {
+    "address_match": [
+     "Sterling",
+     "Richards",
+     "Crest"
+    ]
+   },
+   "detected_rows": 16,
+   "detected_priced": 16,
+   "detected_at": "2026-11-18"
+  }
+ ]
+}

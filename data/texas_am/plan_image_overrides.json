@@ -1,0 +1,14 @@
+{
+  "_doc": "Hand-checked plan images for sites that print the plan name only inside the image (no alt/caption/schema). Read by listing_adapters.attach_images. Entry: {slug: {\"checked\": date, \"source\": page, \"plans\": [{name_regex?, sqft?, beds?, image}]}}; every given key must match a row. Re-check when the site changes.",
+  "richmond-ridge-townhomes": {
+    "checked": "2026-11-24",
+    "source": "https://richmondridge.com/floor-plans/",
+    "plans": [
+      {"name_regex": "loft", "image": "https://richmondridge.com/wp-content/uploads/2017/02/RichmondRidge_IMG-21.jpg"},
+      {"name_regex": "duplex", "image": "https://richmondridge.com/wp-content/uploads/2017/02/RichmondRidge_IMG-23.jpg"},
+      {"sqft": 716, "image": "https://richmondridge.com/wp-content/uploads/2017/02/RichmondRidge_IMG-20.jpg"},
+      {"sqft": 1136, "image": "https://richmondridge.com/wp-content/uploads/2017/02/RichmondRidge_IMG-22.jpg"},
+      {"name_regex": "plan a\\b", "image": "https://richmondridge.com/wp-content/uploads/2017/02/RichmondRidge_IMG-22.jpg"}
+    ]
+  }
+}

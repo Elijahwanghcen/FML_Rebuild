@@ -9,6 +9,7 @@ python3 resolve_addresses.py $C
 python3 discover_reddit.py $C
 python3 merge_candidates.py $C
 python3 select_roster.py $C
+python3 apply_resolutions.py $C roster_final.json      # hand-verified identities: data/<campus>/resolutions.json
 python3 -c "
 import json,sys
 from common import campus

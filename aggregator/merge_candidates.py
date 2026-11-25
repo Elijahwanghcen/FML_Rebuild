@@ -12,7 +12,7 @@ Every surviving name becomes an alias; every source is kept for provenance.
 import csv, json, re, sys
 from collections import Counter, defaultdict
 from rapidfuzz import fuzz
-from common import campus, haversine_m, norm_name, norm_addr, street_number, name_sim
+from common import campus, haversine_m, norm_name, norm_addr, street_number, name_sim, is_ils
 import geo
 
 RES_TYPES = {"apartment_building", "apartment_complex", "condominium_complex", "housing_complex"}
@@ -31,6 +31,42 @@ LISTING_TITLE = re.compile(r"\bsq\.? ?f|\bwalk to\b|\bmin(ute)?s? (walk|to|from)
                            r"\bpool view|\bcozy\b|\bspacious\b|\bcharming\b|\bentire\b|\bgetaway\b|\bstay\b|!|\$", re.I)
 UNIT = re.compile(r"\s*(#|unit|apt\.?|suite|ste\.?)\s*[\w-]+\s*$", re.I)
 SKIP_RCP = {"House", "Duplex", "Room", "Townhouse", "Sublet"}
+
+
+# Entity rules (A&M 2026-11-17 review, docs/PLAYBOOK_1_DISCOVERY.md 5c). A candidate is a rentable COMMUNITY only if
+# it is not one of these. Each rule records a positive reason; rejected rows go to cand_rejected.json for audit.
+FACILITY = re.compile(r"community cent(er|re)|clubhouse|club house|leasing (office|center)|\bfacilit(y|ies)\b|"
+                      r"student cent(er|re)|\bmsc\b|\bservices?\b|\bresources\b|\bdepartment\b|\bit sys", re.I)
+OWNER_ENTITY = re.compile(r"\b(ltd|l\.?p\.?|llc|inc|lllp|l\.?l\.?c\.?)\.?\s*$|\bphase [ivx\d]+ (ltd|lp|llc)\b", re.I)
+SUITE = re.compile(r"\b(ste|suite)\.?\s*\w+", re.I)
+# ad headlines and single-home promos: an adjective + a housing noun, or a subdivision description
+ADJ = r"(top|best|quiet|awesome|great|perfect|beautiful|affordable|amazing|lovely|cute|nice|ideal)"
+GENERIC = r"(student|students|college|the|a|an|for|settled|setteled|cozy|spacious|luxury|private|furnished|\d|br|bd|bed|bedroom|and|&)"
+HOUSING = r"(student|apartments?|apts?|condos?|homes?|house|townhomes?|duplex|rooms?|units?|subdivision|neighborhood|staff)"
+# adjective, then only generic words, then a housing noun: "Top student apartment", "Quiet settled subdivision".
+# "Great Oak Apartments" survives because "Oak" is a name, not a generic word.
+AD_HEADLINE = re.compile(rf"\b{ADJ}\b(\s+{GENERIC}\b){{0,3}}\s+{HOUSING}\b|\bsubdivision\b|\bin (college station|bryan|austin)\s*$", re.I)
+LOCATOR = re.compile(r"\b(apartment|housing|rental) (finders?|locators?|search|hunters?)\b|\bfinders\b", re.I)
+
+
+def entity_reject(name, address=""):
+    """Return (entity_type, reason) when the candidate is not a rentable community, else None."""
+    n = name or ""
+    if FACILITY.search(n):
+        return "support_facility", f"facility/office name: {FACILITY.search(n).group(0)}"
+    if LOCATOR.search(n):
+        return "property_manager", "apartment locator / search business"
+    if OWNER_ENTITY.search(n) and SUITE.search(address or ""):
+        # suffix alone is not enough: "Stratford Arms LP" is how Google lists a real complex
+        return "owner_entity", "legal-entity suffix in the name + suite (office) address"
+    if AD_HEADLINE.search(n):
+        return "single_unit", f"advertisement headline: {AD_HEADLINE.search(n).group(0)}"
+    if LOCATOR.search(n):
+        return "property_manager", "apartment locator / search business"
+    return None
+
+
+REJECTED = []
 
 
 def fn_is_unit(name):
@@ -56,8 +92,20 @@ def load(cfg):
     d, rows = cfg["dir"], []
     def add(**k):
         k["name"] = UNIT.sub("", re.sub(r"\s+", " ", (k.get("name") or "")).strip())
-        if k["name"] and not LISTING_TITLE.search(k["name"]):
-            rows.append(k)
+        if not k["name"]:
+            return
+        if LISTING_TITLE.search(k["name"]):
+            REJECTED.append({"name": k["name"], "address": k.get("address"), "fam": k.get("fam"), "entity_type": "single_unit",
+                             "reason": "listing title (beds / sq ft / price / promo words)"})
+            return
+        er = entity_reject(k["name"], k.get("address") or "")
+        if er:
+            REJECTED.append({"name": k["name"], "address": k.get("address"), "fam": k.get("fam"), "entity_type": er[0], "reason": er[1]})
+            return
+        if k.get("website") and is_ils(k["website"], cfg):
+            # an aggregator / campus-directory page is never a building's website (see common.is_ils)
+            k["website"] = None
+        rows.append(k)
     f = d / "cand_places.json"
     for x in json.load(open(f)) if f.exists() else []:
         pt, ts, nm = x.get("primary_type"), set(x.get("types") or []), x.get("name") or ""
@@ -92,7 +140,7 @@ def load(cfg):
         if x["type"] in SKIP_RCP or x["lat"] is None or (street_number(x["name"]) and fn_is_unit(x["name"])):
             continue
         add(name=x["name"], address=x.get("address"), lat=x["lat"], lng=x["lng"], types=[x["type"] or ""],
-            website=x.get("url"), manager=x.get("manager"), fam="rcp", sources=x.get("sources") or ["rcp_directory"])
+            website=x.get("landlord_website"), manager=x.get("manager"), fam="rcp", sources=x.get("sources") or ["rcp_directory"])
     for fn, fam in (("cand_pm_raw.json", "pm"), ("cand_reddit.json", "reddit"), ("cand_manual.json", "manual")):
         f = d / fn
         for x in json.load(open(f)) if f.exists() else []:
@@ -228,6 +276,8 @@ def main(slug):
     for r in roster:   # eval_coverage compatibility
         r["name"], r["lat"], r["lng"] = r["canonical_name"], r["pin_lat"], r["pin_lng"]
     (cfg["dir"] / "roster_merged.json").write_text(json.dumps(roster, indent=1))
+    (cfg["dir"] / "cand_rejected.json").write_text(json.dumps(REJECTED, indent=1))
+    print("rejected as non-community:", Counter(r["entity_type"] for r in REJECTED))
     (cfg["dir"] / "unresolved_candidates.json").write_text(json.dumps(
         [{k: v for k, v in r.items() if not k.startswith("_")} for r in unresolved], indent=1))
     ins = [r for r in roster if r["neighborhood"]]

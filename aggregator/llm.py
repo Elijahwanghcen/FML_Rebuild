@@ -7,11 +7,17 @@ from common import ROOT
 CACHE = ROOT / "data" / "_llm_cache"
 
 
-def ask_json(prompt, model="haiku", timeout=240):
+class NotCached(Exception):
+    """cache_only=True and this prompt was never answered: no claude -p call is made."""
+
+
+def ask_json(prompt, model="haiku", timeout=240, cache_only=False):
     CACHE.mkdir(parents=True, exist_ok=True)
     cp = CACHE / (hashlib.sha1((model + prompt).encode()).hexdigest()[:24] + ".json")
     if cp.exists():
         return json.loads(cp.read_text())
+    if cache_only:
+        raise NotCached(cp.name)
     full = prompt + "\n\nRespond with ONLY valid JSON. No prose, no code fences."
     try:
         r = subprocess.run(["claude", "-p", "--model", model], input=full, capture_output=True,

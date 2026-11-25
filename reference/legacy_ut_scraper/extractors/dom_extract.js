@@ -982,8 +982,12 @@ const WAIT_SELECTORS = {
     process.exit(1);
   }
   const params = paramsJson ? JSON.parse(paramsJson) : {};
-  const browser = await chromium.launch();
-  const ctx = await browser.newContext({ userAgent: UA, viewport: { width: 1440, height: 900 } });
+  // DOM_PROFILE: persistent Chromium profile, so a Cloudflare clearance cookie earned once is reused on later runs.
+  // DOM_HEADED=1: visible browser (the legacy "headed rescue" route). Both only on retry; see listing_adapters._run.
+  const prof = process.env.DOM_PROFILE, headed = process.env.DOM_HEADED === '1';
+  const opts = { userAgent: UA, viewport: { width: 1440, height: 900 } };
+  const browser = prof ? await chromium.launchPersistentContext(prof, { headless: !headed, ...opts }) : await chromium.launch({ headless: !headed });
+  const ctx = prof ? browser : await browser.newContext(opts);
   const page = await ctx.newPage();
   let status = 'ok', rows = [];
   const sniffer = SNIFFERS[backend];
@@ -1019,7 +1023,11 @@ const WAIT_SELECTORS = {
         await page.goto(one, { waitUntil: 'domcontentloaded', timeout: 60000 });
         const title = await page.title();
         if (/just a moment|attention required|access denied/i.test(title)) {
-          await page.waitForTimeout(8000);
+          const ws = parseInt(process.env.DOM_CHALLENGE_WAIT_S || (process.env.DOM_HEADED === '1' ? '170' : '8'), 10);
+          for (let w = 0; w < ws; w += 2) {
+            await page.waitForTimeout(2000);
+            if (!/just a moment|attention required|access denied/i.test(await page.title())) break;
+          }
           const t2 = await page.title();
           if (/just a moment|attention required|access denied/i.test(t2)) return 'blocked';
         }
@@ -1048,8 +1056,14 @@ const WAIT_SELECTORS = {
     await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
     const title = await page.title();
     if (/just a moment|attention required|access denied/i.test(title)) {
-      // give the Cloudflare managed (non-interactive) check a chance to clear
-      await page.waitForTimeout(12000);
+      // give the Cloudflare check a chance to clear. DOM_CHALLENGE_WAIT_S (default 12) keeps a visible window open
+      // long enough for a person to solve an interactive challenge; polls every 2 s and continues as soon as it clears.
+      // a visible window exists so a person can solve the challenge: give them ~3 minutes unless told otherwise (fits the 240 s subprocess limit of older runs)
+      const waitS = parseInt(process.env.DOM_CHALLENGE_WAIT_S || (process.env.DOM_HEADED === '1' ? '170' : '12'), 10);
+      for (let w = 0; w < waitS; w += 2) {
+        await page.waitForTimeout(2000);
+        if (!/just a moment|attention required|access denied/i.test(await page.title())) break;
+      }
       const t2 = await page.title();
       if (/just a moment|attention required|access denied/i.test(t2)) {
         console.log(JSON.stringify({ status: 'blocked_bot_wall', rows: [] }));

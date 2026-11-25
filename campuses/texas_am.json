@@ -1,7 +1,7 @@
 {
  "name": "Texas A&M University",
  "short": ["TAMU", "Texas A&M"],
- "city": "College Station", "state": "TX",
+ "city": "College Station", "neighbor_cities": ["Bryan"], "state": "TX",
  "center": [30.6159, -96.3410],
  "core_radius_m": 3500,
  "max_radius_m": 15000,

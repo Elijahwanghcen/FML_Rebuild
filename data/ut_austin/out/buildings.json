@@ -22,14 +22,7 @@
    "americancampus"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-10/ut-austin-Apartment-Building-732404.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-10/ut-austin-Apartment-Building-732405.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-10/ut-austin-Apartment-Building-732406.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-10/ut-austin-Apartment-Building-732407.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-10/ut-austin-Apartment-Building-732408.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2023-11/e903484c0c856fcc64c2d354ed872ebd15a0ebf1mT.jpg"
-  ],
+  "photos": [],
   "student_score": 14.5,
   "tier": "A",
   "reddit_threads": 5,
@@ -43,12 +36,17 @@
   "source_urls": [
    "https://www.americancampus.com/student-apartments/tx/austin/crest-at-pearl",
    "https://www.americancampus.com/student-apartments/tx/austin/crest-at-pearl",
-   "https://www.americancampus.com/student-apartments/tx/austin/crest-at-pearl/floor-plans",
-   "https://housing.offcampus.utexas.edu/listing/texan-and-vintage-31581"
+   "https://www.americancampus.com/student-apartments/tx/austin/crest-at-pearl/floor-plans"
   ],
-  "n_amenities": 30,
+  "n_amenities": 22,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-mark-austin",
@@ -69,17 +67,11 @@
   "management_company": "Landmark Properties",
   "site_platform": [
    "entrata",
+   "landmark_wp",
    "wordpress"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-07/9c20100d408146f3116629c526f5d733a0663fabfX.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-07/726f98ccaa604ea900367e1eb9b26ef36c9fc9e074.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-07/dab9e5d4a79b32d5eb9173dcd4dc00f6a6d50a12bG.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-07/f4dd6ad730d29971e660c4aeb6fb7921016f68d8jh.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-07/72fc323319ce49aa43ea9dc21f37a436fa343c3c5b.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-07/5f970f737dc2106836c276abda5cd002aa1a68acro.webp"
-  ],
+  "photos": [],
   "student_score": 14.5,
   "tier": "A",
   "reddit_threads": 5,
@@ -93,13 +85,18 @@
    "https://www.themarkatx.com/?utm_source=GoogleMyBusiness&utm_medium=organic&utm_campaign=GMB",
    "https://www.themarkatx.com/",
    "https://www.themarkatx.com/amenities/",
-   "https://www.themarkatx.com/floor-plans/",
-   "https://themarkatx.com/",
-   "https://housing.offcampus.utexas.edu/listing/the-mark-austin-95776"
+   "https://www.themarkatx.com/floorplans/",
+   "https://themarkatx.com/"
   ],
-  "n_amenities": 32,
+  "n_amenities": 25,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "sparq-on-rio",
@@ -125,14 +122,7 @@
    "webflow"
   ],
   "site_status": "blocked_or_empty",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-03/8563_100151317_66213351be1566.10927320919hI38G1772564719.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-03/8564_100151317_66213352541013.58080892619kkkuw1772564722.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-03/8581_100151317_6621335cf0b707.01409148704plZ5O1772564724.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-03/8578_100151317_6621335aedf6c8.44694688633ogxmy1772564725.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-03/8580_100151317_6621335c4da7f5.42011929991w6Fpn1772564727.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-03/8579_100151317_6621335b911e20.94280864340wC4Ea1772564729.jpg"
-  ],
+  "photos": [],
   "student_score": 14.5,
   "tier": "A",
   "reddit_threads": 4,
@@ -152,9 +142,15 @@
    "https://www.sparqonrio.com/gallery",
    "https://www.sparqonrio.com/gallery"
   ],
-  "n_amenities": 38,
+  "n_amenities": 10,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-castilian",
@@ -181,14 +177,7 @@
    "americancampus"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2017-10/ut-austin-Apartment-Building-259875.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-10/ut-austin-Apartment-Building-732387.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-10/ut-austin-Apartment-Building-732388.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-10/ut-austin-Apartment-Building-732389.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-10/ut-austin-Apartment-Building-732390.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-10/ut-austin-Apartment-Building-732391.webp"
-  ],
+  "photos": [],
   "student_score": 13.5,
   "tier": "A",
   "reddit_threads": 13,
@@ -200,12 +189,17 @@
   "source_urls": [
    "https://www.americancampus.com/student-apartments/tx/austin/the-castilian",
    "https://www.americancampus.com/student-apartments/tx/austin/the-castilian",
-   "https://www.americancampus.com/student-apartments/tx/austin/the-castilian/floor-plans",
-   "https://housing.offcampus.utexas.edu/listing/the-castilian-31567"
+   "https://www.americancampus.com/student-apartments/tx/austin/the-castilian/floor-plans"
   ],
-  "n_amenities": 32,
+  "n_amenities": 24,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "skyloft-austin",
@@ -232,14 +226,7 @@
    "wordpress"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/67817f700b7a55.19126033649mOuFp1749651911.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/67817f70addef6.47352594632ABOPP1749651910.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/67817f711dc2d1.16127308993wWtbT1749651909.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/67817f976192d4.70733257172Kl1cU1749651908.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/67817f97062c00.37185439809VIG8t1749651907.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/67817f964a7737.03145670651pn8dI1749651906.jpg"
-  ],
+  "photos": [],
   "student_score": 13.5,
   "tier": "A",
   "reddit_threads": 7,
@@ -255,12 +242,17 @@
    "https://skyloftaustintx.com/features/",
    "https://skyloftaustintx.com/floor-plans",
    "https://skyloftaustintx.com/floor-plans/",
-   "https://skyloftaustintx.com/gallery/",
-   "https://housing.offcampus.utexas.edu/listing/skyloft-austin-70697"
+   "https://skyloftaustintx.com/gallery/"
   ],
-  "n_amenities": 26,
+  "n_amenities": 8,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "nueces",
@@ -287,14 +279,7 @@
    "sightmap"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/7d15cdb8c9955270eda9d36bc177562a3548b25511.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/e058a36ffa921b1e20bccc089ed2964a57a24ef3eR.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/505eed029108e44008b15c2e39d40c55d9570ffaRf.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/2b8ab15b38a112ee0eb040f5c9d032d76d4d6df4yt.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/d97303f5892c185a22bea689eb4a238e3c0b2068Ko.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/fe765b7df367173b7c7fe788620ccb4332aceaa1Lu.jpg"
-  ],
+  "photos": [],
   "student_score": 13.5,
   "tier": "A",
   "reddit_threads": 3,
@@ -306,13 +291,17 @@
   ],
   "source_urls": [
    "https://www.quartersoncampus.com/?switch_cls[id]=74341&utm_source=google%20-%20entrataseo&utm_medium=organic&utm_campaign=gmb&utm_content=website%20click",
-   "https://www.quartersoncampus.com/",
-   "https://www.quartersoncampus.com/apartments/",
-   "https://housing.offcampus.utexas.edu/listing/nueces-32602"
+   "https://www.quartersoncampus.com/"
   ],
-  "n_amenities": 11,
-  "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "n_amenities": 7,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "not_publicly_listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "river-oaks",
@@ -336,14 +325,7 @@
    "duda"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-08/originalmfmv91785809029.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-08/originalZbb4J1785982048.jpeg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-08/originalNf0qf1785982049.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-08/original6lJFU1785982051.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-08/originalrYuFK1785982053.png",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-08/originalNrBDO1785982055.jpg"
-  ],
+  "photos": [],
   "student_score": 12.5,
   "tier": "A",
   "reddit_threads": 2,
@@ -359,12 +341,17 @@
    "https://www.rainieratx.com/availability",
    "https://www.rainieratx.com/availability",
    "https://www.rainieratx.com/${t6(e)}",
-   "https://rainieratx.com/river-oaks",
-   "https://housing.offcampus.utexas.edu/listing/river-oaks-31430"
+   "https://rainieratx.com/river-oaks"
   ],
-  "n_amenities": 12,
+  "n_amenities": 5,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "union-on-san-antonio",
@@ -391,14 +378,7 @@
    "sightmap"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/6772f397ed1c81.80691104163KLEPU1749658429.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/6772f20fa0da89.580725422905JiTc1749658427.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/6772f210aa3b76.16940272116gJxwa1749658424.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/6772f214383c78.18587293199CtZNS1749658422.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/6772f2160863f5.02636105378lrbaW1749658419.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/6772f398c69c25.70903468554brEk51749658417.jpg"
-  ],
+  "photos": [],
   "student_score": 12.5,
   "tier": "A",
   "reddit_threads": 5,
@@ -418,8 +398,14 @@
    "https://www.uniononsanantonio.com/austin/union-on-san-antonio/floorplans/s1-ryder-987672/fp_name/occupancy_type/student/lease_start_window[id]/9883/lease_term[id]/9253/space_configuration_id/330/"
   ],
   "n_amenities": 26,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-callaway-house-austin",
@@ -442,14 +428,7 @@
    "americancampus"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2017-10/ut-austin-Apartment-Building-262323.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-10/ut-austin-Apartment-Building-732376.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-10/ut-austin-Apartment-Building-732377.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-10/ut-austin-Apartment-Building-732378.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-10/ut-austin-Apartment-Building-732379.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-10/ut-austin-Apartment-Building-732380.webp"
-  ],
+  "photos": [],
   "student_score": 12.5,
   "tier": "A",
   "reddit_threads": 6,
@@ -461,12 +440,17 @@
   "source_urls": [
    "https://www.americancampus.com/student-apartments/tx/austin/the-callaway-house-austin",
    "https://www.americancampus.com/student-apartments/tx/austin/the-callaway-house-austin",
-   "https://www.americancampus.com/student-apartments/tx/austin/the-callaway-house-austin/floor-plans",
-   "https://housing.offcampus.utexas.edu/listing/the-callaway-house-austin-31714"
+   "https://www.americancampus.com/student-apartments/tx/austin/the-callaway-house-austin/floor-plans"
   ],
-  "n_amenities": 40,
+  "n_amenities": 31,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "torre",
@@ -491,14 +475,7 @@
    "wordpress"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/03f64609174ae64aba32f6e6b456dd1888a694f9b4.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-10/68ed5e81296634.96578717223rHpK61760404334.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-10/68ed5e81dc8874.35294041542WULjW1760404295.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-10/68ed5e829bf676.67414232271Gg0Jn1760404293.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-10/68ed5e8366cc82.76932609569uw00F1760404292.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-10/68ed5e84044b91.98701692167blRJb1760404290.jpg"
-  ],
+  "photos": [],
   "student_score": 12.5,
   "tier": "A",
   "reddit_threads": 6,
@@ -516,9 +493,15 @@
    "https://torreatx.com/contact/",
    "https://torreatx.com/photo-gallery/"
   ],
-  "n_amenities": 46,
+  "n_amenities": 29,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "centennial",
@@ -539,14 +522,7 @@
   "management_company": "512 Realty",
   "site_platform": [],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2023-01/UT-AUSTIN-Apartment-Building-12713972.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2023-01/UT-AUSTIN-Apartment-Building-12713953.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2023-01/UT-AUSTIN-Apartment-Building-12713954.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2023-01/UT-AUSTIN-Apartment-Building-12713955.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2023-01/UT-AUSTIN-Apartment-Building-12713957.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2023-01/UT-AUSTIN-Apartment-Building-12713958.webp"
-  ],
+  "photos": [],
   "student_score": 12.5,
   "tier": "A",
   "reddit_threads": 3,
@@ -559,12 +535,17 @@
    "https://austinresidence.com/centennial-condos-206-austin-tx-78705",
    "https://austinresidence.com/centennial-condos-206-austin-tx-78705",
    "https://austinresidence.com/ut-austin-apartments",
-   "https://austinresidence.com/ut-austin-apartments",
-   "https://housing.offcampus.utexas.edu/listing/centennial-100398"
+   "https://austinresidence.com/ut-austin-apartments"
   ],
-  "n_amenities": 22,
+  "n_amenities": 16,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "signature-1909",
@@ -591,14 +572,7 @@
    "wordpress"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/UT-AUSTIN-Apartment-Building-743089.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/UT-AUSTIN-Apartment-Building-743090.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2017-09/ut-austin-Apartment-Building-251076.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/UT-AUSTIN-Apartment-Building-743091.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/UT-AUSTIN-Apartment-Building-743092.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/UT-AUSTIN-Apartment-Building-743093.webp"
-  ],
+  "photos": [],
   "student_score": 12.5,
   "tier": "A",
   "reddit_threads": 2,
@@ -618,9 +592,15 @@
    "https://www.signature1909.com/gallery/",
    "https://www.signature1909.com/gallery/"
   ],
-  "n_amenities": 43,
+  "n_amenities": 35,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "union-on-24th",
@@ -645,14 +625,7 @@
    "sightmap"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/0d9b5a9e4920de601d6a6d80b71be1893a7046d8Cd.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/6e5247505aee0650731e4cd6ff5fed24be77ab4aoJ.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/9e39b02a609cddf1fedb2ce46da2d9ee288e4718NI.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/8fbe0e2eb12c14052ea3b96b322e8627bed76fa7fx.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/7b310dda4e69012feedb78cb7e3b9cd26d6221d6bx.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/52ef219c6757d164b4cfe920089ebd7c182f0391Na.jpg"
-  ],
+  "photos": [],
   "student_score": 12.5,
   "tier": "A",
   "reddit_threads": 2,
@@ -672,8 +645,14 @@
    "https://www.unionon24th.com/virtual-tour"
   ],
   "n_amenities": 34,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "mark-embers",
@@ -699,14 +678,7 @@
    "duda"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-12/originalUPjLM1766109901.png",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-07/originalq7unl1784859109.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-07/originalBW47k1784859111.png",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-07/originalNxUNv1784859112.png",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-08/largemXZb41786589177.png",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-08/largeieOUD1786589179.png"
-  ],
+  "photos": [],
   "student_score": 12.5,
   "tier": "A",
   "reddit_threads": 5,
@@ -722,12 +694,18 @@
    "https://www.rainieratx.com/availability",
    "https://www.rainieratx.com/availability",
    "https://www.rainieratx.com/${t6(e)}",
-   "https://rainieratx.com/mark-embers",
-   "https://housing.offcampus.utexas.edu/listing/mark-embers-31435"
+   "https://www.rainieratx.com/listings/detail/109a5e56-9af1-4427-a01c-ba8a7bd23321",
+   "https://rainieratx.com/mark-embers"
   ],
-  "n_amenities": 13,
+  "n_amenities": 7,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-block-on-25-east",
@@ -753,14 +731,7 @@
    "americancampus"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/e7c551cf27eaf4f3c65a382399b1ec4dc367edcc9d.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/2ec08d2da8de6e48fb16360bcb4a857d0683ec97Aj.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2017-09/ut-austin-Apartment-Building-250534.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/9c7e3f966aef03245de79572c4a9909811709cb8Yr.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/b85abe32fd647eab41867d09c65489fcc1832f8b83.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/71034dabbf505e434d8639deeec529e0046cd210Cr.jpg"
-  ],
+  "photos": [],
   "student_score": 12.5,
   "tier": "A",
   "reddit_threads": 8,
@@ -772,12 +743,17 @@
   "source_urls": [
    "https://www.americancampus.com/student-apartments/tx/austin/the-block",
    "https://www.americancampus.com/student-apartments/tx/austin/the-block",
-   "https://www.americancampus.com/student-apartments/tx/austin/the-block/floor-plans",
-   "https://housing.offcampus.utexas.edu/listing/the-block-on-25-east-30346"
+   "https://www.americancampus.com/student-apartments/tx/austin/the-block/floor-plans"
   ],
-  "n_amenities": 27,
+  "n_amenities": 22,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "hilltop-atx",
@@ -803,14 +779,7 @@
    "wordpress"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-07/6a4fcfd0cd55d9.77623457457nIdVD1784077996.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-07/6a4fcfd04799c7.69360312519EudNr1784077994.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-07/6a4fcfd15d8ef7.12026494192CSn3B1784077997.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-07/6a4fcfd1f161f1.94416679485cjtyt1784077999.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-07/6a4fcfd281d618.31808092943FFFTQ1784078000.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-07/6a4fcfd3170c03.29422288443hsWdP1784078001.jpg"
-  ],
+  "photos": [],
   "student_score": 12.5,
   "tier": "A",
   "reddit_threads": 7,
@@ -829,9 +798,15 @@
    "https://www.hilltopatx.com/gallery/",
    "https://www.hilltopatx.com/gallery/"
   ],
-  "n_amenities": 26,
+  "n_amenities": 21,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "camino-flats",
@@ -855,14 +830,7 @@
    "sightmap"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2017-10/UT-AUSTIN-Apartment-Building-264408.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2021-05/bd95590c7a39814a37e322d1a5bddc797b7eda22YT.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2021-05/5985e363b1cd6f5f7cb1114542e915ba3b3b70e6FP.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2021-05/b5432f5779241761deeb1ab0bc2dea87bd794bdcfw.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2021-05/2cbd93f5291c050b2d6be9dbc4ef262ed0e5d249NF.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2021-05/04a05a0018b413170b38930706a54d9680e5e8cb8J.jpg"
-  ],
+  "photos": [],
   "student_score": 12.5,
   "tier": "A",
   "reddit_threads": 2,
@@ -882,9 +850,15 @@
    "http://www.liveatcaminoflats.com/Gallery.aspx",
    "http://www.liveatcaminoflats.com/gallery.aspx"
   ],
-  "n_amenities": 18,
+  "n_amenities": 12,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-nine-at-west-campus",
@@ -905,17 +879,11 @@
   "management_company": "Landmark Properties",
   "site_platform": [
    "entrata",
+   "landmark_wp",
    "wordpress"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/5e9d35476ef6313047276109209a5fecff340e9bMu.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/5da5cc801b64f1.03966927791aEezz1750418667.png",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/5da5cd78171f52.47368702558wVCyB1750418660.png",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-10/5da5cc58667dc5.82786497369gXx9h1792149673.png",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-10/5da5cc43364f50.118105796106btVZ1792149674.png",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-10/5da5cce87a4976.89245477815WsBrh1792149675.png"
-  ],
+  "photos": [],
   "student_score": 12.5,
   "tier": "A",
   "reddit_threads": 2,
@@ -929,12 +897,17 @@
    "https://theninewestcampus.com/?utm_source=GoogleMyBusiness&utm_medium=organic&utm_campaign=GMB",
    "https://theninewestcampus.com/",
    "https://theninewestcampus.com/amenities/",
-   "https://theninewestcampus.com/floor-plans/",
-   "https://housing.offcampus.utexas.edu/listing/the-nine-at-west-campus-71510"
+   "https://theninewestcampus.com/floorplans/"
   ],
-  "n_amenities": 35,
+  "n_amenities": 28,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "moontower",
@@ -955,17 +928,11 @@
   "management_company": "Landmark Properties",
   "site_platform": [
    "entrata",
+   "landmark_wp",
    "wordpress"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/31f7cba53f0cecf971e7584db9a39636f029e7fbIN.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/5fa426b241c4c3.635262082657sjxE1750418589.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/5fa426cfcea8f3.35847124953QuLEs1750418588.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-09/5fa420eb99e146.04543478938qt7Pn1757466491.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-09/5fa425cf244501.76087010677fV7t31757466678.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-07/5fa4241f47e523.57529853469CUfDf1784337082.jpg"
-  ],
+  "photos": [],
   "student_score": 11.5,
   "tier": "A",
   "reddit_threads": 8,
@@ -977,12 +944,17 @@
    "https://moontoweratx.com/?utm_source=GoogleMyBusiness&utm_medium=organic&utm_campaign=GMB",
    "https://moontoweratx.com/",
    "https://moontoweratx.com/amenities/",
-   "https://moontoweratx.com/floor-plans/",
-   "https://housing.offcampus.utexas.edu/listing/moontower-95773"
+   "https://moontoweratx.com/floorplans/"
   ],
-  "n_amenities": 49,
+  "n_amenities": 35,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "yugo-austin-waterloo",
@@ -1008,14 +980,7 @@
    "yugo"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-04/487842_100154990_64425a86b799b7.54249115708c5c9e1777583899.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-04/487834_100154990_64425a8389ed49.80722815621oC1mM1777583901.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-04/487832_100154990_64425a82a39438.82998615476FZDB51777583902.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-04/490545_100154990_646bc3c343bcd7.14108478841y6Z1y1777583910.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-04/487843_100154990_64425a872edfd6.75054031390lgM9V1777583911.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-04/487812_100154990_64425a7a264b11.07558504303t9fah1777583912.jpg"
-  ],
+  "photos": [],
   "student_score": 11.5,
   "tier": "A",
   "reddit_threads": 5,
@@ -1029,12 +994,17 @@
    "https://yugo.com/en-us/live-your-best-life",
    "https://yugo.com/en-us/live-your-best-life",
    "https://yugo.com/en-us/global/united-states-of-america/austin-tx/yugo-austin-waterloo/rooms",
-   "https://yugo.com/en-us/global/united-arab-emirates",
-   "https://housing.offcampus.utexas.edu/listing/yugo-austin-waterloo-74287"
+   "https://yugo.com/en-us/global/united-arab-emirates"
   ],
-  "n_amenities": 23,
+  "n_amenities": 22,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "grandmarc-austin",
@@ -1055,17 +1025,11 @@
   "management_company": "PeakMade",
   "site_platform": [
    "entrata",
-   "webflow"
+   "webflow",
+   "wordpress"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-04/5625_100121017_5ede871169ee83.18707816112lNTHh1776749954.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-12/63873_100121017_63fccf4a82dac6.072232338737y0xG1766006751.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-12/63875_100121017_63fccf4e627614.53843706542mRBvS1766006749.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-12/63870_100121017_63fccf450045f2.67094782158aaFdZ1766006747.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-12/211674_100121017_6843734d113735.851345165080s0AT1766006765.png",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-12/9097_100121017_5fd0e1cf30a798.09016705460tVp0N1766006835.png"
-  ],
+  "photos": [],
   "student_score": 11.5,
   "tier": "A",
   "reddit_threads": 5,
@@ -1083,9 +1047,15 @@
    "https://www.grandmarcaustin.com/gallery",
    "https://www.grandmarcaustin.com/gallery"
   ],
-  "n_amenities": 41,
-  "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "n_amenities": 16,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "not_publicly_listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "yugo-austin-rio",
@@ -1111,14 +1081,7 @@
    "yugo"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-04/591456_100150966_687abd1cdda5f0.50091439651Dpmke1775594234.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-04/591452_100150966_687abd19a147a8.59409435296PV8Tl1775594236.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-04/591457_100150966_687abd1da74df4.64304827218IFssB1775594238.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-04/591455_100150966_687abd1c1b9416.850966987034diAX1775594240.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-04/591453_100150966_687abd1a5ec9f3.489729065956Bmlq1775594296.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-04/591451_100150966_687abd18d8af60.57075059176cGC6c1775594298.jpg"
-  ],
+  "photos": [],
   "student_score": 11.5,
   "tier": "A",
   "reddit_threads": 2,
@@ -1133,12 +1096,17 @@
    "https://yugo.com/en-us/live-your-best-life",
    "https://yugo.com/en-us/live-your-best-life",
    "https://yugo.com/en-us/global/united-states-of-america/austin-tx/yugo-austin-rio/rooms",
-   "https://yugo.com/en-us/global/united-arab-emirates",
-   "https://housing.offcampus.utexas.edu/listing/yugo-austin-rio-99094"
+   "https://yugo.com/en-us/global/united-arab-emirates"
   ],
-  "n_amenities": 27,
+  "n_amenities": 24,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "tradition-on-rio",
@@ -1164,14 +1132,7 @@
    "wordpress"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/44d28518e9af1de96b7b83411788d746d2e81eb22J.png",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/ebc348431af5db2e02f073b9cf683af9bfce26571B.png",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/03009b25d31b8d49b58ca949d42e693db9b31403pd.png",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/00cfbe400eebefbb5b46e4b62566a896cc03b507wr.png",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/4340_100029629_53a0abf364670290wgSF91750417990.png",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/4166_100029629_53a0ac0ee05ef911xub3u1750417992.png"
-  ],
+  "photos": [],
   "student_score": 11.5,
   "tier": "A",
   "reddit_threads": 2,
@@ -1191,8 +1152,14 @@
    "https://www.traditiononrio.com/schedule-a-tour/"
   ],
   "n_amenities": 23,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-nine-at-rio",
@@ -1216,14 +1183,7 @@
    "wordpress"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/fbf514bdd8783e4b53fbac7f7ffcfcb7edaff9cbJm.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/655684e276e199.94068096623G0Zg21750418942.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/655685a698fcf3.19287224858nEhfC1750419008.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/6556860ebc2631.03436804495GZWaV1750419062.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/655686857cde50.32533663140ntiRU1750419003.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/6556870088cf94.10367763621zZqv11750419062.jpg"
-  ],
+  "photos": [],
   "student_score": 11.5,
   "tier": "A",
   "reddit_threads": 3,
@@ -1241,9 +1201,15 @@
    "https://www.the9rio.com/photo-gallery/",
    "https://www.the9rio.com/schedule-a-tour/"
   ],
-  "n_amenities": 42,
+  "n_amenities": 30,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-hive-red-river",
@@ -1270,14 +1236,7 @@
    "wordpress"
   ],
   "site_status": "blocked_or_empty",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/22ed73145641b0e084e09bbacff70872050532210k.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/ca46af8e30af29980c6e1523475d6a891cfe376bFv.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/cc57644c7c727496c7552a594499927e906d447fzv.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/bbe65f22aeaca305f2fa5aabb516ddfd64937418HI.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/e86b0cec49dcfdd21b754a9ad8f3f6d81b2ae62diO.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/3934f1b87ac5676a6c13e72fffca9b11c5bab3549f.webp"
-  ],
+  "photos": [],
   "student_score": 11.5,
   "tier": "A",
   "reddit_threads": 2,
@@ -1296,9 +1255,15 @@
    "https://thehiveredriver.com/gallery/",
    "https://www.thehiveredriver.com/gallery/"
   ],
-  "n_amenities": 24,
+  "n_amenities": 11,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "legacy-on-rio",
@@ -1319,17 +1284,11 @@
   "management_company": "Landmark Properties",
   "site_platform": [
    "entrata",
+   "landmark_wp",
    "wordpress"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/500c275cbd203f0ad98b1f2f2e5488e57cc9cdf0tw.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/6405fe02af5cc4.25794494120T4ZF91750418113.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/64078a06273781.63066637170QVKat1750418111.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/64078a7853e578.45448590283VhQ9U1750418110.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/64078ab4183746.08841101587qTwhL1750418110.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/64078ae2361ca9.82950534815klYfe1750418052.jpg"
-  ],
+  "photos": [],
   "student_score": 11.5,
   "tier": "A",
   "reddit_threads": 3,
@@ -1341,12 +1300,17 @@
    "https://legacyonrio.com/?utm_source=GoogleMyBusiness&utm_medium=organic&utm_campaign=GMB",
    "https://legacyonrio.com/",
    "https://legacyonrio.com/amenities/",
-   "https://legacyonrio.com/floor-plans/",
-   "https://housing.offcampus.utexas.edu/listing/legacy-on-rio-95775"
+   "https://legacyonrio.com/floorplans/"
   ],
-  "n_amenities": 31,
+  "n_amenities": 27,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "vanderbilt-condos",
@@ -1363,16 +1327,14 @@
   "dist_campus_m": 1322,
   "units_est": 50,
   "floors_est": 5,
-  "website_url": "https://housing.offcampus.utexas.edu/listing/vanderbilt-condos-109875",
+  "website_url": "https://uptownrealtyaustin.com/communities/vanderbilt_condos/",
   "management_company": "512 Realty",
-  "site_platform": [],
-  "site_status": "blocked_or_empty",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-01/04361495f247e8c9d94ff99f398c6d32ef75a665KR.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-01/f8cd068c42562d869ac9df4a42ad054e83ed5284TD.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-01/95f8c92d792b4f03a501cf5b71834d784cca2629kz.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-01/7d8220453d8eee5484e277e08f49c69be91123c9sn.jpg"
+  "site_platform": [
+   "propertybase",
+   "wordpress"
   ],
+  "site_status": "blocked_or_empty",
+  "photos": [],
   "student_score": 11.5,
   "tier": "A",
   "reddit_threads": 3,
@@ -1382,15 +1344,18 @@
    "rcp"
   ],
   "source_urls": [
-   "https://housing.offcampus.utexas.edu/listing/vanderbilt-condos-109875",
-   "https://housing.offcampus.utexas.edu/listing/vanderbilt-condos-109875",
-   "https://housing.offcampus.utexas.edu/listing/vanderbilt-condos-109875/floor-plans/",
-   "https://housing.offcampus.utexas.edu/listing/floor-plans/",
-   "https://housing.offcampus.utexas.edu/listing/vanderbilt-condos-109875"
+   "https://uptownrealtyaustin.com/communities/vanderbilt_condos/",
+   "https://uptownrealtyaustin.com/communities/vanderbilt_condos/"
   ],
-  "n_amenities": 1,
+  "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "envoy-apartments-west-campus",
@@ -1418,14 +1383,7 @@
    "wordpress"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/55bb5f4d253f5b1ef44b95d0991246fb2a1fdf12qB.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/UT-AUSTIN-Apartment-Building-737712.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/210fa0c9201b60651b7c5b1564535bc9e5c439f3Zg.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2022-10/UT-AUSTIN-Apartment-Building-11401651.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-12/be7af288ae3dfce710ca9b02564006654141632bRt.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/cfa25809b5741a111258950cce95577e2d0f2a4998.jpg"
-  ],
+  "photos": [],
   "student_score": 11.5,
   "tier": "A",
   "reddit_threads": 2,
@@ -1440,12 +1398,17 @@
    "https://www.westsidegroup.com/envoy-apartments",
    "https://www.westsidegroup.com/",
    "https://www.westsidegroup.com/wp-content/uploads/bedroom-tour.webp",
-   "https://www.westsidegroup.com/wp-content/uploads/show-tub-tour.webp",
-   "https://housing.offcampus.utexas.edu/listing/envoy-apartments-west-campus-70669"
+   "https://www.westsidegroup.com/wp-content/uploads/show-tub-tour.webp"
   ],
-  "n_amenities": 12,
+  "n_amenities": 5,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-block-on-28th",
@@ -1468,14 +1431,7 @@
    "americancampus"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/df60b84b47d5713021f6cb26e2cbbe4d9ad83890TE.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/e1162c360ea2b6d915946bac64357470c71860deEo.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2017-09/ut-austin-Apartment-Building-250389.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/b183d2e895256957b37c62533b65611e9581a68b2N.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2017-09/ut-austin-Apartment-Building-250385.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2017-09/ut-austin-Apartment-Building-250391.webp"
-  ],
+  "photos": [],
   "student_score": 11.5,
   "tier": "A",
   "reddit_threads": 8,
@@ -1486,12 +1442,17 @@
   "source_urls": [
    "https://www.americancampus.com/student-apartments/tx/austin/the-block",
    "https://www.americancampus.com/student-apartments/tx/austin/the-block",
-   "https://www.americancampus.com/student-apartments/tx/austin/the-block/floor-plans",
-   "https://housing.offcampus.utexas.edu/listing/the-block-on-28th-30333"
+   "https://www.americancampus.com/student-apartments/tx/austin/the-block/floor-plans"
   ],
-  "n_amenities": 27,
+  "n_amenities": 20,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "regents-west-at-26th",
@@ -1515,14 +1476,7 @@
    "rentcafe_yardi"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-06/UT-AUSTIN-Apartment-Building-18757477.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-06/UT-AUSTIN-Apartment-Building-18757478.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-06/UT-AUSTIN-Apartment-Building-18757479.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-06/UT-AUSTIN-Apartment-Building-18757480.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-06/UT-AUSTIN-Apartment-Building-18757481.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-06/UT-AUSTIN-Apartment-Building-18757482.webp"
-  ],
+  "photos": [],
   "student_score": 11.5,
   "tier": "A",
   "reddit_threads": 2,
@@ -1541,9 +1495,15 @@
    "http://www.regentswest26.com/gallery",
    "http://www.regentswest26.com/gallery"
   ],
-  "n_amenities": 26,
+  "n_amenities": 25,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "capitol-living",
@@ -1566,14 +1526,7 @@
   "management_company": null,
   "site_platform": [],
   "site_status": "blocked_or_empty",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-02/abcc1b8ba865455b04e091b20033597b4003268dLT.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-02/2724d8c7df70c8d31078569142f34c49ff04d0a7Bc.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-02/728ae485487e4d560be51f944a799f2b8d8a7894FQ.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-02/7826e737fc1ff25513dc14367267a98cf56956281D.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-02/caddeb8b059e9784ae6e8ff63becdb123cc4c2c6Il.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-02/bc0851ad62070460b05ae97cd6cbcf76e2d4b8e7Gm.jpg"
-  ],
+  "photos": [],
   "student_score": 11.5,
   "tier": "A",
   "reddit_threads": 3,
@@ -1585,16 +1538,20 @@
   "source_urls": [
    "https://thecapitolliving.com/",
    "https://thecapitolliving.com/",
-   "https://thecapitolliving.com/amenities/",
    "https://thecapitolliving.com/downtown-austin-apartments",
    "https://thecapitolliving.com/private-bedrooms-downtown-austin",
    "https://thecapitolliving.com/tour",
-   "https://thecapitolliving.com/tour",
-   "https://housing.offcampus.utexas.edu/listing/capitol-living-115636"
+   "https://thecapitolliving.com/tour"
   ],
-  "n_amenities": 19,
-  "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "n_amenities": 11,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "not_publicly_listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "axis-west-campus",
@@ -1619,14 +1576,7 @@
    "wordpress"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/243887b6074c9c5aaaf6f35ee0a966f3d33dcf34ZP.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-10/68fa801e046c04.17985414254X6v2Y1761268639.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-10/68fa8015bc11e3.363938693352r9gT1761268659.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-10/68fa8007e58451.40839859687sBzly1761268690.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-10/68fa8009e832c7.020288666479Q1w01761268630.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/722608c0c2ccadf72c480661c88c85a1eea3a2bbNj.jpg"
-  ],
+  "photos": [],
   "student_score": 11.5,
   "tier": "A",
   "reddit_threads": 8,
@@ -1645,9 +1595,15 @@
    "https://www.axiswestcampus.com/gallery/",
    "https://www.axiswestcampus.com/gallery/"
   ],
-  "n_amenities": 38,
+  "n_amenities": 28,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "rise-at-west-campus",
@@ -1690,8 +1646,14 @@
    "https://www.riseatwestcampus.com/gallery"
   ],
   "n_amenities": 30,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "taos-co-op",
@@ -1731,8 +1693,14 @@
    "https://collegehouses.org/houses/taos"
   ],
   "n_amenities": 17,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "orange-tree-condos",
@@ -1755,17 +1723,12 @@
   "management_company": "512 Realty",
   "site_platform": [
    "appfolio",
-   "duda"
+   "duda",
+   "propertybase",
+   "wordpress"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2022-09/1e79b838f18bc63d85756cd8f91e51f0d21b791f4p.jpeg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2021-10/UT-AUSTIN-Apartment-Building-1949882.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2021-11/UT-AUSTIN-Apartment-Building-2925259.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2021-11/UT-AUSTIN-Apartment-Building-2925258.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2021-11/UT-AUSTIN-Apartment-Building-2925261.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2021-11/UT-AUSTIN-Apartment-Building-2925263.webp"
-  ],
+  "photos": [],
   "student_score": 10.5,
   "tier": "A",
   "reddit_threads": 2,
@@ -1777,14 +1740,18 @@
   "source_urls": [
    "http://beckandco.com/association/orange-tree-condominia-assoc-inc/#6",
    "http://beckandco.com/association/orange-tree-condominia-assoc-inc/#6",
-   "http://beckandco.com/association/orange-tree-condominia-assoc-inc/floor-plans/",
-   "http://beckandco.com/association/floor-plans/",
    "https://austinresidence.com/orange-tree-condos-austin-tx-78705",
-   "https://housing.offcampus.utexas.edu/listing/orange-tree-condos-74701"
+   "https://uptownrealtyaustin.com/communities/orange_tree/"
   ],
   "n_amenities": 10,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "21st-co-op",
@@ -1820,8 +1787,14 @@
    "https://collegehouses.org/listings/21st/"
   ],
   "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-standard-at-austin",
@@ -1842,17 +1815,11 @@
   "management_company": "Landmark Properties",
   "site_platform": [
    "entrata",
+   "landmark_wp",
    "wordpress"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/6625_1320498_608311cd631122.93173029641pKies1749692681.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-04/11854_1320498_5ebd9e56bbb930.76451911308cJJii1775166794.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-04/11859_1320498_5ebeb262e30207.42585944291U2kRj1775166795.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-04/11872_1320498_5ebeb48b2e1f51.04488113226YD6ih1775166857.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-04/11853_1320498_5ebd9de644d903.187969457411BlY81775166858.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-04/11855_1320498_5ebd9ece6dc165.33554069938xz5JK1775166859.jpg"
-  ],
+  "photos": [],
   "student_score": 10.5,
   "tier": "A",
   "reddit_threads": 2,
@@ -1864,12 +1831,17 @@
    "https://thestandardaustin.com/?utm_source=GoogleMyBusiness&utm_medium=organic&utm_campaign=GMB",
    "https://thestandardaustin.com/",
    "https://thestandardaustin.com/amenities/",
-   "https://thestandardaustin.com/floor-plans/",
-   "https://housing.offcampus.utexas.edu/listing/the-standard-at-austin-70711"
+   "https://thestandardaustin.com/floorplans/"
   ],
-  "n_amenities": 49,
+  "n_amenities": 28,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "croix",
@@ -1890,21 +1862,14 @@
   "dist_campus_m": 1204,
   "units_est": 288,
   "floors_est": 5,
-  "website_url": "https://www.pioneeraustin.com/",
+  "website_url": "https://uptownrealtyaustin.com/communities/croix/",
   "management_company": "512 Realty",
   "site_platform": [
-   "appfolio",
-   "duda"
+   "propertybase",
+   "wordpress"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2022-09/UT-AUSTIN-Apartment-Building-10581685.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2022-09/UT-AUSTIN-Apartment-Building-10581676.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2022-09/UT-AUSTIN-Apartment-Building-10581682.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2022-09/UT-AUSTIN-Apartment-Building-10581677.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2022-09/UT-AUSTIN-Apartment-Building-10581679.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2022-09/UT-AUSTIN-Apartment-Building-10581681.webp"
-  ],
+  "photos": [],
   "student_score": 10.5,
   "tier": "A",
   "reddit_threads": 2,
@@ -1914,14 +1879,18 @@
    "rcp"
   ],
   "source_urls": [
-   "https://www.pioneeraustin.com/",
-   "https://www.pioneeraustin.com/",
-   "https://www.pioneeraustin.com/floor-plans/",
-   "https://housing.offcampus.utexas.edu/listing/croix-96877"
+   "https://uptownrealtyaustin.com/communities/croix/",
+   "https://uptownrealtyaustin.com/communities/croix/"
   ],
-  "n_amenities": 1,
+  "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-block-on-pearl-north",
@@ -1940,18 +1909,11 @@
   "dist_campus_m": 1214,
   "units_est": 118,
   "floors_est": 9,
-  "website_url": "https://housing.offcampus.utexas.edu/city/austin-tx/listing/the-block-on-pearl-south-30375",
+  "website_url": null,
   "management_company": "American Campus Communities",
   "site_platform": [],
-  "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/UT-AUSTIN-Apartment-Building-743082.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2017-09/ut-austin-Apartment-Building-250861.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/3083dda52cce7174c97ad73a15d5cf384a5a516ezX.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2017-09/ut-austin-Apartment-Building-250865.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/0259be6a943f8dae8b229982a4eff313dc38a43dMw.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/UT-AUSTIN-Apartment-Building-743080.webp"
-  ],
+  "site_status": "no_website",
+  "photos": [],
   "student_score": 10.5,
   "tier": "A",
   "reddit_threads": 8,
@@ -1959,16 +1921,16 @@
    "places",
    "rcp"
   ],
-  "source_urls": [
-   "https://housing.offcampus.utexas.edu/city/austin-tx/listing/the-block-on-pearl-south-30375",
-   "https://housing.offcampus.utexas.edu/city/austin-tx/listing/the-block-on-pearl-south-30375",
-   "https://housing.offcampus.utexas.edu/city/austin-tx/listing/the-block-on-pearl-south-30375/floor-plans/",
-   "https://housing.offcampus.utexas.edu/city/austin-tx/listing/floor-plans/",
-   "https://housing.offcampus.utexas.edu/listing/the-block-on-pearl-north-30371"
-  ],
-  "n_amenities": 23,
+  "source_urls": [],
+  "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "villas-on-guadalupe",
@@ -1993,14 +1955,7 @@
    "wordpress"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/666879747fac81.43148665421XDwJU1749683564.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/66687867c3c068.30432248885tQO1V1749683596.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/66687a3b3394b8.51778623270VOuhm1749683547.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/66687a260d2e30.02608972391WL4Oy1749683559.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/66687825b7f209.98430216302U8yaH1749683663.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/66687a303ef944.12131153264kaXBb1749683553.jpg"
-  ],
+  "photos": [],
   "student_score": 10.5,
   "tier": "A",
   "reddit_threads": 2,
@@ -2019,8 +1974,14 @@
    "https://www.villasonguadalupe.com/gallery/"
   ],
   "n_amenities": 35,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "diplomat-west-campus",
@@ -2044,18 +2005,10 @@
   "site_platform": [
    "appfolio",
    "knock",
-   "rentcafe_yardi",
    "wordpress"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-11/d74e0aeff66afcae027e5ba1a012033244bef792UL.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-11/fb2489349699fcbabf511fe22f25617dcbb8ed3cJv.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-11/3adbda8108f64d8478f4c3c927c3ad8a6820d758x8.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-11/d12310abb133b50e08f79b182378ea69b62ed6daoB.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2022-10/UT-AUSTIN-Apartment-Building-11402974.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2022-10/UT-AUSTIN-Apartment-Building-11402975.webp"
-  ],
+  "photos": [],
   "student_score": 10.5,
   "tier": "A",
   "reddit_threads": 2,
@@ -2068,15 +2021,20 @@
   "source_urls": [
    "https://www.westsidegroup.com/diplomat-apartments?utm_source=google&utm_campaign=dip-gmb",
    "https://www.westsidegroup.com/diplomat-apartments",
-   "https://www.westsidegroup.com/",
-   "https://www.westsidegroup.com/envoy-apartments",
+   "https://www.westsidegroup.com/diplomat-apartments/apartments/",
+   "https://www.westsidegroup.com/apartments/",
    "https://www.westsidegroup.com/wp-content/uploads/bedroom-door-tour.webp",
-   "https://www.westsidegroup.com/wp-content/uploads/hallway-doors-tour.webp",
-   "https://housing.offcampus.utexas.edu/listing/diplomat-west-campus-80959"
+   "https://www.westsidegroup.com/wp-content/uploads/hallway-doors-tour.webp"
   ],
-  "n_amenities": 14,
+  "n_amenities": 7,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "san-gabriel-square-apartments",
@@ -2100,14 +2058,7 @@
    "wordpress"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-05/4092e1a98c7d64f9778a87dce4cc52c54e4b2888Oi.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-05/9f635f474ad239e36e42bb9ff7efae989c79e5f3jl.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-05/6c3c7cdd7723f7417bda01a965aafe4955b74595P4.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-05/148a2115a971690f5917b08175db1a8ae46ee015qY.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-05/93b0336e5ab3f25b057d9d42194c7e27e2129c016Q.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-05/a30519c31786b5d63969131445b640c26bef7eb0Yj.jpg"
-  ],
+  "photos": [],
   "student_score": 10.5,
   "tier": "A",
   "reddit_threads": 5,
@@ -2125,9 +2076,15 @@
    "https://www.liveatsangabrielsquareaustin.com/photos/",
    "https://www.liveatsangabrielsquareaustin.com/photos/"
   ],
-  "n_amenities": 17,
-  "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "n_amenities": 11,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "not_publicly_listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "rio-grande-square",
@@ -2153,14 +2110,7 @@
    "wordpress"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-11/95da63a4a72053dfd8cd4fa8d609618a65e884danP.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2021-11/e0c4998b9af12e0b03988802ac31787e2e49323dI3.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-11/e290055f0514ce71d3b8f27337057bb3e935b957Sg.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-11/7a39d63a0c4748a10623f03813707d8dd6b61df5QW.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-11/5a53561ea238ce2b3e6616e58863e5a16d282e094y.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-11/e17d752607248980a2c50408dc5586c9c57d7f06Ms.jpg"
-  ],
+  "photos": [],
   "student_score": 10.5,
   "tier": "A",
   "reddit_threads": 2,
@@ -2175,12 +2125,17 @@
    "https://www.westsidegroup.com/",
    "https://www.westsidegroup.com/west-campus/",
    "https://www.westsidegroup.com/wp-content/uploads/kitchen-window-view-tour.webp",
-   "https://www.westsidegroup.com/wp-content/uploads/rio-grande-square-streetview-tour.webp",
-   "https://housing.offcampus.utexas.edu/listing/rio-grande-square-80821"
+   "https://www.westsidegroup.com/wp-content/uploads/rio-grande-square-streetview-tour.webp"
   ],
-  "n_amenities": 17,
+  "n_amenities": 10,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "west-campus-flats",
@@ -2205,14 +2160,7 @@
    "wordpress"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-07/92dcd8896cdd721654fdee79996fd11608266cadrM.png",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2023-11/08b958ba5024771b9276d8c0d9cf0a8397b2dad6X3.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2023-11/4cd9f2ccb4a32a5d6258023b0412d979fd64c0baOb.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2023-11/030da6e530dacd4f1b88cff0340d0a3925dbe5a7oi.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2022-10/UT-AUSTIN-Apartment-Building-11347646.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2023-11/f422cd2db3e2cb52d5d44aaf275655d0a9ad0b41VY.jpg"
-  ],
+  "photos": [],
   "student_score": 10.5,
   "tier": "A",
   "reddit_threads": 2,
@@ -2228,12 +2176,17 @@
    "https://www.westsidegroup.com/",
    "https://www.westsidegroup.com/west-campus/",
    "https://www.westsidegroup.com/wp-content/uploads/UT-UFCU-tour.webp",
-   "https://www.westsidegroup.com/wp-content/uploads/signage-closeup-tour.webp",
-   "https://housing.offcampus.utexas.edu/listing/west-campus-flats-80806"
+   "https://www.westsidegroup.com/wp-content/uploads/signage-closeup-tour.webp"
   ],
-  "n_amenities": 12,
+  "n_amenities": 7,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "waterford-condos",
@@ -2254,16 +2207,12 @@
   "floors_est": 6,
   "website_url": "https://www.realtyprosaustin.com/ut-condo-guide/waterford-condominiums/",
   "management_company": "512 Realty",
-  "site_platform": [],
-  "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-01/570f71fb1f9f082e807a557d06085b9e23c3282crJ.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-01/8221fb19c24773b231a32da1a91239d60989f1a05M.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-01/d4f5e45af7035ea43db214aace0d31903e55efaeyr.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-01/8017a6405ee8fc4ff5849f4a76bcfe13be48e9501i.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-01/dedb577340f9e88c71e7fa803f1555a432f7925f9i.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-01/93ac1221ade213571a20ea074cea386edd6cdce1LM.jpg"
+  "site_platform": [
+   "propertybase",
+   "wordpress"
   ],
+  "site_status": "ok",
+  "photos": [],
   "student_score": 10.5,
   "tier": "A",
   "reddit_threads": 1,
@@ -2276,13 +2225,18 @@
    "https://www.realtyprosaustin.com/ut-condo-guide/waterford-condominiums/",
    "https://www.realtyprosaustin.com/ut-condo-guide/waterford-condominiums/",
    "https://www.realtyprosaustin.com/ut-condo-guide/waterford-condominiums/floor-plans/",
-   "https://www.realtyprosaustin.com/ut-condo-guide/floor-plans/",
-   "https://www.realtyprosaustin.com/member/contact/",
-   "https://housing.offcampus.utexas.edu/listing/waterford-condos-109882"
+   "https://www.realtyprosaustin.com/ut-condo-guide/waterford-condominiums/floorplans/",
+   "https://uptownrealtyaustin.com/communities/waterford/"
   ],
-  "n_amenities": 8,
+  "n_amenities": 7,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-block-rio-grande",
@@ -2307,14 +2261,7 @@
    "americancampus"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/UT-AUSTIN-Apartment-Building-743089.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/UT-AUSTIN-Apartment-Building-743090.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2017-09/ut-austin-Apartment-Building-251076.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/UT-AUSTIN-Apartment-Building-743091.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/UT-AUSTIN-Apartment-Building-743092.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/UT-AUSTIN-Apartment-Building-743093.webp"
-  ],
+  "photos": [],
   "student_score": 10.5,
   "tier": "A",
   "reddit_threads": 8,
@@ -2325,12 +2272,17 @@
   "source_urls": [
    "https://www.americancampus.com/student-apartments/tx/austin/the-block",
    "https://www.americancampus.com/student-apartments/tx/austin/the-block",
-   "https://www.americancampus.com/student-apartments/tx/austin/the-block/floor-plans",
-   "https://housing.offcampus.utexas.edu/listing/the-block-rio-grande-30409"
+   "https://www.americancampus.com/student-apartments/tx/austin/the-block/floor-plans"
   ],
-  "n_amenities": 34,
+  "n_amenities": 23,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "texan-26",
@@ -2374,8 +2326,14 @@
    "https://www.texan26.com/gallery"
   ],
   "n_amenities": 19,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-block-on-leon",
@@ -2392,18 +2350,11 @@
   "dist_campus_m": 1610,
   "units_est": 383,
   "floors_est": 10,
-  "website_url": "https://housing.offcampus.utexas.edu/listing/the-block-on-leon-30357",
+  "website_url": null,
   "management_company": "American Campus Communities",
   "site_platform": [],
-  "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/d92a3228ffa6073b3fd3d624ce93686097cfac28vK.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/ca927fd3c847b830f8576a389f42647ca23bc94114.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2017-09/ut-austin-Apartment-Building-250686.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/6e26125b24f69f063f718d71551077f30e67924fpM.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/8a641cf2355e65b5936aac0ba6207e8177d9451dyL.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/2eeaf890423d7e1fb0d3d550d1c2fccf5cf6cebfG7.jpg"
-  ],
+  "site_status": "no_website",
+  "photos": [],
   "student_score": 10.5,
   "tier": "A",
   "reddit_threads": 8,
@@ -2411,16 +2362,16 @@
    "places",
    "rcp"
   ],
-  "source_urls": [
-   "https://housing.offcampus.utexas.edu/listing/the-block-on-leon-30357",
-   "https://housing.offcampus.utexas.edu/listing/the-block-on-leon-30357",
-   "https://housing.offcampus.utexas.edu/listing/the-block-on-leon-30357/floor-plans/",
-   "https://housing.offcampus.utexas.edu/listing/floor-plans/",
-   "https://housing.offcampus.utexas.edu/listing/the-block-on-leon-30357"
-  ],
-  "n_amenities": 23,
+  "source_urls": [],
+  "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "warwick-apartments",
@@ -2444,14 +2395,7 @@
    "duda"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-04/originalPh0231745450016.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-04/originalOVK5f1745450017.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-04/original8AXgp1745450018.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-04/originalWKVAU1745450020.jpeg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/originalXvcQr1749263177.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/originalQESzv1749263184.jpg"
-  ],
+  "photos": [],
   "student_score": 10.5,
   "tier": "A",
   "reddit_threads": 1,
@@ -2467,12 +2411,18 @@
    "https://www.rainieratx.com/availability",
    "https://www.rainieratx.com/availability",
    "https://www.rainieratx.com/${t6(e)}",
-   "https://rainieratx.com/warwick",
-   "https://housing.offcampus.utexas.edu/listing/warwick-apartments-31924"
+   "https://www.rainieratx.com/listings/detail/109a5e56-9af1-4427-a01c-ba8a7bd23321",
+   "https://rainieratx.com/warwick"
   ],
-  "n_amenities": 16,
+  "n_amenities": 6,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "town-lake",
@@ -2493,17 +2443,11 @@
   "management_company": "Asset Campus Housing",
   "site_platform": [
    "entrata",
-   "webflow"
+   "webflow",
+   "wordpress"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-08/68af61a6d43965.03323930309Z5C2a1756477887.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-08/68af61a94525c5.66225149614oldAH1756477881.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-08/68af61ac4814e2.35250780487m5d5Q1756477876.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-08/68af61aef2d800.12058607935HGGAS1756477870.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-08/68af61b2083784.16003341334lpdo01756477864.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/5f9259a2ebb5b6.429849328313EnLg1750426963.png"
-  ],
+  "photos": [],
   "student_score": 10.5,
   "tier": "A",
   "reddit_threads": 5,
@@ -2522,9 +2466,15 @@
    "http://www.townlakeataustin.com/gallery",
    "http://www.townlakeataustin.com/gallery"
   ],
-  "n_amenities": 35,
-  "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "n_amenities": 19,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "not_publicly_listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "ballpark-north",
@@ -2548,14 +2498,7 @@
    "wordpress"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-08/68af63f74da650.336515109785SR2c1756477619.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-08/68af63f9cb4497.31024247612ygZKu1756477764.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-08/68af63fc23e0b6.07039085152KrDs81756477696.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-08/68af63fe7f23a3.42304588956nfvVF1756477691.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-08/68af65d11373f5.18826348406vDNgR1756477686.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-08/68af65d3184d97.21771515340ve0Zm1756477681.jpg"
-  ],
+  "photos": [],
   "student_score": 10.5,
   "tier": "A",
   "reddit_threads": 5,
@@ -2574,9 +2517,15 @@
    "http://www.theballparkaustin.com/contact/",
    "https://www.theballparkaustin.com/photos/"
   ],
-  "n_amenities": 32,
+  "n_amenities": 19,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "halstead-co-op-nueces",
@@ -2618,8 +2567,14 @@
    "https://collegehouses.org/houses/nueces"
   ],
   "n_amenities": 21,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "inspire-on-22nd",
@@ -2643,14 +2598,7 @@
    "wordpress"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-11/178377_100184410_37984_100102313_611d5e8bd3d963.44790471909mXKaQ1793718667.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-11/178378_100184410_37985_100102313_611d5f6be4fe44.74411626153glYNB1793718669.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-11/178379_100184410_37986_100102313_611d5f913e9032.4801591246835CrO1793718671.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-11/178380_100184410_37988_100102313_611d5ff48cde98.36317115504WhT9s1793718672.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-11/197636_100184410_69d6b946cf1752.36874217347dXZlM1793718675.png",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-11/197637_100184410_69d6b976d725c3.56313573264MhWqh1793718676.png"
-  ],
+  "photos": [],
   "student_score": 9.5,
   "tier": "A",
   "reddit_threads": 1,
@@ -2664,12 +2612,17 @@
    "https://inspire22nd.com/amenities/",
    "https://inspire22nd.com/amenities/",
    "https://inspire22nd.com/floor-plans/",
-   "https://inspire22nd.com/floor-plans/",
-   "https://housing.offcampus.utexas.edu/listing/inspire-on-22nd-236682"
+   "https://inspire22nd.com/floor-plans/"
   ],
-  "n_amenities": 27,
+  "n_amenities": 20,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "lantana-apartments",
@@ -2693,14 +2646,7 @@
    "duda"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-10/large7cgNl1791465857.png",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-10/largei967w1791465859.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-10/largeb26ve1791465859.png",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-10/largewCpch1791465860.png",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-10/largeiahMW1791465861.png",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-10/large9Mtdx1791465862.png"
-  ],
+  "photos": [],
   "student_score": 9.5,
   "tier": "A",
   "reddit_threads": 1,
@@ -2715,12 +2661,17 @@
    "http://www.lantanaaustin.com/floorplans-2",
    "http://www.lantanaaustin.com/floorplans-2",
    "http://www.lantanaaustin.com/gallery",
-   "http://www.lantanaaustin.com/gallery",
-   "https://housing.offcampus.utexas.edu/listing/lantana-apartments-241680"
+   "http://www.lantanaaustin.com/gallery"
   ],
-  "n_amenities": 11,
+  "n_amenities": 4,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-block-on-23rd",
@@ -2737,34 +2688,27 @@
   "dist_campus_m": 1232,
   "units_est": 220,
   "floors_est": 8,
-  "website_url": "https://housing.offcampus.utexas.edu/listing/the-block-on-23rd-30340",
+  "website_url": null,
   "management_company": "American Campus Communities",
   "site_platform": [],
-  "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/f171a25991c78b53de07e3c1f09fee1547f839f4F1.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/8098f90d16d09ece68688acd980a05373387a969Ov.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2017-09/ut-austin-Apartment-Building-250497.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/71cdb23337a97deac54d5ccc9c1f162e6df4c962VY.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/5f1294f246a6e6b4b33a413722bff8e97416345aDB.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/f160f4a085799d8b5694b201084229fbdbe0830fel.jpg"
-  ],
+  "site_status": "no_website",
+  "photos": [],
   "student_score": 9.5,
   "tier": "A",
   "reddit_threads": 8,
   "source_families": [
    "rcp"
   ],
-  "source_urls": [
-   "https://housing.offcampus.utexas.edu/listing/the-block-on-23rd-30340",
-   "https://housing.offcampus.utexas.edu/listing/the-block-on-23rd-30340",
-   "https://housing.offcampus.utexas.edu/listing/the-block-on-23rd-30340/floor-plans/",
-   "https://housing.offcampus.utexas.edu/listing/floor-plans/",
-   "https://housing.offcampus.utexas.edu/listing/the-block-on-23rd-30340"
-  ],
-  "n_amenities": 24,
+  "source_urls": [],
+  "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "venue-on-guadalupe",
@@ -2789,14 +2733,7 @@
    "wordpress"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/66673e0d037c49.80888574614k9Ua51749683726.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/66673e1963fae9.98580649493MB4ya1749683720.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/66673e0114d955.44330353448JJY3w1749683732.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/66673e2fd15fb2.071259294711pkpa1749683709.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/66673e3a392bd9.50464005851il9Ua1749683704.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/66673e2552c393.28816227298rp8Af1749683715.jpg"
-  ],
+  "photos": [],
   "student_score": 9.5,
   "tier": "A",
   "reddit_threads": 1,
@@ -2814,9 +2751,15 @@
    "https://www.venueonguadalupe.com/gallery/",
    "https://www.venueonguadalupe.com/gallery/"
   ],
-  "n_amenities": 32,
+  "n_amenities": 31,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "somerset",
@@ -2833,18 +2776,14 @@
   "dist_campus_m": 1379,
   "units_est": 40,
   "floors_est": 4,
-  "website_url": "https://www.realtyprosaustin.com/ut-condo-guide/sommerset-condominiums/",
+  "website_url": "https://uptownrealtyaustin.com/communities/somerset/",
   "management_company": "512 Realty",
-  "site_platform": [],
-  "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2021-05/UT-AUSTIN-Apartment-Building-1247154.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2021-05/UT-AUSTIN-Apartment-Building-1247153.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2021-05/UT-AUSTIN-Apartment-Building-1247155.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2021-05/UT-AUSTIN-Apartment-Building-1247150.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2021-05/UT-AUSTIN-Apartment-Building-1247151.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2021-05/UT-AUSTIN-Apartment-Building-1247145.webp"
+  "site_platform": [
+   "propertybase",
+   "wordpress"
   ],
+  "site_status": "ok",
+  "photos": [],
   "student_score": 9.5,
   "tier": "A",
   "reddit_threads": 1,
@@ -2854,16 +2793,18 @@
    "rcp"
   ],
   "source_urls": [
-   "https://www.realtyprosaustin.com/ut-condo-guide/sommerset-condominiums/",
-   "https://www.realtyprosaustin.com/ut-condo-guide/sommerset-condominiums/",
-   "https://www.realtyprosaustin.com/ut-condo-guide/sommerset-condominiums/floor-plans/",
-   "https://www.realtyprosaustin.com/ut-condo-guide/floor-plans/",
-   "https://www.realtyprosaustin.com/member/contact/",
-   "https://housing.offcampus.utexas.edu/listing/somerset-74699"
+   "https://uptownrealtyaustin.com/communities/somerset/",
+   "https://uptownrealtyaustin.com/communities/somerset/"
   ],
   "n_amenities": 5,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "noble-2500",
@@ -2905,8 +2846,14 @@
    "https://noble2500.com/photo-tour/"
   ],
   "n_amenities": 29,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "barranca-square-student-apartments",
@@ -2927,19 +2874,10 @@
   "management_company": "The Weststide Group, Inc.",
   "site_platform": [
    "appfolio",
-   "knock",
-   "rentcafe_yardi",
    "wordpress"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-06/aa4e7216b741a71b56338f0dce16b30fe6ab68e4i3.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-06/e68a98c1d0bd9dfb5fe9ae6d3024a61d8b513f90qS.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-06/409b340b1d0ecf03b17c0c0c7f44d57d9ace43b8NG.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-07/493aeaa4e3a3d103b7c23a5efbd204208ed254e88o.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-07/626548c0dd21d7e1a5ce09c6ca8f3d4d450d30a44j.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-07/569352a474b9c3723ee397f75ac131b2419f2beaOl.jpg"
-  ],
+  "photos": [],
   "student_score": 9.5,
   "tier": "A",
   "reddit_threads": 0,
@@ -2952,15 +2890,20 @@
   "source_urls": [
    "https://www.westsidegroup.com/barranca-square-apartments?utm_source=google&utm_campaign=bs-gmb",
    "https://www.westsidegroup.com/barranca-square-apartments",
-   "https://www.westsidegroup.com/",
-   "https://www.westsidegroup.com/envoy-apartments",
+   "https://www.westsidegroup.com/barranca-square-apartments/apartments/",
+   "https://www.westsidegroup.com/apartments/",
    "https://www.westsidegroup.com/wp-content/uploads/hallway-balcony-tour.webp",
-   "https://www.westsidegroup.com/wp-content/uploads/large-window-unit-tour.webp",
-   "https://housing.offcampus.utexas.edu/listing/barranca-square-student-apartments-70668"
+   "https://www.westsidegroup.com/wp-content/uploads/large-window-unit-tour.webp"
   ],
-  "n_amenities": 16,
-  "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "n_amenities": 7,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "not_publicly_listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "montage-apartments",
@@ -2988,14 +2931,7 @@
    "wordpress"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-07/6f9fb8e320b357c6de2d0fc84cd73efa6afd095dyY.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-07/b83db2f19b30d86e5b11ab5b348b38b065fe5ad4UD.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-07/d5fdecb77048ad656d182932bb24046246159432eU.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-07/70ce0ffb86670f89806213d188b528cea71bfa570b.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-07/c568ddb1c7ce2f34892af7bbf6f102f1506ca784ZW.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-07/783aadc3f82fa3bc3cee35a8bf0fbb6856edba6cxa.jpg"
-  ],
+  "photos": [],
   "student_score": 9.5,
   "tier": "A",
   "reddit_threads": 2,
@@ -3009,12 +2945,17 @@
    "https://www.westsidegroup.com/montage-apartments",
    "https://www.westsidegroup.com/",
    "https://www.westsidegroup.com/envoy-apartments",
-   "https://www.westsidegroup.com/wp-content/uploads/montage-west-campus-street-view-austin-tour.webp",
-   "https://housing.offcampus.utexas.edu/listing/montage-apartments-80960"
+   "https://www.westsidegroup.com/wp-content/uploads/montage-west-campus-street-view-austin-tour.webp"
   ],
-  "n_amenities": 10,
+  "n_amenities": 5,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "volume",
@@ -3034,21 +2975,14 @@
   "dist_campus_m": 1851,
   "units_est": 100,
   "floors_est": 3,
-  "website_url": "https://www.rpmliving.com/volume-1/index.aspx?rcstdid=Mg%3D%3D-YRjTEizZPgM%3D",
+  "website_url": "http://www.volumeapartments.com/",
   "management_company": "RPM Properties",
   "site_platform": [
    "rentcafe_yardi",
    "wordpress"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-10/RED029673ccsn1761793330.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-10/RED027921EcN81761793332.JPG",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-10/RED027870PuiK1761793334.JPG",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-10/RED02872djMw61761793336.JPG",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-10/RED02862CHm1h1761793338.JPG",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-10/RED02837K7zN61761793341.JPG"
-  ],
+  "photos": [],
   "student_score": 9.5,
   "tier": "A",
   "reddit_threads": 2,
@@ -3057,18 +2991,24 @@
    "rcp"
   ],
   "source_urls": [
-   "https://www.rpmliving.com/volume-1/index.aspx?rcstdid=Mg%3D%3D-YRjTEizZPgM%3D",
-   "https://www.rpmliving.com/volume-1/index.aspx",
-   "https://www.rpmliving.com/volume-1/index.aspx/floor-plans/",
-   "https://www.rpmliving.com/volume-1/floor-plans/",
-   "https://www.rpmliving.com/volume-1/index.aspx/floor-plans/${value.url}",
    "http://www.volumeapartments.com/",
-   "https://www.volumeapartments.com/floorplans/vol-7---2-bedroom-1-bathroom",
-   "https://housing.offcampus.utexas.edu/listing/volume-117961"
+   "http://www.volumeapartments.com/",
+   "http://www.volumeapartments.com/amenities",
+   "http://www.volumeapartments.com/amenities",
+   "http://www.volumeapartments.com/floorplans",
+   "http://www.volumeapartments.com/floorplans",
+   "http://www.volumeapartments.com/virtualtour",
+   "http://www.volumeapartments.com/virtualtour"
   ],
-  "n_amenities": 19,
+  "n_amenities": 10,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "hyde-park-court",
@@ -3091,18 +3031,11 @@
   "management_company": "The Weststide Group, Inc.",
   "site_platform": [
    "appfolio",
-   "rentcafe_yardi",
+   "propertybase",
    "wordpress"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-12/e55577bc68bdb7adcd91ef925c64bdbcb7d3fbf2FH.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-12/553668ad4c8363c32be3d1fba6b1752664f92b4bw4.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-12/ea947f073fe4289f4adb44511d5b6114523659dcee.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-01/9c875d6cbdcc5c3b46edc789087682003eec7022OB.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2021-11/5767a397373da483e3dfeeb67d39f24bd8ea2b8eo0.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-01/bd5ba67810d6dd22bfc1738965004b561300eb0for.jpg"
-  ],
+  "photos": [],
   "student_score": 9.5,
   "tier": "A",
   "reddit_threads": 1,
@@ -3115,15 +3048,21 @@
   "source_urls": [
    "https://www.westsidegroup.com/hyde-park-court?utm_source=google&utm_campaign=hpc-gmb",
    "https://www.westsidegroup.com/hyde-park-court",
-   "https://www.westsidegroup.com/",
-   "https://www.westsidegroup.com/west-campus/",
+   "https://www.westsidegroup.com/hyde-park-court/apartments/",
+   "https://www.westsidegroup.com/apartments/",
    "https://www.westsidegroup.com/wp-content/uploads/HPC-bedroom2-tour.webp",
    "https://www.westsidegroup.com/wp-content/uploads/ballroom-bar-tour.webp",
-   "https://housing.offcampus.utexas.edu/listing/hyde-park-court-71015"
+   "https://uptownrealtyaustin.com/communities/hyde_park_condominiums/"
   ],
-  "n_amenities": 21,
-  "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "n_amenities": 11,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "not_publicly_listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "sentral-east-austin",
@@ -3146,14 +3085,7 @@
   "management_company": null,
   "site_platform": [],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-08/15250fe3c10b6ce6a1028f5b2260c6cdcdaca345V5.png",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-08/996546223bdea371808aed01697d00dfc544bb18m2.png",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-08/57d3194ded8ea6737ec861ac37991c0b3e354721MI.png",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-08/e6399d5e4cb0f728945e964e6ec368df51d636863P.png",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-08/b5e4a1a69c10178271980d59e5ce9c9b87082096Ii.png",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-08/032161abfdaa554acd3f86cf4c91a95a9a99f337gG.png"
-  ],
+  "photos": [],
   "student_score": 9.5,
   "tier": "A",
   "reddit_threads": 0,
@@ -3166,14 +3098,17 @@
   "source_urls": [
    "https://sentral.com/austin/east-austin?rcstdid=Mg%3D%3D-YRjTEizZPgM%3D?utm_source=google&utm_medium=gbp",
    "https://sentral.com/austin/east-austin",
-   "https://sentral.com/austin/east-austin/floor-plans/",
-   "https://sentral.com/austin/floor-plans/",
-   "https://sentral.com/austin/east-austin?action=book-tour",
-   "https://housing.offcampus.utexas.edu/listing/sentral-east-austin-240025"
+   "https://sentral.com/austin/east-austin?action=book-tour"
   ],
-  "n_amenities": 30,
-  "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "n_amenities": 7,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "not_publicly_listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "2400-nueces-apartments",
@@ -3209,8 +3144,14 @@
    "https://housing.utexas.edu/housing/university-apartments"
   ],
   "n_amenities": 1,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "yugo-austin-nueces",
@@ -3254,8 +3195,14 @@
    "https://yugo.com/en-us/global/united-arab-emirates"
   ],
   "n_amenities": 0,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "26-west",
@@ -3273,19 +3220,12 @@
   "units_est": 240,
   "floors_est": 6,
   "website_url": "https://www.americancampus.com/student-apartments/tx/austin/26-west",
-  "management_company": "American Campus Communities",
+  "management_company": null,
   "site_platform": [
    "americancampus"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2017-10/ut-austin-Apartment-Building-262764.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-10/ut-austin-Apartment-Building-732361.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-10/ut-austin-Apartment-Building-732362.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-10/ut-austin-Apartment-Building-732363.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-10/ut-austin-Apartment-Building-732364.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-10/ut-austin-Apartment-Building-732365.webp"
-  ],
+  "photos": [],
   "student_score": 8.5,
   "tier": "A",
   "reddit_threads": 14,
@@ -3296,12 +3236,17 @@
   "source_urls": [
    "https://www.americancampus.com/student-apartments/tx/austin/26-west",
    "https://www.americancampus.com/student-apartments/tx/austin/26-west",
-   "https://www.americancampus.com/student-apartments/tx/austin/26-west/floor-plans",
-   "https://housing.offcampus.utexas.edu/listing/26-west-31733"
+   "https://www.americancampus.com/student-apartments/tx/austin/26-west/floor-plans"
   ],
-  "n_amenities": 36,
+  "n_amenities": 27,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "aura-thirty2",
@@ -3324,14 +3269,7 @@
    "rentcafe_yardi"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-12/2022AuraThirty2_028jw8qc1766631674.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-12/2022AuraThirty2_059g78Qz1766631677.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-12/3233-harmon-ave-austin-tx-78705-2-High-Res-19JsdIE1766631679.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-12/2022AuraThirty2_060omnjh1766631685.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-12/3233-harmon-ave-austin-tx-78705-2-High-Res-18fdfCa1766631691.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-12/2022AuraThirty2_049wgS681766631699.jpg"
-  ],
+  "photos": [],
   "student_score": 8.5,
   "tier": "A",
   "reddit_threads": 0,
@@ -3349,9 +3287,15 @@
    "https://www.aurathirty2.com/scheduletour",
    "https://www.aurathirty2.com/photogallery"
   ],
-  "n_amenities": 41,
+  "n_amenities": 28,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-sinclair",
@@ -3375,14 +3319,7 @@
    "wordpress"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-12/691f8504406ad9.79111930446tFGea1765823752.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-12/691f850642da39.587320191841BsZU1765823758.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-12/691f84fe50f613.90203270868m4sBu1765823763.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-12/691f85004cbaa2.741783817482rCsV1765823768.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-12/691f850a63bce7.16108876115v1sad1765823774.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-12/691f8502616809.47626631125s4QDe1765823721.jpg"
-  ],
+  "photos": [],
   "student_score": 8.5,
   "tier": "A",
   "reddit_threads": 1,
@@ -3400,9 +3337,15 @@
    "https://thesinclairut.com/gallery/",
    "https://thesinclairut.com/gallery/"
   ],
-  "n_amenities": 30,
+  "n_amenities": 23,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "pearl-street-co-op",
@@ -3438,8 +3381,14 @@
    "https://collegehouses.org/houses/pearl-street"
   ],
   "n_amenities": 11,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "college-houses-cooperatives",
@@ -3480,8 +3429,14 @@
    "https://collegehouses.org/houses/opsis"
   ],
   "n_amenities": 29,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "piazza-novana",
@@ -3504,13 +3459,7 @@
   "management_company": "512 Realty",
   "site_platform": [],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2023-08/dba57b32c74eedd5b16f0ae2e749de58ee80daa25O.jpeg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2023-08/306da9e7ba5ccb5f4e64c6b6313a9134a2c0e7c8Ed.jpeg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2023-08/5154ea22ba29d9f09b96a2b8514a9dcd2fd05fe7Af.jpeg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2023-08/b5ae130bca544557413ba361654eabd609f9eb0eK4.jpeg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2023-08/3c461967503e262bca462eb0e8e55dcf883171c1Hl.jpg"
-  ],
+  "photos": [],
   "student_score": 8.5,
   "tier": "A",
   "reddit_threads": 0,
@@ -3521,12 +3470,17 @@
   ],
   "source_urls": [
    "http://piazzanavonacondos.com/",
-   "http://piazzanavonacondos.com/",
-   "https://housing.offcampus.utexas.edu/listing/piazza-novana-97662"
+   "http://piazzanavonacondos.com/"
   ],
-  "n_amenities": 12,
-  "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "n_amenities": 10,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "not_publicly_listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "eastgate-condo-perfect-for-house-staff-at-dell-st-david-s-limited-time-housestaff-lease-discount",
@@ -3549,14 +3503,7 @@
   "management_company": null,
   "site_platform": [],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-03/UT-AUSTIN-Apartment-Building-17765905.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-03/UT-AUSTIN-Apartment-Building-17765904.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-03/UT-AUSTIN-Apartment-Building-17765906.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-03/UT-AUSTIN-Apartment-Building-17765907.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-03/UT-AUSTIN-Apartment-Building-17765908.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-03/UT-AUSTIN-Apartment-Building-17765902.webp"
-  ],
+  "photos": [],
   "student_score": 8.5,
   "tier": "A",
   "reddit_threads": 0,
@@ -3568,13 +3515,17 @@
   "source_urls": [
    "http://www.prospectrealestate.com/",
    "http://www.prospectrealestate.com/",
-   "http://www.prospectrealestate.com/amenities/",
-   "http://www.prospectrealestate.com/floor-plans/",
-   "https://housing.offcampus.utexas.edu/listing/eastgate-condo-perfect-for-house-staff-at-dell-st.-david-s.-limited-time-housestaff-lease-discount-237029"
+   "http://www.prospectrealestate.com/amenities/"
   ],
-  "n_amenities": 20,
-  "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "not_publicly_listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "texan-pearl",
@@ -3615,8 +3566,14 @@
    "https://texanproperties.net/texan-pearl"
   ],
   "n_amenities": 1,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "dos-rios",
@@ -3633,18 +3590,11 @@
   "dist_campus_m": 1363,
   "units_est": 42,
   "floors_est": 4,
-  "website_url": "https://housing.offcampus.utexas.edu/listing/dos-rios-74711",
+  "website_url": null,
   "management_company": "512 Realty",
   "site_platform": [],
-  "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2021-05/0e95cff7038344e0140e9b31e702e882d4fd8884et.jpeg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2021-05/8a1d84441469f1bb0a237cc8df69a380bbf160ffRy.jpeg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2021-05/89b1f216f25b4129a038cbe849841e47f028faf4VT.jpeg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2021-05/48251b0d1bfb3b41cb8b531e1eca9b1817309760FM.jpeg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2021-05/e1403010335f6ce1ca557d9b88282b2de1b574bc4l.jpeg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2021-05/6a0a6f6da70a620bb2bf05f40a394093aff298a34S.jpeg"
-  ],
+  "site_status": "no_website",
+  "photos": [],
   "student_score": 8.5,
   "tier": "A",
   "reddit_threads": 1,
@@ -3652,16 +3602,16 @@
    "places",
    "rcp"
   ],
-  "source_urls": [
-   "https://housing.offcampus.utexas.edu/listing/dos-rios-74711",
-   "https://housing.offcampus.utexas.edu/listing/dos-rios-74711",
-   "https://housing.offcampus.utexas.edu/listing/dos-rios-74711/floor-plans/",
-   "https://housing.offcampus.utexas.edu/listing/floor-plans/",
-   "https://housing.offcampus.utexas.edu/listing/dos-rios-74711"
-  ],
-  "n_amenities": 2,
-  "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "source_urls": [],
+  "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "not_publicly_listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "melroy-apartments",
@@ -3684,19 +3634,10 @@
   "management_company": "The Weststide Group, Inc.",
   "site_platform": [
    "appfolio",
-   "knock",
-   "rentcafe_yardi",
    "wordpress"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2021-11/e0b9e45e0d8305785a6033adaf61f0eae6ccdcdduu.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-12/76e529bbdd3799e352b52e860fbf8d79321c3c06lM.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-12/bb3460b61da7f313bf3a551204462ca7e3f25587rN.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-12/99874b16fd4fd1e0e5b86de9188197c66f74b3f1On.jpeg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-12/ba6e078f38c723f8ec9584eba259d769d976f1eaYl.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-12/e9294223a9c6c7ae4437ba965bf5ae1153aa0074pm.jpg"
-  ],
+  "photos": [],
   "student_score": 8.5,
   "tier": "A",
   "reddit_threads": 1,
@@ -3709,15 +3650,20 @@
   "source_urls": [
    "https://www.westsidegroup.com/melroy-apartments?utm_source=google&utm_campaign=mel-gmb",
    "https://www.westsidegroup.com/melroy-apartments",
-   "https://www.westsidegroup.com/",
-   "https://www.westsidegroup.com/envoy-apartments",
+   "https://www.westsidegroup.com/melroy-apartments/apartments/",
+   "https://www.westsidegroup.com/apartments/",
    "https://www.westsidegroup.com/wp-content/uploads/new-stairs-tour.webp",
-   "https://www.westsidegroup.com/wp-content/uploads/entrance-door-tour.webp",
-   "https://housing.offcampus.utexas.edu/listing/melroy-apartments-80805"
+   "https://www.westsidegroup.com/wp-content/uploads/entrance-door-tour.webp"
   ],
-  "n_amenities": 11,
-  "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "n_amenities": 7,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "not_publicly_listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "su-casa-apartment-homes",
@@ -3741,14 +3687,7 @@
    "duda"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-04/original0ozjv1745450051.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-04/originalhy6XH1745450053.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-04/originalLiu3H1745450054.png",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/originalebXF81749261847.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/originals2Eg91749261849.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/originalD6zeK1749261851.jpg"
-  ],
+  "photos": [],
   "student_score": 8.5,
   "tier": "A",
   "reddit_threads": 0,
@@ -3764,12 +3703,18 @@
    "https://www.rainieratx.com/availability",
    "https://www.rainieratx.com/availability",
    "https://www.rainieratx.com/${t6(e)}",
-   "https://rainieratx.com/su-casa",
-   "https://housing.offcampus.utexas.edu/listing/su-casa-apartment-homes-31432"
+   "https://www.rainieratx.com/listings/detail/109a5e56-9af1-4427-a01c-ba8a7bd23321",
+   "https://rainieratx.com/su-casa"
   ],
-  "n_amenities": 11,
+  "n_amenities": 8,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "monticello-studios",
@@ -3792,19 +3737,10 @@
   "management_company": "The Weststide Group, Inc.",
   "site_platform": [
    "appfolio",
-   "knock",
-   "rentcafe_yardi",
    "wordpress"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-11/00f8c1feb6033f92e63d7c4dcae62da3e098eba4Cn.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-11/3867e77b4935746204cf02ac2054411d833ab8229V.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-11/7079360cde7e84a3b17fbfa686e24f2388820ee3bT.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-11/fb67beecc1289c26e92ba82f50494a7d66cc7e3fq1.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-11/0e0bd52e149be25ee49ef4aa5b432a4b52d13209qA.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-11/6fdb45592cdbc848e809411472648597715a561c52.jpg"
-  ],
+  "photos": [],
   "student_score": 8.5,
   "tier": "A",
   "reddit_threads": 1,
@@ -3817,15 +3753,20 @@
   "source_urls": [
    "https://www.westsidegroup.com/monticello-apartments?utm_source=google&utm_campaign=mtc-gmb",
    "https://www.westsidegroup.com/monticello-apartments",
-   "https://www.westsidegroup.com/",
-   "https://www.westsidegroup.com/envoy-apartments",
+   "https://www.westsidegroup.com/monticello-apartments/apartments/",
+   "https://www.westsidegroup.com/apartments/",
    "https://www.westsidegroup.com/wp-content/uploads/kitchen-wall-1024x649-tour.webp",
-   "https://www.westsidegroup.com/wp-content/uploads/bedroom-area-1024x683-tour.webp",
-   "https://housing.offcampus.utexas.edu/listing/monticello-studios-80804"
+   "https://www.westsidegroup.com/wp-content/uploads/bedroom-area-1024x683-tour.webp"
   ],
-  "n_amenities": 12,
-  "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "n_amenities": 6,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "not_publicly_listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "oak-park-apartments",
@@ -3849,14 +3790,7 @@
    "duda"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-08/original5Qie41754793733.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-08/originaleKZDo1754793735.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-08/originalkGlYt1754793736.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-08/originalnH1HQ1754793738.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-08/originalIWY3G1754793739.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-08/originalErVBX1754793741.jpg"
-  ],
+  "photos": [],
   "student_score": 8.5,
   "tier": "A",
   "reddit_threads": 1,
@@ -3871,12 +3805,17 @@
    "https://www.rainieratx.com/availability",
    "https://www.rainieratx.com/availability",
    "https://www.rainieratx.com/${t6(e)}",
-   "https://rainieratx.com/oak-park",
-   "https://housing.offcampus.utexas.edu/listing/oak-park-apartments-103796"
+   "https://rainieratx.com/oak-park"
   ],
-  "n_amenities": 20,
+  "n_amenities": 6,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "ion-austin",
@@ -3917,8 +3856,14 @@
    "https://ion-austin.com/photo-tour/"
   ],
   "n_amenities": 30,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "new-guild-co-operative",
@@ -3960,8 +3905,14 @@
    "https://www.iccaustin.coop/newguild"
   ],
   "n_amenities": 2,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-quarters-nueces-house",
@@ -4002,8 +3953,14 @@
    "https://www.quartersoncampus.com/nueceshouse/austin/nueces/photos/"
   ],
   "n_amenities": 23,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "villas-on-rio",
@@ -4045,8 +4002,14 @@
    "https://villasonrio.com/gallery/"
   ],
   "n_amenities": 29,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "21-rio-apartments",
@@ -4064,20 +4027,13 @@
   "units_est": 332,
   "floors_est": 21,
   "website_url": "https://www.21rio.com/?utm_source=gbp&utm_medium=organic&utm_campaign=gbp&switch_cls[id]=97880",
-  "management_company": "University Partners",
+  "management_company": null,
   "site_platform": [
    "entrata",
    "wordpress"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/259829_100059722_66a167b39a21e3.08940429988aTGM61749648618.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/259830_100059722_66a167b3ece8b7.273472992907nTFX1749648618.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/259815_100059722_66a167ae0a3936.16285650988EcZMX1749648666.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/259814_100059722_66a167ad6eff40.86794219752hiTrh1749648665.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/259824_100059722_66a167b1908175.87109066131F9Seu1749648664.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/259817_100059722_66a167ae9d3f06.955495627499tDzx1749648663.jpg"
-  ],
+  "photos": [],
   "student_score": 7.5,
   "tier": "A",
   "reddit_threads": 2,
@@ -4095,9 +4051,15 @@
    "https://www.21rio.com/photo-gallery/",
    "https://www.21rio.com/floor-plans/floorplanLink.url"
   ],
-  "n_amenities": 38,
+  "n_amenities": 25,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "villas-on-24th",
@@ -4140,8 +4102,14 @@
    "https://www.villason24th.com/gallery/"
   ],
   "n_amenities": 33,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "rambler-austin",
@@ -4183,8 +4151,14 @@
    "https://www.rambleratx.com/gallery/"
   ],
   "n_amenities": 36,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "grayson",
@@ -4201,18 +4175,14 @@
   "dist_campus_m": 1128,
   "units_est": 440,
   "floors_est": 10,
-  "website_url": "https://housing.offcampus.utexas.edu/listing/grayson-32615",
+  "website_url": "https://www.quartersoncampus.com/Apartments/module/application_authentication/",
   "management_company": "San Miguel Management",
-  "site_platform": [],
-  "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/30eaa9bb38fb1f777158224c02f25a74861340338W.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/b14619efef2969194d06e9d11444d11568b3bdf1JI.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/ccc152ebf158966bf32fcc30f13d4cc849f2931cR7.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/bc31bff4f48c8f8bff1af9ffba91c879a1738965up.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/9cbe9b0150b0e2f4cc9a0bc1d7e871cff81539b0cS.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/45e1056823929ee788c528e2c9362884a5899de54x.jpg"
+  "site_platform": [
+   "entrata",
+   "sightmap"
   ],
+  "site_status": "ok",
+  "photos": [],
   "student_score": 7.5,
   "tier": "A",
   "reddit_threads": 0,
@@ -4221,15 +4191,19 @@
    "rcp"
   ],
   "source_urls": [
-   "https://housing.offcampus.utexas.edu/listing/grayson-32615",
-   "https://housing.offcampus.utexas.edu/listing/grayson-32615",
-   "https://housing.offcampus.utexas.edu/listing/grayson-32615/floor-plans/",
-   "https://housing.offcampus.utexas.edu/listing/floor-plans/",
-   "https://housing.offcampus.utexas.edu/listing/grayson-32615"
+   "https://www.quartersoncampus.com/Apartments/module/application_authentication/",
+   "https://www.quartersoncampus.com/Apartments/module/application_authentication/",
+   "https://www.quartersoncampus.com/Apartments/module/floor-plans/"
   ],
-  "n_amenities": 1,
-  "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "not_publicly_listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-quarters-grayson-house",
@@ -4266,8 +4240,14 @@
    "https://www.quartersoncampus.com/apartments/"
   ],
   "n_amenities": 7,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "buena-vista-condo",
@@ -4284,18 +4264,14 @@
   "dist_campus_m": 1182,
   "units_est": 84,
   "floors_est": 5,
-  "website_url": "https://housing.offcampus.utexas.edu/listing/buena-vista-condo-70594",
+  "website_url": "https://uptownrealtyaustin.com/communities/buena_vista/",
   "management_company": "512 Realty",
-  "site_platform": [],
-  "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/51acde3137afd7dafb669a4ff4ef422a87944542F9.JPG",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/UT-AUSTIN-Apartment-Building-737739.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/UT-AUSTIN-Apartment-Building-737742.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/UT-AUSTIN-Apartment-Building-737743.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/UT-AUSTIN-Apartment-Building-737744.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/UT-AUSTIN-Apartment-Building-737745.webp"
+  "site_platform": [
+   "propertybase",
+   "wordpress"
   ],
+  "site_status": "ok",
+  "photos": [],
   "student_score": 7.5,
   "tier": "A",
   "reddit_threads": 1,
@@ -4303,15 +4279,18 @@
    "rcp"
   ],
   "source_urls": [
-   "https://housing.offcampus.utexas.edu/listing/buena-vista-condo-70594",
-   "https://housing.offcampus.utexas.edu/listing/buena-vista-condo-70594",
-   "https://housing.offcampus.utexas.edu/listing/buena-vista-condo-70594/floor-plans/",
-   "https://housing.offcampus.utexas.edu/listing/floor-plans/",
-   "https://housing.offcampus.utexas.edu/listing/buena-vista-condo-70594"
+   "https://uptownrealtyaustin.com/communities/buena_vista/",
+   "https://uptownrealtyaustin.com/communities/buena_vista/"
   ],
-  "n_amenities": 6,
+  "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "ut-speedway",
@@ -4332,14 +4311,7 @@
   "management_company": "JNJ Real Estate LLC",
   "site_platform": [],
   "site_status": "no_website",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2022-12/61aea51b99edef7ec658afde90ebe69e9544ae25BD.jpeg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2022-12/5e1989558385564d3b1432979208ccdb28ae2a93D9.jpeg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2022-11/bb9256758ae0cfbbeda403c9bb69d42d6f0716ebWQ.jpeg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2023-01/6d007bc1651f855a4616added125f8bf9a2bb48aSe.jpeg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2023-02/68009f03501a7efd802ee5f22e0df18ed4273468xl.jpeg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2023-02/ddb3014294a3c26fc838d1cbb44763f540cbbb65tc.jpeg"
-  ],
+  "photos": [],
   "student_score": 7.5,
   "tier": "A",
   "reddit_threads": 0,
@@ -4348,12 +4320,17 @@
    "rcp"
   ],
   "source_urls": [
-   "https://jnjrealestate.com/apt",
-   "https://housing.offcampus.utexas.edu/listing/ut-speedway-99570"
+   "https://jnjrealestate.com/apt"
   ],
-  "n_amenities": 8,
-  "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "not_publicly_listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "house-of-commons",
@@ -4391,8 +4368,14 @@
    "https://www.iccaustin.coop/availability-rates/"
   ],
   "n_amenities": 11,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "21-pearl",
@@ -4410,21 +4393,14 @@
   "units_est": 108,
   "floors_est": 4,
   "website_url": "https://www.21pearlst.com/?switch_cls[id]=68820",
-  "management_company": "Preiss",
+  "management_company": null,
   "site_platform": [
    "entrata",
    "leaseleads",
    "wordpress"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/67bb1732f43dd752c5503d4dce265eb6a2c07ba31X.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/b7f4acdc90fa746ede69987175ecd63e926239eb6G.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/92499ace44a68977582ae90373ab06feb9ea447b8l.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/6015f3ed6034573d6d263995cde19610acfdb210sE.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/04c8c97dd1965c0b30f0eaf6e50a5e1734bf1a56hz.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-03/c6a716318b03d1ae923f29a1362bbf2c1329e618Ze.jpg"
-  ],
+  "photos": [],
   "student_score": 7.5,
   "tier": "A",
   "reddit_threads": 7,
@@ -4441,9 +4417,15 @@
    "https://www.21pearlst.com/gallery/",
    "https://www.21pearlst.com/gallery/"
   ],
-  "n_amenities": 38,
+  "n_amenities": 26,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "regents-west-at-24th",
@@ -4467,14 +4449,7 @@
    "rentcafe_yardi"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-06/UT-AUSTIN-Apartment-Building-18757477.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-06/UT-AUSTIN-Apartment-Building-18757478.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-06/UT-AUSTIN-Apartment-Building-18757479.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-06/UT-AUSTIN-Apartment-Building-18757480.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-06/UT-AUSTIN-Apartment-Building-18757481.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-06/UT-AUSTIN-Apartment-Building-18757482.webp"
-  ],
+  "photos": [],
   "student_score": 7.5,
   "tier": "A",
   "reddit_threads": 2,
@@ -4492,9 +4467,15 @@
    "https://www.regentswest24.com/gallery",
    "https://www.regentswest24.com/gallery"
   ],
-  "n_amenities": 24,
+  "n_amenities": 23,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "parapet",
@@ -4511,18 +4492,14 @@
   "dist_campus_m": 1351,
   "units_est": 39,
   "floors_est": 4,
-  "website_url": "https://housing.offcampus.utexas.edu/listing/parapet-78563",
+  "website_url": "https://bramlettresidential.com/reso/TX/Austin/78705/048c899b6e4e21215726562786a2a914/Parapet-Condo",
   "management_company": "512 Realty",
-  "site_platform": [],
-  "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2021-11/16ab8452d5059ecbc7043d45753f76a56b9ebd99eL.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2021-11/51a7f47b0a4a69a0497047857288fb6bab5a4c84vt.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2021-11/083e7979d6d4a0f7f389a90a8ee5a3aa0af7bd4b6o.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2023-08/87f7c2ed12795cb005f1f3faf0d7e7268107691eAj.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2023-08/10f4ab4b4ee410ff7b6757ac5dc18950b0014c3dY9.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2023-08/0123068a1af13b568a896c9424c7ebe3f39c3cc5zC.jpg"
+  "site_platform": [
+   "propertybase",
+   "wordpress"
   ],
+  "site_status": "ok",
+  "photos": [],
   "student_score": 7.5,
   "tier": "A",
   "reddit_threads": 0,
@@ -4532,16 +4509,19 @@
    "rcp"
   ],
   "source_urls": [
-   "https://housing.offcampus.utexas.edu/listing/parapet-78563",
-   "https://housing.offcampus.utexas.edu/listing/parapet-78563",
-   "https://housing.offcampus.utexas.edu/listing/parapet-78563/floor-plans/",
-   "https://housing.offcampus.utexas.edu/listing/floor-plans/",
    "https://bramlettresidential.com/reso/TX/Austin/78705/048c899b6e4e21215726562786a2a914/Parapet-Condo",
-   "https://housing.offcampus.utexas.edu/listing/parapet-78563"
+   "https://bramlettresidential.com/reso/TX/Austin/78705/048c899b6e4e21215726562786a2a914/Parapet-Condo",
+   "https://uptownrealtyaustin.com/communities/parapet/"
   ],
-  "n_amenities": 1,
+  "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "tree-house",
@@ -4558,17 +4538,14 @@
   "dist_campus_m": 1414,
   "units_est": 115,
   "floors_est": 7,
-  "website_url": "https://housing.offcampus.utexas.edu/listing/tree-house-96916",
+  "website_url": "https://uptownrealtyaustin.com/communities/treehouse/",
   "management_company": "512 Realty",
-  "site_platform": [],
-  "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-01/94bb77ddaa4279ca97384d43987e11abb9e998aaUc.jpeg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2023-08/cffe3555dc446452839ae2ece30e8d561190df991h.jpeg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2023-08/a85915f34c33cb39ef3766d49dcc3f39d7c512e4Uu.jpeg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2023-08/e9a6b5d2c3045f989a32d716bdb0773f446942c6VI.jpeg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2023-08/cba58cb90240f2c00e966e2cdc14626e069298a2WA.jpeg"
+  "site_platform": [
+   "propertybase",
+   "wordpress"
   ],
+  "site_status": "ok",
+  "photos": [],
   "student_score": 7.5,
   "tier": "A",
   "reddit_threads": 0,
@@ -4577,15 +4554,18 @@
    "rcp"
   ],
   "source_urls": [
-   "https://housing.offcampus.utexas.edu/listing/tree-house-96916",
-   "https://housing.offcampus.utexas.edu/listing/tree-house-96916",
-   "https://housing.offcampus.utexas.edu/listing/tree-house-96916/floor-plans/",
-   "https://housing.offcampus.utexas.edu/listing/floor-plans/",
-   "https://housing.offcampus.utexas.edu/listing/tree-house-96916"
+   "https://uptownrealtyaustin.com/communities/treehouse/",
+   "https://uptownrealtyaustin.com/communities/treehouse/"
   ],
-  "n_amenities": 1,
+  "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-villas-at-san-gabriel",
@@ -4628,8 +4608,14 @@
    "https://villasatsangabriel.com/gallery/"
   ],
   "n_amenities": 32,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "texan-tower-condos",
@@ -4667,8 +4653,14 @@
    "https://bramlettresidential.com/reso/TX/Austin/78705/c0441085bcc7ef273dfb70fb96f75bfc/floor-plans/"
   ],
   "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "24-longview",
@@ -4686,19 +4678,12 @@
   "units_est": 132,
   "floors_est": 5,
   "website_url": "https://www.24longview.com/?switch_cls[id]=68820",
-  "management_company": "G & B Property Management",
+  "management_company": null,
   "site_platform": [
    "webflow"
   ],
   "site_status": "blocked_or_empty",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-10/UT-AUSTIN-Apartment-Building-16780278.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-10/UT-AUSTIN-Apartment-Building-16780279.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-10/UT-AUSTIN-Apartment-Building-16780281.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-10/UT-AUSTIN-Apartment-Building-16780282.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-10/UT-AUSTIN-Apartment-Building-16780277.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-10/UT-AUSTIN-Apartment-Building-16780275.webp"
-  ],
+  "photos": [],
   "student_score": 7.5,
   "tier": "A",
   "reddit_threads": 7,
@@ -4712,12 +4697,17 @@
    "https://www.24longview.com/amenities",
    "https://www.24longview.com/amenities",
    "https://www.24longview.com/floor-plans",
-   "https://www.24longview.com/floor-plans",
-   "https://housing.offcampus.utexas.edu/listing/24-longview-233996"
+   "https://www.24longview.com/floor-plans"
   ],
-  "n_amenities": 27,
+  "n_amenities": 18,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "nob-hill-homes",
@@ -4736,21 +4726,14 @@
   "dist_campus_m": 1737,
   "units_est": 83,
   "floors_est": 5,
-  "website_url": "https://housing.offcampus.utexas.edu/listing/nob-hill-homes-112527",
+  "website_url": "https://rainieratx.com/nob-hill",
   "management_company": "Rainier Properties",
   "site_platform": [
    "appfolio",
    "duda"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-04/original2FPMQ1745451136.png",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-04/originalQdCBT1745451144.png",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-04/originalS0mPz1745451153.png",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-04/originaluN3fL1745451162.png",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-07/original2cajC1753583503.jpeg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-07/originalaWzeV1753583504.jpeg"
-  ],
+  "photos": [],
   "student_score": 7.5,
   "tier": "A",
   "reddit_threads": 0,
@@ -4760,16 +4743,21 @@
    "rcp"
   ],
   "source_urls": [
-   "https://housing.offcampus.utexas.edu/listing/nob-hill-homes-112527",
-   "https://housing.offcampus.utexas.edu/listing/nob-hill-homes-112527",
-   "https://housing.offcampus.utexas.edu/listing/nob-hill-homes-112527/floor-plans/",
-   "https://housing.offcampus.utexas.edu/listing/floor-plans/",
    "https://rainieratx.com/nob-hill",
-   "https://housing.offcampus.utexas.edu/listing/nob-hill-homes-112527"
+   "https://rainieratx.com/nob-hill",
+   "https://rainieratx.com/availability",
+   "https://rainieratx.com/availability",
+   "https://rainieratx.com/listings/detail/109a5e56-9af1-4427-a01c-ba8a7bd23321"
   ],
-  "n_amenities": 14,
+  "n_amenities": 6,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "metropolis",
@@ -4818,8 +4806,14 @@
    "https://www.415colorado.com/floor-plan/jr-2/"
   ],
   "n_amenities": 20,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "elle-west-ave",
@@ -4867,8 +4861,14 @@
    "https://www.ellewestave.com/gallery/"
   ],
   "n_amenities": 17,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "blackstone-apartments",
@@ -4904,8 +4904,14 @@
    "http://austinblackstoneapts.com/floor-plans/"
   ],
   "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "red-river-place-apartments",
@@ -4922,18 +4928,14 @@
   "dist_campus_m": 779,
   "units_est": 14,
   "floors_est": 2,
-  "website_url": "https://housing.offcampus.utexas.edu/listing/red-river-place-apartments-114837",
+  "website_url": "https://uptownrealtyaustin.com/communities/red_river_apartments/",
   "management_company": null,
-  "site_platform": [],
-  "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-01/largeE42lg1768444098.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-01/largeCeqNP1768444102.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-01/largehjJoq1768444103.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-01/largeR6s761768444104.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-01/largeiI72U1768444105.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-01/largeLESOi1768444106.jpg"
+  "site_platform": [
+   "propertybase",
+   "wordpress"
   ],
+  "site_status": "ok",
+  "photos": [],
   "student_score": 6.5,
   "tier": "A",
   "reddit_threads": 0,
@@ -4942,15 +4944,18 @@
    "rcp"
   ],
   "source_urls": [
-   "https://housing.offcampus.utexas.edu/listing/red-river-place-apartments-114837",
-   "https://housing.offcampus.utexas.edu/listing/red-river-place-apartments-114837",
-   "https://housing.offcampus.utexas.edu/listing/red-river-place-apartments-114837/floor-plans/",
-   "https://housing.offcampus.utexas.edu/listing/floor-plans/",
-   "https://housing.offcampus.utexas.edu/listing/red-river-place-apartments-114837"
+   "https://uptownrealtyaustin.com/communities/red_river_apartments/",
+   "https://uptownrealtyaustin.com/communities/red_river_apartments/"
   ],
-  "n_amenities": 9,
+  "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "greenwood-towers-condominiums",
@@ -4991,8 +4996,14 @@
    "http://www.highrises.com/austin/floor-plans/"
   ],
   "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "texan-304",
@@ -5033,8 +5044,14 @@
    "https://texanproperties.net/texan-304"
   ],
   "n_amenities": 1,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "villas-on-nueces",
@@ -5075,8 +5092,14 @@
    "https://villasonnueces.com/photos/"
   ],
   "n_amenities": 18,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "lark-austin",
@@ -5117,8 +5140,14 @@
    "https://larkaustin.com/photo-tour/"
   ],
   "n_amenities": 34,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "gateway-8",
@@ -5135,34 +5164,27 @@
   "dist_campus_m": 998,
   "units_est": 21,
   "floors_est": 5,
-  "website_url": "https://housing.offcampus.utexas.edu/listing/gateway-8-74702",
+  "website_url": null,
   "management_company": "512 Realty",
   "site_platform": [],
-  "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2021-05/41bc166757eca32f31208436014226841f2e4600B7.jpeg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2021-05/0a183bdafa9276faf1c42f3b52a5b92c2701d98bQE.jpeg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2021-05/1fe9d650f12b297d75484d12117270c9be6a9409FD.jpeg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2023-08/c9908f85bb03959a1b2d073f66f6380b4d5281d6ko.jpeg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2023-08/3bd54afa03402c8f663300705544e2a4b08dd6feZJ.jpeg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2023-08/51bee999ce40e5f60a7682a87016c3c931f3cbcfsN.jpeg"
-  ],
+  "site_status": "no_website",
+  "photos": [],
   "student_score": 6.5,
   "tier": "A",
   "reddit_threads": 1,
   "source_families": [
    "rcp"
   ],
-  "source_urls": [
-   "https://housing.offcampus.utexas.edu/listing/gateway-8-74702",
-   "https://housing.offcampus.utexas.edu/listing/gateway-8-74702",
-   "https://housing.offcampus.utexas.edu/listing/gateway-8-74702/floor-plans/",
-   "https://housing.offcampus.utexas.edu/listing/floor-plans/",
-   "https://housing.offcampus.utexas.edu/listing/gateway-8-74702"
-  ],
-  "n_amenities": 1,
-  "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "source_urls": [],
+  "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "not_publicly_listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "31st-street-condominiums",
@@ -5202,8 +5224,14 @@
    "https://austinresidence.com/31st-street-condos-austin-tx-78705"
   ],
   "n_amenities": 9,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-quarters-karnes-house",
@@ -5240,8 +5268,14 @@
    "https://www.quartersoncampus.com/apartments/"
   ],
   "n_amenities": 1,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-quarters-sterling-house",
@@ -5278,8 +5312,14 @@
    "https://www.quartersoncampus.com/apartments/"
   ],
   "n_amenities": 8,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "university-quarters",
@@ -5318,8 +5358,14 @@
    "https://gbatx.com/availability"
   ],
   "n_amenities": 0,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "french-house",
@@ -5358,8 +5404,14 @@
    "https://www.iccaustin.coop/availability-rates/"
   ],
   "n_amenities": 3,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "presidio-at-judge-s-hill",
@@ -5399,8 +5451,14 @@
    "http://www.highrises.com/austin/floor-plans/"
   ],
   "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "littlefield-house",
@@ -5417,18 +5475,13 @@
   "dist_campus_m": 1219,
   "units_est": 14,
   "floors_est": 3,
-  "website_url": "https://housing.offcampus.utexas.edu/listing/littlefield-house-71050",
+  "website_url": "https://uptownrealtyaustin.com/communities/littlefield_house/",
   "management_company": "Scarlet Key Properties",
-  "site_platform": [],
-  "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-12/a3dc96fb67952a5f8cf9059fba03e62643e8412bdh.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-12/UT-AUSTIN-Apartment-Building-753390.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-12/UT-AUSTIN-Apartment-Building-753391.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-12/UT-AUSTIN-Apartment-Building-753392.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-12/UT-AUSTIN-Apartment-Building-753393.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-12/UT-AUSTIN-Apartment-Building-753380.webp"
+  "site_platform": [
+   "wordpress"
   ],
+  "site_status": "ok",
+  "photos": [],
   "student_score": 6.5,
   "tier": "A",
   "reddit_threads": 0,
@@ -5437,15 +5490,18 @@
    "rcp"
   ],
   "source_urls": [
-   "https://housing.offcampus.utexas.edu/listing/littlefield-house-71050",
-   "https://housing.offcampus.utexas.edu/listing/littlefield-house-71050",
-   "https://housing.offcampus.utexas.edu/listing/littlefield-house-71050/floor-plans/",
-   "https://housing.offcampus.utexas.edu/listing/floor-plans/",
-   "https://housing.offcampus.utexas.edu/listing/littlefield-house-71050"
+   "https://uptownrealtyaustin.com/communities/littlefield_house/",
+   "https://uptownrealtyaustin.com/communities/littlefield_house/"
   ],
-  "n_amenities": 6,
+  "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "1883-cameron-montgomery-house",
@@ -5466,20 +5522,13 @@
   "units_est": 108,
   "floors_est": 5,
   "website_url": "https://1883atx.com/?switch_cls[id]=74341&utm_source=google%20-%20entrataseo&utm_medium=organic&utm_campaign=gmb&utm_content=websiteclick",
-  "management_company": "San Miguel Management",
+  "management_company": null,
   "site_platform": [
    "entrata",
    "sightmap"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/67eac4987a7148.71384182830ggUz21749650420.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/67eac49a617639.27073547523ob6hS1749650418.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/67eac499c92dd9.48649663110ds5ae1749650416.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/67eac49925a256.99952041849sqAZc1749650414.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/67eac4a5ca5323.49764544749TMuBh1749650411.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-06/67eac4a730dac6.80708137308uuvmB1749650410.jpg"
-  ],
+  "photos": [],
   "student_score": 6.5,
   "tier": "A",
   "reddit_threads": 1,
@@ -5493,12 +5542,17 @@
    "https://www.1883atx.com/austin/1883-at-cameron/amenities/",
    "https://www.1883atx.com/austin/1883-at-cameron/",
    "https://www.1883atx.com/austin/1883-at-cameron/student/",
-   "https://www.1883atx.com/austin/1883-at-cameron/photos/",
-   "https://housing.offcampus.utexas.edu/listing/1883-at-cameron-32532"
+   "https://www.1883atx.com/austin/1883-at-cameron/photos/"
   ],
   "n_amenities": 22,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "villas-on-26th",
@@ -5541,8 +5595,14 @@
    "https://www.villason26.com/austin/95212-villas-on-26th/photos/"
   ],
   "n_amenities": 28,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "whitis-lofts",
@@ -5566,14 +5626,7 @@
    "duda"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-10/ut-austin-Apartment-Building-736842.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-10/ut-austin-Apartment-Building-736838.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-10/ut-austin-Apartment-Building-736837.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-10/ut-austin-Apartment-Building-736841.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-10/ut-austin-Apartment-Building-736840.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-10/ut-austin-Apartment-Building-736839.webp"
-  ],
+  "photos": [],
   "student_score": 6.5,
   "tier": "A",
   "reddit_threads": 0,
@@ -5585,12 +5638,17 @@
    "https://www.512living.co/",
    "https://www.512living.co/",
    "https://www.512living.co/availability",
-   "https://www.512living.co/availability",
-   "https://housing.offcampus.utexas.edu/listing/whitis-lofts-70619"
+   "https://www.512living.co/availability"
   ],
-  "n_amenities": 6,
+  "n_amenities": 2,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "texan-west-campus",
@@ -5626,8 +5684,14 @@
    "https://www.americancampus.com/student-apartments/tx/austin/texan-and-vintage-west-campus/floor-plans"
   ],
   "n_amenities": 27,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "san-remo",
@@ -5644,15 +5708,11 @@
   "dist_campus_m": 1379,
   "units_est": 24,
   "floors_est": 4,
-  "website_url": "https://housing.offcampus.utexas.edu/listing/san-remo-32626",
+  "website_url": null,
   "management_company": "Burlington Ventures",
   "site_platform": [],
-  "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-11/c19cec04b8e21b28d3fd5ea4e469876c8437d2ebZ7.jpeg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-11/41d9f7e0feccb0add0c1989b4f8682fb72cd96ba3r.jpeg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-11/f949531c059aa7e1c037194cfda9672aee1d4b693g.webp"
-  ],
+  "site_status": "no_website",
+  "photos": [],
   "student_score": 6.5,
   "tier": "A",
   "reddit_threads": 0,
@@ -5660,16 +5720,16 @@
    "places",
    "rcp"
   ],
-  "source_urls": [
-   "https://housing.offcampus.utexas.edu/listing/san-remo-32626",
-   "https://housing.offcampus.utexas.edu/listing/san-remo-32626",
-   "https://housing.offcampus.utexas.edu/listing/san-remo-32626/floor-plans/",
-   "https://housing.offcampus.utexas.edu/listing/floor-plans/",
-   "https://housing.offcampus.utexas.edu/listing/san-remo-32626"
-  ],
-  "n_amenities": 11,
-  "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "source_urls": [],
+  "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "not_publicly_listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "sandpiper-apartments",
@@ -5692,14 +5752,7 @@
    "wix"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-03/originalsn4Hw1773850481.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-03/originaluVs4X1773850483.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-03/originalmu2kc1773850485.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-03/originalJ7tJ01773850486.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-03/originalEC9Qj1773850488.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-03/original8tBqT1773850490.jpg"
-  ],
+  "photos": [],
   "student_score": 6.5,
   "tier": "A",
   "reddit_threads": 0,
@@ -5709,12 +5762,17 @@
   ],
   "source_urls": [
    "https://www.sandpiperatx.com/",
-   "https://www.sandpiperatx.com/",
-   "https://housing.offcampus.utexas.edu/listing/sandpiper-apartments-105929"
+   "https://www.sandpiperatx.com/"
   ],
-  "n_amenities": 19,
-  "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "n_amenities": 1,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "not_publicly_listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "yugo-austin-corner",
@@ -5758,8 +5816,14 @@
    "https://utcorner.com"
   ],
   "n_amenities": 21,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "lone-star-lofts",
@@ -5798,8 +5862,14 @@
    "https://thelonestarlofts.com/floor-plans"
   ],
   "n_amenities": 11,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "alexan-waterloo",
@@ -5842,8 +5912,14 @@
    "https://www.alexanwaterloo.com/gallery/"
   ],
   "n_amenities": 25,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "texan-shoal-creek",
@@ -5884,8 +5960,14 @@
    "https://texanproperties.net/availability"
   ],
   "n_amenities": 1,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "fountain-terrace",
@@ -5909,14 +5991,7 @@
    "sightmap"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-05/UT-AUSTIN-Apartment-Building-18694604.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-05/UT-AUSTIN-Apartment-Building-18694732.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-05/UT-AUSTIN-Apartment-Building-18694605.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-05/UT-AUSTIN-Apartment-Building-18694726.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-05/UT-AUSTIN-Apartment-Building-18694917.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-05/UT-AUSTIN-Apartment-Building-18694919.webp"
-  ],
+  "photos": [],
   "student_score": 6.5,
   "tier": "A",
   "reddit_threads": 0,
@@ -5934,9 +6009,15 @@
    "http://fountainterraceaustin.com/Gallery.aspx",
    "http://fountainterraceaustin.com/Gallery.aspx"
   ],
-  "n_amenities": 18,
-  "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "n_amenities": 6,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "not_publicly_listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "starwest-condos",
@@ -5953,18 +6034,14 @@
   "dist_campus_m": 1681,
   "units_est": 41,
   "floors_est": 3,
-  "website_url": "https://housing.offcampus.utexas.edu/listing/starwest-condos-70613",
+  "website_url": "https://uptownrealtyaustin.com/communities/starwest/",
   "management_company": "512 Realty",
-  "site_platform": [],
-  "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/0ecc4f59e0ab9f10733192ec02b656ef1560d026Tg.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/17fca4798b34a13c111c38fdfd77a021e7a2bb60Vw.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/8c09d12fb6a1704bbcd4da423420689af59306533q.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/2cafbceeb7052708640f33f3474fbc9d59206a301W.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/d029a203a5f12ac839515c2751c8f2d65177bfb6Yx.JPG",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/9db8e1c897b2605b0c3d373933cf64bd12c67480r9.jpg"
+  "site_platform": [
+   "propertybase",
+   "wordpress"
   ],
+  "site_status": "ok",
+  "photos": [],
   "student_score": 6.5,
   "tier": "A",
   "reddit_threads": 0,
@@ -5973,15 +6050,18 @@
    "rcp"
   ],
   "source_urls": [
-   "https://housing.offcampus.utexas.edu/listing/starwest-condos-70613",
-   "https://housing.offcampus.utexas.edu/listing/starwest-condos-70613",
-   "https://housing.offcampus.utexas.edu/listing/starwest-condos-70613/floor-plans/",
-   "https://housing.offcampus.utexas.edu/listing/floor-plans/",
-   "https://housing.offcampus.utexas.edu/listing/starwest-condos-70613"
+   "https://uptownrealtyaustin.com/communities/starwest/",
+   "https://uptownrealtyaustin.com/communities/starwest/"
   ],
-  "n_amenities": 3,
+  "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "pease-parkside-apartments",
@@ -6001,21 +6081,14 @@
   "units_est": 22,
   "floors_est": 3,
   "website_url": "http://peaseparkside.com/",
-  "management_company": "The Weststide Group, Inc.",
+  "management_company": null,
   "site_platform": [
    "appfolio",
    "duda",
    "webflow"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-07/e8ec047c6c29db8ef66ec0959ab0b7dc60eb8b92sy.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/05a741a062bef95f3a619e25613412397860dcf27J.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2022-08/31f99555d18ed12885ea40226440f0b00e59f54eqw.png",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2022-08/5cd6c0a21dcb850dea84c37e7ea19eae6acd891awQ.png",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-07/032d0c6ac210dd62abd403fe60b79d1336837780fQ.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/3521b5d802f1013a0770c6e14d9f31a806f7151bmE.jpg"
-  ],
+  "photos": [],
   "student_score": 6.5,
   "tier": "A",
   "reddit_threads": 2,
@@ -6034,9 +6107,15 @@
    "http://peaseparkside.com/gallery",
    "http://www.peaseparksideapts.com/?utm_knock=g"
   ],
-  "n_amenities": 20,
+  "n_amenities": 9,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "north-40",
@@ -6060,14 +6139,7 @@
    "rentcafe_yardi"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-05/p2125259_North_40_Config_1_1_Photogallery6tL3Y1778557042.JPG",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-05/p2125259_North_40_Config_2_1_PhotogallerylejsZ1778557043.JPG",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-05/p2125259_North_40_Config_3_1_Photogallery43CA61778557044.JPG",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-05/p2125259_North_40_Config_4_1_PhotogalleryrL9Ty1778557044.JPG",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-05/p2125259_North_40_Config_5_1_Photogallery7Kp7T1778557045.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-05/p2125259_North_40_Config_6_1_Photogalleryo1iOv1778557046.jpg"
-  ],
+  "photos": [],
   "student_score": 6.5,
   "tier": "A",
   "reddit_threads": 0,
@@ -6086,9 +6158,15 @@
    "https://www.north40apts.com/contactus",
    "https://www.north40apts.com/contactus"
   ],
-  "n_amenities": 23,
+  "n_amenities": 20,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-kingston",
@@ -6111,14 +6189,7 @@
    "wix"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-05/UT-AUSTIN-Apartment-Building-18721091.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-05/UT-AUSTIN-Apartment-Building-18721092.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-05/UT-AUSTIN-Apartment-Building-18721093.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-05/UT-AUSTIN-Apartment-Building-18721094.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-09/largemZU3f1788489490.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-09/largeraUZu1788489490.jpg"
-  ],
+  "photos": [],
   "student_score": 6.5,
   "tier": "A",
   "reddit_threads": 1,
@@ -6132,12 +6203,17 @@
    "http://www.thekingstonatx.com/amenities/",
    "https://www.thekingstonatx.com/floor-plan",
    "https://www.thekingstonatx.com/gallery",
-   "https://www.thekingstonatx.com/gallery",
-   "https://housing.offcampus.utexas.edu/listing/the-kingston-237998"
+   "https://www.thekingstonatx.com/gallery"
   ],
-  "n_amenities": 12,
-  "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "n_amenities": 8,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "not_publicly_listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "hyde-park-apartments",
@@ -6156,21 +6232,14 @@
   "dist_campus_m": 2736,
   "units_est": 20,
   "floors_est": 3,
-  "website_url": "https://harrisonpearson.com/contact-us/",
-  "management_company": "The Weststide Group, Inc.",
+  "website_url": "https://uptownrealtyaustin.com/communities/hyde_park_condominiums/",
+  "management_company": null,
   "site_platform": [
-   "squarespace",
+   "propertybase",
    "wordpress"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-12/e55577bc68bdb7adcd91ef925c64bdbcb7d3fbf2FH.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-12/553668ad4c8363c32be3d1fba6b1752664f92b4bw4.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2025-12/ea947f073fe4289f4adb44511d5b6114523659dcee.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-01/9c875d6cbdcc5c3b46edc789087682003eec7022OB.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2021-11/5767a397373da483e3dfeeb67d39f24bd8ea2b8eo0.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2024-01/bd5ba67810d6dd22bfc1738965004b561300eb0for.jpg"
-  ],
+  "photos": [],
   "student_score": 6.5,
   "tier": "A",
   "reddit_threads": 1,
@@ -6179,15 +6248,18 @@
    "rcp"
   ],
   "source_urls": [
-   "https://harrisonpearson.com/contact-us/",
-   "https://harrisonpearson.com/contact-us/",
-   "https://harrisonpearson.com/contact-us/floor-plans/",
-   "https://harrisonpearson.com/floor-plans/",
-   "https://housing.offcampus.utexas.edu/listing/hyde-park-court-71015"
+   "https://uptownrealtyaustin.com/communities/hyde_park_condominiums/",
+   "https://uptownrealtyaustin.com/communities/hyde_park_condominiums/"
   ],
-  "n_amenities": 14,
-  "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "not_publicly_listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "avana-apartments",
@@ -6211,11 +6283,7 @@
    "rentcafe_yardi"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-05/Avana Staged Living Room, Kitchen and Dining10p4N1778556935.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-05/Avana Staged Living Room and KitchenGNPnC1778556938.jpg",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2026-05/Avana Staged BedroomhAk0w1778556941.jpg"
-  ],
+  "photos": [],
   "student_score": 6.5,
   "tier": "A",
   "reddit_threads": 0,
@@ -6235,8 +6303,14 @@
    "https://www.avanaatx.com/photogallery"
   ],
   "n_amenities": 27,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "mosaic-at-mueller",
@@ -6258,17 +6332,12 @@
   "site_platform": [
    "g5",
    "knock",
-   "realpage"
+   "propertybase",
+   "realpage",
+   "wordpress"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2023-05/89dee9a7a9ed4b342e2d5f3f953493b734fa9312jo.png",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2023-05/9b5c5fd1ee6939b0ed03184049680b30509ca7ecTc.png",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2023-05/bb6ddfba05eef838c6e13022e96bbbeff4099c14Gz.png",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2023-05/479986911fb6a2ca4b8407474da7f87a107fe4f5RJ.png",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2023-05/d46dc4655bcb02a7a2388cf3f7513a6a3ef7198ccs.png",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2023-05/779758b36beda6ac4ce5f1c47d066c8c46b24e37CJ.png"
-  ],
+  "photos": [],
   "student_score": 6.5,
   "tier": "A",
   "reddit_threads": 0,
@@ -6286,9 +6355,15 @@
    "https://www.mosaicaustin.com/apartments/tx/austin/gallery",
    "https://www.mosaicaustin.com/apartments/tx/austin/gallery"
   ],
-  "n_amenities": 29,
+  "n_amenities": 18,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "waterloo-flats",
@@ -6334,8 +6409,14 @@
    "https://www.waterlooflats.com/gallery/"
   ],
   "n_amenities": 15,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-eastwood",
@@ -6378,8 +6459,14 @@
    "https://livetheeastwood.com/availability"
   ],
   "n_amenities": 12,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-g",
@@ -6412,8 +6499,14 @@
    "http://thegaustin.com/"
   ],
   "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "buena-vista-condominium",
@@ -6431,20 +6524,13 @@
   "units_est": 84,
   "floors_est": 5,
   "website_url": "https://uptownrealtyaustin.com/communities/Buena_Vista",
-  "management_company": "512 Realty",
+  "management_company": null,
   "site_platform": [
    "propertybase",
    "wordpress"
   ],
   "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/51acde3137afd7dafb669a4ff4ef422a87944542F9.JPG",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/UT-AUSTIN-Apartment-Building-737739.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/UT-AUSTIN-Apartment-Building-737742.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/UT-AUSTIN-Apartment-Building-737743.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/UT-AUSTIN-Apartment-Building-737744.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-11/UT-AUSTIN-Apartment-Building-737745.webp"
-  ],
+  "photos": [],
   "student_score": 5.5,
   "tier": "A",
   "reddit_threads": 1,
@@ -6458,12 +6544,17 @@
    "https://uptownrealtyaustin.com/community-search/",
    "https://uptownrealtyaustin.com/community-search/",
    "https://uptownrealtyaustin.com/ut-apartments/",
-   "https://uptownrealtyaustin.com/ut-apartments/",
-   "https://housing.offcampus.utexas.edu/listing/buena-vista-condo-70594"
+   "https://uptownrealtyaustin.com/ut-apartments/"
   ],
-  "n_amenities": 17,
-  "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "n_amenities": 12,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "not_publicly_listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "helios-co-op",
@@ -6503,8 +6594,14 @@
    "https://www.iccaustin.coop/availability-rates/"
   ],
   "n_amenities": 2,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "casa-del-rio-apartments",
@@ -6542,8 +6639,14 @@
    "https://www.atxpropertymanagement.com/pricingandservices"
   ],
   "n_amenities": 3,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "rio-house-apartments",
@@ -6580,8 +6683,14 @@
    "https://riohouseatx.com/listings/d2349376-7ef7-4abd-ab92-671d184a8f3e"
   ],
   "n_amenities": 10,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "sunchase-condos",
@@ -6622,8 +6731,14 @@
    "https://utrealty.net/floor-plans/"
   ],
   "n_amenities": 1,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "9hundred",
@@ -6664,8 +6779,14 @@
    "https://9hundred.com/gallery/"
   ],
   "n_amenities": 11,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "wedgewood-condos",
@@ -6702,8 +6823,14 @@
    "https://www.realtyprosaustin.com/member/contact/"
   ],
   "n_amenities": 10,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "lenox-condos",
@@ -6742,8 +6869,14 @@
    "https://www.realtyprosaustin.com/member/contact/"
   ],
   "n_amenities": 8,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "salado-place",
@@ -6760,18 +6893,14 @@
   "dist_campus_m": 1313,
   "units_est": 13,
   "floors_est": 4,
-  "website_url": "https://housing.offcampus.utexas.edu/listing/salado-place-97660",
+  "website_url": "https://uptownrealtyaustin.com/communities/salado_place/",
   "management_company": "512 Realty",
-  "site_platform": [],
-  "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2022-09/UT-AUSTIN-Apartment-Building-10625978.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2022-09/UT-AUSTIN-Apartment-Building-10625976.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2022-09/UT-AUSTIN-Apartment-Building-10625971.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2022-09/UT-AUSTIN-Apartment-Building-10625970.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2022-09/UT-AUSTIN-Apartment-Building-10625975.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2022-09/UT-AUSTIN-Apartment-Building-10625972.webp"
+  "site_platform": [
+   "propertybase",
+   "wordpress"
   ],
+  "site_status": "ok",
+  "photos": [],
   "student_score": 5.5,
   "tier": "A",
   "reddit_threads": 0,
@@ -6779,15 +6908,18 @@
    "rcp"
   ],
   "source_urls": [
-   "https://housing.offcampus.utexas.edu/listing/salado-place-97660",
-   "https://housing.offcampus.utexas.edu/listing/salado-place-97660",
-   "https://housing.offcampus.utexas.edu/listing/salado-place-97660/floor-plans/",
-   "https://housing.offcampus.utexas.edu/listing/floor-plans/",
-   "https://housing.offcampus.utexas.edu/listing/salado-place-97660"
+   "https://uptownrealtyaustin.com/communities/salado_place/",
+   "https://uptownrealtyaustin.com/communities/salado_place/"
   ],
   "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "marq-uptown",
@@ -6830,8 +6962,14 @@
    "http://www.marquptown.com/gallery"
   ],
   "n_amenities": 28,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "sabina",
@@ -6875,8 +7013,14 @@
    "http://www.sabinaaustin.com/gallery"
   ],
   "n_amenities": 26,
-  "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "listed",
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "shane-michael-brooks",
@@ -6917,8 +7061,14 @@
    "https://gbatx.com/availability"
   ],
   "n_amenities": 10,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "west-ridge-condos",
@@ -6954,8 +7104,14 @@
    "https://www.realtyprosaustin.com/member/contact/"
   ],
   "n_amenities": 6,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "rio-flats",
@@ -6997,8 +7153,14 @@
    "https://gbatx.com/properties-managed/rio-flats"
   ],
   "n_amenities": 10,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
   "price_status": "not_publicly_listed",
-  "verifiedAt": "2026-11-15"
+  "verifiedAt": "2026-11-18"
  },
  {
   "objectID": "the-34-at-helms",
@@ -7015,18 +7177,11 @@
   "dist_campus_m": 1508,
   "units_est": 8,
   "floors_est": 2,
-  "website_url": "https://housing.offcampus.utexas.edu/listing/the-34-at-helms-70589",
+  "website_url": null,
   "management_company": "512 Realty",
   "site_platform": [],
-  "site_status": "ok",
-  "photos": [
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-10/ut-austin-Apartment-Building-736709.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-10/ut-austin-Apartment-Building-736711.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-10/ut-austin-Apartment-Building-736708.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-10/ut-austin-Apartment-Building-736710.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-10/ut-austin-Apartment-Building-736712.webp",
-   "https://rcp-prod-uploads.s3.amazonaws.com/property_images/slider_images/2020-10/ut-austin-Apartment-Building-736713.webp"
-  ],
+  "site_status": "no_website",
+  "photos": [],
   "student_score": 5.5,
   "tier": "A",
   "reddit_threads": 0,
@@ -7034,15 +7189,15 @@
    "places",
    "rcp"
   ],
-  "source_urls": [
-   "https://housing.offcampus.utexas.edu/listing/the-34-at-helms-70589",
-   "https://housing.offcampus.utexas.edu/listing/the-34-at-helms-70589",
-   "https://housing.offcampus.utexas.edu/listing/the-34-at-helms-70589/floor-plans/",
-   "https://housing.offcampus.utexas.edu/listing/floor-plans/",
-   "https://housing.offcampus.utexas.edu/listing/the-34-at-helms-70589"
-  ],
-  "n_amenities": 3,
-  "price_status": "listed",
-  "verifiedAt": "2026-11-15"
+  "source_urls": [],
+  "n_amenities": 0,
+  "entity_type": "community",
+  "identity_status": "auto",
+  "needs_review": false,
+  "website_source_type": null,
+  "property_status": "open",
+  "leasing_office_address": null,
+  "price_status": "not_publicly_listed",
+  "verifiedAt": "2026-11-18"
  }
 ]

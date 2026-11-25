@@ -70,13 +70,7 @@ def extract(cfg, b_slug, extra=None):
                     found[term] = {"status": qualifier(it), "evidence": it, "evidence_type": "stated",
                                    "source_url": url, "method": "alias_map"}
         texts.append((kind, url, to_text(h, url, keep_links=False, limit=18000)))
-    if extra and extra.get("strings"):       # campus-directory feature checklist for the same building
-        for it in extra["strings"]:
-            for term in ALIAS.get(norm_string(it), []):
-                if term in TERMS and term not in found:
-                    found[term] = {"status": qualifier(it), "evidence": it, "evidence_type": "stated",
-                                   "source_url": extra["url"], "method": "alias_map_directory"}
-        texts.append(("directory", extra["url"], "Feature checklist: " + "; ".join(extra["strings"])))
+    # No directory feature checklist: aggregators / campus directories (RentCollegePads, CoStar ...) are never an amenity source.
     order = {"amenities": 0, "amenities2": 1, "home": 2, "fpdetail": 3, "floorplans": 4, "gallery": 5}
     texts.sort(key=lambda x: order.get(x[0], 5))
     r = []
@@ -121,17 +115,14 @@ def main(slug, roster_file="roster_final.json"):
     from enrich_site import slugify
     cfg = campus(slug)
     cw = set(cfg.get("city_words", []))
-    rcp = json.load(open(cfg["dir"] / "cand_rcp.json")) if (cfg["dir"] / "cand_rcp.json").exists() else []
     jobs = []
     for b in json.load(open(cfg["dir"] / roster_file)):
         s = slugify(b["canonical_name"])
         mp = cfg["dir"] / "raw" / s / "meta.json"
         if not mp.exists():
             continue
-        names = [norm_name(n, cw) for n in [b["canonical_name"]] + b["aliases"]]
-        m = next((x for x in rcp if x.get("feature_strings") and any(name_sim(norm_name(x["name"], cw), n) >= 90 for n in names)), None)
-        if json.loads(mp.read_text())["status"] == "ok" or m:
-            jobs.append((s, {"strings": m["feature_strings"], "url": m["url"]} if m else None))
+        if json.loads(mp.read_text())["status"] == "ok":
+            jobs.append((s, None))
     with ThreadPoolExecutor(4) as ex:
         res = list(ex.map(lambda j: extract(cfg, *j), jobs))
     print("buildings:", len(res), "median amenities:", sorted(r["n"] for r in res)[len(res) // 2] if res else 0)

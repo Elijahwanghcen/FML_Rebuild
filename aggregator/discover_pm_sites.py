@@ -57,6 +57,44 @@ def pick_sites(cfg):
     return {d: u for d, u in sites.items() if d and not DENY.search(d)}
 
 
+SM_KEEP = re.compile(r"communit|propert|building|condo|apartment|complex|residen", re.I)
+SM_SKIP = re.compile(r"post|page|team|agent|categor|tag|author|homes|sale|blog|news|attachment|rentals", re.I)
+
+
+def sitemap_pages(home, cdir, cap=150):
+    """Per-building pages of a local realtor / PM firm, taken from its sitemap (no LLM). Legacy did this by hand: one
+    properties_config row per /communities/<slug>/ page (uptownrealtyaustin.com has ~33). Reading only the home page plus
+    4 portfolio pages through an LLM found 12 of them and invented a few. Only sub-sitemaps whose name says
+    communities / properties / buildings / condos are used; listing-per-unit and blog sitemaps are skipped."""
+    root = f"{urlparse(home).scheme}://{urlparse(home).netloc}"
+    idx = fetch_html(root + "/sitemap.xml", cdir) or fetch_html(root + "/sitemap_index.xml", cdir) or ""
+    locs = re.findall(r"<loc>\s*([^<\s]+)\s*</loc>", idx)
+    subs = [u for u in locs if u.endswith(".xml") and SM_KEEP.search(urlparse(u).path) and not SM_SKIP.search(urlparse(u).path)]
+    pages = [u for u in locs if not u.endswith(".xml") and SM_KEEP.search(urlparse(u).path)] if not subs else []
+    for sm in subs[:4]:
+        x = fetch_html(sm, cdir) or ""
+        pages += [u for u in re.findall(r"<loc>\s*([^<\s]+)\s*</loc>", x) if not u.endswith(".xml")]
+    out = []
+    for u in list(dict.fromkeys(pages))[:cap]:
+        if urlparse(u).path.strip("/").count("/") < 1:      # the section's own index page, not a building
+            continue
+        h = fetch_html(u, cdir)
+        if not h:
+            continue
+        name = ""
+        for rx in (r'<meta[^>]+property=["\']og:title["\'][^>]+content=["\']([^"\']+)', r"<title>(.*?)</title>", r"<h1[^>]*>(.*?)</h1>"):
+            m = re.search(rx, h, re.S | re.I)
+            t = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", m.group(1))).strip() if m else ""
+            t = re.split(r"\s+[|\u2013\u2014-]\s+", t)[0].strip()
+            if t and not re.search(r"forgot password|log ?in|sign ?in|menu|welcome|home\b|^communities$|^properties$", t, re.I):
+                name = t
+                break
+        if not name:          # the URL slug is the last resort
+            name = urlparse(u).path.rstrip("/").rsplit("/", 1)[-1].replace("_", " ").replace("-", " ").title()
+        out.append({"name": name, "address": None, "type": "unknown", "url": u, "page": u, "via": "sitemap"})
+    return out
+
+
 def crawl_site(cfg, d, home):
     cdir = cfg["dir"] / "cache" / "pm" / d
     h = fetch_html(home, cdir)
@@ -76,7 +114,7 @@ def crawl_site(cfg, d, home):
         hh = fetch_html(u, cdir)
         if hh:
             pages.append((u, hh))
-    found = []
+    found = sitemap_pages(home, cdir)
     for u, hh in pages:
         txt = to_text(hh, u, limit=45000)
         if len(txt) < 300:

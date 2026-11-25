@@ -1,11 +1,11 @@
-# Texas A&M University - QC report (2026-11-15)
+# Texas A&M University - QC report (2026-11-18)
 
-- buildings: **173**  by type: {'student_housing': 21, 'condo': 37, 'apartment': 112, 'dorm': 3}
-- by area: {'Eastgate': 9, 'Northgate': 41, 'Southside': 11, 'Holleman': 33, 'Wolf Pen Creek': 40, 'West Villa Maria': 12, 'campus_core': 3, 'Harvey Mitchell South': 4, None: 8, 'South Bryan': 7, 'Southwest Parkway': 5}
-- coord methods: {'nad_address+footprint_centroid': 133, 'nad_address_point': 3, 'places_pin+footprint_centroid': 27, 'pin_unverified': 10}
-- with amenities: 117  (median 13)
-- price status: {'listed': 69, 'not_publicly_listed': 104}  unit rows: 649
-- with aliases: 33
+- buildings: **156**  by type: {'student_housing': 17, 'condo': 37, 'apartment': 99, 'dorm': 3}
+- by area: {'Eastgate': 8, 'Northgate': 35, 'Southside': 10, 'Holleman': 31, 'Wolf Pen Creek': 35, 'West Villa Maria': 12, 'campus_core': 3, 'Harvey Mitchell South': 4, None: 7, 'South Bryan': 6, 'Southwest Parkway': 5}
+- coord methods: {'nad_address+footprint_centroid': 121, 'nad_address_point': 3, 'places_pin+footprint_centroid': 23, 'pin_unverified': 9}
+- with amenities: 112  (median 14)
+- price status: {'listed': 99, 'not_publicly_listed': 57}  unit rows: 1079
+- with aliases: 36
 
 ## Coordinates needing a manual right-click check
 
@@ -31,10 +31,8 @@
 - The Atrium (505 Harvey Rd, College Station, TX 77840, USA) - nad_address+footprint_centroid
 - The Jane at College Station (950 Colgate Dr, College Station, TX) - nad_address+footprint_centroid
 - Regency Gardens (2551 W Villa Maria Rd, Bryan, TX) - pin_unverified
-- Quiet setteled subdivision in Sumitt Crossing (3810 Black Hawk Lane, College Station, TX) - pin_unverified
 - SoCo at Tower Point (4340 Decatur Dr, College Station, TX) - pin_unverified
 - University Rents (707 Texas Ave Ste 108E, College Station, TX 77840, USA) - nad_address+footprint_centroid
-- Domain Northgate (101 Church Ave) - nad_address+footprint_centroid
 - Z Islander (3803 Wellborn Rd, Bryan, TX 77801, USA) - nad_address+footprint_centroid
 - U Club Townhomes on Marion Pugh (801 Marion Pugh Dr, College Station, TX 77840, USA) - nad_address+footprint_centroid
 - The Landing College Station (800 Marion Pugh Dr, College Station, TX 77840, USA) - nad_address+footprint_centroid
@@ -42,68 +40,110 @@
 - River Oaks Townhomes (305 Holleman Dr E, College Station, TX 77840, USA) - nad_address+footprint_centroid
 - Campus Village Apartments (1711 Harvey Mitchell Pkwy S, College Station, TX 77840, USA) - nad_address+footprint_centroid
 - Treehouse Apartments and Condominiums (200 Marion Pugh Dr, College Station, TX 77840, USA) - nad_address+footprint_centroid
-- Parkway Place Apartments (1350 Harvey Mitchell Pkwy S, College Station, TX 77840, USA) - nad_address+footprint_centroid
-- Top student apartment in college station (1725 Harvey Mitchell Parkway South # 1613, College Station, TX) - nad_address+footprint_centroid
 - The Grove at Southwood (603 Southwest Pkwy, College Station, TX 77840, USA) - nad_address+footprint_centroid
 - Woodstock Condos (1902 Dartmouth St, College Station, TX 77840, USA) - nad_address+footprint_centroid
 - Arbor Square Apartments (1700 Southwest Pkwy, College Station, TX 77840, USA) - nad_address+footprint_centroid
-- The Ridge (2250 Dartmouth St) - nad_address+footprint_centroid
 - Charleston Mills Luxury Townhomes (4097 General Parkway, College Station, TX) - pin_unverified
 - Camber Villas (2888 Nash St, Bryan, TX) - pin_unverified
 - Brazos Oaks (6000 Jones Rd, Bryan, TX) - pin_unverified
 - Caprock Crossing (1545 Arrington Rd, College Station, TX 77845, USA) - pin_unverified
-- The Penny (1025 University Dr #106, College Station, TX 77840, USA) - nad_address+footprint_centroid
-- 361RENT (1511 Texas Ave S, College Station, TX 77840, USA) - nad_address+footprint_centroid
 - Falcon Point Condos (1915 Dartmouth St, College Station, TX 77840, USA) - nad_address+footprint_centroid
 - Asher College Station (10001 Turkey Creek Rd, College Station, TX 77845, USA) - pin_unverified
 - EnVue Apartment (3535 Plainsman Ln, Bryan, TX 77802, USA) - nad_address+footprint_centroid
 - Parcside Townhomes Apartments (2500 Central Park Ln, College Station, TX 77840, USA) - nad_address+footprint_centroid
 - Charleston Mills Townhomes (4100 Maycomb Dr, College Station, TX 77845, USA) - pin_unverified
 
+## Listings likely undercounted (feed platform with no adapter rows, or page shows more prices than rows)
+
+listing source per building: {'none': 32, 'text_plan_list': 26, 'llm_page_read': 22, 'headed_rescue': 12, 'rentcafe_inline': 8, 'jsonld_offers': 8, 'appfolio_smart': 7, 'acc_lightning': 5, 'sightmap': 5, 'gogetter_wc_floorplans': 4, 'ion_wp': 4, 'webflow_cms_floorplans': 4, 'cg_synergy': 2, 'villas_wp': 2, 'rambler_lvbode': 2, 'university_rates': 2, 'g5_sniff': 2, 'yugo': 1, 'landmark': 1, 'sinclair_wp': 1, 'fp_units_modal_v2': 1, 'repli360_feed': 1, 'appfolio_listings': 1, 'jonah_detail_json': 1, 'realpage_cms_proxy': 1, 'buildium_search': 1}
+
+- Domain Northgate - 11 rows via llm_page_read - feed_platform_but_no_adapter_rows:entrata; blocked_bot_wall_needs_headed_browser:entrata_pp - tried: jsonld_offers=0, entrata_pp=0, entrata_pp=0, text_plan_list=4
+- The Enclave - 7 rows via llm_page_read - feed_platform_but_no_adapter_rows:entrata; blocked_bot_wall_needs_headed_browser:entrata_pp - tried: entrata_pp=0, text_plan_list=2
+- Global College Station - 18 rows via llm_page_read - feed_platform_but_no_adapter_rows:entrata; blocked_bot_wall_needs_headed_browser:entrata_pp - tried: entrata_pp=0, text_plan_list=1
+- Cambridge Hall at College Station - 6 rows via llm_page_read - feed_platform_but_no_adapter_rows:entrata - tried: villas_wp=0, entrata_pp=0, text_plan_list=3
+- University Heights - 0 rows via None - needs_case_by_case: no extractor rows (run with --llm, add an adapter, or save a rescue) - tried: text_plan_list=0
+- The Gardens Apartments - 10 rows via university_rates - page_shows_29_distinct_prices_vs_10_rows - tried: university_rates=10
+- Sonoma Apartments - 3 rows via text_plan_list - adapter_rows_unpriced_but_page_shows_prices - tried: rentcafe_ysi=0, text_plan_list=3
+- Country Place Apartment Homes - 0 rows via None - needs_case_by_case: no extractor rows (run with --llm, add an adapter, or save a rescue) - tried: jsonld_offers=0, text_plan_list=0
+- The Atrium - 0 rows via None - needs_case_by_case: no extractor rows (run with --llm, add an adapter, or save a rescue) - tried: nothing
+- The Lofts at Wolf Pen Creek - 11 rows via llm_page_read - feed_platform_but_no_adapter_rows:entrata; blocked_bot_wall_needs_headed_browser:entrata_pp - tried: entrata_pp=0, text_plan_list=0
+- Aggie Villas - 0 rows via None - needs_case_by_case: no extractor rows (run with --llm, add an adapter, or save a rescue) - tried: text_plan_list=0
+- University Rents - 0 rows via None - needs_case_by_case: no extractor rows (run with --llm, add an adapter, or save a rescue) - tried: text_plan_list=0
+- White Creek Apartments - 6 rows via university_rates - page_shows_29_distinct_prices_vs_6_rows; adapter_rows_unpriced_but_page_shows_prices - tried: university_rates=6, text_plan_list=16
+- Village On The Creek Condos - 0 rows via None - page_shows_25_distinct_prices_vs_0_rows; needs_case_by_case: no extractor rows (run with --llm, add an adapter, or save a rescue) - tried: text_plan_list=0
+- Berkeley House - 3 rows via gogetter_wc_floorplans - adapter_rows_unpriced_but_page_shows_prices - tried: gogetter_wc_floorplans=3, text_plan_list=3
+- The Landing College Station - 6 rows via text_plan_list - adapter_rows_unpriced_but_page_shows_prices - tried: entrata_pp=0, text_plan_list=6
+- Hidden Bridge Condominiums - 0 rows via None - needs_case_by_case: no extractor rows (run with --llm, add an adapter, or save a rescue) - tried: text_plan_list=0
+- Madison Pointe Apartments - 0 rows via None - needs_case_by_case: no extractor rows (run with --llm, add an adapter, or save a rescue) - tried: text_plan_list=0
+- Huntington Apartments - 0 rows via None - needs_case_by_case: no extractor rows (run with --llm, add an adapter, or save a rescue) - tried: text_plan_list=0
+- Galleria Village - 0 rows via None - needs_case_by_case: no extractor rows (run with --llm, add an adapter, or save a rescue) - tried: text_plan_list=0
+- AgTech Gardens - 0 rows via None - feed_platform_but_no_adapter_rows:realpage; needs_case_by_case: no extractor rows (run with --llm, add an adapter, or save a rescue) - tried: buildium_search=0, realpage_sniff=0, text_plan_list=0
+- The Commons - 0 rows via None - page_shows_29_distinct_prices_vs_0_rows; needs_case_by_case: no extractor rows (run with --llm, add an adapter, or save a rescue) - tried: university_rates=0, text_plan_list=0
+- North Ramparts - 1 rows via text_plan_list - adapter_rows_unpriced_but_page_shows_prices - tried: text_plan_list=1
+- Northgate Proper - 1 rows via llm_page_read - feed_platform_but_no_adapter_rows:appfolio; page_shows_57_distinct_prices_vs_1_rows - tried: text_plan_list=0
+- 979 North - 0 rows via None - page_shows_35_distinct_prices_vs_0_rows; needs_case_by_case: no extractor rows (run with --llm, add an adapter, or save a rescue) - tried: text_plan_list=0
+- Northgate Lofts - 0 rows via None - needs_case_by_case: no extractor rows (run with --llm, add an adapter, or save a rescue) - tried: text_plan_list=0
+- Treehouse Apartments and Condominiums - 0 rows via None - needs_case_by_case: no extractor rows (run with --llm, add an adapter, or save a rescue) - tried: text_plan_list=0
+- University Place Condominiums - 0 rows via None - needs_case_by_case: no extractor rows (run with --llm, add an adapter, or save a rescue) - tried: text_plan_list=0
+- Fox Run Condominiums - 0 rows via None - needs_case_by_case: no extractor rows (run with --llm, add an adapter, or save a rescue) - tried: text_plan_list=0
+- Cedar Creek Apartments - 4 rows via llm_page_read - feed_platform_but_no_adapter_rows:appfolio - tried: appfolio_smart=0, text_plan_list=0
+- Hunters Point Apartments - 3 rows via llm_page_read - feed_platform_but_no_adapter_rows:knock - tried: text_plan_list=0
+- Cayman Crossing Apartments - 0 rows via None - needs_case_by_case: no extractor rows (run with --llm, add an adapter, or save a rescue) - tried: nothing
+- Pearl Apartments Buildings A-P - 1 rows via appfolio_listings - page_shows_32_distinct_prices_vs_1_rows - tried: appfolio_listings=1
+- 517 Southwest Parkway - 0 rows via None - page_shows_52_distinct_prices_vs_0_rows; needs_case_by_case: no extractor rows (run with --llm, add an adapter, or save a rescue) - tried: text_plan_list=0
+- The Vintage at College Station - 4 rows via llm_page_read - feed_platform_but_no_adapter_rows:appfolio - tried: duda_appfolio_feed=0, appfolio_smart=0, text_plan_list=3
+- The Grove at Southwood - 3 rows via llm_page_read - feed_platform_but_no_adapter_rows:entrata - tried: webflow_cms_floorplans=0, entrata_pp=0, villas_wp=0, text_plan_list=0
+- Cripple Creek Condominiums - 0 rows via None - needs_case_by_case: no extractor rows (run with --llm, add an adapter, or save a rescue) - tried: nothing
+- Woodstock Condos - 0 rows via None - page_shows_54_distinct_prices_vs_0_rows; needs_case_by_case: no extractor rows (run with --llm, add an adapter, or save a rescue) - tried: text_plan_list=0
+- The Heights at College Station - 9 rows via llm_page_read - feed_platform_but_no_adapter_rows:entrata; blocked_bot_wall_needs_headed_browser:entrata_pp - tried: entrata_pp=0, text_plan_list=9
+- Oak Ridge Condos - 0 rows via None - page_shows_25_distinct_prices_vs_0_rows; needs_case_by_case: no extractor rows (run with --llm, add an adapter, or save a rescue) - tried: text_plan_list=0
+- Aggie Manor Apartments - 0 rows via None - needs_case_by_case: no extractor rows (run with --llm, add an adapter, or save a rescue) - tried: nothing
+- Normandy Square - 0 rows via None - needs_case_by_case: no extractor rows (run with --llm, add an adapter, or save a rescue) - tried: jsonld_offers=0, text_plan_list=0
+- Northgate Villas - 0 rows via None - needs_case_by_case: no extractor rows (run with --llm, add an adapter, or save a rescue) - tried: text_plan_list=0
+- Double Tree Condos - 0 rows via None - page_shows_18_distinct_prices_vs_0_rows; needs_case_by_case: no extractor rows (run with --llm, add an adapter, or save a rescue) - tried: jsonld_offers=0, text_plan_list=0
+- University Park Apartments - 0 rows via None - needs_case_by_case: no extractor rows (run with --llm, add an adapter, or save a rescue) - tried: text_plan_list=0
+- Woodbrook Condos - 0 rows via None - page_shows_19_distinct_prices_vs_0_rows; needs_case_by_case: no extractor rows (run with --llm, add an adapter, or save a rescue) - tried: text_plan_list=0
+- April Court Townhomes - 0 rows via None - page_shows_25_distinct_prices_vs_0_rows; needs_case_by_case: no extractor rows (run with --llm, add an adapter, or save a rescue) - tried: text_plan_list=0
+- Limestone Terrace Apartments - 3 rows via llm_page_read - feed_platform_but_no_adapter_rows:realpage,rentcafe,entrata - tried: entrata_pp=0, realpage_sniff=0, text_plan_list=6
+- Eastmark Apartments - 5 rows via llm_page_read - feed_platform_but_no_adapter_rows:entrata; blocked_bot_wall_needs_headed_browser:entrata_pp - tried: entrata_pp=0, entrata_pp=0, text_plan_list=1, headed_rescue=5
+- 31Thirty Apartments - 11 rows via text_plan_list - adapter_rows_unpriced_but_page_shows_prices - tried: duda_appfolio_feed=0, appfolio_listings=0, appfolio_smart=0, text_plan_list=11
+- Charlestone Place Apartments - 0 rows via None - needs_case_by_case: no extractor rows (run with --llm, add an adapter, or save a rescue) - tried: nothing
+- A&M Courtyard Apartments - 0 rows via None - needs_case_by_case: no extractor rows (run with --llm, add an adapter, or save a rescue) - tried: nothing
+- The Landmark on Longmire - 0 rows via None - feed_platform_but_no_adapter_rows:realpage; needs_case_by_case: no extractor rows (run with --llm, add an adapter, or save a rescue) - tried: realpage_sniff=0, text_plan_list=0
+
 ## No amenity data (site missing / blocked / condo without a page)
 
 - Aggie Station Apartments - blocked_or_empty - https://www.americancampus.com/student-apartments/tx/college-station/aggie-station
-- The Tradition - no_website - http://www.livethetradition.com/
-- University Heights - no_website - https://aggiesearch.tamu.edu/housing/property/x/c66b5sf
-- EVER College Station - no_website - https://aggiesearch.tamu.edu/housing/property/x/8ks5tn2
-- Howdy Apartments - ok - https://howdyapartments.com/
-- The Gables Apartments - no_website - https://aggiesearch.tamu.edu/housing/property/x/1br7z35
-- The Penny - no_website - https://aggiesearch.tamu.edu/housing/property/x/crv24xf
+- The Tradition - blocked_or_empty - https://live12north.com/
+- University Heights - ok - https://brickandparcel.com/
+- EVER College Station - ok - https://evercollegestation.com/
+- The Gables Apartments - ok - https://www.liveatgablescollegestation.com/
+- The Penny on College Main - ok - https://www.livethepenny.com/
 - Country Place Apartment Homes - ok - http://countryplaceapts.net/
-- The Atrium - no_website - https://stayus.cfd/atrium-retreat-k2636u
-- Regency Gardens - no_website - https://aggiesearch.tamu.edu/housing/property/x/2n8lszc
-- Quiet setteled subdivision in Sumitt Crossing - no_website - https://aggiesearch.tamu.edu/housing/property/x/ocpehhhhvm
-- Gardens Community Center - no_website - None
-- EVER College Station - no_website - https://aggiesearch.tamu.edu/housing/property/x/8ks5tn2
+- The Atrium - no_website - None
+- Regency Gardens - ok - https://www.liveregencygardens.com/
 - University Rents - ok - https://universityrents.com/
 - Village On The Creek Condos - ok - https://collegestationhomesource.com/search/condo_search/
 - Hidden Bridge Condominiums - ok - https://hiddenbridgecoa.org
-- Copper Creek Condos - no_website - https://bealbcshoa.com/managed_community/copper-creek/
+- Copper Creek Condos - ok - https://longitudebcs.com/search/listing/301-southwest-pkwy-unit-328-college-station-tx--25003613/
 - Huntington Apartments - ok - http://www.dtiproperties.com/
 - Gateway Villas - ok - http://www.aggielandproperties.com/
 - Galleria Village - ok - http://www.galleriavillage.com/
-- AgTech Gardens - no_website - None
-- Academic Village - no_website - None
+- AgTech Gardens - ok - https://agtechgardens.managebuilding.com/Resident/public/home
+- Academic Village - ok - https://bellpropertiesbcs.com/properties/3900-old-college-road-21-bryan-tx-77801-26000071
 - North Ramparts - ok - https://www.bcsonlinerealestate.com/
 - Northgate Lofts - ok - https://brickandparcel.com/
 - Treehouse Apartments and Condominiums - ok - https://treehouseapartmentscstx.com/
-- Midtown Townhomes - blocked_or_empty - https://www.midtown-foxmeadows.com/
+- Midtown Townhomes - ok - https://www.midtown-foxmeadows.com/campus/midtown-townhomes/index.html
 - University Place Condominiums - ok - http://www.equitybcs.com
-- Top student apartment in college station - no_website - https://aggiesearch.tamu.edu/housing/property/x/ocptw7tnk9
-- University Apartments Community Center - 3198 - no_website - None
 - Cayman Crossing Apartments - no_website - None
-- Aggieland Apartment Finders - ok - https://www.aggielandapartmentfinders.com/
-- Pearl Apartments Buildings A-P - no_website - http://pearlapt.com/
+- Pearl Apartments Buildings A-P - ok - https://originalgroup.appfolio.com/listings/detail/d8e124c8-89a7-4334-a500-a96b8aa1e12d
 - Woodstock Condos - ok - http://bhhscaliber.com/
-- Aspen Heights College Station - no_website - https://www.myaspenheights.com/our-locations/college-station
+- The Heights at College Station - ok - https://www.theheightscs.com/
 - Oak Ridge Condos - ok - https://collegestationhomesource.com/search/condo_search/
-- Camber Villas - no_website - https://aggiesearch.tamu.edu/housing/property/x/yhv4jyv
-- Brazos Oaks - no_website - https://aggiesearch.tamu.edu/housing/property/x/y0jhtdt
-- Southern Pointe Woodbird - no_website - None
+- Camber Villas - ok - https://www.cambervillas.com/
+- Brazos Oaks - ok - https://brazosoaksapts.com/
 - Aggie Manor Apartments - no_website - None
-- Disability Resources - ok - https://disability.tamu.edu/
-- Texas A&M Transportation Services - IT Sys Support & GIS Services - ok - http://transport.tamu.edu/default.aspx
-- The Penny - no_website - https://aggiesearch.tamu.edu/housing/property/x/crv24xf
 - Normandy Square - ok - http://www.northgatebcs.com/normandy-square.html
 - Northgate Villas - ok - http://rentmaroon.com/
 - SOHO lofts and Apartment Homes - ok - http://www.oakforestmanagement.com/
@@ -112,9 +152,8 @@
 - Woodbrook Condos - ok - https://treehousere.com/results-gallery/?userID=all
 - April Court Townhomes - ok - https://collegestationhomesource.com/search/condo_search/
 - Fox Meadows Apartments - blocked_or_empty - https://www.midtown-foxmeadows.com/
-- 31Thirty Apartments - no_website - https://www.31thirtyapts.net/
+- 31Thirty Apartments - ok - https://www.originalmanagement.net/31-thirty-apartments
 - Charlestone Place Apartments - no_website - None
 - A&M Courtyard Apartments - no_website - None
-- Azura Student Living - no_website - None
-- Lexington Court Phase II Ltd - no_website - None
-- Landmark on Longmire - no_website - None
+- Azura Residences - ok - https://boardwalkbcs.managebuilding.com/Resident/PublicPages/ApartmentSearch.aspx
+- The Landmark on Longmire - ok - https://landmarkonlongmirecms.loftliving.com/

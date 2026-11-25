@@ -1,0 +1,396 @@
+{
+ "_comment": "Hand-verified identity decisions (from ~/Downloads/college_station_property_websites.md, checked 2026-11-17). Applied by aggregator/apply_resolutions.py after select_roster. status: KEEP | KEEP_UNIT_SOURCE | ALIAS_TO | REVIEW | REJECT_PROPERTY_ROW. website_url is locked: the crawler will not swap it for another URL.",
+ "resolutions": [
+  {
+   "original_name": "The Gables Apartments",
+   "status": "KEEP",
+   "website_url": "https://www.liveatgablescollegestation.com/",
+   "source_type": "official_property",
+   "reason": "official site, address matches"
+  },
+  {
+   "original_name": "The Penny",
+   "status": "KEEP",
+   "canonical_name": "The Penny on College Main",
+   "website_url": "https://www.livethepenny.com/",
+   "source_type": "official_property",
+   "property_status": "planned",
+   "reason": "new development opening Fall 2027; 1025 University Dr #106 row is its leasing office",
+   "leasing_office_address": "1025 University Dr #106, College Station, TX 77840"
+  },
+  {
+   "original_name": "Regency Gardens",
+   "status": "KEEP",
+   "website_url": "https://www.liveregencygardens.com/",
+   "source_type": "official_property",
+   "reason": "official site, address matches"
+  },
+  {
+   "original_name": "Camber Villas",
+   "status": "KEEP",
+   "website_url": "https://www.cambervillas.com/",
+   "source_type": "official_property",
+   "reason": "official site, address matches"
+  },
+  {
+   "original_name": "Brazos Oaks",
+   "status": "KEEP",
+   "website_url": "https://brazosoaksapts.com/",
+   "source_type": "official_property",
+   "reason": "official site, address matches"
+  },
+  {
+   "original_name": "Quiet setteled subdivision in Sumitt Crossing",
+   "status": "REJECT_PROPERTY_ROW",
+   "entity_type": "single_unit",
+   "reason": "ad for one townhome at 3810 Black Hawk Ln, not a community"
+  },
+  {
+   "original_name": "Top student apartment in college station",
+   "status": "ALIAS_TO",
+   "alias_to": "Woodlands of College Station",
+   "entity_type": "single_unit",
+   "reason": "aggiesearch ad for unit #1613 in the Woodlands complex"
+  },
+  {
+   "original_name": "Pearl Apartments Buildings A-P",
+   "status": "KEEP_UNIT_SOURCE",
+   "website_url": "https://originalgroup.appfolio.com/listings/detail/d8e124c8-89a7-4334-a500-a96b8aa1e12d",
+   "source_type": "manager_portal",
+   "manager": "Original Management",
+   "appfolio_portal": "https://originalgroup.appfolio.com",
+   "address_match": [
+    "600 University Oaks"
+   ],
+   "reason": "Original Management AppFolio unit at 600 University Oaks; no dedicated site; do not merge with The Atrium (505 Harvey) without review"
+  },
+  {
+   "original_name": "Aspen Heights College Station",
+   "status": "KEEP",
+   "canonical_name": "The Heights at College Station",
+   "aliases_add": [
+    "Aspen Heights College Station",
+    "Aspen Heights"
+   ],
+   "website_url": "https://www.theheightscs.com/",
+   "source_type": "official_property",
+   "owner_operator": "LV Collective",
+   "evidence_urls": [
+    "https://lvcollective.com/press/lv-collective-and-kayne-anderson-real-estate-acquire-the-heights-at-college-station/"
+   ],
+   "reason": "rebrand at the same 3055 Holleman Dr S address"
+  },
+  {
+   "original_name": "University Park Apartments",
+   "status": "REVIEW",
+   "reason": "old domain dead; identity plausible; keep without a site"
+  },
+  {
+   "original_name": "31Thirty Apartments",
+   "status": "KEEP",
+   "website_url": "https://www.originalmanagement.net/31-thirty-apartments",
+   "source_type": "operator_property",
+   "manager": "Original Management",
+   "appfolio_portal": "https://originalgroup.appfolio.com",
+   "address_match": [
+    "3130 E 29th",
+    "3130 East 29th"
+   ],
+   "reason": "manager's property page, exact address"
+  },
+  {
+   "original_name": "Midtown Townhomes",
+   "status": "KEEP",
+   "website_url": "https://www.midtown-foxmeadows.com/campus/midtown-townhomes/index.html",
+   "source_type": "official_property",
+   "property_address": "1600 Holleman Dr, College Station, TX 77840",
+   "leasing_office_address": "1612 Holleman Dr #F, College Station, TX 77840",
+   "reason": "official page; homes at 1600, office at 1612"
+  },
+  {
+   "original_name": "Copper Creek Condos",
+   "status": "KEEP_UNIT_SOURCE",
+   "entity_type": "condo_community",
+   "website_url": "https://longitudebcs.com/search/listing/301-southwest-pkwy-unit-328-college-station-tx--25003613/",
+   "source_type": "local_broker_unit",
+   "unit_listing_urls": [
+    "https://longitudebcs.com/search/listing/301-southwest-pkwy-unit-328-college-station-tx--25003613/"
+   ],
+   "reason": "individually owned condos; local broker unit 328"
+  },
+  {
+   "original_name": "Cripple Creek Condominiums",
+   "status": "KEEP_UNIT_SOURCE",
+   "entity_type": "condo_community",
+   "source_type": "none",
+   "website_url": null,
+   "evidence_urls": [
+    "https://www.compass.com/for-rent/cripple-creek-condominiums-college-station-tx/"
+   ],
+   "reason": "condo community, unit-by-unit brokers only; national brokerage is discovery only"
+  },
+  {
+   "original_name": "The Atrium",
+   "status": "REVIEW",
+   "website_url": null,
+   "evidence_urls": [
+    "https://www.showmetherent.com/listing/details/505-Harvey-Rd-College-Station-TX-77840/80213d0a-d01a-11ee-a8d3-0af44ebe6ded",
+    "https://www.bvcog.org/Portals/0/Housing-Choice-Voucher-Program/Voucher%20Issuance%20Packet%20-%20Rev.%2012-1-2025.pdf"
+   ],
+   "aliases_remove": [
+    "Campus View College Station",
+    "The Marc"
+   ],
+   "reason": "505 Harvey linked to Pearl, but the apply link points at 600 University Oaks; spam and wrong-building URLs removed"
+  },
+  {
+   "original_name": "AgTech Gardens",
+   "status": "KEEP",
+   "website_url": "https://agtechgardens.managebuilding.com/Resident/public/home",
+   "source_type": "manager_portal",
+   "reason": "property-specific Buildium portal, address matches"
+  },
+  {
+   "original_name": "Academic Village",
+   "status": "KEEP_UNIT_SOURCE",
+   "website_url": "https://bellpropertiesbcs.com/properties/3900-old-college-road-21-bryan-tx-77801-26000071",
+   "source_type": "local_broker_unit",
+   "unit_listing_urls": [
+    "https://bellpropertiesbcs.com/properties/3900-old-college-road-21-bryan-tx-77801-26000071"
+   ],
+   "reason": "Bell Properties unit 21 names Academic Village"
+  },
+  {
+   "original_name": "Cayman Crossing Apartments",
+   "status": "KEEP",
+   "website_url": null,
+   "reason": "exists; no URL found - not a reason to reject"
+  },
+  {
+   "original_name": "Southern Pointe Woodbird",
+   "status": "REJECT_PROPERTY_ROW",
+   "entity_type": "single_family_or_unknown",
+   "reason": "single-family subdivision address, no apartment community (provisional)"
+  },
+  {
+   "original_name": "Aggie Manor Apartments",
+   "status": "KEEP",
+   "website_url": null,
+   "evidence_urls": [
+    "https://collegestation.guide/housing/aggie-manor-apartments/"
+   ],
+   "reason": "plausible community; guide page is info only"
+  },
+  {
+   "original_name": "Charlestone Place Apartments",
+   "status": "REVIEW",
+   "reason": "103 Maple Ave is multifamily; name not confirmed"
+  },
+  {
+   "original_name": "A&M Courtyard Apartments",
+   "status": "KEEP",
+   "website_url": null,
+   "reason": "exists at 104 Pleasant St; no site"
+  },
+  {
+   "original_name": "Azura Student Living",
+   "status": "KEEP_UNIT_SOURCE",
+   "canonical_name": "Azura Residences",
+   "aliases_add": [
+    "Azura Student Living"
+   ],
+   "entity_type": "multi_address_townhome_collection",
+   "website_url": "https://boardwalkbcs.managebuilding.com/Resident/PublicPages/ApartmentSearch.aspx",
+   "source_type": "manager_portal",
+   "manager": "Boardwalk Homes",
+   "address_match": [
+    "Sterling",
+    "Richards",
+    "Crest"
+   ],
+   "reason": "Boardwalk Homes markets Azura Residences across Sterling/Richards/Crest addresses"
+  },
+  {
+   "original_name": "Lexington Court Phase II Ltd",
+   "status": "REJECT_PROPERTY_ROW",
+   "entity_type": "owner_entity",
+   "reason": "registered company office address, not a complex"
+  },
+  {
+   "original_name": "Landmark on Longmire",
+   "status": "KEEP",
+   "canonical_name": "The Landmark on Longmire",
+   "aliases_add": [
+    "Landmark on Longmire"
+   ],
+   "website_url": "https://landmarkonlongmirecms.loftliving.com/",
+   "source_type": "official_property",
+   "site_status": "access_blocked",
+   "reason": "page exists, redirects to access control"
+  },
+  {
+   "original_name": "Gardens Community Center",
+   "status": "REJECT_PROPERTY_ROW",
+   "entity_type": "support_facility",
+   "reason": "community center at 9 Calvin Moore Ave"
+  },
+  {
+   "original_name": "University Apartments Community Center - 3198",
+   "status": "REJECT_PROPERTY_ROW",
+   "entity_type": "support_facility",
+   "reason": "TAMU facility 3198 is a community center"
+  },
+  {
+   "original_name": "Disability Resources",
+   "status": "REJECT_PROPERTY_ROW",
+   "entity_type": "support_facility",
+   "reason": "TAMU office"
+  },
+  {
+   "original_name": "Texas A&M Transportation Services - IT Sys Support & GIS Services",
+   "status": "REJECT_PROPERTY_ROW",
+   "entity_type": "support_facility",
+   "reason": "TAMU department"
+  },
+  {
+   "original_name": "Memorial Student Center (MSC)",
+   "status": "REJECT_PROPERTY_ROW",
+   "entity_type": "support_facility",
+   "reason": "student union building"
+  },
+  {
+   "original_name": "Aggieland Apartment Finders",
+   "status": "REJECT_PROPERTY_ROW",
+   "entity_type": "property_manager",
+   "reason": "apartment locator business"
+  },
+  {
+   "original_name": "Howdy Apartments",
+   "status": "REJECT_PROPERTY_ROW",
+   "entity_type": "property_manager",
+   "reason": "apartment-locator site, not a building (2026-11-16 photo pass)"
+  },
+  {
+   "original_name": "Redpoint at College Station",
+   "status": "KEEP",
+   "website_url": "https://redpoint-collegestation.com/",
+   "source_type": "official_property",
+   "reason": "Google URL redirects to a sister site; plans at redpoint-collegestation.com/rates-floorplans/"
+  },
+  {
+   "original_name": "Yugo Apex College Station",
+   "status": "KEEP",
+   "floorplans_url": "https://yugo.com/en-us/global/united-states-of-america/college-station-tx/apex/rooms",
+   "reason": "crawler followed a global nav link to UAE"
+  },
+  {
+   "original_name": "Eastmark Apartments",
+   "status": "KEEP",
+   "floorplans_url": "https://entrata.eastmarkaptsbcs.com/college-station/eastmark-apartments/conventional/",
+   "reason": "plans live on the Entrata subdomain"
+  },
+  {
+   "original_name": "Parkway Place Apartments",
+   "status": "ALIAS_TO",
+   "alias_to": "Sterling College Station",
+   "reason": "2026-11-16: Parkway Place + 2818 Place renamed Sterling College Station; theparkwaylife.com is Sterling's site",
+   "only_if_target_exists": true
+  },
+  {
+   "original_name": "The Jane at College Station",
+   "status": "KEEP",
+   "floorplans_url": "https://entrata.livethejane.com/college-station/the-jane-at-college-station/student/",
+   "reason": "",
+   "listing_note": "Entrata portal found in Chrome; the marketing site has no floor-plan link, only an Apply link to the portal host. Portal is Cloudflare-protected: live fetch may be blocked, rescue in data/texas_am/rescues/"
+  },
+  {
+   "original_name": "Woodlands of College Station",
+   "status": "KEEP",
+   "floorplans_url": "https://entrata.woodlandsofcollegestation.com/college-station/woodlands-apartments-721/student/",
+   "reason": "",
+   "listing_note": "Entrata portal found in Chrome; the marketing site has no floor-plan link, only an Apply link to the portal host. Portal is Cloudflare-protected: live fetch may be blocked, rescue in data/texas_am/rescues/"
+  },
+  {
+   "original_name": "Campus Village Apartments",
+   "status": "KEEP",
+   "floorplans_url": "https://campusvillagecollegestationnew.prospectportal.com/college-station/campus-village-college-station/student/",
+   "reason": "",
+   "listing_note": "Entrata portal found in Chrome; the marketing site has no floor-plan link, only an Apply link to the portal host. Portal is Cloudflare-protected: live fetch may be blocked, rescue in data/texas_am/rescues/"
+  },
+  {
+   "original_name": "The Stack at Legacy Point",
+   "status": "KEEP",
+   "floorplans_url": "https://entrata.stackstudentliving.com/college-station/the-stack/student/",
+   "reason": "",
+   "listing_note": "Entrata portal found in Chrome; the marketing site has no floor-plan link, only an Apply link to the portal host. Portal is Cloudflare-protected: live fetch may be blocked, rescue in data/texas_am/rescues/"
+  },
+  {
+   "original_name": "Warehouse and Factory Apartments at Northgate",
+   "status": "KEEP",
+   "floorplans_url": "https://entrata.warehouseandfactory.com/college-station/warehouse-and-factory/student/",
+   "reason": "",
+   "listing_note": "Entrata portal found in Chrome; the marketing site has no floor-plan link, only an Apply link to the portal host. Portal is Cloudflare-protected: live fetch may be blocked, rescue in data/texas_am/rescues/"
+  },
+  {
+   "original_name": "The Rise at Northgate",
+   "status": "KEEP",
+   "floorplans_url": "https://riseatnorthgateapts.prospectportal.com/college-station/the-rise-at-northgate/student/",
+   "reason": "",
+   "listing_note": "Entrata portal found in Chrome; the marketing site has no floor-plan link, only an Apply link to the portal host. Portal is Cloudflare-protected: live fetch may be blocked, rescue in data/texas_am/rescues/"
+  },
+  {
+   "original_name": "Park West",
+   "status": "KEEP",
+   "floorplans_url": "https://myparkwestapts.prospectportal.com/college-station/park-west/student/",
+   "reason": "",
+   "listing_note": "Entrata portal found in Chrome; the marketing site has no floor-plan link, only an Apply link to the portal host. Portal is Cloudflare-protected: live fetch may be blocked, rescue in data/texas_am/rescues/"
+  },
+  {
+   "original_name": "The Grove at Southwood",
+   "status": "KEEP",
+   "floorplans_url": "https://entrata.grovesouthwood.com/college-station/the-grove-at-southwood/conventional/",
+   "reason": "",
+   "listing_note": "Entrata portal found but its /conventional/ page shows no plan cards (2026-11-18); site publishes 3 priced plans on its marketing page"
+  },
+  {
+   "original_name": "The Zone",
+   "status": "KEEP",
+   "floorplans_url": "https://www.zoneatcollegestation.com/college-station-college-station/the-zone-the-zone/student/",
+   "reason": "",
+   "listing_note": "shared Sundance/Sausalito site: each building has its own featuredfloorplans page"
+  },
+  {
+   "original_name": "The Doce Student Living",
+   "status": "KEEP",
+   "floorplans_url": "https://thedoce.prospectportal.com/college-station/the-doce/student/",
+   "reason": "",
+   "listing_note": "Entrata portal found in Chrome; the marketing site has no floor-plan link, only an Apply link to the portal host. Portal is Cloudflare-protected: live fetch may be blocked, rescue in data/texas_am/rescues/"
+  },
+  {
+   "original_name": "Aspire Reserve",
+   "status": "KEEP",
+   "floorplans_url": "https://aspirereserve.prospectportal.com/college-station/aspire-reserve/student/",
+   "reason": "",
+   "listing_note": "Entrata portal found in Chrome; the marketing site has no floor-plan link, only an Apply link to the portal host. Portal is Cloudflare-protected: live fetch may be blocked, rescue in data/texas_am/rescues/"
+  },
+  {
+   "original_name": "Sausalito Apartments",
+   "status": "KEEP",
+   "floorplans_url": "https://www.sundance-and-sausalito.com/featuredfloorplans/sausalito-floor-plans",
+   "reason": "",
+   "listing_note": "shared Sundance/Sausalito site: each building has its own featuredfloorplans page"
+  },
+  {
+   "original_name": "361RENT",
+   "status": "REJECT_PROPERTY_ROW",
+   "entity_type": "property_manager",
+   "reason": "property manager (979rent AppFolio portal), roster address 1511 Texas Ave S is its office, not a building"
+  },
+  {
+   "original_name": "Cedar Creek Apartments",
+   "status": "REVIEW",
+   "reason": "roster address is a suite (1000 University Dr E Ste 808) = manager office; AppFolio portal rexidence has no listings (2026-11-18)"
+  }
+ ],
+ "_listing_notes": "floorplans_url = the page that actually holds the plans (often NOT the marketing site's Floor Plans page). listing_note says how it was found and whether the live fetch is expected to work."
+}

@@ -116,10 +116,11 @@ Mark each finding CONFIRMED (cite file:line or commit) or INFERRED.
 ## Phase B: Blind discovery test on UT (no peeking)
 1. Without reading properties.csv, independently discover every qualifying building around
    UT using only sources available at a new campus: Google Places (grid/text search across
-   the neighborhoods), Google Maps, apartments.com / Zillow / HotPads, student-housing
-   aggregators (HousingScout etc.), the university's off-campus housing directory, local
-   realtor + property-manager sites, and Reddit (r/UTAustin and similar threads, for slang
-   names and buildings people complain about or recommend).
+   the neighborhoods), Google Maps, local realtor + property-manager sites, and Reddit (r/UTAustin and similar threads, for slang
+   names and buildings people complain about or recommend). Listing aggregators (apartments.com, Zillow,
+   HotPads, Zumper, HousingScout) and the university's off-campus directory (RentCollegePads / CoStar) are
+   NOT scraping destinations for any fact about a building; at most the directory is a lead list of
+   names and addresses (docs/PLAYBOOK_1_DISCOVERY.md Source 4).
 2. Record which source(s) found each building. Save as `ut_blind_roster.csv`.
 3. Only now compare against the 143-building roster (+ any other repo catalogs). Report:
    recall (roster buildings you missed), extras (found but not in the roster: are they valid?),

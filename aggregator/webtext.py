@@ -47,10 +47,23 @@ def to_text(h, base="", keep_links=True, limit=60000):
     return t.strip()[:limit]
 
 
-def links(h, base):
+def site_hosts(h, base):
+    """Hosts that count as 'this site': the URL's own host plus the page's canonical / og:url host. A property
+    whose Google URL redirects to a sister brand (retreatcollegestation.com -> redpoint-collegestation.com) links
+    to its pages on the other host; same-host-only link following found no floor-plans page there."""
+    out = {urlparse(base).netloc.replace("www.", "")}
+    for m in re.finditer(r'<link[^>]+rel=["\']canonical["\'][^>]*href=["\']([^"\']+)|<meta[^>]+property=["\']og:url["\'][^>]*content=["\']([^"\']+)', h or "", re.I):
+        u = m.group(1) or m.group(2)
+        if u.startswith("http"):
+            out.add(urlparse(u).netloc.replace("www.", ""))
+    return out
+
+
+def links(h, base, hosts=None):
     out = []
+    hosts = hosts or site_hosts(h, base)
     for m in re.finditer(r'(?is)<a\b[^>]*href=["\']([^"\'#]+)["\'][^>]*>(.*?)</a>', h or ""):
         u = urljoin(base, m.group(1))
-        if urlparse(u).netloc.replace("www.", "") == urlparse(base).netloc.replace("www.", ""):
+        if urlparse(u).netloc.replace("www.", "") in hosts:
             out.append((u.split("#")[0], re.sub(r"<[^>]+>", " ", m.group(2)).strip()))
     return out

@@ -1,0 +1,4893 @@
+[
+ {
+  "building": {
+   "objectID": "blackstone-apartments",
+   "canonical_name": "Blackstone Apartments",
+   "area": "east_campus",
+   "address": "2910 Medical Arts St, Austin, TX 78705, USA",
+   "_geoloc": {
+    "lat": 30.289514,
+    "lng": -97.728773
+   },
+   "property_type": "condominium",
+   "aliases": [],
+   "sourceUrl": "http://austinblackstoneapts.com/",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [],
+   "community": [],
+   "premium": []
+  },
+  "plans": [],
+  "meta": {
+   "rebuild_id": "blackstone-apartments",
+   "dist_m": 725,
+   "tier": "A",
+   "score": 6.5,
+   "reddit": 1,
+   "manager": null,
+   "coord_review": false,
+   "backend": null,
+   "priced": 0,
+   "layout_imgs": 0,
+   "n_amen": 0,
+   "note": "",
+   "website": "http://austinblackstoneapts.com/"
+  }
+ },
+ {
+  "building": {
+   "objectID": "river-oaks",
+   "canonical_name": "River Oaks",
+   "area": "east_campus",
+   "address": "3001 Medical Arts St, Austin, TX 78705,",
+   "_geoloc": {
+    "lat": 30.289425,
+    "lng": -97.72758
+   },
+   "property_type": "apartment",
+   "aliases": [],
+   "sourceUrl": "https://www.rainieratx.com/river-oaks",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [
+    "Stainless-Steel Appliances",
+    "Walk-In Closets"
+   ],
+   "community": [
+    "On-Site Laundry",
+    "Pets Allowed",
+    "Recycling"
+   ],
+   "premium": []
+  },
+  "plans": [
+   {
+    "objectID": "river-oaks__river-oaks-2-bedroom-1-bath",
+    "property_objectID": "river-oaks",
+    "unit_label": "River Oaks 2 bedroom, 1 bath",
+    "base_rent": 1654,
+    "beds": 2,
+    "baths": 1,
+    "sqft": 954,
+    "availability": "available 2026-11-25",
+    "source_url": "https://www.rainieratx.com/availability"
+   },
+   {
+    "objectID": "river-oaks__river-oaks-1-bedroom-1-bath",
+    "property_objectID": "river-oaks",
+    "unit_label": "River Oaks 1 bedroom, 1 bath",
+    "base_rent": 1399,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 767,
+    "availability": "available 2026-12-30",
+    "source_url": "https://www.rainieratx.com/availability"
+   }
+  ],
+  "meta": {
+   "rebuild_id": "river-oaks",
+   "dist_m": 781,
+   "tier": "A",
+   "score": 12.5,
+   "reddit": 2,
+   "manager": "Rainier Properties",
+   "coord_review": false,
+   "backend": "duda_appfolio_feed",
+   "priced": 2,
+   "layout_imgs": 0,
+   "n_amen": 5,
+   "note": "",
+   "website": "https://www.rainieratx.com/river-oaks"
+  }
+ },
+ {
+  "building": {
+   "objectID": "the-eastwood",
+   "canonical_name": "The Eastwood",
+   "area": "east_campus",
+   "address": "2901 Swisher St, Austin, TX 78705, USA",
+   "_geoloc": {
+    "lat": 30.288166,
+    "lng": -97.725562
+   },
+   "property_type": "apartment",
+   "aliases": [],
+   "sourceUrl": "https://www.livetheeastwood.com/",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [
+    "Furnished Units",
+    "Hardwood/Laminate Floors",
+    "In-Unit Washer/Dryer"
+   ],
+   "community": [
+    "24/7 Maintenance",
+    "On-Site Laundry",
+    "On-Site Parking",
+    "Package Service/Lockers",
+    "Parking Garage",
+    "Pets Allowed"
+   ],
+   "premium": [
+    "Social Events",
+    "Swimming Pool",
+    "Valet Trash"
+   ]
+  },
+  "plans": [
+   {
+    "objectID": "the-eastwood__2900-cole-st-2-bd-1-ba-785-sq-ft",
+    "property_objectID": "the-eastwood",
+    "unit_label": "2900 Cole St. \u2014 2 bd, 1 ba, 785 Sq. Ft.",
+    "base_rent": 799,
+    "beds": 2,
+    "baths": 1,
+    "sqft": 785,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "https://www.livetheeastwood.com/floor-plans"
+   },
+   {
+    "objectID": "the-eastwood__2901-swisher-st-2-bd-2-ba-1-008-sq-ft",
+    "property_objectID": "the-eastwood",
+    "unit_label": "2901 Swisher St \u2014 2 bd, 2 ba, 1,008 Sq. Ft.",
+    "base_rent": 1399,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 1008,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "https://www.livetheeastwood.com/floor-plans"
+   },
+   {
+    "objectID": "the-eastwood__2901-2904-swisher-st-306-04-2-bd-2-ba-831-sq-ft",
+    "property_objectID": "the-eastwood",
+    "unit_label": "2901 - 2904 Swisher St - 306-04  \u2014 2 bd, 2 ba, 831 Sq. Ft.",
+    "base_rent": 1099,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 831,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "https://www.livetheeastwood.com/floor-plans"
+   },
+   {
+    "objectID": "the-eastwood__2900-cole-st-2-bd-1-ba-785-sq-ft-2",
+    "property_objectID": "the-eastwood",
+    "unit_label": "2900 Cole St. \u2014 2 bd, 1 ba, 785 Sq. Ft.",
+    "base_rent": 899,
+    "beds": 2,
+    "baths": 1,
+    "sqft": 785,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "https://www.livetheeastwood.com/floor-plans"
+   },
+   {
+    "objectID": "the-eastwood__2900-cole-st-2-bd-1-ba-785-sq-ft-3",
+    "property_objectID": "the-eastwood",
+    "unit_label": "2900 Cole St. \u2014 2 bd, 1 ba, 785 Sq. Ft.",
+    "base_rent": 799,
+    "beds": 2,
+    "baths": 1,
+    "sqft": 785,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "https://www.livetheeastwood.com/floor-plans"
+   },
+   {
+    "objectID": "the-eastwood__2900-cole-st-2-bd-1-ba-785-sq-ft-4",
+    "property_objectID": "the-eastwood",
+    "unit_label": "2900 Cole St. \u2014 2 bd, 1 ba, 785 Sq. Ft.",
+    "base_rent": 899,
+    "beds": 2,
+    "baths": 1,
+    "sqft": 785,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "https://www.livetheeastwood.com/floor-plans"
+   },
+   {
+    "objectID": "the-eastwood__2904-swisher-st-2-bd-2-ba-831-sq-ft",
+    "property_objectID": "the-eastwood",
+    "unit_label": "2904 Swisher St \u2014 2 bd, 2 ba, 831 Sq. Ft.",
+    "base_rent": 1099,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 831,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "https://www.livetheeastwood.com/floor-plans"
+   }
+  ],
+  "meta": {
+   "rebuild_id": "the-eastwood",
+   "dist_m": 835,
+   "tier": "A",
+   "score": 5.5,
+   "reddit": 1,
+   "manager": null,
+   "coord_review": true,
+   "backend": "appfolio_smart",
+   "priced": 7,
+   "layout_imgs": 0,
+   "n_amen": 12,
+   "note": "",
+   "website": "https://www.livetheeastwood.com/"
+  }
+ },
+ {
+  "building": {
+   "objectID": "the-g",
+   "canonical_name": "The G",
+   "area": "west_campus",
+   "address": "1715 Guadalupe St, Austin, TX 78701, USA",
+   "_geoloc": {
+    "lat": 30.280272,
+    "lng": -97.741817
+   },
+   "property_type": "apartment",
+   "aliases": [],
+   "sourceUrl": "http://thegaustin.com/",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {},
+  "plans": [],
+  "meta": {
+   "rebuild_id": "the-g",
+   "dist_m": 900,
+   "tier": "A",
+   "score": 5.5,
+   "reddit": 0,
+   "manager": null,
+   "coord_review": false,
+   "backend": null,
+   "priced": 0,
+   "layout_imgs": 0,
+   "n_amen": 0,
+   "note": "",
+   "website": "http://thegaustin.com/"
+  }
+ },
+ {
+  "building": {
+   "objectID": "texan-304",
+   "canonical_name": "Texan 304",
+   "area": "west_campus",
+   "address": "304 E 30th St, Austin, TX 78705, USA",
+   "_geoloc": {
+    "lat": 30.293088,
+    "lng": -97.735752
+   },
+   "property_type": "apartment",
+   "aliases": [],
+   "sourceUrl": "https://www.texanproperties.net/texan-304",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [],
+   "community": [
+    "On-Site Parking"
+   ],
+   "premium": []
+  },
+  "plans": [],
+  "meta": {
+   "rebuild_id": "texan-304",
+   "dist_m": 914,
+   "tier": "A",
+   "score": 6.5,
+   "reddit": 5,
+   "manager": null,
+   "coord_review": false,
+   "backend": null,
+   "priced": 0,
+   "layout_imgs": 0,
+   "n_amen": 1,
+   "note": "",
+   "website": "https://www.texanproperties.net/texan-304"
+  }
+ },
+ {
+  "building": {
+   "objectID": "new-guild-co-operative",
+   "canonical_name": "New Guild Co-operative",
+   "area": "west_campus",
+   "address": "510 W 23rd St, Austin, TX 78705, USA",
+   "_geoloc": {
+    "lat": 30.28686,
+    "lng": -97.743499
+   },
+   "property_type": "co_op",
+   "aliases": [
+    "New Guild"
+   ],
+   "sourceUrl": "http://www.iccaustin.coop/houses/new-guild/",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [
+    "Utilities Included"
+   ],
+   "community": [
+    "On-Site Parking"
+   ],
+   "premium": []
+  },
+  "plans": [],
+  "meta": {
+   "rebuild_id": "new-guild-co-operative",
+   "dist_m": 929,
+   "tier": "A",
+   "score": 7.5,
+   "reddit": 2,
+   "manager": null,
+   "coord_review": false,
+   "backend": null,
+   "priced": 0,
+   "layout_imgs": 0,
+   "n_amen": 2,
+   "note": "",
+   "website": "http://www.iccaustin.coop/houses/new-guild/"
+  }
+ },
+ {
+  "building": {
+   "objectID": "helios-co-op",
+   "canonical_name": "Helios Co-Op",
+   "area": "west_campus",
+   "address": "1909 Nueces St, Austin, TX 78705, USA",
+   "_geoloc": {
+    "lat": 30.283113,
+    "lng": -97.742965
+   },
+   "property_type": "co_op",
+   "aliases": [
+    "Helios"
+   ],
+   "sourceUrl": "http://www.iccaustin.coop/houses/helios/",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [
+    "Utilities Included"
+   ],
+   "community": [
+    "On-Site Parking"
+   ],
+   "premium": []
+  },
+  "plans": [],
+  "meta": {
+   "rebuild_id": "helios-co-op",
+   "dist_m": 947,
+   "tier": "A",
+   "score": 5.5,
+   "reddit": 1,
+   "manager": null,
+   "coord_review": false,
+   "backend": null,
+   "priced": 0,
+   "layout_imgs": 0,
+   "n_amen": 2,
+   "note": "",
+   "website": "http://www.iccaustin.coop/houses/helios/"
+  }
+ },
+ {
+  "building": {
+   "objectID": "gateway-8",
+   "canonical_name": "Gateway 8",
+   "area": "west_campus",
+   "address": "3004 SpeedwayAustin, TX 78705",
+   "_geoloc": {
+    "lat": 30.293831,
+    "lng": -97.73579
+   },
+   "property_type": "apartment",
+   "aliases": [],
+   "sourceUrl": null,
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [],
+   "community": [],
+   "premium": []
+  },
+  "plans": [],
+  "meta": {
+   "rebuild_id": "gateway-8",
+   "dist_m": 998,
+   "tier": "A",
+   "score": 6.5,
+   "reddit": 1,
+   "manager": "512 Realty",
+   "coord_review": false,
+   "backend": null,
+   "priced": 0,
+   "layout_imgs": 0,
+   "n_amen": 0,
+   "note": "",
+   "website": null
+  }
+ },
+ {
+  "building": {
+   "objectID": "31st-street-condominiums",
+   "canonical_name": "31st Street Condominiums",
+   "area": "west_campus",
+   "address": "203 E 31st St, Austin, TX 78705, USA",
+   "_geoloc": {
+    "lat": 30.294145,
+    "lng": -97.736031
+   },
+   "property_type": "condominium",
+   "aliases": [],
+   "sourceUrl": "https://www.31ststreetcondos.com/",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [
+    "Balconies",
+    "Furnished Units",
+    "Hardwood/Laminate Floors",
+    "Walk-In Closets"
+   ],
+   "community": [
+    "24/7 Maintenance",
+    "On-Site Parking",
+    "Pets Allowed",
+    "Recycling",
+    "Roommate Matching Offered"
+   ],
+   "premium": []
+  },
+  "plans": [],
+  "meta": {
+   "rebuild_id": "31st-street-condominiums",
+   "dist_m": 1034,
+   "tier": "A",
+   "score": 6.5,
+   "reddit": 0,
+   "manager": null,
+   "coord_review": false,
+   "backend": null,
+   "priced": 0,
+   "layout_imgs": 0,
+   "n_amen": 9,
+   "note": "",
+   "website": "https://www.31ststreetcondos.com/"
+  }
+ },
+ {
+  "building": {
+   "objectID": "taos-co-op",
+   "canonical_name": "Taos Co-op",
+   "area": "west_campus",
+   "address": "2612 Guadalupe St, Austin, TX 78705, USA",
+   "_geoloc": {
+    "lat": 30.291759,
+    "lng": -97.741511
+   },
+   "property_type": "co_op",
+   "aliases": [],
+   "sourceUrl": "http://collegehouses.org/houses/taos/",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [
+    "Air Conditioning",
+    "Internet/Cable Included",
+    "Notable Views",
+    "Private/En-Suite Bathroom",
+    "Utilities Included"
+   ],
+   "community": [
+    "Bicycle Parking/Storage",
+    "Business Center",
+    "Community Wi-Fi",
+    "Individual Liability Leases",
+    "On-Site Laundry",
+    "Outdoor Lounge/Courtyard",
+    "Resident Lounge/Clubhouse",
+    "Study Lounge (Open)"
+   ],
+   "premium": [
+    "Game Room",
+    "Printing/Print Allowance",
+    "Rooftop Sun Deck",
+    "Storage Units"
+   ]
+  },
+  "plans": [
+   {
+    "objectID": "taos-co-op__small-single",
+    "property_objectID": "taos-co-op",
+    "unit_label": "Small Single [Per Installment/Person]",
+    "base_rent": 905,
+    "beds": 1,
+    "source_url": "http://collegehouses.org/rates"
+   },
+   {
+    "objectID": "taos-co-op__ground-floor-single",
+    "property_objectID": "taos-co-op",
+    "unit_label": "Ground Floor Single [Per Installment/Person]",
+    "base_rent": 635,
+    "beds": 1,
+    "source_url": "http://collegehouses.org/rates"
+   },
+   {
+    "objectID": "taos-co-op__single-room",
+    "property_objectID": "taos-co-op",
+    "unit_label": "Single Room [Per Installment/Person]",
+    "base_rent": 995,
+    "beds": 1,
+    "source_url": "http://collegehouses.org/rates"
+   },
+   {
+    "objectID": "taos-co-op__deluxe-single",
+    "property_objectID": "taos-co-op",
+    "unit_label": "Deluxe Single [Per Installment/Person]",
+    "base_rent": 1065,
+    "beds": 1,
+    "source_url": "http://collegehouses.org/rates"
+   },
+   {
+    "objectID": "taos-co-op__shared-double-room",
+    "property_objectID": "taos-co-op",
+    "unit_label": "Shared Double Room [Per Installment/Person]",
+    "base_rent": 680,
+    "beds": 1,
+    "source_url": "http://collegehouses.org/rates"
+   }
+  ],
+  "meta": {
+   "rebuild_id": "taos-co-op",
+   "dist_m": 1041,
+   "tier": "A",
+   "score": 10.5,
+   "reddit": 4,
+   "manager": null,
+   "coord_review": false,
+   "backend": "llm_page_read",
+   "priced": 5,
+   "layout_imgs": 0,
+   "n_amen": 17,
+   "note": "",
+   "website": "http://collegehouses.org/houses/taos/"
+  }
+ },
+ {
+  "building": {
+   "objectID": "casa-del-rio-apartments",
+   "canonical_name": "Casa Del Rio Apartments",
+   "area": "east_campus",
+   "address": "3212 Red River St, Austin, TX 78705, USA",
+   "_geoloc": {
+    "lat": 30.292102,
+    "lng": -97.726805
+   },
+   "property_type": "apartment",
+   "aliases": [],
+   "sourceUrl": "https://www.atxpropertymanagement.com/casa-del-rio",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [
+    "Walk-In Closets"
+   ],
+   "community": [
+    "On-Site Parking"
+   ],
+   "premium": [
+    "Swimming Pool"
+   ]
+  },
+  "plans": [
+   {
+    "objectID": "casa-del-rio-apartments__3212-red-river-st-2-bd-1-ba-795-sq-ft",
+    "property_objectID": "casa-del-rio-apartments",
+    "unit_label": "3212 Red River St \u2014 2 bd, 1 ba, 795 Sq. Ft.",
+    "base_rent": 1495,
+    "beds": 2,
+    "baths": 1,
+    "sqft": 795,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "https://www.atxpropertymanagement.com/pricingandservices"
+   },
+   {
+    "objectID": "casa-del-rio-apartments__3212-red-river-st-1-bd-1-ba-644-sq-ft",
+    "property_objectID": "casa-del-rio-apartments",
+    "unit_label": "3212 Red River St \u2014 1 bd, 1 ba, 644 Sq. Ft.",
+    "base_rent": 1195,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 644,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "https://www.atxpropertymanagement.com/pricingandservices"
+   },
+   {
+    "objectID": "casa-del-rio-apartments__3212-red-river-st-2-bd-1-ba-841-sq-ft",
+    "property_objectID": "casa-del-rio-apartments",
+    "unit_label": "3212 Red River St \u2014 2 bd, 1 ba, 841 Sq. Ft.",
+    "base_rent": 1495,
+    "beds": 2,
+    "baths": 1,
+    "sqft": 841,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "https://www.atxpropertymanagement.com/pricingandservices"
+   },
+   {
+    "objectID": "casa-del-rio-apartments__3212-red-river-st-1-bd-1-ba-644-sq-ft-2",
+    "property_objectID": "casa-del-rio-apartments",
+    "unit_label": "3212 Red River St \u2014 1 bd, 1 ba, 644 Sq. Ft.",
+    "base_rent": 1195,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 644,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "https://www.atxpropertymanagement.com/pricingandservices"
+   },
+   {
+    "objectID": "casa-del-rio-apartments__3212-red-river-st-1-bd-1-ba-644-sq-ft-3",
+    "property_objectID": "casa-del-rio-apartments",
+    "unit_label": "3212 Red River St \u2014 1 bd, 1 ba, 644 Sq. Ft.",
+    "base_rent": 1195,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 644,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "https://www.atxpropertymanagement.com/pricingandservices"
+   },
+   {
+    "objectID": "casa-del-rio-apartments__3212-red-river-st-2-bd-2-ba-1-087-sq-ft",
+    "property_objectID": "casa-del-rio-apartments",
+    "unit_label": "3212 Red River St \u2014 2 bd, 2 ba, 1,087 Sq. Ft.",
+    "base_rent": 1695,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 1087,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "https://www.atxpropertymanagement.com/pricingandservices"
+   },
+   {
+    "objectID": "casa-del-rio-apartments__3212-red-river-st-2-bd-2-ba-1-087-sq-ft-2",
+    "property_objectID": "casa-del-rio-apartments",
+    "unit_label": "3212 Red River St \u2014 2 bd, 2 ba, 1,087 Sq. Ft.",
+    "base_rent": 1695,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 1087,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "https://www.atxpropertymanagement.com/pricingandservices"
+   },
+   {
+    "objectID": "casa-del-rio-apartments__3212-red-river-st-1-bd-1-ba-644-sq-ft-4",
+    "property_objectID": "casa-del-rio-apartments",
+    "unit_label": "3212 Red River St \u2014 1 bd, 1 ba, 644 Sq. Ft.",
+    "base_rent": 1195,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 644,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "https://www.atxpropertymanagement.com/pricingandservices"
+   },
+   {
+    "objectID": "casa-del-rio-apartments__3212-red-river-st-1-bd-1-ba-644-sq-ft-5",
+    "property_objectID": "casa-del-rio-apartments",
+    "unit_label": "3212 Red River St \u2014 1 bd, 1 ba, 644 Sq. Ft.",
+    "base_rent": 1195,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 644,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "https://www.atxpropertymanagement.com/pricingandservices"
+   },
+   {
+    "objectID": "casa-del-rio-apartments__3212-red-river-st-1-bd-1-ba-728-sq-ft",
+    "property_objectID": "casa-del-rio-apartments",
+    "unit_label": "3212 Red River St \u2014 1 bd, 1 ba, 728 Sq. Ft.",
+    "base_rent": 1195,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 728,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "https://www.atxpropertymanagement.com/pricingandservices"
+   },
+   {
+    "objectID": "casa-del-rio-apartments__3212-red-river-st-1-bd-1-ba-644-sq-ft-6",
+    "property_objectID": "casa-del-rio-apartments",
+    "unit_label": "3212 Red River St \u2014 1 bd, 1 ba, 644 Sq. Ft.",
+    "base_rent": 1195,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 644,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "https://www.atxpropertymanagement.com/pricingandservices"
+   },
+   {
+    "objectID": "casa-del-rio-apartments__3212-red-river-st-2-bd-1-ba-795-sq-ft-2",
+    "property_objectID": "casa-del-rio-apartments",
+    "unit_label": "3212 Red River St \u2014 2 bd, 1 ba, 795 Sq. Ft.",
+    "base_rent": 1495,
+    "beds": 2,
+    "baths": 1,
+    "sqft": 795,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "https://www.atxpropertymanagement.com/pricingandservices"
+   }
+  ],
+  "meta": {
+   "rebuild_id": "casa-del-rio-apartments",
+   "dist_m": 1056,
+   "tier": "A",
+   "score": 5.5,
+   "reddit": 2,
+   "manager": null,
+   "coord_review": false,
+   "backend": "appfolio_smart",
+   "priced": 12,
+   "layout_imgs": 0,
+   "n_amen": 3,
+   "note": "",
+   "website": "https://www.atxpropertymanagement.com/casa-del-rio"
+  }
+ },
+ {
+  "building": {
+   "objectID": "21st-co-op",
+   "canonical_name": "21st Co-Op",
+   "area": "west_campus",
+   "address": "707 W 21st St, Austin, TX 78705, USA",
+   "_geoloc": {
+    "lat": 30.283809,
+    "lng": -97.745833
+   },
+   "property_type": "co_op",
+   "aliases": [
+    "21st Street Co-op"
+   ],
+   "sourceUrl": "https://collegehouses.org/listings/21st/",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {},
+  "plans": [],
+  "meta": {
+   "rebuild_id": "21st-co-op",
+   "dist_m": 1136,
+   "tier": "A",
+   "score": 10.5,
+   "reddit": 3,
+   "manager": null,
+   "coord_review": false,
+   "backend": null,
+   "priced": 0,
+   "layout_imgs": 0,
+   "n_amen": 0,
+   "note": "",
+   "website": "https://collegehouses.org/listings/21st/"
+  }
+ },
+ {
+  "building": {
+   "objectID": "rio-house-apartments",
+   "canonical_name": "Rio House Apartments",
+   "area": "west_campus",
+   "address": "606 W 17th St, Austin, TX 78701, USA",
+   "_geoloc": {
+    "lat": 30.28076,
+    "lng": -97.744957
+   },
+   "property_type": "apartment",
+   "aliases": [],
+   "sourceUrl": "https://riohouseatx.com/",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [
+    "Balconies",
+    "Dishwasher",
+    "Microwave",
+    "Stainless-Steel Appliances"
+   ],
+   "community": [
+    "Bicycle Parking/Storage",
+    "On-Site Laundry",
+    "On-Site Parking",
+    "Outdoor Lounge/Courtyard"
+   ],
+   "premium": [
+    "Storage Units",
+    "Swimming Pool"
+   ]
+  },
+  "plans": [
+   {
+    "objectID": "rio-house-apartments__1-bedroom-1-0-baths-id-14261",
+    "property_objectID": "rio-house-apartments",
+    "unit_label": "1 Bedroom 1.0 Baths (ID #14261)",
+    "beds": 1,
+    "baths": 1.0,
+    "availability": "Available Units: 2 apartments (page-level count)",
+    "source_url": "https://riohouseatx.com/floor-plans/"
+   },
+   {
+    "objectID": "rio-house-apartments__2-bedroom-1-0-baths-id-13967",
+    "property_objectID": "rio-house-apartments",
+    "unit_label": "2 Bedroom 1.0 Baths (ID #13967)",
+    "beds": 2,
+    "baths": 1.0,
+    "availability": "Available Units: 2 apartments (page-level count)",
+    "source_url": "https://riohouseatx.com/floor-plans/"
+   }
+  ],
+  "meta": {
+   "rebuild_id": "rio-house-apartments",
+   "dist_m": 1140,
+   "tier": "A",
+   "score": 5.5,
+   "reddit": 2,
+   "manager": null,
+   "coord_review": false,
+   "backend": "llm_page_read",
+   "priced": 0,
+   "layout_imgs": 0,
+   "n_amen": 10,
+   "note": "",
+   "website": "https://riohouseatx.com/"
+  }
+ },
+ {
+  "building": {
+   "objectID": "university-quarters",
+   "canonical_name": "University Quarters",
+   "area": "west_campus",
+   "address": "2801 Hemphill Park, Austin, TX 78705, USA",
+   "_geoloc": {
+    "lat": 30.293335,
+    "lng": -97.74015
+   },
+   "property_type": "apartment",
+   "aliases": [],
+   "sourceUrl": "https://gbatx.com/properties/university-quarters",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {},
+  "plans": [
+   {
+    "objectID": "university-quarters__north-campus-1x1-university-quarters",
+    "property_objectID": "university-quarters",
+    "unit_label": "North Campus 1x1 @ University Quarters",
+    "base_rent": 1099,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 450,
+    "availability": "available 2026-08-07",
+    "source_url": "https://gbatx.com/availability"
+   },
+   {
+    "objectID": "university-quarters__north-campus-1x1-university-quarters-2",
+    "property_objectID": "university-quarters",
+    "unit_label": "North Campus 1x1 @ University Quarters",
+    "base_rent": 950,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 450,
+    "availability": "available 2026-08-07",
+    "source_url": "https://gbatx.com/availability"
+   }
+  ],
+  "meta": {
+   "rebuild_id": "university-quarters",
+   "dist_m": 1143,
+   "tier": "A",
+   "score": 6.5,
+   "reddit": 3,
+   "manager": null,
+   "coord_review": false,
+   "backend": "duda_appfolio_feed",
+   "priced": 2,
+   "layout_imgs": 0,
+   "n_amen": 0,
+   "note": "",
+   "website": "https://gbatx.com/properties/university-quarters"
+  }
+ },
+ {
+  "building": {
+   "objectID": "sunchase-condos",
+   "canonical_name": "Sunchase Condos",
+   "area": "north_campus",
+   "address": "3115 Helms St, Austin, TX 78705, USA",
+   "_geoloc": {
+    "lat": 30.295521,
+    "lng": -97.735419
+   },
+   "property_type": "condominium",
+   "aliases": [
+    "3115 HELMS Street"
+   ],
+   "sourceUrl": "https://utrealty.net/student-living/",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [],
+   "community": [],
+   "premium": [
+    "Guarantor Program"
+   ]
+  },
+  "plans": [],
+  "meta": {
+   "rebuild_id": "sunchase-condos",
+   "dist_m": 1188,
+   "tier": "A",
+   "score": 5.5,
+   "reddit": 1,
+   "manager": null,
+   "coord_review": false,
+   "backend": null,
+   "priced": 0,
+   "layout_imgs": 0,
+   "n_amen": 1,
+   "note": "",
+   "website": "https://utrealty.net/student-living/"
+  }
+ },
+ {
+  "building": {
+   "objectID": "presidio-at-judge-s-hill",
+   "canonical_name": "Presidio At Judge's Hill",
+   "area": "west_campus",
+   "address": "1812 West Ave, Austin, TX 78701, USA",
+   "_geoloc": {
+    "lat": 30.282652,
+    "lng": -97.746317
+   },
+   "property_type": "condominium",
+   "aliases": [
+    "1812 West Ave"
+   ],
+   "sourceUrl": "http://www.highrises.com/austin/presidio-at-judges-hill-condos/",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [],
+   "community": [],
+   "premium": []
+  },
+  "plans": [],
+  "meta": {
+   "rebuild_id": "presidio-at-judge-s-hill",
+   "dist_m": 1197,
+   "tier": "A",
+   "score": 6.5,
+   "reddit": 2,
+   "manager": null,
+   "coord_review": false,
+   "backend": null,
+   "priced": 0,
+   "layout_imgs": 0,
+   "n_amen": 0,
+   "note": "",
+   "website": "http://www.highrises.com/austin/presidio-at-judges-hill-condos/"
+  }
+ },
+ {
+  "building": {
+   "objectID": "lantana-apartments",
+   "canonical_name": "Lantana Apartments",
+   "area": "west_campus",
+   "address": "1802 West Avenue, Austin, TX 78701,",
+   "_geoloc": {
+    "lat": 30.282221,
+    "lng": -97.746762
+   },
+   "property_type": "apartment",
+   "aliases": [],
+   "sourceUrl": "http://www.lantanaaustin.com/",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [
+    "Hardwood/Laminate Floors"
+   ],
+   "community": [
+    "On-Site Laundry"
+   ],
+   "premium": [
+    "Fitness Center",
+    "Swimming Pool"
+   ]
+  },
+  "plans": [
+   {
+    "objectID": "lantana-apartments__1802-west-avenue-2-bd-2-ba-865-sq-ft",
+    "property_objectID": "lantana-apartments",
+    "unit_label": "1802 West Avenue \u2014 2 bd, 2 ba, 865 Sq. Ft.",
+    "base_rent": 1195,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 865,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "http://www.lantanaaustin.com/floorplans-2"
+   },
+   {
+    "objectID": "lantana-apartments__1802-west-avenue-107-1-bd-1-ba-548-sq-ft",
+    "property_objectID": "lantana-apartments",
+    "unit_label": "1802 West Avenue - 107 \u2014 1 bd, 1 ba, 548 Sq. Ft.",
+    "base_rent": 1250,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 548,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "http://www.lantanaaustin.com/floorplans-2"
+   },
+   {
+    "objectID": "lantana-apartments__1802-west-avenue-114-2-bd-2-ba-865-sq-ft",
+    "property_objectID": "lantana-apartments",
+    "unit_label": "1802 West Avenue - 114 \u2014 2 bd, 2 ba, 865 Sq. Ft.",
+    "base_rent": 1195,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 865,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "http://www.lantanaaustin.com/floorplans-2"
+   },
+   {
+    "objectID": "lantana-apartments__1802-west-avenue-109-2-bd-2-ba-865-sq-ft",
+    "property_objectID": "lantana-apartments",
+    "unit_label": "1802 West Avenue - 109 \u2014 2 bd, 2 ba, 865 Sq. Ft.",
+    "base_rent": 1195,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 865,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "http://www.lantanaaustin.com/floorplans-2"
+   },
+   {
+    "objectID": "lantana-apartments__1802-west-avenue-101-2-bd-2-ba-875-sq-ft",
+    "property_objectID": "lantana-apartments",
+    "unit_label": "1802 West Avenue - 101 \u2014 2 bd, 2 ba, 875 Sq. Ft.",
+    "base_rent": 1195,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 875,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "http://www.lantanaaustin.com/floorplans-2"
+   },
+   {
+    "objectID": "lantana-apartments__1802-west-avenue-103-2-bd-2-ba-856-sq-ft",
+    "property_objectID": "lantana-apartments",
+    "unit_label": "1802 West Avenue - 103 \u2014 2 bd, 2 ba, 856 Sq. Ft.",
+    "base_rent": 1195,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 856,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "http://www.lantanaaustin.com/floorplans-2"
+   },
+   {
+    "objectID": "lantana-apartments__1802-west-avenue-209-2-bd-2-ba-865-sq-ft",
+    "property_objectID": "lantana-apartments",
+    "unit_label": "1802 West Avenue - 209 \u2014 2 bd, 2 ba, 865 Sq. Ft.",
+    "base_rent": 1195,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 865,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "http://www.lantanaaustin.com/floorplans-2"
+   },
+   {
+    "objectID": "lantana-apartments__1802-west-avenue-117-2-bd-2-ba-865-sq-ft",
+    "property_objectID": "lantana-apartments",
+    "unit_label": "1802 West Avenue - 117 \u2014 2 bd, 2 ba, 865 Sq. Ft.",
+    "base_rent": 1195,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 865,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "http://www.lantanaaustin.com/floorplans-2"
+   },
+   {
+    "objectID": "lantana-apartments__1802-west-avenue-210-2-bd-2-ba-865-sq-ft",
+    "property_objectID": "lantana-apartments",
+    "unit_label": "1802 West Avenue - 210 \u2014 2 bd, 2 ba, 865 Sq. Ft.",
+    "base_rent": 1195,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 865,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "http://www.lantanaaustin.com/floorplans-2"
+   },
+   {
+    "objectID": "lantana-apartments__1802-west-avenue-206-2-bd-2-ba-865-sq-ft",
+    "property_objectID": "lantana-apartments",
+    "unit_label": "1802 West Avenue - 206 \u2014 2 bd, 2 ba, 865 Sq. Ft.",
+    "base_rent": 1195,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 865,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "http://www.lantanaaustin.com/floorplans-2"
+   },
+   {
+    "objectID": "lantana-apartments__1802-west-avenue-205-2-bd-2-ba-865-sq-ft",
+    "property_objectID": "lantana-apartments",
+    "unit_label": "1802 West Avenue - 205 \u2014 2 bd, 2 ba, 865 Sq. Ft.",
+    "base_rent": 1195,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 865,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "http://www.lantanaaustin.com/floorplans-2"
+   },
+   {
+    "objectID": "lantana-apartments__1802-west-avenue-121-2-bd-2-ba-856-sq-ft",
+    "property_objectID": "lantana-apartments",
+    "unit_label": "1802 West Avenue - 121 \u2014 2 bd, 2 ba, 856 Sq. Ft.",
+    "base_rent": 1195,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 856,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "http://www.lantanaaustin.com/floorplans-2"
+   },
+   {
+    "objectID": "lantana-apartments__1802-west-avenue-218-2-bd-2-ba-865-sq-ft",
+    "property_objectID": "lantana-apartments",
+    "unit_label": "1802 West Avenue - 218 \u2014 2 bd, 2 ba, 865 Sq. Ft.",
+    "base_rent": 1195,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 865,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "http://www.lantanaaustin.com/floorplans-2"
+   },
+   {
+    "objectID": "lantana-apartments__1802-west-avenue-215-2-bd-2-ba-865-sq-ft",
+    "property_objectID": "lantana-apartments",
+    "unit_label": "1802 West Avenue - 215 \u2014 2 bd, 2 ba, 865 Sq. Ft.",
+    "base_rent": 1195,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 865,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "http://www.lantanaaustin.com/floorplans-2"
+   },
+   {
+    "objectID": "lantana-apartments__1802-west-avenue-112-2-bd-2-ba-865-sq-ft",
+    "property_objectID": "lantana-apartments",
+    "unit_label": "1802 West Avenue - 112 \u2014 2 bd, 2 ba, 865 Sq. Ft.",
+    "base_rent": 1195,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 865,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "http://www.lantanaaustin.com/floorplans-2"
+   },
+   {
+    "objectID": "lantana-apartments__1802-west-avenue-102-2-bd-2-ba-856-sq-ft",
+    "property_objectID": "lantana-apartments",
+    "unit_label": "1802 West Avenue - 102 \u2014 2 bd, 2 ba, 856 Sq. Ft.",
+    "base_rent": 1195,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 856,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "http://www.lantanaaustin.com/floorplans-2"
+   },
+   {
+    "objectID": "lantana-apartments__1802-west-avenue-220-2-bd-2-ba-865-sq-ft",
+    "property_objectID": "lantana-apartments",
+    "unit_label": "1802 West Avenue - 220 \u2014 2 bd, 2 ba, 865 Sq. Ft.",
+    "base_rent": 1195,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 865,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "http://www.lantanaaustin.com/floorplans-2"
+   },
+   {
+    "objectID": "lantana-apartments__1802-west-avenue-211-2-bd-2-ba-865-sq-ft",
+    "property_objectID": "lantana-apartments",
+    "unit_label": "1802 West Avenue - 211 \u2014 2 bd, 2 ba, 865 Sq. Ft.",
+    "base_rent": 1195,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 865,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "http://www.lantanaaustin.com/floorplans-2"
+   },
+   {
+    "objectID": "lantana-apartments__1802-west-avenue-120-2-bd-2-ba-856-sq-ft",
+    "property_objectID": "lantana-apartments",
+    "unit_label": "1802 West Avenue - 120 \u2014 2 bd, 2 ba, 856 Sq. Ft.",
+    "base_rent": 1195,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 856,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "http://www.lantanaaustin.com/floorplans-2"
+   },
+   {
+    "objectID": "lantana-apartments__1802-west-avenue-119-2-bd-2-ba-865-sq-ft",
+    "property_objectID": "lantana-apartments",
+    "unit_label": "1802 West Avenue - 119 \u2014 2 bd, 2 ba, 865 Sq. Ft.",
+    "base_rent": 1195,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 865,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "http://www.lantanaaustin.com/floorplans-2"
+   },
+   {
+    "objectID": "lantana-apartments__1802-west-avenue-118-2-bd-2-ba-865-sq-ft",
+    "property_objectID": "lantana-apartments",
+    "unit_label": "1802 West Avenue - 118 \u2014 2 bd, 2 ba, 865 Sq. Ft.",
+    "base_rent": 1195,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 865,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "http://www.lantanaaustin.com/floorplans-2"
+   },
+   {
+    "objectID": "lantana-apartments__1802-west-avenue-115-2-bd-2-ba-865-sq-ft",
+    "property_objectID": "lantana-apartments",
+    "unit_label": "1802 West Avenue - 115 \u2014 2 bd, 2 ba, 865 Sq. Ft.",
+    "base_rent": 1195,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 865,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "http://www.lantanaaustin.com/floorplans-2"
+   }
+  ],
+  "meta": {
+   "rebuild_id": "lantana-apartments",
+   "dist_m": 1222,
+   "tier": "A",
+   "score": 9.5,
+   "reddit": 1,
+   "manager": "Lantana Apartments",
+   "coord_review": false,
+   "backend": "appfolio_smart",
+   "priced": 22,
+   "layout_imgs": 0,
+   "n_amen": 4,
+   "note": "",
+   "website": "http://www.lantanaaustin.com/"
+  }
+ },
+ {
+  "building": {
+   "objectID": "pearl-street-co-op",
+   "canonical_name": "Pearl Street Co-Op",
+   "area": "west_campus",
+   "address": "2000 Pearl St, Austin, TX 78705, USA",
+   "_geoloc": {
+    "lat": 30.284106,
+    "lng": -97.747069
+   },
+   "property_type": "co_op",
+   "aliases": [],
+   "sourceUrl": "http://collegehouses.org/listings/pearl/",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [
+    "Air Conditioning",
+    "Internet/Cable Included",
+    "Private/En-Suite Bathroom",
+    "Utilities Included"
+   ],
+   "community": [
+    "Bicycle Parking/Storage",
+    "Community Wi-Fi",
+    "On-Site Laundry",
+    "Outdoor Lounge/Courtyard",
+    "Study Lounge (Open)"
+   ],
+   "premium": [
+    "Rooftop Sun Deck",
+    "Swimming Pool"
+   ]
+  },
+  "plans": [
+   {
+    "objectID": "pearl-street-co-op__bedroom-floor-plan",
+    "property_objectID": "pearl-street-co-op",
+    "unit_label": "Bedroom Floor Plan [Per Installment/Person]",
+    "layout_image_url": "https://collegehouses.org/floorplans/pearl%20bedroom%20floor%20plan.png"
+   },
+   {
+    "objectID": "pearl-street-co-op__budget-single",
+    "property_objectID": "pearl-street-co-op",
+    "unit_label": "Budget Single [Per Installment/Person]",
+    "beds": 1
+   },
+   {
+    "objectID": "pearl-street-co-op__large-single",
+    "property_objectID": "pearl-street-co-op",
+    "unit_label": "Large Single [Per Installment/Person]",
+    "beds": 1
+   },
+   {
+    "objectID": "pearl-street-co-op__standard-single",
+    "property_objectID": "pearl-street-co-op",
+    "unit_label": "Standard Single [Per Installment/Person]",
+    "beds": 1
+   },
+   {
+    "objectID": "pearl-street-co-op__shared-room",
+    "property_objectID": "pearl-street-co-op",
+    "unit_label": "Shared Room [Per Installment/Person]",
+    "beds": 2
+   }
+  ],
+  "meta": {
+   "rebuild_id": "pearl-street-co-op",
+   "dist_m": 1227,
+   "tier": "A",
+   "score": 8.5,
+   "reddit": 2,
+   "manager": null,
+   "coord_review": false,
+   "backend": "llm_page_read",
+   "priced": 0,
+   "layout_imgs": 1,
+   "n_amen": 11,
+   "note": "",
+   "website": "http://collegehouses.org/listings/pearl/"
+  }
+ },
+ {
+  "building": {
+   "objectID": "the-hive-red-river",
+   "canonical_name": "The Hive Red River",
+   "area": "east_campus",
+   "address": "3401 Red River Street, Austin, TX 78705",
+   "_geoloc": {
+    "lat": 30.292901,
+    "lng": -97.725098
+   },
+   "property_type": "apartment",
+   "aliases": [
+    "Mint Urban Red River",
+    "3401 At Red River"
+   ],
+   "sourceUrl": "https://www.thehiveredriver.com/",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [
+    "Furnished Units",
+    "Hardwood/Laminate Floors",
+    "Stainless-Steel Appliances",
+    "Stone/Granite Countertops",
+    "Walk-In Closets"
+   ],
+   "community": [
+    "24/7 Maintenance",
+    "Business Center",
+    "On-Site Management",
+    "On-Site Parking"
+   ],
+   "premium": [
+    "Fitness Center",
+    "Swimming Pool"
+   ]
+  },
+  "plans": [
+   {
+    "objectID": "the-hive-red-river__scarlet",
+    "property_objectID": "the-hive-red-river",
+    "unit_label": "Scarlet",
+    "beds": 1,
+    "baths": 1,
+    "availability": "page lists the plan with no price",
+    "source_url": "https://thehiveredriver.com/floor-plans/"
+   },
+   {
+    "objectID": "the-hive-red-river__rose",
+    "property_objectID": "the-hive-red-river",
+    "unit_label": "Rose",
+    "base_rent": 1475,
+    "beds": 1,
+    "baths": 1,
+    "availability": "price as printed on the floor-plans page",
+    "source_url": "https://thehiveredriver.com/floor-plans/"
+   },
+   {
+    "objectID": "the-hive-red-river__crimson",
+    "property_objectID": "the-hive-red-river",
+    "unit_label": "Crimson",
+    "beds": 2,
+    "baths": 1,
+    "availability": "page lists the plan with no price",
+    "source_url": "https://thehiveredriver.com/floor-plans/"
+   },
+   {
+    "objectID": "the-hive-red-river__ruby",
+    "property_objectID": "the-hive-red-river",
+    "unit_label": "Ruby",
+    "beds": 1,
+    "baths": 1,
+    "availability": "page lists the plan with no price",
+    "source_url": "https://thehiveredriver.com/floor-plans/"
+   },
+   {
+    "objectID": "the-hive-red-river__red",
+    "property_objectID": "the-hive-red-river",
+    "unit_label": "Red",
+    "base_rent": 1324,
+    "beds": 1,
+    "baths": 1,
+    "availability": "price as printed on the floor-plans page",
+    "source_url": "https://thehiveredriver.com/floor-plans/"
+   },
+   {
+    "objectID": "the-hive-red-river__currant",
+    "property_objectID": "the-hive-red-river",
+    "unit_label": "Currant",
+    "beds": 2,
+    "baths": 1,
+    "availability": "page lists the plan with no price",
+    "source_url": "https://thehiveredriver.com/floor-plans/"
+   }
+  ],
+  "meta": {
+   "rebuild_id": "the-hive-red-river",
+   "dist_m": 1230,
+   "tier": "A",
+   "score": 11.5,
+   "reddit": 2,
+   "manager": null,
+   "coord_review": false,
+   "backend": "text_plan_list",
+   "priced": 2,
+   "layout_imgs": 0,
+   "n_amen": 11,
+   "note": "",
+   "website": "https://www.thehiveredriver.com/"
+  }
+ },
+ {
+  "building": {
+   "objectID": "mark-embers",
+   "canonical_name": "Mark Embers",
+   "area": "north_campus",
+   "address": "3106 Speedway, Austin, TX 78705,",
+   "_geoloc": {
+    "lat": 30.295758,
+    "lng": -97.737211
+   },
+   "property_type": "apartment",
+   "aliases": [
+    "The Marks Apartments"
+   ],
+   "sourceUrl": "https://www.rainieratx.com/mark-embers",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [
+    "Balconies",
+    "Hardwood/Laminate Floors",
+    "Walk-In Closets"
+   ],
+   "community": [
+    "24/7 Maintenance",
+    "Outdoor Lounge/Courtyard",
+    "Pets Allowed",
+    "Recycling"
+   ],
+   "premium": []
+  },
+  "plans": [
+   {
+    "objectID": "mark-embers__3100-speedway-1-bd-1-ba-620-sq-ft",
+    "property_objectID": "mark-embers",
+    "unit_label": "3100 Speedway \u2014 1 bd, 1 ba, 620 Sq. Ft.",
+    "base_rent": 1269,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 620,
+    "availability": "listed vacancy (matched by property filter 'Mark Embers')",
+    "source_url": "https://www.rainieratx.com/availability"
+   },
+   {
+    "objectID": "mark-embers__3100-speedway-1-bd-1-ba-620-sq-ft-2",
+    "property_objectID": "mark-embers",
+    "unit_label": "3100 Speedway \u2014 1 bd, 1 ba, 620 Sq. Ft.",
+    "base_rent": 1419,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 620,
+    "availability": "listed vacancy (matched by property filter 'Mark Embers')",
+    "source_url": "https://www.rainieratx.com/availability"
+   },
+   {
+    "objectID": "mark-embers__3106-speedway-2-bd-1-ba-750-sq-ft",
+    "property_objectID": "mark-embers",
+    "unit_label": "3106 Speedway \u2014 2 bd, 1 ba, 750 Sq. Ft.",
+    "base_rent": 1569,
+    "beds": 2,
+    "baths": 1,
+    "sqft": 750,
+    "availability": "listed vacancy (matched by property filter 'Mark Embers')",
+    "source_url": "https://www.rainieratx.com/availability"
+   },
+   {
+    "objectID": "mark-embers__3106-speedway-1-bd-1-ba-620-sq-ft",
+    "property_objectID": "mark-embers",
+    "unit_label": "3106 Speedway \u2014 1 bd, 1 ba, 620 Sq. Ft.",
+    "base_rent": 1269,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 620,
+    "availability": "listed vacancy (matched by property filter 'Mark Embers')",
+    "source_url": "https://www.rainieratx.com/availability"
+   },
+   {
+    "objectID": "mark-embers__3106-speedway-1-bd-1-ba-600-sq-ft",
+    "property_objectID": "mark-embers",
+    "unit_label": "3106 Speedway \u2014 1 bd, 1 ba, 600 Sq. Ft.",
+    "base_rent": 1244,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 600,
+    "availability": "listed vacancy (matched by property filter 'Mark Embers')",
+    "source_url": "https://www.rainieratx.com/availability"
+   },
+   {
+    "objectID": "mark-embers__3106-speedway-1-bd-1-ba-620-sq-ft-2",
+    "property_objectID": "mark-embers",
+    "unit_label": "3106 Speedway \u2014 1 bd, 1 ba, 620 Sq. Ft.",
+    "base_rent": 1269,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 620,
+    "availability": "listed vacancy (matched by property filter 'Mark Embers')",
+    "source_url": "https://www.rainieratx.com/availability"
+   },
+   {
+    "objectID": "mark-embers__3106-speedway-1-bd-1-ba-550-sq-ft",
+    "property_objectID": "mark-embers",
+    "unit_label": "3106 Speedway \u2014 1 bd, 1 ba, 550 Sq. Ft.",
+    "base_rent": 1149,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 550,
+    "availability": "listed vacancy (matched by property filter 'Mark Embers')",
+    "source_url": "https://www.rainieratx.com/availability"
+   }
+  ],
+  "meta": {
+   "rebuild_id": "mark-embers",
+   "dist_m": 1235,
+   "tier": "A",
+   "score": 12.5,
+   "reddit": 5,
+   "manager": "Rainier Properties",
+   "coord_review": false,
+   "backend": "appfolio_smart",
+   "priced": 7,
+   "layout_imgs": 0,
+   "n_amen": 7,
+   "note": "",
+   "website": "https://www.rainieratx.com/mark-embers"
+  }
+ },
+ {
+  "building": {
+   "objectID": "house-of-commons",
+   "canonical_name": "House of Commons",
+   "area": "west_campus",
+   "address": "2610 Rio Grande St, Austin, TX 78705, USA",
+   "_geoloc": {
+    "lat": 30.291402,
+    "lng": -97.744432
+   },
+   "property_type": "co_op",
+   "aliases": [],
+   "sourceUrl": "https://www.iccaustin.coop/about/our-communities/",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [
+    "Utilities Included"
+   ],
+   "community": [
+    "On-Site Parking",
+    "Outdoor Lounge/Courtyard",
+    "Pets Allowed",
+    "Resident Lounge/Clubhouse",
+    "Roommate Matching Offered",
+    "Study Lounge (Open)"
+   ],
+   "premium": [
+    "Game Room",
+    "Movie/Screening Room",
+    "Smoke-Free Community",
+    "Social Events"
+   ]
+  },
+  "plans": [
+   {
+    "objectID": "house-of-commons__private-room",
+    "property_objectID": "house-of-commons",
+    "unit_label": "Private room [Per Installment/Person]",
+    "base_rent": 1080,
+    "source_url": "https://www.iccaustin.coop/availability-rates/"
+   },
+   {
+    "objectID": "house-of-commons__shared-room",
+    "property_objectID": "house-of-commons",
+    "unit_label": "Shared room [Per Installment/Person]",
+    "base_rent": 730,
+    "source_url": "https://www.iccaustin.coop/availability-rates/"
+   }
+  ],
+  "meta": {
+   "rebuild_id": "house-of-commons",
+   "dist_m": 1249,
+   "tier": "A",
+   "score": 7.5,
+   "reddit": 2,
+   "manager": null,
+   "coord_review": false,
+   "backend": "llm_page_read",
+   "priced": 2,
+   "layout_imgs": 0,
+   "n_amen": 11,
+   "note": "",
+   "website": "https://www.iccaustin.coop/about/our-communities/"
+  }
+ },
+ {
+  "building": {
+   "objectID": "eastgate-condominiums",
+   "canonical_name": "Eastgate Condominiums",
+   "area": "east_campus",
+   "address": "2213 Poquito St, Austin, TX 78722,",
+   "_geoloc": {
+    "lat": 30.283753,
+    "lng": -97.720691
+   },
+   "property_type": "condominium",
+   "aliases": [
+    "EASTGATE CONDO, perfect for House Staff at Dell/St. David's. Limited-Time Housestaff Lease Discount",
+    "EastGate Condominiums"
+   ],
+   "sourceUrl": "http://www.prospectrealestate.com/",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [],
+   "community": [],
+   "premium": []
+  },
+  "plans": [],
+  "meta": {
+   "rebuild_id": "eastgate-condo-perfect-for-house-staff-at-dell-st-david-s-limited-time-housestaff-lease-discount",
+   "dist_m": 1296,
+   "tier": "A",
+   "score": 8.5,
+   "reddit": 0,
+   "manager": null,
+   "coord_review": false,
+   "backend": null,
+   "priced": 0,
+   "layout_imgs": 0,
+   "n_amen": 0,
+   "note": "Google name is an ad title",
+   "website": "http://www.prospectrealestate.com/"
+  }
+ },
+ {
+  "building": {
+   "objectID": "whitis-lofts",
+   "canonical_name": "Whitis Lofts",
+   "area": "west_campus",
+   "address": "3011 Whitis Ave, Austin, TX 78705",
+   "_geoloc": {
+    "lat": 30.295806,
+    "lng": -97.738698
+   },
+   "property_type": "apartment",
+   "aliases": [],
+   "sourceUrl": "https://www.512living.co/",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [],
+   "community": [
+    "On-Site Management",
+    "Pets Allowed"
+   ],
+   "premium": []
+  },
+  "plans": [
+   {
+    "objectID": "whitis-lofts__whitis-lofts-104",
+    "property_objectID": "whitis-lofts",
+    "unit_label": "Whitis Lofts #104 ",
+    "base_rent": 1800,
+    "beds": 2,
+    "baths": 1,
+    "sqft": 830,
+    "availability": "available 2027-07-24",
+    "source_url": "https://www.512living.co/availability"
+   },
+   {
+    "objectID": "whitis-lofts__whitis-lofts-103",
+    "property_objectID": "whitis-lofts",
+    "unit_label": "Whitis Lofts #103",
+    "base_rent": 1250,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 640,
+    "availability": "available 2027-07-24",
+    "source_url": "https://www.512living.co/availability"
+   },
+   {
+    "objectID": "whitis-lofts__whitis-lofts-105",
+    "property_objectID": "whitis-lofts",
+    "unit_label": "Whitis Lofts #105",
+    "base_rent": 1550,
+    "beds": 2,
+    "baths": 1,
+    "sqft": 830,
+    "availability": "available 2027-07-24",
+    "source_url": "https://www.512living.co/availability"
+   },
+   {
+    "objectID": "whitis-lofts__whitis-lofts-101",
+    "property_objectID": "whitis-lofts",
+    "unit_label": "Whitis Lofts #101",
+    "base_rent": 1300,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 640,
+    "availability": "available 2027-08-07",
+    "source_url": "https://www.512living.co/availability"
+   },
+   {
+    "objectID": "whitis-lofts__whitis-lofts-204",
+    "property_objectID": "whitis-lofts",
+    "unit_label": "Whitis Lofts #204",
+    "base_rent": 1850,
+    "beds": 2,
+    "baths": 1,
+    "sqft": 830,
+    "availability": "available 2027-08-07",
+    "source_url": "https://www.512living.co/availability"
+   },
+   {
+    "objectID": "whitis-lofts__whitis-lofts-205",
+    "property_objectID": "whitis-lofts",
+    "unit_label": "Whitis Lofts #205",
+    "base_rent": 1850,
+    "beds": 2,
+    "baths": 1,
+    "sqft": 830,
+    "availability": "available 2027-07-24",
+    "source_url": "https://www.512living.co/availability"
+   },
+   {
+    "objectID": "whitis-lofts__whitis-lofts-207",
+    "property_objectID": "whitis-lofts",
+    "unit_label": "Whitis Lofts #207",
+    "base_rent": 1325,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 640,
+    "availability": "available 2027-06-19",
+    "source_url": "https://www.512living.co/availability"
+   },
+   {
+    "objectID": "whitis-lofts__whitis-lofts-203",
+    "property_objectID": "whitis-lofts",
+    "unit_label": "Whitis Lofts #203",
+    "base_rent": 1275,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 640,
+    "availability": "available 2027-08-07",
+    "source_url": "https://www.512living.co/availability"
+   },
+   {
+    "objectID": "whitis-lofts__whitis-lofts-106",
+    "property_objectID": "whitis-lofts",
+    "unit_label": "Whitis Lofts #106",
+    "base_rent": 1350,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 640,
+    "availability": "available 2027-07-24",
+    "source_url": "https://www.512living.co/availability"
+   }
+  ],
+  "meta": {
+   "rebuild_id": "whitis-lofts",
+   "dist_m": 1302,
+   "tier": "A",
+   "score": 6.5,
+   "reddit": 0,
+   "manager": "512 Realty",
+   "coord_review": false,
+   "backend": "duda_appfolio_feed",
+   "priced": 9,
+   "layout_imgs": 0,
+   "n_amen": 2,
+   "note": "",
+   "website": "https://www.512living.co/"
+  }
+ },
+ {
+  "building": {
+   "objectID": "lenox-condos",
+   "canonical_name": "Lenox Condos",
+   "area": "west_campus",
+   "address": "915 W 23rd St, Austin, TX 78705, USA",
+   "_geoloc": {
+    "lat": 30.287051,
+    "lng": -97.747634
+   },
+   "property_type": "condominium",
+   "aliases": [
+    "915 W 23rd Street"
+   ],
+   "sourceUrl": "https://www.realtyprosaustin.com/ut-condo-guide/lennox-condominiums/",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [
+    "Balconies",
+    "In-Unit Washer/Dryer",
+    "Utilities Included"
+   ],
+   "community": [
+    "Controlled Access/Gated",
+    "On-Site Parking",
+    "Outdoor Lounge/Courtyard",
+    "Parking Garage"
+   ],
+   "premium": [
+    "Swimming Pool"
+   ]
+  },
+  "plans": [
+   {
+    "objectID": "lenox-condos__nice",
+    "property_objectID": "lenox-condos",
+    "unit_label": "Nice",
+    "beds": 2,
+    "baths": 2,
+    "availability": "page lists the plan with no price",
+    "source_url": "https://www.realtyprosaustin.com/ut-condo-guide/lennox-condominiums/floor-plans/"
+   },
+   {
+    "objectID": "lenox-condos__move-in-ready",
+    "property_objectID": "lenox-condos",
+    "unit_label": "Move in ready!",
+    "beds": 2,
+    "baths": 2,
+    "availability": "page lists the plan with no price",
+    "source_url": "https://www.realtyprosaustin.com/ut-condo-guide/lennox-condominiums/floor-plans/"
+   },
+   {
+    "objectID": "lenox-condos__charming",
+    "property_objectID": "lenox-condos",
+    "unit_label": "Charming",
+    "beds": 1,
+    "baths": 1,
+    "availability": "page lists the plan with no price",
+    "source_url": "https://www.realtyprosaustin.com/ut-condo-guide/lennox-condominiums/floor-plans/"
+   },
+   {
+    "objectID": "lenox-condos__1-bed-1-bath",
+    "property_objectID": "lenox-condos",
+    "unit_label": "1 bed / 1 bath",
+    "beds": 1,
+    "baths": 1,
+    "availability": "page lists the plan with no price",
+    "source_url": "https://www.realtyprosaustin.com/ut-condo-guide/lennox-condominiums/floor-plans/"
+   }
+  ],
+  "meta": {
+   "rebuild_id": "lenox-condos",
+   "dist_m": 1307,
+   "tier": "A",
+   "score": 5.5,
+   "reddit": 1,
+   "manager": null,
+   "coord_review": false,
+   "backend": "text_plan_list",
+   "priced": 0,
+   "layout_imgs": 0,
+   "n_amen": 8,
+   "note": "",
+   "website": "https://www.realtyprosaustin.com/ut-condo-guide/lennox-condominiums/"
+  }
+ },
+ {
+  "building": {
+   "objectID": "salado-place",
+   "canonical_name": "Salado Place",
+   "area": "west_campus",
+   "address": "2604 Salado St, Austin, TX 78705,",
+   "_geoloc": {
+    "lat": 30.291356,
+    "lng": -97.745978
+   },
+   "property_type": "apartment",
+   "aliases": [],
+   "sourceUrl": "https://uptownrealtyaustin.com/communities/salado_place/",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [],
+   "community": [],
+   "premium": []
+  },
+  "plans": [
+   {
+    "objectID": "salado-place__1-bed-1-bath",
+    "property_objectID": "salado-place",
+    "unit_label": "1 Bed / 1 Bath",
+    "base_rent": 1025,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 405,
+    "availability": "advertised for lease",
+    "source_url": "https://uptownrealtyaustin.com/communities/salado_place/"
+   }
+  ],
+  "meta": {
+   "rebuild_id": "salado-place",
+   "dist_m": 1313,
+   "tier": "A",
+   "score": 5.5,
+   "reddit": 0,
+   "manager": "512 Realty",
+   "coord_review": false,
+   "backend": "uptown_realty",
+   "priced": 1,
+   "layout_imgs": 0,
+   "n_amen": 0,
+   "note": "",
+   "website": "https://uptownrealtyaustin.com/communities/salado_place/"
+  }
+ },
+ {
+  "building": {
+   "objectID": "diplomat-west-campus",
+   "canonical_name": "Diplomat West Campus",
+   "area": "west_campus",
+   "address": "1911 San Gabriel St, Austin, TX 78705,",
+   "_geoloc": {
+    "lat": 30.284563,
+    "lng": -97.748058
+   },
+   "property_type": "apartment",
+   "aliases": [
+    "Diplomat Apartments"
+   ],
+   "sourceUrl": "https://www.westsidegroup.com/diplomat-apartments?utm_source=google&utm_campaign=dip-gmb",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [
+    "Hardwood/Laminate Floors",
+    "Microwave",
+    "Refrigerator",
+    "Walk-In Closets"
+   ],
+   "community": [
+    "On-Site Parking"
+   ],
+   "premium": [
+    "Fitness Center",
+    "Yoga Studio"
+   ]
+  },
+  "plans": [
+   {
+    "objectID": "diplomat-west-campus__2108-san-gabriel-st-1-bd-1-ba-425-sq-ft",
+    "property_objectID": "diplomat-west-campus",
+    "unit_label": "2108 San Gabriel St \u2014 1 bd, 1 ba, 425 Sq. Ft.",
+    "base_rent": 1175,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 425,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "https://www.westsidegroup.com/diplomat-apartments/apartments/"
+   }
+  ],
+  "meta": {
+   "rebuild_id": "diplomat-west-campus",
+   "dist_m": 1325,
+   "tier": "A",
+   "score": 10.5,
+   "reddit": 2,
+   "manager": "The Weststide Group, Inc.",
+   "coord_review": false,
+   "backend": "appfolio_smart",
+   "priced": 1,
+   "layout_imgs": 0,
+   "n_amen": 7,
+   "note": "",
+   "website": "https://www.westsidegroup.com/diplomat-apartments?utm_source=google&utm_campaign=dip-gmb"
+  }
+ },
+ {
+  "building": {
+   "objectID": "somerset",
+   "canonical_name": "Somerset",
+   "area": "west_campus",
+   "address": "2216 San Gabriel St, Austin, TX 78705,",
+   "_geoloc": {
+    "lat": 30.287001,
+    "lng": -97.748413
+   },
+   "property_type": "condominium",
+   "aliases": [],
+   "sourceUrl": "https://uptownrealtyaustin.com/communities/somerset/",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [
+    "Balconies",
+    "In-Unit Washer/Dryer",
+    "Walk-In Closets"
+   ],
+   "community": [
+    "On-Site Parking",
+    "Parking Garage"
+   ],
+   "premium": []
+  },
+  "plans": [
+   {
+    "objectID": "somerset__2-bed-2-bath",
+    "property_objectID": "somerset",
+    "unit_label": "2 Bed / 2 Bath",
+    "base_rent": 1850,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 836,
+    "availability": "advertised for lease",
+    "source_url": "https://uptownrealtyaustin.com/communities/somerset/"
+   },
+   {
+    "objectID": "somerset__3-bed-2-bath",
+    "property_objectID": "somerset",
+    "unit_label": "3 Bed / 2 Bath",
+    "base_rent": 2100,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 870,
+    "availability": "advertised for lease",
+    "source_url": "https://uptownrealtyaustin.com/communities/somerset/"
+   }
+  ],
+  "meta": {
+   "rebuild_id": "somerset",
+   "dist_m": 1379,
+   "tier": "A",
+   "score": 9.5,
+   "reddit": 1,
+   "manager": "512 Realty",
+   "coord_review": false,
+   "backend": "uptown_realty",
+   "priced": 2,
+   "layout_imgs": 0,
+   "n_amen": 5,
+   "note": "",
+   "website": "https://uptownrealtyaustin.com/communities/somerset/"
+  }
+ },
+ {
+  "building": {
+   "objectID": "san-remo",
+   "canonical_name": "San Remo",
+   "area": "west_campus",
+   "address": "2204 San Gabriel Street Austin, TX 78705",
+   "_geoloc": {
+    "lat": 30.286152,
+    "lng": -97.748519
+   },
+   "property_type": "condominium",
+   "aliases": [],
+   "sourceUrl": null,
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [],
+   "community": [],
+   "premium": []
+  },
+  "plans": [],
+  "meta": {
+   "rebuild_id": "san-remo",
+   "dist_m": 1379,
+   "tier": "A",
+   "score": 6.5,
+   "reddit": 0,
+   "manager": "Burlington Ventures",
+   "coord_review": false,
+   "backend": null,
+   "priced": 0,
+   "layout_imgs": 0,
+   "n_amen": 0,
+   "note": "",
+   "website": null
+  }
+ },
+ {
+  "building": {
+   "objectID": "rio-grande-square",
+   "canonical_name": "Rio Grande Square",
+   "area": "west_campus",
+   "address": "2800 Rio Grande St, Austin, TX 78705,",
+   "_geoloc": {
+    "lat": 30.293689,
+    "lng": -97.744312
+   },
+   "property_type": "student_housing",
+   "aliases": [],
+   "sourceUrl": "https://www.westsidegroup.com/rio-grande-square-apartments?utm_source=google&utm_campaign=rio-gmb",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [
+    "Balconies",
+    "Furnished Units",
+    "Hardwood/Laminate Floors",
+    "Private/En-Suite Bathroom",
+    "Walk-In Closets"
+   ],
+   "community": [
+    "Individual Liability Leases",
+    "On-Site Management",
+    "On-Site Parking"
+   ],
+   "premium": [
+    "Fitness Center",
+    "Yoga Studio"
+   ]
+  },
+  "plans": [
+   {
+    "objectID": "rio-grande-square__2812-rio-grande-st-1-bd-1-ba-525-sq-ft",
+    "property_objectID": "rio-grande-square",
+    "unit_label": "2812 Rio Grande St \u2014 1 bd, 1 ba, 525 Sq. Ft. [Per Installment/Person]",
+    "base_rent": 1195,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 525,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "https://www.westsidegroup.com/"
+   }
+  ],
+  "meta": {
+   "rebuild_id": "rio-grande-square",
+   "dist_m": 1380,
+   "tier": "A",
+   "score": 10.5,
+   "reddit": 2,
+   "manager": "The Weststide Group, Inc.",
+   "coord_review": false,
+   "backend": "appfolio_smart",
+   "priced": 1,
+   "layout_imgs": 0,
+   "n_amen": 10,
+   "note": "",
+   "website": "https://www.westsidegroup.com/rio-grande-square-apartments?utm_source=google&utm_campaign=rio-gmb"
+  }
+ },
+ {
+  "building": {
+   "objectID": "rio-heights",
+   "canonical_name": "Rio Heights",
+   "area": "west_campus",
+   "address": "2813 Rio Grande St, Austin, TX 78705, USA",
+   "_geoloc": {
+    "lat": 30.294321,
+    "lng": -97.743333
+   },
+   "property_type": "apartment",
+   "aliases": [
+    "Shane Michael Brooks"
+   ],
+   "sourceUrl": "https://gbatx.com/properties-managed/rio-heights",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [
+    "Ceiling Fans",
+    "Dishwasher",
+    "Hardwood/Laminate Floors",
+    "In-Unit Washer/Dryer",
+    "Microwave",
+    "Refrigerator",
+    "Stainless-Steel Appliances"
+   ],
+   "community": [
+    "On-Site Parking",
+    "Parking Garage",
+    "Pets Allowed"
+   ],
+   "premium": []
+  },
+  "plans": [],
+  "meta": {
+   "rebuild_id": "shane-michael-brooks",
+   "dist_m": 1411,
+   "tier": "A",
+   "score": 5.5,
+   "reddit": 2,
+   "manager": null,
+   "coord_review": false,
+   "backend": null,
+   "priced": 0,
+   "layout_imgs": 0,
+   "n_amen": 10,
+   "note": "Google name is a realtor; site gbatx.com/properties-managed/rio-heights",
+   "website": "https://gbatx.com/properties-managed/rio-heights"
+  }
+ },
+ {
+  "building": {
+   "objectID": "barranca-square-student-apartments",
+   "canonical_name": "Barranca Square Student Apartments",
+   "area": "west_campus",
+   "address": "910 W 26th St, Austin, TX 78705,",
+   "_geoloc": {
+    "lat": 30.291138,
+    "lng": -97.746889
+   },
+   "property_type": "student_housing",
+   "aliases": [],
+   "sourceUrl": "https://www.westsidegroup.com/barranca-square-apartments?utm_source=google&utm_campaign=bs-gmb",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [
+    "Balconies",
+    "Furnished Units",
+    "Hardwood/Laminate Floors",
+    "Refrigerator"
+   ],
+   "community": [
+    "On-Site Parking"
+   ],
+   "premium": [
+    "Fitness Center",
+    "Yoga Studio"
+   ]
+  },
+  "plans": [
+   {
+    "objectID": "barranca-square-student-apartments__565-sq-ft",
+    "property_objectID": "barranca-square-student-apartments",
+    "unit_label": "565 Sq Ft [Per Installment/Person]",
+    "beds": 1,
+    "baths": 1,
+    "availability": "page lists the plan with no price",
+    "source_url": "https://www.westsidegroup.com/barranca-square-apartments/apartments/"
+   }
+  ],
+  "meta": {
+   "rebuild_id": "barranca-square-student-apartments",
+   "dist_m": 1418,
+   "tier": "A",
+   "score": 9.5,
+   "reddit": 0,
+   "manager": "The Weststide Group, Inc.",
+   "coord_review": false,
+   "backend": "text_plan_list",
+   "priced": 0,
+   "layout_imgs": 0,
+   "n_amen": 7,
+   "note": "",
+   "website": "https://www.westsidegroup.com/barranca-square-apartments?utm_source=google&utm_campaign=bs-gmb"
+  }
+ },
+ {
+  "building": {
+   "objectID": "west-ridge-condos",
+   "canonical_name": "West Ridge Condos",
+   "area": "west_campus",
+   "address": "914 W 26th St, Austin, TX 78705, USA",
+   "_geoloc": {
+    "lat": 30.291123,
+    "lng": -97.747104
+   },
+   "property_type": "condominium",
+   "aliases": [],
+   "sourceUrl": "https://www.realtyprosaustin.com/ut-condo-guide/westridge-condominiums/",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [
+    "Balconies",
+    "Hardwood/Laminate Floors",
+    "In-Unit Washer/Dryer",
+    "Utilities Included",
+    "Walk-In Closets"
+   ],
+   "community": [
+    "On-Site Parking"
+   ],
+   "premium": []
+  },
+  "plans": [
+   {
+    "objectID": "west-ridge-condos__nice",
+    "property_objectID": "west-ridge-condos",
+    "unit_label": "Nice",
+    "beds": 2,
+    "baths": 2,
+    "availability": "page lists the plan with no price",
+    "source_url": "https://www.realtyprosaustin.com/ut-condo-guide/westridge-condominiums/floor-plans/"
+   },
+   {
+    "objectID": "west-ridge-condos__move-in-ready",
+    "property_objectID": "west-ridge-condos",
+    "unit_label": "Move in ready!",
+    "beds": 2,
+    "baths": 2,
+    "availability": "page lists the plan with no price",
+    "source_url": "https://www.realtyprosaustin.com/ut-condo-guide/westridge-condominiums/floor-plans/"
+   },
+   {
+    "objectID": "west-ridge-condos__charming",
+    "property_objectID": "west-ridge-condos",
+    "unit_label": "Charming",
+    "beds": 1,
+    "baths": 1,
+    "availability": "page lists the plan with no price",
+    "source_url": "https://www.realtyprosaustin.com/ut-condo-guide/westridge-condominiums/floor-plans/"
+   },
+   {
+    "objectID": "west-ridge-condos__1-bed-1-bath",
+    "property_objectID": "west-ridge-condos",
+    "unit_label": "1 bed / 1 bath",
+    "beds": 1,
+    "baths": 1,
+    "availability": "page lists the plan with no price",
+    "source_url": "https://www.realtyprosaustin.com/ut-condo-guide/westridge-condominiums/floor-plans/"
+   }
+  ],
+  "meta": {
+   "rebuild_id": "west-ridge-condos",
+   "dist_m": 1435,
+   "tier": "A",
+   "score": 5.5,
+   "reddit": 2,
+   "manager": null,
+   "coord_review": false,
+   "backend": "text_plan_list",
+   "priced": 0,
+   "layout_imgs": 0,
+   "n_amen": 6,
+   "note": "",
+   "website": "https://www.realtyprosaustin.com/ut-condo-guide/westridge-condominiums/"
+  }
+ },
+ {
+  "building": {
+   "objectID": "sandpiper-apartments",
+   "canonical_name": "Sandpiper Apartments",
+   "area": "west_campus",
+   "address": "2810 Rio Grande St, Austin, TX 78705,",
+   "_geoloc": {
+    "lat": 30.294353,
+    "lng": -97.744696
+   },
+   "property_type": "apartment",
+   "aliases": [],
+   "sourceUrl": "https://www.sandpiperatx.com/",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [],
+   "community": [
+    "On-Site Parking"
+   ],
+   "premium": []
+  },
+  "plans": [],
+  "meta": {
+   "rebuild_id": "sandpiper-apartments",
+   "dist_m": 1455,
+   "tier": "A",
+   "score": 6.5,
+   "reddit": 0,
+   "manager": null,
+   "coord_review": false,
+   "backend": null,
+   "priced": 0,
+   "layout_imgs": 0,
+   "n_amen": 1,
+   "note": "",
+   "website": "https://www.sandpiperatx.com/"
+  }
+ },
+ {
+  "building": {
+   "objectID": "rio-flats",
+   "canonical_name": "Rio Flats",
+   "area": "west_campus",
+   "address": "2822 Rio Grande St, Austin, TX 78705, USA",
+   "_geoloc": {
+    "lat": 30.295105,
+    "lng": -97.744473
+   },
+   "property_type": "apartment",
+   "aliases": [],
+   "sourceUrl": "http://www.rioflatsaustin.com/",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [
+    "Balconies",
+    "Ceiling Fans",
+    "Hardwood/Laminate Floors",
+    "In-Unit Washer/Dryer",
+    "Stainless-Steel Appliances",
+    "Stone/Granite Countertops",
+    "Walk-In Closets"
+   ],
+   "community": [
+    "On-Site Parking",
+    "Parking Garage",
+    "Pets Allowed"
+   ],
+   "premium": []
+  },
+  "plans": [],
+  "meta": {
+   "rebuild_id": "rio-flats",
+   "dist_m": 1489,
+   "tier": "A",
+   "score": 5.5,
+   "reddit": 2,
+   "manager": null,
+   "coord_review": false,
+   "backend": null,
+   "priced": 0,
+   "layout_imgs": 0,
+   "n_amen": 10,
+   "note": "",
+   "website": "http://www.rioflatsaustin.com/"
+  }
+ },
+ {
+  "building": {
+   "objectID": "the-34-at-helms",
+   "canonical_name": "The 34 at Helms",
+   "area": "north_campus",
+   "address": "3405 Helms St Austin, TX 78705",
+   "_geoloc": {
+    "lat": 30.298395,
+    "lng": -97.7338
+   },
+   "property_type": "apartment",
+   "aliases": [],
+   "sourceUrl": null,
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [],
+   "community": [],
+   "premium": []
+  },
+  "plans": [],
+  "meta": {
+   "rebuild_id": "the-34-at-helms",
+   "dist_m": 1508,
+   "tier": "A",
+   "score": 5.5,
+   "reddit": 0,
+   "manager": "512 Realty",
+   "coord_review": false,
+   "backend": null,
+   "priced": 0,
+   "layout_imgs": 0,
+   "n_amen": 0,
+   "note": "",
+   "website": null
+  }
+ },
+ {
+  "building": {
+   "objectID": "melroy-apartments",
+   "canonical_name": "Melroy Apartments",
+   "area": "north_campus",
+   "address": "3408 Speedway, Austin, TX 78705",
+   "_geoloc": {
+    "lat": 30.298935,
+    "lng": -97.734974
+   },
+   "property_type": "apartment",
+   "aliases": [
+    "Melroy Apartments North University"
+   ],
+   "sourceUrl": "https://www.westsidegroup.com/melroy-apartments?utm_source=google&utm_campaign=mel-gmb",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [
+    "Balconies",
+    "Hardwood/Laminate Floors",
+    "Refrigerator"
+   ],
+   "community": [
+    "BBQ/Grill Stations",
+    "On-Site Parking"
+   ],
+   "premium": [
+    "Fitness Center",
+    "Yoga Studio"
+   ]
+  },
+  "plans": [
+   {
+    "objectID": "melroy-apartments__420-sq-ft",
+    "property_objectID": "melroy-apartments",
+    "unit_label": "420 Sq Ft",
+    "beds": 1,
+    "baths": 1,
+    "availability": "page lists the plan with no price",
+    "source_url": "https://www.westsidegroup.com/melroy-apartments/apartments/"
+   }
+  ],
+  "meta": {
+   "rebuild_id": "melroy-apartments",
+   "dist_m": 1559,
+   "tier": "A",
+   "score": 8.5,
+   "reddit": 1,
+   "manager": "The Weststide Group, Inc.",
+   "coord_review": false,
+   "backend": "text_plan_list",
+   "priced": 0,
+   "layout_imgs": 0,
+   "n_amen": 7,
+   "note": "",
+   "website": "https://www.westsidegroup.com/melroy-apartments?utm_source=google&utm_campaign=mel-gmb"
+  }
+ },
+ {
+  "building": {
+   "objectID": "alexan-waterloo",
+   "canonical_name": "Alexan Waterloo",
+   "area": "downtown",
+   "address": "700 E 11th St, Austin, TX 78701, USA",
+   "_geoloc": {
+    "lat": 30.27106,
+    "lng": -97.733823
+   },
+   "property_type": "apartment",
+   "aliases": [],
+   "sourceUrl": "https://www.alexanwaterloo.com/?utm_source=googlelisting&utm_medium=organic",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [
+    "Balconies",
+    "Hardwood/Laminate Floors",
+    "In-Unit Washer/Dryer",
+    "Notable Views",
+    "Refrigerator",
+    "Stone/Granite Countertops",
+    "Walk-In Closets"
+   ],
+   "community": [
+    "BBQ/Grill Stations",
+    "Business Center",
+    "Conference Rooms",
+    "Outdoor Lounge/Courtyard",
+    "Pets Allowed",
+    "Resident Lounge/Clubhouse"
+   ],
+   "premium": [
+    "Coffee Bar",
+    "Concierge Service",
+    "EV Charging",
+    "Fitness Center",
+    "Game Room",
+    "Golf Simulator",
+    "Movie/Screening Room",
+    "Pet Park/Dog Run",
+    "Pet Spa/Grooming",
+    "Rooftop Pool",
+    "Spin/Cycling Studio",
+    "Storage Units"
+   ]
+  },
+  "plans": [
+   {
+    "objectID": "alexan-waterloo__name-a5-provider-id-6-apt-1101",
+    "property_objectID": "alexan-waterloo",
+    "unit_label": "{\"name\":\"A5\",\"provider_id\":\"6\"} \u2014 APT 1101",
+    "base_rent": 3061,
+    "beds": 1,
+    "baths": 1.5,
+    "sqft": 1249,
+    "availability": "Available Nov 24th",
+    "layout_image_url": "https://cdn.sightmap.com/assets/nr/kw/nrkwn8zgwd2/3c/26/3c26ff10931a24be79dbf97945874b84.jpg",
+    "source_url": "https://www.alexanwaterloo.com/floorplans/"
+   },
+   {
+    "objectID": "alexan-waterloo__name-a7-provider-id-7",
+    "property_objectID": "alexan-waterloo",
+    "unit_label": "{\"name\":\"A7\",\"provider_id\":\"7\"}",
+    "beds": 1,
+    "baths": 1.5,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn.sightmap.com/assets/nr/kw/nrkwn8zgwd2/97/5e/975e8d4095f9f91e0cfeb00799cd6106.jpg",
+    "source_url": "https://www.alexanwaterloo.com/floorplans/"
+   },
+   {
+    "objectID": "alexan-waterloo__name-e2-provider-id-18",
+    "property_objectID": "alexan-waterloo",
+    "unit_label": "{\"name\":\"E2\",\"provider_id\":\"18\"}",
+    "beds": 1,
+    "baths": 1,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn.sightmap.com/assets/nr/kw/nrkwn8zgwd2/aa/54/aa54729d907c2670f435c3a483071fd0.jpg",
+    "source_url": "https://www.alexanwaterloo.com/floorplans/"
+   },
+   {
+    "objectID": "alexan-waterloo__name-b4-provider-id-14",
+    "property_objectID": "alexan-waterloo",
+    "unit_label": "{\"name\":\"B4\",\"provider_id\":\"14\"}",
+    "beds": 2,
+    "baths": 2,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn.sightmap.com/assets/nr/kw/nrkwn8zgwd2/87/4a/874ac5486aacf07c5567aadddea2ab0b.jpg",
+    "source_url": "https://www.alexanwaterloo.com/floorplans/"
+   },
+   {
+    "objectID": "alexan-waterloo__name-a3-provider-id-3-apt-1005",
+    "property_objectID": "alexan-waterloo",
+    "unit_label": "{\"name\":\"A3\",\"provider_id\":\"3\"} \u2014 APT 1005",
+    "base_rent": 2544,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 746,
+    "availability": "Available Now",
+    "layout_image_url": "https://cdn.sightmap.com/assets/nr/kw/nrkwn8zgwd2/fa/25/fa25e6d8875956655c17c8d9d540d686.jpg",
+    "source_url": "https://www.alexanwaterloo.com/floorplans/"
+   },
+   {
+    "objectID": "alexan-waterloo__name-a3-provider-id-3-apt-1209",
+    "property_objectID": "alexan-waterloo",
+    "unit_label": "{\"name\":\"A3\",\"provider_id\":\"3\"} \u2014 APT 1209",
+    "base_rent": 2519,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 746,
+    "availability": "Available Now",
+    "layout_image_url": "https://cdn.sightmap.com/assets/nr/kw/nrkwn8zgwd2/fa/25/fa25e6d8875956655c17c8d9d540d686.jpg",
+    "source_url": "https://www.alexanwaterloo.com/floorplans/"
+   },
+   {
+    "objectID": "alexan-waterloo__name-a1-provider-id-1",
+    "property_objectID": "alexan-waterloo",
+    "unit_label": "{\"name\":\"A1\",\"provider_id\":\"1\"}",
+    "beds": 1,
+    "baths": 1,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn.sightmap.com/assets/nr/kw/nrkwn8zgwd2/53/84/538444e98da50302673ac9f842e9b75d.jpg",
+    "source_url": "https://www.alexanwaterloo.com/floorplans/"
+   },
+   {
+    "objectID": "alexan-waterloo__name-a2-provider-id-2-apt-707",
+    "property_objectID": "alexan-waterloo",
+    "unit_label": "{\"name\":\"A2\",\"provider_id\":\"2\"} \u2014 APT 707",
+    "base_rent": 2509,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 741,
+    "availability": "Available Dec 30th",
+    "layout_image_url": "https://cdn.sightmap.com/assets/nr/kw/nrkwn8zgwd2/5c/5a/5c5ac728a999d120a22757af8e96765c.jpg",
+    "source_url": "https://www.alexanwaterloo.com/floorplans/"
+   },
+   {
+    "objectID": "alexan-waterloo__name-a4-provider-id-4-apt-710",
+    "property_objectID": "alexan-waterloo",
+    "unit_label": "{\"name\":\"A4\",\"provider_id\":\"4\"} \u2014 APT 710",
+    "base_rent": 2723,
+    "beds": 1,
+    "baths": 1.5,
+    "sqft": 1039,
+    "availability": "Available Now",
+    "layout_image_url": "https://cdn.sightmap.com/assets/nr/kw/nrkwn8zgwd2/25/96/2596e9f2fbb62d2540b28bf12c6a5f34.jpg",
+    "source_url": "https://www.alexanwaterloo.com/floorplans/"
+   },
+   {
+    "objectID": "alexan-waterloo__name-e1-provider-id-17-apt-1511",
+    "property_objectID": "alexan-waterloo",
+    "unit_label": "{\"name\":\"E1\",\"provider_id\":\"17\"} \u2014 APT 1511",
+    "base_rent": 2618,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 575,
+    "availability": "Available Jan 20th",
+    "layout_image_url": "https://cdn.sightmap.com/assets/nr/kw/nrkwn8zgwd2/e9/d8/e9d8262dea414797a94c82faa0c51cdc.jpg",
+    "source_url": "https://www.alexanwaterloo.com/floorplans/"
+   },
+   {
+    "objectID": "alexan-waterloo__name-e1-provider-id-17-apt-2411",
+    "property_objectID": "alexan-waterloo",
+    "unit_label": "{\"name\":\"E1\",\"provider_id\":\"17\"} \u2014 APT 2411",
+    "base_rent": 2708,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 575,
+    "availability": "Available Dec 16th",
+    "layout_image_url": "https://cdn.sightmap.com/assets/nr/kw/nrkwn8zgwd2/e9/d8/e9d8262dea414797a94c82faa0c51cdc.jpg",
+    "source_url": "https://www.alexanwaterloo.com/floorplans/"
+   },
+   {
+    "objectID": "alexan-waterloo__name-b3-provider-id-12-apt-1212",
+    "property_objectID": "alexan-waterloo",
+    "unit_label": "{\"name\":\"B3\",\"provider_id\":\"12\"} \u2014 APT 1212",
+    "base_rent": 3082,
+    "beds": 2,
+    "baths": 2.5,
+    "sqft": 1250,
+    "availability": "Available Jan 23rd",
+    "layout_image_url": "https://cdn.sightmap.com/assets/nr/kw/nrkwn8zgwd2/6f/90/6f909a3004d0be2671a59f834400389b.jpg",
+    "source_url": "https://www.alexanwaterloo.com/floorplans/"
+   },
+   {
+    "objectID": "alexan-waterloo__name-b2-provider-id-10",
+    "property_objectID": "alexan-waterloo",
+    "unit_label": "{\"name\":\"B2\",\"provider_id\":\"10\"}",
+    "beds": 2,
+    "baths": 2,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn.sightmap.com/assets/nr/kw/nrkwn8zgwd2/cf/6d/cf6d09e21771a97b9267ab87d25dc1f8.jpg",
+    "source_url": "https://www.alexanwaterloo.com/floorplans/"
+   },
+   {
+    "objectID": "alexan-waterloo__name-c1-provider-id-16",
+    "property_objectID": "alexan-waterloo",
+    "unit_label": "{\"name\":\"C1\",\"provider_id\":\"16\"}",
+    "beds": 3,
+    "baths": 3,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn.sightmap.com/assets/nr/kw/nrkwn8zgwd2/f1/43/f143d4588ccf2b1b085f0d4fc9a1c713.jpg",
+    "source_url": "https://www.alexanwaterloo.com/floorplans/"
+   },
+   {
+    "objectID": "alexan-waterloo__name-b1-provider-id-9",
+    "property_objectID": "alexan-waterloo",
+    "unit_label": "{\"name\":\"B1\",\"provider_id\":\"9\"}",
+    "beds": 2,
+    "baths": 2,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn.sightmap.com/assets/nr/kw/nrkwn8zgwd2/ef/04/ef0491a5b677f97e75ae09ad90c24157.jpg",
+    "source_url": "https://www.alexanwaterloo.com/floorplans/"
+   },
+   {
+    "objectID": "alexan-waterloo__name-b5-provider-id-15",
+    "property_objectID": "alexan-waterloo",
+    "unit_label": "{\"name\":\"B5\",\"provider_id\":\"15\"}",
+    "beds": 2,
+    "baths": 2,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn.sightmap.com/assets/nr/kw/nrkwn8zgwd2/39/02/3902453194e45ce4e9c22b4ad1097fca.jpg",
+    "source_url": "https://www.alexanwaterloo.com/floorplans/"
+   },
+   {
+    "objectID": "alexan-waterloo__name-ph5-provider-id-23",
+    "property_objectID": "alexan-waterloo",
+    "unit_label": "{\"name\":\"PH5\",\"provider_id\":\"23\"}",
+    "beds": 3,
+    "baths": 3.5,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn.sightmap.com/assets/nr/kw/nrkwn8zgwd2/ef/6c/ef6c9db05669025a387f2c0bc884683a.jpg",
+    "source_url": "https://www.alexanwaterloo.com/floorplans/"
+   },
+   {
+    "objectID": "alexan-waterloo__name-ph2-provider-id-20-apt-2902",
+    "property_objectID": "alexan-waterloo",
+    "unit_label": "{\"name\":\"PH2\",\"provider_id\":\"20\"} \u2014 APT 2902",
+    "base_rent": 6698,
+    "beds": 2,
+    "baths": 2.5,
+    "sqft": 1873,
+    "availability": "Available Now",
+    "layout_image_url": "https://cdn.sightmap.com/assets/nr/kw/nrkwn8zgwd2/b2/aa/b2aa3956a3018b1b376ef2a2988e9b1e.jpg",
+    "source_url": "https://www.alexanwaterloo.com/floorplans/"
+   },
+   {
+    "objectID": "alexan-waterloo__name-ph1-provider-id-19",
+    "property_objectID": "alexan-waterloo",
+    "unit_label": "{\"name\":\"PH1\",\"provider_id\":\"19\"}",
+    "beds": 1,
+    "baths": 1.5,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn.sightmap.com/assets/nr/kw/nrkwn8zgwd2/30/90/3090f1c7008dd3d9f4ee31477c2e2a54.jpg",
+    "source_url": "https://www.alexanwaterloo.com/floorplans/"
+   },
+   {
+    "objectID": "alexan-waterloo__name-ph3-provider-id-21",
+    "property_objectID": "alexan-waterloo",
+    "unit_label": "{\"name\":\"PH3\",\"provider_id\":\"21\"}",
+    "beds": 2,
+    "baths": 2.5,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn.sightmap.com/assets/nr/kw/nrkwn8zgwd2/c8/c3/c8c3b676f8690f92fe27a8dc84e9dbbd.jpg",
+    "source_url": "https://www.alexanwaterloo.com/floorplans/"
+   },
+   {
+    "objectID": "alexan-waterloo__name-ph4-provider-id-22",
+    "property_objectID": "alexan-waterloo",
+    "unit_label": "{\"name\":\"PH4\",\"provider_id\":\"22\"}",
+    "beds": 3,
+    "baths": 3,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn.sightmap.com/assets/nr/kw/nrkwn8zgwd2/37/db/37dbc3f807b481211b04df035fa4f1b6.jpg",
+    "source_url": "https://www.alexanwaterloo.com/floorplans/"
+   },
+   {
+    "objectID": "alexan-waterloo__name-b0-provider-id-8-apt-608",
+    "property_objectID": "alexan-waterloo",
+    "unit_label": "{\"name\":\"B0\",\"provider_id\":\"8\"} \u2014 APT 608",
+    "base_rent": 2907,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 1315,
+    "availability": "Available Jan 12th",
+    "source_url": "https://www.alexanwaterloo.com/floorplans/"
+   },
+   {
+    "objectID": "alexan-waterloo__name-a4a-provider-id-5",
+    "property_objectID": "alexan-waterloo",
+    "unit_label": "{\"name\":\"A4A\",\"provider_id\":\"5\"}",
+    "beds": 1,
+    "baths": 1.5,
+    "availability": "no available units listed",
+    "source_url": "https://www.alexanwaterloo.com/floorplans/"
+   },
+   {
+    "objectID": "alexan-waterloo__name-b3a-provider-id-13",
+    "property_objectID": "alexan-waterloo",
+    "unit_label": "{\"name\":\"B3A\",\"provider_id\":\"13\"}",
+    "beds": 2,
+    "baths": 2.5,
+    "availability": "no available units listed",
+    "source_url": "https://www.alexanwaterloo.com/floorplans/"
+   },
+   {
+    "objectID": "alexan-waterloo__name-b2a-provider-id-11",
+    "property_objectID": "alexan-waterloo",
+    "unit_label": "{\"name\":\"B2A\",\"provider_id\":\"11\"}",
+    "beds": 2,
+    "baths": 2,
+    "availability": "no available units listed",
+    "source_url": "https://www.alexanwaterloo.com/floorplans/"
+   }
+  ],
+  "meta": {
+   "rebuild_id": "alexan-waterloo",
+   "dist_m": 1564,
+   "tier": "A",
+   "score": 6.5,
+   "reddit": 5,
+   "manager": null,
+   "coord_review": false,
+   "backend": "sightmap",
+   "priced": 10,
+   "layout_imgs": 21,
+   "n_amen": 25,
+   "note": "",
+   "website": "https://www.alexanwaterloo.com/?utm_source=googlelisting&utm_medium=organic"
+  }
+ },
+ {
+  "building": {
+   "objectID": "fountain-terrace",
+   "canonical_name": "Fountain Terrace",
+   "area": "west_campus",
+   "address": "610 W 30th St, Austin, TX 78705,",
+   "_geoloc": {
+    "lat": 30.297213,
+    "lng": -97.742471
+   },
+   "property_type": "apartment",
+   "aliases": [],
+   "sourceUrl": "http://fountainterraceaustin.com/",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [
+    "Ceiling Fans",
+    "Hardwood/Laminate Floors"
+   ],
+   "community": [
+    "On-Site Laundry",
+    "On-Site Management",
+    "On-Site Parking"
+   ],
+   "premium": [
+    "Swimming Pool"
+   ]
+  },
+  "plans": [
+   {
+    "objectID": "fountain-terrace__s1-floorplan",
+    "property_objectID": "fountain-terrace",
+    "unit_label": "S1 [floorplan]",
+    "baths": 1,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn-dam.realpage.com/api/v1/dimg/3000x3000/7e1f019e291496df605d631d5ecfff4a.38fafa7c7b/JeffersonShadows_9771JeffersonHwy_II-8512912_2DU_1xStudio-400sf.jpg",
+    "source_url": "https://fountainterraceaustin.com/Floor-plans.aspx"
+   },
+   {
+    "objectID": "fountain-terrace__a1-floorplan",
+    "property_objectID": "fountain-terrace",
+    "unit_label": "A1 [floorplan]",
+    "beds": 1,
+    "baths": 1,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn-dam.realpage.com/api/v1/dimg/3000x3000/7c8f38334180d82ccf93f4a5c2b63043.38fafa7c7b/JeffersonShadows_9771JeffersonHwy_II-8512912_2DU_1x1-Junior-400sf.jpg",
+    "source_url": "https://fountainterraceaustin.com/Floor-plans.aspx"
+   },
+   {
+    "objectID": "fountain-terrace__a2-floorplan",
+    "property_objectID": "fountain-terrace",
+    "unit_label": "A2 [floorplan]",
+    "beds": 1,
+    "baths": 1,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn-dam.realpage.com/api/v1/dimg/3000x3000/ca524acb1098af712c9427ff9b0ac18c.38fafa7c7b/JeffersonShadows_9771JeffersonHwy_II-8512912_2DU_1x1.jpg",
+    "source_url": "https://fountainterraceaustin.com/Floor-plans.aspx"
+   }
+  ],
+  "meta": {
+   "rebuild_id": "fountain-terrace",
+   "dist_m": 1631,
+   "tier": "A",
+   "score": 6.5,
+   "reddit": 0,
+   "manager": null,
+   "coord_review": false,
+   "backend": "realpage_cms_proxy",
+   "priced": 0,
+   "layout_imgs": 3,
+   "n_amen": 6,
+   "note": "",
+   "website": "http://fountainterraceaustin.com/"
+  }
+ },
+ {
+  "building": {
+   "objectID": "capitol-living",
+   "canonical_name": "Capitol Living",
+   "area": "downtown",
+   "address": "1108 Nueces St, Austin, TX 78701",
+   "_geoloc": {
+    "lat": 30.27511,
+    "lng": -97.746851
+   },
+   "property_type": "apartment",
+   "aliases": [
+    "Capitol Quarters"
+   ],
+   "sourceUrl": "https://thecapitolliving.com/",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [
+    "Internet/Cable Included",
+    "Stainless-Steel Appliances",
+    "Stone/Granite Countertops",
+    "Utilities Included"
+   ],
+   "community": [
+    "Bicycle Parking/Storage",
+    "Community Wi-Fi",
+    "Elevators",
+    "Joint Leases",
+    "On-Site Laundry"
+   ],
+   "premium": [
+    "Fitness Center",
+    "Smoke-Free Community"
+   ]
+  },
+  "plans": [],
+  "meta": {
+   "rebuild_id": "capitol-living",
+   "dist_m": 1633,
+   "tier": "A",
+   "score": 11.5,
+   "reddit": 3,
+   "manager": null,
+   "coord_review": false,
+   "backend": null,
+   "priced": 0,
+   "layout_imgs": 0,
+   "n_amen": 11,
+   "note": "",
+   "website": "https://thecapitolliving.com/"
+  }
+ },
+ {
+  "building": {
+   "objectID": "starwest-condos",
+   "canonical_name": "Starwest Condos",
+   "area": "west_campus",
+   "address": "2408 Longview St, Austin, TX 78705",
+   "_geoloc": {
+    "lat": 30.289065,
+    "lng": -97.751223
+   },
+   "property_type": "condominium",
+   "aliases": [],
+   "sourceUrl": "https://uptownrealtyaustin.com/communities/starwest/",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [],
+   "community": [],
+   "premium": []
+  },
+  "plans": [
+   {
+    "objectID": "starwest-condos__1-bed-1-bath",
+    "property_objectID": "starwest-condos",
+    "unit_label": "1 Bed / 1 Bath",
+    "base_rent": 1050,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 537,
+    "availability": "advertised for lease",
+    "source_url": "https://uptownrealtyaustin.com/communities/starwest/"
+   },
+   {
+    "objectID": "starwest-condos__2-bed-1-bath",
+    "property_objectID": "starwest-condos",
+    "unit_label": "2 Bed / 1 Bath",
+    "base_rent": 1200,
+    "beds": 2,
+    "baths": 1,
+    "sqft": 720,
+    "availability": "advertised for lease",
+    "source_url": "https://uptownrealtyaustin.com/communities/starwest/"
+   },
+   {
+    "objectID": "starwest-condos__2-bed-2-bath",
+    "property_objectID": "starwest-condos",
+    "unit_label": "2 Bed / 2 Bath",
+    "base_rent": 725,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 810,
+    "availability": "advertised for lease",
+    "source_url": "https://uptownrealtyaustin.com/communities/starwest/"
+   }
+  ],
+  "meta": {
+   "rebuild_id": "starwest-condos",
+   "dist_m": 1681,
+   "tier": "A",
+   "score": 6.5,
+   "reddit": 0,
+   "manager": "512 Realty",
+   "coord_review": false,
+   "backend": "uptown_realty",
+   "priced": 3,
+   "layout_imgs": 0,
+   "n_amen": 0,
+   "note": "",
+   "website": "https://uptownrealtyaustin.com/communities/starwest/"
+  }
+ },
+ {
+  "building": {
+   "objectID": "warwick-apartments",
+   "canonical_name": "Warwick Apartments",
+   "area": "west_campus",
+   "address": "2907 West Ave, Austin, TX 78705,",
+   "_geoloc": {
+    "lat": 30.297248,
+    "lng": -97.744383
+   },
+   "property_type": "apartment",
+   "aliases": [],
+   "sourceUrl": "https://www.rainieratx.com/warwick",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [
+    "Hardwood/Laminate Floors",
+    "In-Unit Washer/Dryer",
+    "Stainless-Steel Appliances"
+   ],
+   "community": [
+    "On-Site Laundry",
+    "Pets Allowed",
+    "Recycling"
+   ],
+   "premium": []
+  },
+  "plans": [
+   {
+    "objectID": "warwick-apartments__2907-west-ave-1-bd-1-ba-600-sq-ft",
+    "property_objectID": "warwick-apartments",
+    "unit_label": "2907 West Ave. \u2014 1 bd, 1 ba, 600 Sq. Ft.",
+    "base_rent": 1239,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 600,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "https://www.rainieratx.com/availability"
+   },
+   {
+    "objectID": "warwick-apartments__2919-west-ave-1-bd-1-ba-600-sq-ft",
+    "property_objectID": "warwick-apartments",
+    "unit_label": "2919 West Ave. \u2014 1 bd, 1 ba, 600 Sq. Ft.",
+    "base_rent": 1239,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 600,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "https://www.rainieratx.com/availability"
+   },
+   {
+    "objectID": "warwick-apartments__2907-west-ave-2-bd-2-ba-950-sq-ft",
+    "property_objectID": "warwick-apartments",
+    "unit_label": "2907 West Ave. \u2014 2 bd, 2 ba, 950 Sq. Ft.",
+    "base_rent": 1754,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 950,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "https://www.rainieratx.com/availability"
+   },
+   {
+    "objectID": "warwick-apartments__2919-west-ave-2-bd-2-ba-950-sq-ft",
+    "property_objectID": "warwick-apartments",
+    "unit_label": "2919 West Ave. \u2014 2 bd, 2 ba, 950 Sq. Ft.",
+    "base_rent": 1704,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 950,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "https://www.rainieratx.com/availability"
+   },
+   {
+    "objectID": "warwick-apartments__2919-west-ave-studio-1-ba-400-sq-ft",
+    "property_objectID": "warwick-apartments",
+    "unit_label": "2919 West Ave. \u2014 Studio, 1 ba, 400 Sq. Ft.",
+    "base_rent": 999,
+    "beds": 0,
+    "baths": 1,
+    "sqft": 400,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "https://www.rainieratx.com/availability"
+   },
+   {
+    "objectID": "warwick-apartments__2907-west-ave-studio-1-ba-400-sq-ft",
+    "property_objectID": "warwick-apartments",
+    "unit_label": "2907 West Ave. \u2014 Studio, 1 ba, 400 Sq. Ft.",
+    "base_rent": 1109,
+    "beds": 0,
+    "baths": 1,
+    "sqft": 400,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "https://www.rainieratx.com/availability"
+   }
+  ],
+  "meta": {
+   "rebuild_id": "warwick-apartments",
+   "dist_m": 1694,
+   "tier": "A",
+   "score": 10.5,
+   "reddit": 1,
+   "manager": "Rainier Properties",
+   "coord_review": false,
+   "backend": "appfolio_smart",
+   "priced": 6,
+   "layout_imgs": 0,
+   "n_amen": 6,
+   "note": "",
+   "website": "https://www.rainieratx.com/warwick"
+  }
+ },
+ {
+  "building": {
+   "objectID": "nob-hill-homes",
+   "canonical_name": "Nob Hill Homes",
+   "area": "west_campus",
+   "address": "2520 Longview St, Austin, TX 78705,",
+   "_geoloc": {
+    "lat": 30.290678,
+    "lng": -97.750711
+   },
+   "property_type": "apartment",
+   "aliases": [
+    "Nob Hill Corporate"
+   ],
+   "sourceUrl": "https://rainieratx.com/nob-hill",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [
+    "Hardwood/Laminate Floors"
+   ],
+   "community": [
+    "On-Site Laundry",
+    "On-Site Parking",
+    "Parking Garage",
+    "Pets Allowed",
+    "Recycling"
+   ],
+   "premium": []
+  },
+  "plans": [
+   {
+    "objectID": "nob-hill-homes__2520-longview-2-bd-1-5-ba-1-045-sq-ft",
+    "property_objectID": "nob-hill-homes",
+    "unit_label": "2520 Longview \u2014 2 bd, 1.5 ba, 1,045 Sq. Ft.",
+    "base_rent": 1804,
+    "beds": 2,
+    "baths": 1.5,
+    "sqft": 1045,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "https://rainieratx.com/availability"
+   }
+  ],
+  "meta": {
+   "rebuild_id": "nob-hill-homes",
+   "dist_m": 1737,
+   "tier": "A",
+   "score": 7.5,
+   "reddit": 0,
+   "manager": "Rainier Properties",
+   "coord_review": false,
+   "backend": "appfolio_smart",
+   "priced": 1,
+   "layout_imgs": 0,
+   "n_amen": 6,
+   "note": "",
+   "website": "https://rainieratx.com/nob-hill"
+  }
+ },
+ {
+  "building": {
+   "objectID": "pease-parkside-apartments",
+   "canonical_name": "Pease Parkside Apartments",
+   "area": "west_campus",
+   "address": "1302 W 24th St, Austin, TX 78705, USA",
+   "_geoloc": {
+    "lat": 30.288832,
+    "lng": -97.752004
+   },
+   "property_type": "apartment",
+   "aliases": [
+    "West 24th Street Apartments"
+   ],
+   "sourceUrl": "http://peaseparkside.com/",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [
+    "Balconies",
+    "Ceiling Fans",
+    "Dishwasher"
+   ],
+   "community": [
+    "BBQ/Grill Stations",
+    "Community Wi-Fi",
+    "On-Site Management",
+    "On-Site Parking",
+    "Pets Allowed"
+   ],
+   "premium": [
+    "Fitness Center"
+   ]
+  },
+  "plans": [
+   {
+    "objectID": "pease-parkside-apartments__2400-longview-st-c-105-1-bd-1-ba-611-sq-ft",
+    "property_objectID": "pease-parkside-apartments",
+    "unit_label": "2400 Longview St. - C-105 \u2014 1 bd, 1 ba, 611 Sq. Ft.",
+    "base_rent": 899,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 611,
+    "availability": "listed vacancy (matched by property filter 'Pease Parkside Apartments')",
+    "source_url": "http://peaseparkside.com/floorplans"
+   },
+   {
+    "objectID": "pease-parkside-apartments__1302-w-24th-street-a-303-1-bd-1-ba-565-sq-ft",
+    "property_objectID": "pease-parkside-apartments",
+    "unit_label": "1302 W. 24th Street - A-303 \u2014 1 bd, 1 ba, 565 Sq. Ft.",
+    "base_rent": 999,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 565,
+    "availability": "listed vacancy (matched by property filter 'Pease Parkside Apartments')",
+    "source_url": "http://peaseparkside.com/floorplans"
+   }
+  ],
+  "meta": {
+   "rebuild_id": "pease-parkside-apartments",
+   "dist_m": 1792,
+   "tier": "A",
+   "score": 6.5,
+   "reddit": 2,
+   "manager": null,
+   "coord_review": false,
+   "backend": "appfolio_smart",
+   "priced": 2,
+   "layout_imgs": 0,
+   "n_amen": 9,
+   "note": "",
+   "website": "http://peaseparkside.com/"
+  }
+ },
+ {
+  "building": {
+   "objectID": "volume",
+   "canonical_name": "Volume",
+   "area": "east_campus",
+   "address": "2604 Manor Rd, Austin, TX 78722",
+   "_geoloc": {
+    "lat": 30.285444,
+    "lng": -97.715155
+   },
+   "property_type": "apartment",
+   "aliases": [
+    "Volume 5",
+    "House 2500"
+   ],
+   "sourceUrl": "http://www.volumeapartments.com/",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [
+    "Ceiling Fans",
+    "Hardwood/Laminate Floors",
+    "In-Unit Washer/Dryer",
+    "Stainless-Steel Appliances"
+   ],
+   "community": [
+    "BBQ/Grill Stations",
+    "Bicycle Parking/Storage",
+    "On-Site Management",
+    "On-Site Parking",
+    "Outdoor Lounge/Courtyard"
+   ],
+   "premium": [
+    "EV Charging"
+   ]
+  },
+  "plans": [
+   {
+    "objectID": "volume__vol-1-studio",
+    "property_objectID": "volume",
+    "unit_label": "Vol 1 - Studio",
+    "base_rent": 903,
+    "availability": "mandatory fees $$14.00",
+    "source_url": "http://www.volumeapartments.com/floorplans"
+   },
+   {
+    "objectID": "volume__vol-2-1-bedroom-1-bathroom",
+    "property_objectID": "volume",
+    "unit_label": "Vol 2 - 1 Bedroom 1 Bathroom",
+    "base_rent": 1112,
+    "availability": "mandatory fees $$14.00",
+    "source_url": "http://www.volumeapartments.com/floorplans"
+   },
+   {
+    "objectID": "volume__vol-3-studio",
+    "property_objectID": "volume",
+    "unit_label": "Vol 3 - Studio",
+    "base_rent": 898,
+    "availability": "mandatory fees $$14.00",
+    "source_url": "http://www.volumeapartments.com/floorplans"
+   },
+   {
+    "objectID": "volume__vol-4-1-bedroom-1-bathroom",
+    "property_objectID": "volume",
+    "unit_label": "Vol 4 - 1 Bedroom 1 Bathroom",
+    "base_rent": 1008,
+    "availability": "mandatory fees $$14.00",
+    "source_url": "http://www.volumeapartments.com/floorplans"
+   },
+   {
+    "objectID": "volume__vol-6-1-bedroom-1-bath",
+    "property_objectID": "volume",
+    "unit_label": "Vol 6 - 1 Bedroom 1 Bath",
+    "base_rent": 1248,
+    "availability": "mandatory fees $$14.00",
+    "source_url": "http://www.volumeapartments.com/floorplans"
+   },
+   {
+    "objectID": "volume__vol-7-1-bedroom-1-bathroom",
+    "property_objectID": "volume",
+    "unit_label": "Vol 7 - 1 Bedroom 1 Bathroom",
+    "base_rent": 1130,
+    "availability": "mandatory fees $$14.00",
+    "source_url": "http://www.volumeapartments.com/floorplans"
+   },
+   {
+    "objectID": "volume__vol-8-1-bedroom-1-bathroom",
+    "property_objectID": "volume",
+    "unit_label": "Vol 8 - 1 Bedroom 1 Bathroom",
+    "base_rent": 1062,
+    "availability": "mandatory fees $$14.00",
+    "source_url": "http://www.volumeapartments.com/floorplans"
+   }
+  ],
+  "meta": {
+   "rebuild_id": "volume",
+   "dist_m": 1851,
+   "tier": "A",
+   "score": 9.5,
+   "reddit": 2,
+   "manager": "RPM Properties",
+   "coord_review": false,
+   "backend": "rentcafe_inline",
+   "priced": 7,
+   "layout_imgs": 0,
+   "n_amen": 10,
+   "note": "",
+   "website": "http://www.volumeapartments.com/"
+  }
+ },
+ {
+  "building": {
+   "objectID": "su-casa-apartment-homes",
+   "canonical_name": "Su Casa Apartment Homes",
+   "area": "north_campus",
+   "address": "109 W 39th St, Austin, TX 78751,",
+   "_geoloc": {
+    "lat": 30.301926,
+    "lng": -97.7337
+   },
+   "property_type": "apartment",
+   "aliases": [],
+   "sourceUrl": "https://www.rainieratx.com/su-casa",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [
+    "Hardwood/Laminate Floors",
+    "Walk-In Closets"
+   ],
+   "community": [
+    "24/7 Maintenance",
+    "BBQ/Grill Stations",
+    "On-Site Laundry",
+    "On-Site Parking",
+    "Pets Allowed",
+    "Recycling"
+   ],
+   "premium": []
+  },
+  "plans": [
+   {
+    "objectID": "su-casa-apartment-homes__203-w-39th-st-1-bd-1-ba-650-sq-ft",
+    "property_objectID": "su-casa-apartment-homes",
+    "unit_label": "203 W. 39th St. \u2014 1 bd, 1 ba, 650 Sq. Ft.",
+    "base_rent": 1389,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 650,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "https://www.rainieratx.com/availability"
+   },
+   {
+    "objectID": "su-casa-apartment-homes__109-w-39th-st-2-bd-2-ba-920-sq-ft",
+    "property_objectID": "su-casa-apartment-homes",
+    "unit_label": "109 W. 39th St. \u2014 2 bd, 2 ba, 920 Sq. Ft.",
+    "base_rent": 1784,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 920,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "https://www.rainieratx.com/availability"
+   },
+   {
+    "objectID": "su-casa-apartment-homes__109-w-39th-st-1-bd-1-ba-650-sq-ft",
+    "property_objectID": "su-casa-apartment-homes",
+    "unit_label": "109 W. 39th St. \u2014 1 bd, 1 ba, 650 Sq. Ft.",
+    "base_rent": 1289,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 650,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "https://www.rainieratx.com/availability"
+   },
+   {
+    "objectID": "su-casa-apartment-homes__203-w-39th-st-1-bd-1-ba-650-sq-ft-2",
+    "property_objectID": "su-casa-apartment-homes",
+    "unit_label": "203 W. 39th St. \u2014 1 bd, 1 ba, 650 Sq. Ft.",
+    "base_rent": 1389,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 650,
+    "availability": "listed vacancy (matched by within 150 m of the building)",
+    "source_url": "https://www.rainieratx.com/availability"
+   }
+  ],
+  "meta": {
+   "rebuild_id": "su-casa-apartment-homes",
+   "dist_m": 1873,
+   "tier": "A",
+   "score": 8.5,
+   "reddit": 0,
+   "manager": "Rainier Properties",
+   "coord_review": false,
+   "backend": "appfolio_smart",
+   "priced": 4,
+   "layout_imgs": 0,
+   "n_amen": 8,
+   "note": "",
+   "website": "https://www.rainieratx.com/su-casa"
+  }
+ },
+ {
+  "building": {
+   "objectID": "monticello-studios",
+   "canonical_name": "Monticello Studios",
+   "area": "north_campus",
+   "address": "306 W 38th St, Austin, TX 78705",
+   "_geoloc": {
+    "lat": 30.301937,
+    "lng": -97.735438
+   },
+   "property_type": "apartment",
+   "aliases": [
+    "Monticello Studios at Hyde Park"
+   ],
+   "sourceUrl": "https://www.westsidegroup.com/monticello-apartments?utm_source=google&utm_campaign=mtc-gmb",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [
+    "Refrigerator",
+    "Utilities Included"
+   ],
+   "community": [
+    "BBQ/Grill Stations",
+    "On-Site Parking"
+   ],
+   "premium": [
+    "Fitness Center",
+    "Yoga Studio"
+   ]
+  },
+  "plans": [],
+  "meta": {
+   "rebuild_id": "monticello-studios",
+   "dist_m": 1902,
+   "tier": "A",
+   "score": 8.5,
+   "reddit": 1,
+   "manager": "The Weststide Group, Inc.",
+   "coord_review": false,
+   "backend": null,
+   "priced": 0,
+   "layout_imgs": 0,
+   "n_amen": 6,
+   "note": "",
+   "website": "https://www.westsidegroup.com/monticello-apartments?utm_source=google&utm_campaign=mtc-gmb"
+  }
+ },
+ {
+  "building": {
+   "objectID": "north-40",
+   "canonical_name": "North 40",
+   "area": "north_university",
+   "address": "4003 Red River Street, Austin, TX 78751",
+   "_geoloc": {
+    "lat": 30.298836,
+    "lng": -97.722194
+   },
+   "property_type": "apartment",
+   "aliases": [],
+   "sourceUrl": "https://www.north40apts.com/?utm_knock=g",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [
+    "Air Conditioning",
+    "Balconies",
+    "Ceiling Fans",
+    "Dishwasher",
+    "Garbage Disposal",
+    "Hardwood/Laminate Floors",
+    "Internet/Cable Included",
+    "Microwave",
+    "Notable Views",
+    "Refrigerator",
+    "Stainless-Steel Appliances",
+    "Walk-In Closets"
+   ],
+   "community": [
+    "24/7 Maintenance",
+    "BBQ/Grill Stations",
+    "Bicycle Parking/Storage",
+    "On-Site Laundry",
+    "On-Site Management",
+    "On-Site Parking",
+    "Outdoor Lounge/Courtyard",
+    "Recycling"
+   ],
+   "premium": []
+  },
+  "plans": [
+   {
+    "objectID": "north-40__north-40-2-bed-1-bath",
+    "property_objectID": "north-40",
+    "unit_label": "North 40 - 2 Bed 1 Bath",
+    "base_rent": 899,
+    "beds": 2,
+    "baths": 1,
+    "sqft": 850,
+    "availability": "starting price on the card",
+    "layout_image_url": "https://resource.rentcafe.com/image/upload/q_auto,f_auto,c_limit,w_576,h_260/s3/2/50552/p2125259_north_40_config_a_2_floorplan.jpg",
+    "source_url": "https://www.north40apts.com/floorplans"
+   }
+  ],
+  "meta": {
+   "rebuild_id": "north-40",
+   "dist_m": 1924,
+   "tier": "A",
+   "score": 6.5,
+   "reddit": 0,
+   "manager": null,
+   "coord_review": false,
+   "backend": "rentcafe_inline",
+   "priced": 1,
+   "layout_imgs": 1,
+   "n_amen": 20,
+   "note": "",
+   "website": "https://www.north40apts.com/?utm_knock=g"
+  }
+ },
+ {
+  "building": {
+   "objectID": "the-kingston",
+   "canonical_name": "The Kingston",
+   "area": "north_campus",
+   "address": "409 W. 38th St., Austin, TX 78705,",
+   "_geoloc": {
+    "lat": 30.301998,
+    "lng": -97.737231
+   },
+   "property_type": "apartment",
+   "aliases": [],
+   "sourceUrl": "http://www.thekingstonatx.com/",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [
+    "Air Conditioning",
+    "Balconies",
+    "Hardwood/Laminate Floors",
+    "Internet/Cable Included",
+    "Refrigerator",
+    "Stainless-Steel Appliances"
+   ],
+   "community": [
+    "On-Site Parking",
+    "Pets Allowed"
+   ],
+   "premium": []
+  },
+  "plans": [
+   {
+    "objectID": "the-kingston__one-bedroom",
+    "property_objectID": "the-kingston",
+    "unit_label": "One-Bedroom",
+    "beds": 1,
+    "source_url": "https://www.thekingstonatx.com/floor-plan"
+   }
+  ],
+  "meta": {
+   "rebuild_id": "the-kingston",
+   "dist_m": 1930,
+   "tier": "A",
+   "score": 6.5,
+   "reddit": 1,
+   "manager": "One Life Management",
+   "coord_review": false,
+   "backend": "llm_page_read",
+   "priced": 0,
+   "layout_imgs": 0,
+   "n_amen": 8,
+   "note": "",
+   "website": "http://www.thekingstonatx.com/"
+  }
+ },
+ {
+  "building": {
+   "objectID": "metropolis",
+   "canonical_name": "Metropolis",
+   "area": "downtown",
+   "address": "415 Colorado St, Austin, TX 78701, USA",
+   "_geoloc": {
+    "lat": 30.267084,
+    "lng": -97.744232
+   },
+   "property_type": "apartment",
+   "aliases": [
+    "415 Colorado"
+   ],
+   "sourceUrl": "https://www.415colorado.com/?utm_source=GoogleMyBusiness",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [
+    "Balconies",
+    "In-Unit Washer/Dryer",
+    "Notable Views"
+   ],
+   "community": [
+    "BBQ/Grill Stations",
+    "Bicycle Parking/Storage",
+    "Conference Rooms",
+    "Controlled Access/Gated",
+    "Elevators",
+    "Gated/Controlled Parking",
+    "Package Service/Lockers",
+    "Parking Garage",
+    "Pets Allowed",
+    "Resident Lounge/Clubhouse"
+   ],
+   "premium": [
+    "Concierge Service",
+    "Fitness Center",
+    "Golf Simulator",
+    "Pet Park/Dog Run",
+    "Pet Spa/Grooming",
+    "Swimming Pool",
+    "VIP/Sky Lounge"
+   ]
+  },
+  "plans": [
+   {
+    "objectID": "metropolis__a5-apt-2610",
+    "property_objectID": "metropolis",
+    "unit_label": "A5 \u2014 APT 2610",
+    "base_rent": 4339,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 994,
+    "availability": "Available Jan 19th",
+    "layout_image_url": "https://cdn.sightmap.com/assets/8e/pm/8epmg5q6p6d/1d/9c/1d9c63e2777fbbd28012b87e2346ddd8.jpg",
+    "source_url": "https://www.415colorado.com/floor-plans/"
+   },
+   {
+    "objectID": "metropolis__s1-apt-2011",
+    "property_objectID": "metropolis",
+    "unit_label": "S1 \u2014 APT 2011",
+    "base_rent": 2180,
+    "beds": 0,
+    "baths": 1,
+    "sqft": 551,
+    "availability": "Available Dec 30th",
+    "layout_image_url": "https://cdn.sightmap.com/assets/8e/pm/8epmg5q6p6d/a8/f2/a8f24764ff80876595dc287ecb75762f.jpg",
+    "source_url": "https://www.415colorado.com/floor-plans/"
+   },
+   {
+    "objectID": "metropolis__s1-apt-2711",
+    "property_objectID": "metropolis",
+    "unit_label": "S1 \u2014 APT 2711",
+    "base_rent": 2455,
+    "beds": 0,
+    "baths": 1,
+    "sqft": 551,
+    "availability": "Available Dec 14th",
+    "layout_image_url": "https://cdn.sightmap.com/assets/8e/pm/8epmg5q6p6d/a8/f2/a8f24764ff80876595dc287ecb75762f.jpg",
+    "source_url": "https://www.415colorado.com/floor-plans/"
+   },
+   {
+    "objectID": "metropolis__b1",
+    "property_objectID": "metropolis",
+    "unit_label": "B1",
+    "beds": 2,
+    "baths": 2,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn.sightmap.com/assets/8e/pm/8epmg5q6p6d/3c/b3/3cb37502e6451d511a38af403e68cccb.jpg",
+    "source_url": "https://www.415colorado.com/floor-plans/"
+   },
+   {
+    "objectID": "metropolis__a1",
+    "property_objectID": "metropolis",
+    "unit_label": "A1",
+    "beds": 1,
+    "baths": 1,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn.sightmap.com/assets/8e/pm/8epmg5q6p6d/83/e7/83e7e4f52fc022d70f1b8e8b73f06ba3.jpg",
+    "source_url": "https://www.415colorado.com/floor-plans/"
+   },
+   {
+    "objectID": "metropolis__a3",
+    "property_objectID": "metropolis",
+    "unit_label": "A3",
+    "beds": 1,
+    "baths": 1,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn.sightmap.com/assets/8e/pm/8epmg5q6p6d/65/56/655603e5f904aa1f2e3a72f04307aa85.jpg",
+    "source_url": "https://www.415colorado.com/floor-plans/"
+   },
+   {
+    "objectID": "metropolis__a2",
+    "property_objectID": "metropolis",
+    "unit_label": "A2",
+    "beds": 1,
+    "baths": 1,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn.sightmap.com/assets/8e/pm/8epmg5q6p6d/4c/1f/4c1f55c843d4dce8be09f70105766940.jpg",
+    "source_url": "https://www.415colorado.com/floor-plans/"
+   },
+   {
+    "objectID": "metropolis__b4",
+    "property_objectID": "metropolis",
+    "unit_label": "B4",
+    "beds": 2,
+    "baths": 2,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn.sightmap.com/assets/8e/pm/8epmg5q6p6d/f4/32/f432faf6e7b3de72d7a90aa967c1e88a.jpg",
+    "source_url": "https://www.415colorado.com/floor-plans/"
+   },
+   {
+    "objectID": "metropolis__a6",
+    "property_objectID": "metropolis",
+    "unit_label": "A6",
+    "beds": 1,
+    "baths": 1,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn.sightmap.com/assets/8e/pm/8epmg5q6p6d/f1/47/f147b4a367af47af5858435c3a9a0617.jpg",
+    "source_url": "https://www.415colorado.com/floor-plans/"
+   },
+   {
+    "objectID": "metropolis__b6-apt-3818",
+    "property_objectID": "metropolis",
+    "unit_label": "B6 \u2014 APT 3818",
+    "base_rent": 6495,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 1515,
+    "availability": "Available Now",
+    "layout_image_url": "https://cdn.sightmap.com/assets/8e/pm/8epmg5q6p6d/42/cb/42cb70bcd9278b677fa4d15a9c18291e.jpg",
+    "source_url": "https://www.415colorado.com/floor-plans/"
+   },
+   {
+    "objectID": "metropolis__b6-apt-4118",
+    "property_objectID": "metropolis",
+    "unit_label": "B6 \u2014 APT 4118",
+    "base_rent": 6555,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 1515,
+    "availability": "Available Now",
+    "layout_image_url": "https://cdn.sightmap.com/assets/8e/pm/8epmg5q6p6d/42/cb/42cb70bcd9278b677fa4d15a9c18291e.jpg",
+    "source_url": "https://www.415colorado.com/floor-plans/"
+   },
+   {
+    "objectID": "metropolis__a7",
+    "property_objectID": "metropolis",
+    "unit_label": "A7",
+    "beds": 1,
+    "baths": 1,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn.sightmap.com/assets/8e/pm/8epmg5q6p6d/9a/92/9a9258f41cef980f83edb36ddc69dff5.jpg",
+    "source_url": "https://www.415colorado.com/floor-plans/"
+   },
+   {
+    "objectID": "metropolis__jr-apt-2620",
+    "property_objectID": "metropolis",
+    "unit_label": "JR \u2014 APT 2620",
+    "base_rent": 2510,
+    "beds": 0,
+    "baths": 1,
+    "sqft": 554,
+    "availability": "Available Jan 14th",
+    "layout_image_url": "https://cdn.sightmap.com/assets/8e/pm/8epmg5q6p6d/65/62/6562a39d29183e843f381a6cb93ba9b8.jpg",
+    "source_url": "https://www.415colorado.com/floor-plans/"
+   },
+   {
+    "objectID": "metropolis__b2-apt-2521",
+    "property_objectID": "metropolis",
+    "unit_label": "B2 \u2014 APT 2521",
+    "base_rent": 5200,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 1255,
+    "availability": "Available Jan 29th",
+    "layout_image_url": "https://cdn.sightmap.com/assets/8e/pm/8epmg5q6p6d/b4/34/b434c8981601d65a32f1d6279ea0a5c7.jpg",
+    "source_url": "https://www.415colorado.com/floor-plans/"
+   },
+   {
+    "objectID": "metropolis__a4",
+    "property_objectID": "metropolis",
+    "unit_label": "A4",
+    "beds": 1,
+    "baths": 1,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn.sightmap.com/assets/8e/pm/8epmg5q6p6d/5f/db/5fdbf946007ef2ae3598b60b6165f288.jpg",
+    "source_url": "https://www.415colorado.com/floor-plans/"
+   },
+   {
+    "objectID": "metropolis__c3",
+    "property_objectID": "metropolis",
+    "unit_label": "C3",
+    "beds": 3,
+    "baths": 2,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn.sightmap.com/assets/8e/pm/8epmg5q6p6d/e5/95/e5950b23b3f66ee4e11750e14274cfd5.jpg",
+    "source_url": "https://www.415colorado.com/floor-plans/"
+   },
+   {
+    "objectID": "metropolis__b8",
+    "property_objectID": "metropolis",
+    "unit_label": "B8",
+    "beds": 2,
+    "baths": 2,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn.sightmap.com/assets/8e/pm/8epmg5q6p6d/e8/62/e86236b0d2748563451a63dbdf5fdf3a.jpg",
+    "source_url": "https://www.415colorado.com/floor-plans/"
+   },
+   {
+    "objectID": "metropolis__b7-apt-4312",
+    "property_objectID": "metropolis",
+    "unit_label": "B7 \u2014 APT 4312",
+    "base_rent": 7830,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 1607,
+    "availability": "Available Now",
+    "layout_image_url": "https://cdn.sightmap.com/assets/8e/pm/8epmg5q6p6d/20/41/20418f399e7add80150602e37d21db70.jpg",
+    "source_url": "https://www.415colorado.com/floor-plans/"
+   },
+   {
+    "objectID": "metropolis__b7-apt-4412",
+    "property_objectID": "metropolis",
+    "unit_label": "B7 \u2014 APT 4412",
+    "base_rent": 7900,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 1607,
+    "availability": "Available Now",
+    "layout_image_url": "https://cdn.sightmap.com/assets/8e/pm/8epmg5q6p6d/20/41/20418f399e7add80150602e37d21db70.jpg",
+    "source_url": "https://www.415colorado.com/floor-plans/"
+   },
+   {
+    "objectID": "metropolis__c2",
+    "property_objectID": "metropolis",
+    "unit_label": "C2",
+    "beds": 3,
+    "baths": 3.5,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn.sightmap.com/assets/8e/pm/8epmg5q6p6d/69/d4/69d4c174c0f96c6ba77f3abfc7efa51f.jpg",
+    "source_url": "https://www.415colorado.com/floor-plans/"
+   },
+   {
+    "objectID": "metropolis__b5-apt-4414",
+    "property_objectID": "metropolis",
+    "unit_label": "B5 \u2014 APT 4414",
+    "base_rent": 7575,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 1503,
+    "availability": "Available Now",
+    "layout_image_url": "https://cdn.sightmap.com/assets/8e/pm/8epmg5q6p6d/0b/cf/0bcf1989abb8f0a6640280f3f94bea77.jpg",
+    "source_url": "https://www.415colorado.com/floor-plans/"
+   },
+   {
+    "objectID": "metropolis__b5-apt-4514",
+    "property_objectID": "metropolis",
+    "unit_label": "B5 \u2014 APT 4514",
+    "base_rent": 7645,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 1503,
+    "availability": "Available Now",
+    "layout_image_url": "https://cdn.sightmap.com/assets/8e/pm/8epmg5q6p6d/0b/cf/0bcf1989abb8f0a6640280f3f94bea77.jpg",
+    "source_url": "https://www.415colorado.com/floor-plans/"
+   },
+   {
+    "objectID": "metropolis__b3",
+    "property_objectID": "metropolis",
+    "unit_label": "B3",
+    "beds": 2,
+    "baths": 2,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn.sightmap.com/assets/8e/pm/8epmg5q6p6d/22/70/22709262798a893d9c6b91f7fe78b257.jpg",
+    "source_url": "https://www.415colorado.com/floor-plans/"
+   },
+   {
+    "objectID": "metropolis__c1",
+    "property_objectID": "metropolis",
+    "unit_label": "C1",
+    "beds": 3,
+    "baths": 3,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn.sightmap.com/assets/8e/pm/8epmg5q6p6d/aa/a8/aaa8329753e8b0368eed2fdbab010d86.jpg",
+    "source_url": "https://www.415colorado.com/floor-plans/"
+   },
+   {
+    "objectID": "metropolis__ph6",
+    "property_objectID": "metropolis",
+    "unit_label": "PH6",
+    "beds": 3,
+    "baths": 3,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn.sightmap.com/assets/8e/pm/8epmg5q6p6d/96/b4/96b4cd6d2b48f164e3f8e4f30b10e99d.jpg",
+    "source_url": "https://www.415colorado.com/floor-plans/"
+   },
+   {
+    "objectID": "metropolis__ph2",
+    "property_objectID": "metropolis",
+    "unit_label": "PH2",
+    "beds": 2,
+    "baths": 2.5,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn.sightmap.com/assets/8e/pm/8epmg5q6p6d/de/29/de29e924a971f1cf2f0948cb16f63898.jpg",
+    "source_url": "https://www.415colorado.com/floor-plans/"
+   },
+   {
+    "objectID": "metropolis__ph1",
+    "property_objectID": "metropolis",
+    "unit_label": "PH1",
+    "beds": 2,
+    "baths": 2,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn.sightmap.com/assets/8e/pm/8epmg5q6p6d/64/30/6430b6c83adb2f07ca75b285e3ce9b60.jpg",
+    "source_url": "https://www.415colorado.com/floor-plans/"
+   },
+   {
+    "objectID": "metropolis__ph4",
+    "property_objectID": "metropolis",
+    "unit_label": "PH4",
+    "beds": 3,
+    "baths": 3,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn.sightmap.com/assets/8e/pm/8epmg5q6p6d/7d/85/7d85a021b89d68d9043c7b90cec1a28b.jpg",
+    "source_url": "https://www.415colorado.com/floor-plans/"
+   },
+   {
+    "objectID": "metropolis__ph7",
+    "property_objectID": "metropolis",
+    "unit_label": "PH7",
+    "beds": 3,
+    "baths": 3.5,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn.sightmap.com/assets/8e/pm/8epmg5q6p6d/5f/48/5f483c5faf8d3c50aa3323ae9f2aa272.jpg",
+    "source_url": "https://www.415colorado.com/floor-plans/"
+   },
+   {
+    "objectID": "metropolis__ph5",
+    "property_objectID": "metropolis",
+    "unit_label": "PH5",
+    "beds": 3,
+    "baths": 3.5,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn.sightmap.com/assets/8e/pm/8epmg5q6p6d/63/0d/630d9f1cecf954d24cda74cfb4535530.jpg",
+    "source_url": "https://www.415colorado.com/floor-plans/"
+   },
+   {
+    "objectID": "metropolis__ph3",
+    "property_objectID": "metropolis",
+    "unit_label": "PH3",
+    "beds": 3,
+    "baths": 3.5,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn.sightmap.com/assets/8e/pm/8epmg5q6p6d/f0/4a/f04a86fee22ec0de6cf87c3d2b7866e8.jpg",
+    "source_url": "https://www.415colorado.com/floor-plans/"
+   },
+   {
+    "objectID": "metropolis__ph8",
+    "property_objectID": "metropolis",
+    "unit_label": "PH8",
+    "beds": 3,
+    "baths": 3.5,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn.sightmap.com/assets/8e/pm/8epmg5q6p6d/8e/8e/8e8ed5077210b12db59852ad7d13034e.jpg",
+    "source_url": "https://www.415colorado.com/floor-plans/"
+   }
+  ],
+  "meta": {
+   "rebuild_id": "metropolis",
+   "dist_m": 2197,
+   "tier": "A",
+   "score": 7.5,
+   "reddit": 2,
+   "manager": null,
+   "coord_review": false,
+   "backend": "sightmap",
+   "priced": 11,
+   "layout_imgs": 32,
+   "n_amen": 20,
+   "note": "",
+   "website": "https://www.415colorado.com/?utm_source=GoogleMyBusiness"
+  }
+ },
+ {
+  "building": {
+   "objectID": "sentral-east-austin",
+   "canonical_name": "Sentral East Austin",
+   "area": "riverside",
+   "address": "1614 E 6th St, Austin, TX 78702,",
+   "_geoloc": {
+    "lat": 30.262943,
+    "lng": -97.725461
+   },
+   "property_type": "condominium",
+   "aliases": [
+    "Candela"
+   ],
+   "sourceUrl": "https://sentral.com/austin/east-austin?rcstdid=Mg%3D%3D-YRjTEizZPgM%3D?utm_source=google&utm_medium=gbp",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [
+    "Balconies",
+    "Furnished Units"
+   ],
+   "community": [
+    "Community Wi-Fi",
+    "Conference Rooms",
+    "On-Site Management",
+    "On-Site Parking",
+    "Parking Garage"
+   ],
+   "premium": []
+  },
+  "plans": [],
+  "meta": {
+   "rebuild_id": "sentral-east-austin",
+   "dist_m": 2586,
+   "tier": "A",
+   "score": 9.5,
+   "reddit": 0,
+   "manager": null,
+   "coord_review": false,
+   "backend": null,
+   "priced": 0,
+   "layout_imgs": 0,
+   "n_amen": 7,
+   "note": "",
+   "website": "https://sentral.com/austin/east-austin?rcstdid=Mg%3D%3D-YRjTEizZPgM%3D?utm_source=google&utm_medium=gbp"
+  }
+ },
+ {
+  "building": {
+   "objectID": "oak-park-apartments",
+   "canonical_name": "Oak Park Apartments",
+   "area": "north_university",
+   "address": "4505 Duval St, Austin, TX 78751,",
+   "_geoloc": {
+    "lat": 30.307201,
+    "lng": -97.723543
+   },
+   "property_type": "apartment",
+   "aliases": [],
+   "sourceUrl": "https://www.rainieratx.com/oak-park",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [
+    "Balconies",
+    "Hardwood/Laminate Floors",
+    "Walk-In Closets"
+   ],
+   "community": [
+    "On-Site Laundry",
+    "On-Site Management",
+    "Pets Allowed"
+   ],
+   "premium": []
+  },
+  "plans": [
+   {
+    "objectID": "oak-park-apartments__oak-park-a1-1-bedroom-1-bath",
+    "property_objectID": "oak-park-apartments",
+    "unit_label": "Oak Park A1- 1 bedroom, 1 bath",
+    "base_rent": 1264,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 570,
+    "availability": "available 2027-02-10",
+    "source_url": "https://www.rainieratx.com/availability"
+   },
+   {
+    "objectID": "oak-park-apartments__oak-park-a1-1-bedroom-1-bath-2",
+    "property_objectID": "oak-park-apartments",
+    "unit_label": "Oak Park A1- 1 bedroom, 1 bath",
+    "base_rent": 1264,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 570,
+    "availability": "available 2027-01-30",
+    "source_url": "https://www.rainieratx.com/availability"
+   },
+   {
+    "objectID": "oak-park-apartments__oak-park-a4-1-bedroom-1-bath",
+    "property_objectID": "oak-park-apartments",
+    "unit_label": "Oak Park A4- 1 bedroom, 1 bath",
+    "base_rent": 1239,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 660,
+    "availability": "available 2026-11-02",
+    "source_url": "https://www.rainieratx.com/availability"
+   },
+   {
+    "objectID": "oak-park-apartments__oak-park-a3-1-bedroom-1-bath",
+    "property_objectID": "oak-park-apartments",
+    "unit_label": "Oak Park A3- 1 bedroom, 1 bath",
+    "base_rent": 1314,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 619,
+    "availability": "available 2027-02-02",
+    "source_url": "https://www.rainieratx.com/availability"
+   },
+   {
+    "objectID": "oak-park-apartments__oak-park-a3-1-bedroom-1-bath-2",
+    "property_objectID": "oak-park-apartments",
+    "unit_label": "Oak Park A3- 1 bedroom, 1 bath",
+    "base_rent": 1314,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 619,
+    "availability": "available 2026-11-19",
+    "source_url": "https://www.rainieratx.com/availability"
+   },
+   {
+    "objectID": "oak-park-apartments__oak-park-a4-1-bedroom-1-bath-2",
+    "property_objectID": "oak-park-apartments",
+    "unit_label": "Oak Park A4- 1 bedroom, 1 bath",
+    "base_rent": 1254,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 660,
+    "availability": "available 2027-01-18",
+    "source_url": "https://www.rainieratx.com/availability"
+   },
+   {
+    "objectID": "oak-park-apartments__oak-park-a3-1-bedroom-1-bath-3",
+    "property_objectID": "oak-park-apartments",
+    "unit_label": "Oak Park A3- 1 bedroom, 1 bath",
+    "base_rent": 1314,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 619,
+    "availability": "available 2026-12-05",
+    "source_url": "https://www.rainieratx.com/availability"
+   },
+   {
+    "objectID": "oak-park-apartments__oak-park-b1-2-bedroom-1-bath",
+    "property_objectID": "oak-park-apartments",
+    "unit_label": "Oak Park B1- 2 bedroom, 1 bath",
+    "base_rent": 1749,
+    "beds": 2,
+    "baths": 1,
+    "sqft": 858,
+    "availability": "available 2026-11-11",
+    "source_url": "https://www.rainieratx.com/availability"
+   },
+   {
+    "objectID": "oak-park-apartments__oak-park-a1-1-bedroom-1-bath-3",
+    "property_objectID": "oak-park-apartments",
+    "unit_label": "Oak Park A1- 1 bedroom, 1 bath",
+    "base_rent": 1199,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 540,
+    "availability": "available 2026-11-26",
+    "source_url": "https://www.rainieratx.com/availability"
+   },
+   {
+    "objectID": "oak-park-apartments__oak-park-a5th-1-bedroom-1-bath-townhome",
+    "property_objectID": "oak-park-apartments",
+    "unit_label": "Oak Park A5TH- 1 bedroom, 1 bath Townhome",
+    "base_rent": 1564,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 742,
+    "availability": "available 2026-09-25",
+    "source_url": "https://www.rainieratx.com/availability"
+   },
+   {
+    "objectID": "oak-park-apartments__oak-park-b3-townhome-2-bedroom-1-5-bath",
+    "property_objectID": "oak-park-apartments",
+    "unit_label": "Oak Park B3 Townhome- 2 bedroom, 1.5 Bath",
+    "base_rent": 2164,
+    "beds": 2,
+    "baths": 1.5,
+    "sqft": 1080,
+    "availability": "available 2026-12-30",
+    "source_url": "https://www.rainieratx.com/availability"
+   },
+   {
+    "objectID": "oak-park-apartments__oak-park-eff1-studio-apartment-in-hyde-park",
+    "property_objectID": "oak-park-apartments",
+    "unit_label": "Oak Park EFF1- Studio apartment in Hyde Park",
+    "base_rent": 1099,
+    "baths": 1,
+    "sqft": 397,
+    "availability": "available 2026-12-11",
+    "source_url": "https://www.rainieratx.com/availability"
+   },
+   {
+    "objectID": "oak-park-apartments__oak-park-a1-1-bedroom-1-bath-4",
+    "property_objectID": "oak-park-apartments",
+    "unit_label": "Oak Park A1- 1 bedroom, 1 bath",
+    "base_rent": 1299,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 570,
+    "availability": "available 2026-11-10",
+    "source_url": "https://www.rainieratx.com/availability"
+   },
+   {
+    "objectID": "oak-park-apartments__oak-park-b1-2-bedroom-1-bath-2",
+    "property_objectID": "oak-park-apartments",
+    "unit_label": "Oak Park B1- 2 bedroom, 1 bath",
+    "base_rent": 1749,
+    "beds": 2,
+    "baths": 1,
+    "sqft": 858,
+    "availability": "available 2026-12-29",
+    "source_url": "https://www.rainieratx.com/availability"
+   },
+   {
+    "objectID": "oak-park-apartments__oak-park-a1-1-bedroom-1-bath-5",
+    "property_objectID": "oak-park-apartments",
+    "unit_label": "Oak Park A1- 1 bedroom, 1 bath",
+    "base_rent": 1199,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 540,
+    "availability": "available 2027-01-18",
+    "source_url": "https://www.rainieratx.com/availability"
+   },
+   {
+    "objectID": "oak-park-apartments__oak-park-a4-1-bedroom-1-bath-3",
+    "property_objectID": "oak-park-apartments",
+    "unit_label": "Oak Park A4- 1 bedroom, 1 bath",
+    "base_rent": 1239,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 660,
+    "availability": "available 2026-10-30",
+    "source_url": "https://www.rainieratx.com/availability"
+   }
+  ],
+  "meta": {
+   "rebuild_id": "oak-park-apartments",
+   "dist_m": 2681,
+   "tier": "A",
+   "score": 8.5,
+   "reddit": 1,
+   "manager": "Rainier Properties",
+   "coord_review": false,
+   "backend": "duda_appfolio_feed",
+   "priced": 16,
+   "layout_imgs": 0,
+   "n_amen": 6,
+   "note": "",
+   "website": "https://www.rainieratx.com/oak-park"
+  }
+ },
+ {
+  "building": {
+   "objectID": "hyde-park-apartments",
+   "canonical_name": "Hyde Park Apartments",
+   "area": "north_university",
+   "address": "4410 Avenue F, Austin, TX 78751,",
+   "_geoloc": {
+    "lat": 30.308013,
+    "lng": -97.727827
+   },
+   "property_type": "apartment",
+   "aliases": [
+    "Hyde Park 45th Apartments"
+   ],
+   "sourceUrl": "https://uptownrealtyaustin.com/communities/hyde_park_condominiums/",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [],
+   "community": [],
+   "premium": []
+  },
+  "plans": [],
+  "meta": {
+   "rebuild_id": "hyde-park-apartments",
+   "dist_m": 2736,
+   "tier": "A",
+   "score": 6.5,
+   "reddit": 1,
+   "manager": null,
+   "coord_review": true,
+   "backend": null,
+   "priced": 0,
+   "layout_imgs": 0,
+   "n_amen": 0,
+   "note": "",
+   "website": "https://uptownrealtyaustin.com/communities/hyde_park_condominiums/"
+  }
+ },
+ {
+  "building": {
+   "objectID": "avana-apartments",
+   "canonical_name": "Avana Apartments",
+   "area": "north_university",
+   "address": "4525 Guadalupe, Austin, TX 78751",
+   "_geoloc": {
+    "lat": 30.311436,
+    "lng": -97.732136
+   },
+   "property_type": "apartment",
+   "aliases": [],
+   "sourceUrl": "https://www.avanaatx.com/?utm_knock=g",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [
+    "Air Conditioning",
+    "Balconies",
+    "Ceiling Fans",
+    "Dishwasher",
+    "Garbage Disposal",
+    "Hardwood/Laminate Floors",
+    "In-Unit Washer/Dryer",
+    "Internet/Cable Included",
+    "Microwave",
+    "Notable Views",
+    "Private/En-Suite Bathroom",
+    "Refrigerator",
+    "Stainless-Steel Appliances",
+    "Stone/Granite Countertops",
+    "Walk-In Closets"
+   ],
+   "community": [
+    "24/7 Maintenance",
+    "BBQ/Grill Stations",
+    "Controlled Access/Gated",
+    "Elevators",
+    "On-Site Parking",
+    "Pets Allowed",
+    "Resident Lounge/Clubhouse"
+   ],
+   "premium": [
+    "Fitness Center",
+    "Rooftop Pool",
+    "Rooftop Sun Deck",
+    "Storage Units",
+    "Swimming Pool"
+   ]
+  },
+  "plans": [
+   {
+    "objectID": "avana-apartments__floorplan-4724968",
+    "property_objectID": "avana-apartments",
+    "unit_label": "Floorplan 4724968",
+    "base_rent": 1750,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 877,
+    "availability": "0 available",
+    "source_url": "https://www.avanaatx.com/floorplans"
+   },
+   {
+    "objectID": "avana-apartments__floorplan-4724969",
+    "property_objectID": "avana-apartments",
+    "unit_label": "Floorplan 4724969",
+    "base_rent": 2025,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 988,
+    "availability": "0 available",
+    "source_url": "https://www.avanaatx.com/floorplans"
+   },
+   {
+    "objectID": "avana-apartments__floorplan-4724970",
+    "property_objectID": "avana-apartments",
+    "unit_label": "Floorplan 4724970",
+    "base_rent": 2699,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 1232,
+    "availability": "0 available",
+    "source_url": "https://www.avanaatx.com/floorplans"
+   },
+   {
+    "objectID": "avana-apartments__floorplan-4724971",
+    "property_objectID": "avana-apartments",
+    "unit_label": "Floorplan 4724971",
+    "base_rent": 2599,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 1545,
+    "availability": "0 available",
+    "source_url": "https://www.avanaatx.com/floorplans"
+   }
+  ],
+  "meta": {
+   "rebuild_id": "avana-apartments",
+   "dist_m": 2952,
+   "tier": "A",
+   "score": 6.5,
+   "reddit": 0,
+   "manager": null,
+   "coord_review": false,
+   "backend": "rentcafe_inline",
+   "priced": 4,
+   "layout_imgs": 0,
+   "n_amen": 27,
+   "note": "",
+   "website": "https://www.avanaatx.com/?utm_knock=g"
+  }
+ },
+ {
+  "building": {
+   "objectID": "mosaic-at-mueller",
+   "canonical_name": "Mosaic at Mueller",
+   "area": null,
+   "address": "4600 Mueller Blvd, Austin, TX 78723,",
+   "_geoloc": {
+    "lat": 30.298901,
+    "lng": -97.708191
+   },
+   "property_type": "apartment",
+   "aliases": [],
+   "sourceUrl": "https://www.mosaicaustin.com/?utm_knock=g",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [
+    "Balconies",
+    "Ceiling Fans",
+    "Hardwood/Laminate Floors",
+    "Notable Views",
+    "Stone/Granite Countertops"
+   ],
+   "community": [
+    "BBQ/Grill Stations",
+    "Community Wi-Fi",
+    "Elevators",
+    "Parking Garage",
+    "Pets Allowed",
+    "S.M.A.R.T Housing"
+   ],
+   "premium": [
+    "Coffee Bar",
+    "Fitness Center",
+    "Guarantor Program",
+    "Smoke-Free Community",
+    "Spin/Cycling Studio",
+    "Storage Units",
+    "Swimming Pool"
+   ]
+  },
+  "plans": [
+   {
+    "objectID": "mosaic-at-mueller__1-bed-1-bath",
+    "property_objectID": "mosaic-at-mueller",
+    "unit_label": "1 Bed / 1 Bath",
+    "base_rent": 1343,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 584,
+    "availability": "advertised for lease",
+    "source_url": "https://uptownrealtyaustin.com/communities/mosaic_at_mueller/"
+   },
+   {
+    "objectID": "mosaic-at-mueller__2-bed-2-bath",
+    "property_objectID": "mosaic-at-mueller",
+    "unit_label": "2 Bed / 2 Bath",
+    "base_rent": 1889,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 1120,
+    "availability": "advertised for lease",
+    "source_url": "https://uptownrealtyaustin.com/communities/mosaic_at_mueller/"
+   },
+   {
+    "objectID": "mosaic-at-mueller__3-bed-2-bath",
+    "property_objectID": "mosaic-at-mueller",
+    "unit_label": "3 Bed / 2 Bath",
+    "base_rent": 2347,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1409,
+    "availability": "advertised for lease",
+    "source_url": "https://uptownrealtyaustin.com/communities/mosaic_at_mueller/"
+   }
+  ],
+  "meta": {
+   "rebuild_id": "mosaic-at-mueller",
+   "dist_m": 3001,
+   "tier": "A",
+   "score": 6.5,
+   "reddit": 0,
+   "manager": "Knightvest Residential",
+   "coord_review": false,
+   "backend": "uptown_realty",
+   "priced": 3,
+   "layout_imgs": 0,
+   "n_amen": 18,
+   "note": "",
+   "website": "https://www.mosaicaustin.com/?utm_knock=g"
+  }
+ },
+ {
+  "building": {
+   "objectID": "waterloo-flats",
+   "canonical_name": "Waterloo Flats",
+   "area": "riverside",
+   "address": "1300 S Pleasant Valley Rd, Austin, TX 78741, USA",
+   "_geoloc": {
+    "lat": 30.24073,
+    "lng": -97.72022
+   },
+   "property_type": "condominium",
+   "aliases": [
+    "Collection at Riverside"
+   ],
+   "sourceUrl": "https://www.waterlooflats.com/?ilm=obl&utm_source=gmb&utm_medium=organic",
+   "verifiedAt": "2026-11-18"
+  },
+  "features": {
+   "apartment": [
+    "Balconies",
+    "Hardwood/Laminate Floors",
+    "In-Unit Washer/Dryer",
+    "Stainless-Steel Appliances",
+    "Stone/Granite Countertops",
+    "Walk-In Closets"
+   ],
+   "community": [
+    "BBQ/Grill Stations",
+    "On-Site Laundry",
+    "Outdoor Lounge/Courtyard",
+    "Pets Allowed"
+   ],
+   "premium": [
+    "Concierge Service",
+    "Fitness Center",
+    "Spin/Cycling Studio",
+    "Swimming Pool",
+    "Yoga Studio"
+   ]
+  },
+  "plans": [
+   {
+    "objectID": "waterloo-flats__name-a1-provider-id-6",
+    "property_objectID": "waterloo-flats",
+    "unit_label": "{\"name\":\"A1\",\"provider_id\":\"6\"}",
+    "beds": 1,
+    "baths": 1,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn.sightmap.com/assets/rx/wj/rxwj662xp1e/2a/52/2a52615ad54203a0e757e951fa837c30.jpg",
+    "source_url": "https://www.waterlooflats.com/floorplans/"
+   },
+   {
+    "objectID": "waterloo-flats__name-a2-provider-id-7",
+    "property_objectID": "waterloo-flats",
+    "unit_label": "{\"name\":\"A2\",\"provider_id\":\"7\"}",
+    "beds": 1,
+    "baths": 1,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn.sightmap.com/assets/rx/wj/rxwj662xp1e/eb/df/ebdfdace40232d0831760fa520c7bb40.jpg",
+    "source_url": "https://www.waterlooflats.com/floorplans/"
+   },
+   {
+    "objectID": "waterloo-flats__name-b1-provider-id-8-apt-257",
+    "property_objectID": "waterloo-flats",
+    "unit_label": "{\"name\":\"B1\",\"provider_id\":\"8\"} \u2014 APT 257",
+    "base_rent": 1300,
+    "beds": 2,
+    "baths": 1,
+    "sqft": 825,
+    "availability": "Available Feb 12th",
+    "layout_image_url": "https://cdn.sightmap.com/assets/rx/wj/rxwj662xp1e/5e/04/5e049fa5638651f98229fa371d8af628.jpg",
+    "source_url": "https://www.waterlooflats.com/floorplans/"
+   },
+   {
+    "objectID": "waterloo-flats__name-b2-provider-id-9",
+    "property_objectID": "waterloo-flats",
+    "unit_label": "{\"name\":\"B2\",\"provider_id\":\"9\"}",
+    "beds": 2,
+    "baths": 2,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn.sightmap.com/assets/rx/wj/rxwj662xp1e/f3/75/f375e440a35d0a285df13a60790acd13.jpg",
+    "source_url": "https://www.waterlooflats.com/floorplans/"
+   },
+   {
+    "objectID": "waterloo-flats__name-0a-studio-provider-id-1-apt-we-103b",
+    "property_objectID": "waterloo-flats",
+    "unit_label": "{\"name\":\"0A Studio\",\"provider_id\":\"1\"} \u2014 APT WE-103B",
+    "base_rent": 960,
+    "beds": 0,
+    "baths": 1,
+    "sqft": 388,
+    "availability": "Available Now",
+    "layout_image_url": "https://cdn.sightmap.com/assets/rx/wj/rxwj662xp1e/43/8b/438bf39a4e8abff94e1a18ea24b81609.jpg",
+    "source_url": "https://www.waterlooflats.com/floorplans/"
+   },
+   {
+    "objectID": "waterloo-flats__name-0a-studio-provider-id-1-apt-we-108b",
+    "property_objectID": "waterloo-flats",
+    "unit_label": "{\"name\":\"0A Studio\",\"provider_id\":\"1\"} \u2014 APT WE-108B",
+    "base_rent": 850,
+    "beds": 0,
+    "baths": 1,
+    "sqft": 388,
+    "availability": "Available Nov 21st",
+    "layout_image_url": "https://cdn.sightmap.com/assets/rx/wj/rxwj662xp1e/43/8b/438bf39a4e8abff94e1a18ea24b81609.jpg",
+    "source_url": "https://www.waterlooflats.com/floorplans/"
+   },
+   {
+    "objectID": "waterloo-flats__name-0a-studio-provider-id-1-apt-we-212a",
+    "property_objectID": "waterloo-flats",
+    "unit_label": "{\"name\":\"0A Studio\",\"provider_id\":\"1\"} \u2014 APT WE-212A",
+    "base_rent": 850,
+    "beds": 0,
+    "baths": 1,
+    "sqft": 388,
+    "availability": "Available Nov 20th",
+    "layout_image_url": "https://cdn.sightmap.com/assets/rx/wj/rxwj662xp1e/43/8b/438bf39a4e8abff94e1a18ea24b81609.jpg",
+    "source_url": "https://www.waterlooflats.com/floorplans/"
+   },
+   {
+    "objectID": "waterloo-flats__name-0a-studio-provider-id-1-apt-we-219a",
+    "property_objectID": "waterloo-flats",
+    "unit_label": "{\"name\":\"0A Studio\",\"provider_id\":\"1\"} \u2014 APT WE-219A",
+    "base_rent": 850,
+    "beds": 0,
+    "baths": 1,
+    "sqft": 388,
+    "availability": "Available Now",
+    "layout_image_url": "https://cdn.sightmap.com/assets/rx/wj/rxwj662xp1e/43/8b/438bf39a4e8abff94e1a18ea24b81609.jpg",
+    "source_url": "https://www.waterlooflats.com/floorplans/"
+   },
+   {
+    "objectID": "waterloo-flats__name-0a-studio-provider-id-1-apt-we-221a",
+    "property_objectID": "waterloo-flats",
+    "unit_label": "{\"name\":\"0A Studio\",\"provider_id\":\"1\"} \u2014 APT WE-221A",
+    "base_rent": 960,
+    "beds": 0,
+    "baths": 1,
+    "sqft": 388,
+    "availability": "Available Now",
+    "layout_image_url": "https://cdn.sightmap.com/assets/rx/wj/rxwj662xp1e/43/8b/438bf39a4e8abff94e1a18ea24b81609.jpg",
+    "source_url": "https://www.waterlooflats.com/floorplans/"
+   },
+   {
+    "objectID": "waterloo-flats__name-0b-studio-provider-id-2",
+    "property_objectID": "waterloo-flats",
+    "unit_label": "{\"name\":\"0B Studio\",\"provider_id\":\"2\"}",
+    "beds": 0,
+    "baths": 1,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn.sightmap.com/assets/rx/wj/rxwj662xp1e/08/76/08769a184737e161eca03d656b3f4af2.jpg",
+    "source_url": "https://www.waterlooflats.com/floorplans/"
+   },
+   {
+    "objectID": "waterloo-flats__name-1a-1x1-provider-id-3-apt-we-115a",
+    "property_objectID": "waterloo-flats",
+    "unit_label": "{\"name\":\"1A 1x1\",\"provider_id\":\"3\"} \u2014 APT WE-115A",
+    "base_rent": 1118,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 623,
+    "availability": "Available Now",
+    "layout_image_url": "https://cdn.sightmap.com/assets/rx/wj/rxwj662xp1e/a4/ff/a4ff82ca6a2b471e1a8d1a4937b136c0.jpg",
+    "source_url": "https://www.waterlooflats.com/floorplans/"
+   },
+   {
+    "objectID": "waterloo-flats__name-1a-1x1-provider-id-3-apt-we-216b",
+    "property_objectID": "waterloo-flats",
+    "unit_label": "{\"name\":\"1A 1x1\",\"provider_id\":\"3\"} \u2014 APT WE-216B",
+    "base_rent": 1118,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 623,
+    "availability": "Available Now",
+    "layout_image_url": "https://cdn.sightmap.com/assets/rx/wj/rxwj662xp1e/a4/ff/a4ff82ca6a2b471e1a8d1a4937b136c0.jpg",
+    "source_url": "https://www.waterlooflats.com/floorplans/"
+   },
+   {
+    "objectID": "waterloo-flats__name-2a-2x2-provider-id-4-apt-we-102b",
+    "property_objectID": "waterloo-flats",
+    "unit_label": "{\"name\":\"2A 2x2\",\"provider_id\":\"4\"} \u2014 APT WE-102B",
+    "base_rent": 1522,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 1031,
+    "availability": "Available Now",
+    "layout_image_url": "https://cdn.sightmap.com/assets/rx/wj/rxwj662xp1e/b7/3f/b73f66b60c4c69752ff0c2bf65922cb1.jpg",
+    "source_url": "https://www.waterlooflats.com/floorplans/"
+   },
+   {
+    "objectID": "waterloo-flats__name-2a-2x2-provider-id-4-apt-we-201a",
+    "property_objectID": "waterloo-flats",
+    "unit_label": "{\"name\":\"2A 2x2\",\"provider_id\":\"4\"} \u2014 APT WE-201A",
+    "base_rent": 1522,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 1031,
+    "availability": "Available Now",
+    "layout_image_url": "https://cdn.sightmap.com/assets/rx/wj/rxwj662xp1e/b7/3f/b73f66b60c4c69752ff0c2bf65922cb1.jpg",
+    "source_url": "https://www.waterlooflats.com/floorplans/"
+   },
+   {
+    "objectID": "waterloo-flats__name-2a-2x2-provider-id-4-apt-we-201b",
+    "property_objectID": "waterloo-flats",
+    "unit_label": "{\"name\":\"2A 2x2\",\"provider_id\":\"4\"} \u2014 APT WE-201B",
+    "base_rent": 1364,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 1031,
+    "availability": "Available Now",
+    "layout_image_url": "https://cdn.sightmap.com/assets/rx/wj/rxwj662xp1e/b7/3f/b73f66b60c4c69752ff0c2bf65922cb1.jpg",
+    "source_url": "https://www.waterlooflats.com/floorplans/"
+   },
+   {
+    "objectID": "waterloo-flats__name-3a-3x1-provider-id-5",
+    "property_objectID": "waterloo-flats",
+    "unit_label": "{\"name\":\"3A 3x1\",\"provider_id\":\"5\"}",
+    "beds": 3,
+    "baths": 1,
+    "availability": "no available units listed",
+    "layout_image_url": "https://cdn.sightmap.com/assets/rx/wj/rxwj662xp1e/fa/11/fa112b7390956bc00ab825581306fe82.jpg",
+    "source_url": "https://www.waterlooflats.com/floorplans/"
+   }
+  ],
+  "meta": {
+   "rebuild_id": "waterloo-flats",
+   "dist_m": 5148,
+   "tier": "A",
+   "score": 6.5,
+   "reddit": 5,
+   "manager": null,
+   "coord_review": false,
+   "backend": "sightmap",
+   "priced": 11,
+   "layout_imgs": 16,
+   "n_amen": 15,
+   "note": "",
+   "website": "https://www.waterlooflats.com/?ilm=obl&utm_source=gmb&utm_medium=organic"
+  }
+ }
+]

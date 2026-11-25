@@ -4,7 +4,13 @@ All numbers come from the scripts in `aggregator/` and the files in `data/<campu
 
 ## Known gaps
 
-- Photo review with vision is not built. Captions and alt text only.
+- **Policy change 2026-11-18:** aggregators and campus directories (RentCollegePads, CoStar, Zillow, Zumper) are no longer a source for
+  rent, floor plans, amenities, photos or websites. The measurements below that mention directory rows, directory features or a listing-
+  site photo fallback are historical (UT: 255 directory rows over 47 buildings, 709 A&M directory rows, 'directory features' in the
+  amenity table) and no longer reproducible. See docs/PLAYBOOK_1_DISCOVERY.md Source 4.
+
+- Photo review with vision is not built. Captions and alt text only. Property photos were collected once by hand
+  (`reference/photo_pass/`); the visual check was done by the agent, not by a scripted model call.
 - Rents come from the campus directory and an AI read of floor-plan pages. The UT per-platform scrapers
   (`reference/legacy_ut_scraper/`) are not wired in, so prices rendered only by a JavaScript widget are missed.
 - `rent_basis` is inferred from building type when the page does not say person or unit. Spot-check it.
@@ -87,6 +93,38 @@ What broke at A&M and the rule it produced:
 | Senior living, leasing offices, realtor teams in the roster | Name filter |
 | Directory covers other system campuses (Fort Worth, Galveston) | Cut by `max_radius_m` |
 | College town is spread out; one core radius misses clusters | Set neighborhoods from where directory listings cluster |
+
+### Website and photo check after import (2026-11-16, 162 published profiles)
+
+Campus-specific numbers only. The rules they produced are written campus-neutral in the playbooks.
+
+| Check | Result |
+|---|---|
+| Profiles with no property photo (floor-plan images not counted) | 100 of 162 |
+| Filled by reading home pages only | 54 |
+| Filled after also reading gallery pages and using a listing site as fallback | 71 |
+| Still without a photo, each with a reason | 29 |
+| Website was the campus off-campus directory | 7 |
+| Website was a spam or lapsed domain | 4 |
+| Exact same website on more than one profile | 9 profiles in 4 groups |
+| Entries that should not be separate buildings | 4 (2 probable former names of another entry, 1 locator service, 1 office and retail centre) |
+
+Domain probe (`resolve_website.py`), run afterwards: on 108 profiles whose own site was already known it
+confirmed 49 on the same domain, returned 10 more as leads, confirmed 5 on a different domain that was also the
+right building, and confirmed 0 on a wrong building. On the 29 profiles left without a photo it confirmed a site
+for 4 that a name search had reported as having none.
+
+| Problem | Rule (playbook section) |
+|---|---|
+| One name search per building; a summary said "no official site" for sites on the obvious domain | Website ladder with a domain probe and a real search (P2 2b) |
+| Searching with the campus city for buildings in the next city | Take the city from the address; `neighbor_cities` in the config (P1 1) |
+| Campus directory stored as the website | Website classes; a directory is a listing page (P2 2a) |
+| Stored URLs never re-fetched; spam and lapsed domains shipped | Fetch and read every stored URL each run (P2 2c) |
+| Only the home page was read for photos; galleries missed | Gallery page first; read lazy-load, script and background images (P2 5b) |
+| Floor plans counted as images | Three separate photo counts (P2 5a) |
+| Stock, logos, other properties in the candidate pile | Mandatory visual check on contact sheets (P2 5d) |
+| A listing page's first image list belonged to nearby listings | Use the media list that starts with the page's main image (P2 5b) |
+| Unverifiable names published as empty pages | Publish gate; verify before counting (P1 5a, P2 6) |
 
 ## Cost
 

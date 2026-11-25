@@ -8816,17 +8816,6 @@
   "amenity_data": "ok"
  },
  {
-  "objectID": "howdy-apartments",
-  "canonical_name": "Howdy Apartments",
-  "features": {
-   "apartment": [],
-   "community": [],
-   "premium": []
-  },
-  "amenities": {},
-  "amenity_data": "unknown"
- },
- {
   "objectID": "scandia-apartments",
   "canonical_name": "Scandia Apartments",
   "features": {
@@ -10060,8 +10049,8 @@
   "amenity_data": "ok"
  },
  {
-  "objectID": "the-penny",
-  "canonical_name": "The Penny",
+  "objectID": "the-penny-on-college-main",
+  "canonical_name": "The Penny on College Main",
   "features": {},
   "amenities": {},
   "amenity_data": "unknown"
@@ -11666,13 +11655,6 @@
   "amenity_data": "ok"
  },
  {
-  "objectID": "quiet-setteled-subdivision-in-sumitt-crossing",
-  "canonical_name": "Quiet setteled subdivision in Sumitt Crossing",
-  "features": {},
-  "amenities": {},
-  "amenity_data": "unknown"
- },
- {
   "objectID": "soco-at-tower-point",
   "canonical_name": "SoCo at Tower Point",
   "features": {
@@ -11910,20 +11892,6 @@
    }
   },
   "amenity_data": "ok"
- },
- {
-  "objectID": "gardens-community-center",
-  "canonical_name": "Gardens Community Center",
-  "features": {},
-  "amenities": {},
-  "amenity_data": "unknown"
- },
- {
-  "objectID": "ever-college-station",
-  "canonical_name": "EVER College Station",
-  "features": {},
-  "amenities": {},
-  "amenity_data": "unknown"
  },
  {
   "objectID": "warehouse-and-factory-apartments-at-northgate",
@@ -12573,213 +12541,6 @@
     "evidence": "Oversized Closets",
     "evidence_type": "implied_text",
     "source_url": "https://www.eastgatebcs.com/",
-    "method": "llm_read"
-   }
-  },
-  "amenity_data": "ok"
- },
- {
-  "objectID": "domain-northgate",
-  "canonical_name": "Domain Northgate",
-  "features": {
-   "apartment": [
-    "Furnished Units",
-    "Garbage Disposal",
-    "In-Unit Washer/Dryer",
-    "Private/En-Suite Bathroom",
-    "Stainless-Steel Appliances",
-    "Walk-In Closets"
-   ],
-   "community": [
-    "24/7 Maintenance",
-    "BBQ/Grill Stations",
-    "Business Center",
-    "Controlled Access/Gated",
-    "Individual Liability Leases",
-    "On-Site Management",
-    "On-Site Parking",
-    "Outdoor Lounge/Courtyard",
-    "Package Service/Lockers",
-    "Pets Allowed",
-    "Roommate Matching Offered",
-    "Study Rooms (Private)"
-   ],
-   "premium": [
-    "Coffee Bar",
-    "Fitness Center",
-    "Smoke-Free Community",
-    "Spin/Cycling Studio",
-    "Swimming Pool",
-    "Tanning Salon"
-   ]
-  },
-  "amenities": {
-   "24/7 Maintenance": {
-    "status": "present",
-    "evidence": "On-site Maintenance",
-    "evidence_type": "stated",
-    "source_url": "https://domainatnorthgate.com/",
-    "method": "alias_map"
-   },
-   "On-Site Management": {
-    "status": "present",
-    "evidence": "On-site Management",
-    "evidence_type": "stated",
-    "source_url": "https://domainatnorthgate.com/",
-    "method": "alias_map"
-   },
-   "Tanning Salon": {
-    "status": "present",
-    "evidence": "Tanning Bed",
-    "evidence_type": "stated",
-    "source_url": "https://domainatnorthgate.com/",
-    "method": "alias_map"
-   },
-   "Controlled Access/Gated": {
-    "status": "present",
-    "evidence": "Controlled Gated Access",
-    "evidence_type": "stated",
-    "source_url": "https://domainatnorthgate.com/",
-    "method": "alias_map"
-   },
-   "Business Center": {
-    "status": "present",
-    "evidence": "Business Center",
-    "evidence_type": "stated",
-    "source_url": "https://domainatnorthgate.com/",
-    "method": "alias_map"
-   },
-   "BBQ/Grill Stations": {
-    "status": "present",
-    "evidence": "Grilling Stations",
-    "evidence_type": "stated",
-    "source_url": "https://domainatnorthgate.com/",
-    "method": "alias_map"
-   },
-   "Swimming Pool": {
-    "status": "present",
-    "evidence": "Resort Style Swimming Pool",
-    "evidence_type": "stated",
-    "source_url": "https://domainatnorthgate.com/",
-    "method": "alias_map"
-   },
-   "Furnished Units": {
-    "status": "present",
-    "evidence": "Fully Furnished",
-    "evidence_type": "stated",
-    "source_url": "https://www.domainatnorthgate.com/college-station-tx-apartments/domain-northgate/amenities/",
-    "method": "alias_map"
-   },
-   "Pets Allowed": {
-    "status": "present",
-    "evidence": "Pets Allowed",
-    "evidence_type": "stated",
-    "source_url": "https://www.domainatnorthgate.com/college-station-tx-apartments/domain-northgate/amenities/",
-    "method": "alias_map"
-   },
-   "Stainless-Steel Appliances": {
-    "status": "present",
-    "evidence": "Stainless Steel Appliances",
-    "evidence_type": "stated",
-    "source_url": "https://www.domainatnorthgate.com/college-station-tx-apartments/domain-northgate/amenities/",
-    "method": "alias_map"
-   },
-   "In-Unit Washer/Dryer": {
-    "status": "present",
-    "evidence": "Washer/Dryer",
-    "evidence_type": "stated",
-    "source_url": "https://www.domainatnorthgate.com/college-station-tx-apartments/domain-northgate/amenities/",
-    "method": "alias_map"
-   },
-   "Garbage Disposal": {
-    "status": "present",
-    "evidence": "Garbage Disposals",
-    "evidence_type": "stated",
-    "source_url": "https://www.domainatnorthgate.com/college-station-tx-apartments/domain-northgate/amenities/",
-    "method": "alias_map"
-   },
-   "On-Site Parking": {
-    "status": "present",
-    "evidence": "Uncovered Reserved Parking",
-    "evidence_type": "stated",
-    "source_url": "https://www.domainatnorthgate.com/college-station-tx-apartments/domain-northgate/amenities/",
-    "method": "llm_read"
-   },
-   "Fitness Center": {
-    "status": "present",
-    "evidence": "Fitness Studio with Cardio and Spin Bikes",
-    "evidence_type": "stated",
-    "source_url": "https://www.domainatnorthgate.com/college-station-tx-apartments/domain-northgate/amenities/",
-    "method": "llm_read"
-   },
-   "Study Rooms (Private)": {
-    "status": "present",
-    "evidence": "Private Study Pods",
-    "evidence_type": "stated",
-    "source_url": "https://www.domainatnorthgate.com/college-station-tx-apartments/domain-northgate/amenities/",
-    "method": "llm_read"
-   },
-   "Package Service/Lockers": {
-    "status": "present",
-    "evidence": "Mail & Package Center",
-    "evidence_type": "stated",
-    "source_url": "https://www.domainatnorthgate.com/college-station-tx-apartments/domain-northgate/amenities/",
-    "method": "llm_read"
-   },
-   "Coffee Bar": {
-    "status": "present",
-    "evidence": "Coffee Cafe",
-    "evidence_type": "stated",
-    "source_url": "https://www.domainatnorthgate.com/college-station-tx-apartments/domain-northgate/amenities/",
-    "method": "llm_read"
-   },
-   "Outdoor Lounge/Courtyard": {
-    "status": "present",
-    "evidence": "Fire Pit",
-    "evidence_type": "implied_text",
-    "source_url": "https://www.domainatnorthgate.com/college-station-tx-apartments/domain-northgate/amenities/",
-    "method": "llm_read"
-   },
-   "Walk-In Closets": {
-    "status": "present",
-    "evidence": "Large walk-in closets",
-    "evidence_type": "stated",
-    "source_url": "https://www.domainatnorthgate.com/college-station-tx-apartments/domain-northgate/student/",
-    "method": "llm_read"
-   },
-   "Individual Liability Leases": {
-    "status": "present",
-    "evidence": "including individual leases, roommate matching, and online payments",
-    "evidence_type": "stated",
-    "source_url": "https://www.domainatnorthgate.com/college-station-tx-apartments/domain-northgate/student/",
-    "method": "llm_read"
-   },
-   "Roommate Matching Offered": {
-    "status": "present",
-    "evidence": "including individual leases, roommate matching, and online payments",
-    "evidence_type": "stated",
-    "source_url": "https://www.domainatnorthgate.com/college-station-tx-apartments/domain-northgate/student/",
-    "method": "llm_read"
-   },
-   "Smoke-Free Community": {
-    "status": "present",
-    "evidence": "committed to being a smoke and drug-free community",
-    "evidence_type": "stated",
-    "source_url": "https://www.domainatnorthgate.com/college-station-tx-apartments/domain-northgate/amenities/",
-    "method": "llm_read"
-   },
-   "Private/En-Suite Bathroom": {
-    "status": "present",
-    "evidence": "Beds / Baths 4 bd  / 4 ba",
-    "evidence_type": "implied_text",
-    "source_url": "https://www.domainatnorthgate.com/college-station-tx-apartments/domain-northgate/student/",
-    "method": "llm_read"
-   },
-   "Spin/Cycling Studio": {
-    "status": "present",
-    "evidence": "Fitness Studio with Cardio and Spin Bikes",
-    "evidence_type": "implied_text",
-    "source_url": "https://www.domainatnorthgate.com/college-station-tx-apartments/domain-northgate/amenities/",
     "method": "llm_read"
    }
   },
@@ -16272,92 +16033,11 @@
   "amenity_data": "ok"
  },
  {
-  "objectID": "parkway-place-apartments",
-  "canonical_name": "Parkway Place Apartments",
-  "features": {
-   "apartment": [],
-   "community": [
-    "Pets Allowed"
-   ],
-   "premium": [
-    "Fitness Center",
-    "Pickleball/Tennis Court",
-    "Swimming Pool"
-   ]
-  },
-  "amenities": {
-   "Pets Allowed": {
-    "status": "present",
-    "evidence": "Sterling College Station is a pet-friendly community!",
-    "evidence_type": "stated",
-    "source_url": "https://www.theparkwaylife.com/",
-    "method": "llm_read"
-   },
-   "Swimming Pool": {
-    "status": "present",
-    "evidence": "Gorgeous saltwater pool with lazy river",
-    "evidence_type": "seen_photo",
-    "source_url": "https://www.theparkwaylife.com/",
-    "method": "llm_read"
-   },
-   "Pickleball/Tennis Court": {
-    "status": "present",
-    "evidence": "Full Size Pickleball Court",
-    "evidence_type": "seen_photo",
-    "source_url": "https://www.theparkwaylife.com/",
-    "method": "llm_read"
-   },
-   "Fitness Center": {
-    "status": "present",
-    "evidence": "State-of-the-art amenities",
-    "evidence_type": "seen_photo",
-    "source_url": "https://www.theparkwaylife.com/",
-    "method": "llm_read"
-   }
-  },
-  "amenity_data": "ok"
- },
- {
-  "objectID": "top-student-apartment-in-college-station",
-  "canonical_name": "Top student apartment in college station",
-  "features": {},
-  "amenities": {},
-  "amenity_data": "unknown"
- },
- {
-  "objectID": "university-apartments-community-center-3198",
-  "canonical_name": "University Apartments Community Center - 3198",
-  "features": {},
-  "amenities": {},
-  "amenity_data": "unknown"
- },
- {
   "objectID": "cayman-crossing-apartments",
   "canonical_name": "Cayman Crossing Apartments",
   "features": {},
   "amenities": {},
   "amenity_data": "unknown"
- },
- {
-  "objectID": "memorial-student-center-msc",
-  "canonical_name": "Memorial Student Center (MSC)",
-  "features": {
-   "apartment": [
-    "Balconies"
-   ],
-   "community": [],
-   "premium": []
-  },
-  "amenities": {
-   "Balconies": {
-    "status": "present",
-    "evidence": "BALCONY",
-    "evidence_type": "stated",
-    "source_url": "https://ucenter.tamu.edu/facilities/memorial-student-center/",
-    "method": "alias_map"
-   }
-  },
-  "amenity_data": "ok"
  },
  {
   "objectID": "cherry-hill-apartments",
@@ -16404,17 +16084,6 @@
    }
   },
   "amenity_data": "ok"
- },
- {
-  "objectID": "aggieland-apartment-finders",
-  "canonical_name": "Aggieland Apartment Finders",
-  "features": {
-   "apartment": [],
-   "community": [],
-   "premium": []
-  },
-  "amenities": {},
-  "amenity_data": "unknown"
  },
  {
   "objectID": "holleman-by-the-park",
@@ -17440,205 +17109,6 @@
   "amenity_data": "ok"
  },
  {
-  "objectID": "the-ridge",
-  "canonical_name": "The Ridge",
-  "features": {
-   "apartment": [
-    "Air Conditioning",
-    "Balconies",
-    "Dishwasher",
-    "Hardwood/Laminate Floors",
-    "In-Unit Washer/Dryer",
-    "Internet/Cable Included",
-    "Microwave",
-    "Refrigerator",
-    "Stone/Granite Countertops",
-    "Walk-In Closets"
-   ],
-   "community": [
-    "24/7 Maintenance",
-    "Business Center",
-    "Community Wi-Fi",
-    "Controlled Access/Gated",
-    "Pets Allowed",
-    "Resident Lounge/Clubhouse",
-    "Study Lounge (Open)"
-   ],
-   "premium": [
-    "Basketball Court",
-    "Fitness Center",
-    "Printing/Print Allowance",
-    "Storage Units",
-    "Swimming Pool",
-    "Valet Trash"
-   ]
-  },
-  "amenities": {
-   "In-Unit Washer/Dryer": {
-    "status": "present",
-    "evidence": "In-Unit Washer & Dryer",
-    "evidence_type": "stated",
-    "source_url": "https://www.ridgeapartments.com/",
-    "method": "alias_map"
-   },
-   "Stone/Granite Countertops": {
-    "status": "present",
-    "evidence": "Granite Countertops",
-    "evidence_type": "stated",
-    "source_url": "https://www.ridgeapartments.com/",
-    "method": "alias_map"
-   },
-   "24/7 Maintenance": {
-    "status": "present",
-    "evidence": "On-Site Maintenance",
-    "evidence_type": "stated",
-    "source_url": "https://www.ridgeapartments.com/",
-    "method": "alias_map"
-   },
-   "Internet/Cable Included": {
-    "status": "present",
-    "evidence": "High Speed Internet",
-    "evidence_type": "stated",
-    "source_url": "https://www.ridgeapartments.com/",
-    "method": "alias_map"
-   },
-   "Valet Trash": {
-    "status": "present",
-    "evidence": "Valet Trash Service",
-    "evidence_type": "stated",
-    "source_url": "https://www.ridgeapartments.com/",
-    "method": "alias_map"
-   },
-   "Fitness Center": {
-    "status": "present",
-    "evidence": "Fitness Center",
-    "evidence_type": "stated",
-    "source_url": "https://www.ridgeapartments.com/",
-    "method": "alias_map"
-   },
-   "Swimming Pool": {
-    "status": "present",
-    "evidence": "Swimming Pool",
-    "evidence_type": "stated",
-    "source_url": "https://www.ridgeapartments.com/",
-    "method": "alias_map"
-   },
-   "Resident Lounge/Clubhouse": {
-    "status": "present",
-    "evidence": "Clubhouse",
-    "evidence_type": "stated",
-    "source_url": "https://www.ridgeapartments.com/",
-    "method": "alias_map"
-   },
-   "Business Center": {
-    "status": "present",
-    "evidence": "Business Center",
-    "evidence_type": "stated",
-    "source_url": "https://www.ridgeapartments.com/",
-    "method": "alias_map"
-   },
-   "Controlled Access/Gated": {
-    "status": "present",
-    "evidence": "Gated Community",
-    "evidence_type": "stated",
-    "source_url": "https://www.ridgeapartments.com/college-station/the-ridge/amenities/",
-    "method": "alias_map"
-   },
-   "Air Conditioning": {
-    "status": "present",
-    "evidence": "Air Conditioning",
-    "evidence_type": "stated",
-    "source_url": "https://www.ridgeapartments.com/college-station/the-ridge/amenities/",
-    "method": "alias_map"
-   },
-   "Balconies": {
-    "status": "present",
-    "evidence": "Balcony",
-    "evidence_type": "stated",
-    "source_url": "https://www.ridgeapartments.com/college-station/the-ridge/amenities/",
-    "method": "alias_map"
-   },
-   "Dishwasher": {
-    "status": "present",
-    "evidence": "Dishwasher",
-    "evidence_type": "stated",
-    "source_url": "https://www.ridgeapartments.com/college-station/the-ridge/amenities/",
-    "method": "alias_map"
-   },
-   "Refrigerator": {
-    "status": "present",
-    "evidence": "Refrigerator",
-    "evidence_type": "stated",
-    "source_url": "https://www.ridgeapartments.com/college-station/the-ridge/amenities/",
-    "method": "alias_map"
-   },
-   "Pets Allowed": {
-    "status": "present",
-    "evidence": "pets Yes",
-    "evidence_type": "stated",
-    "source_url": "https://www.ridgeapartments.com/college-station/the-ridge/floorplans/a2-elite-989942/fp_name/occupancy_type/conventional/",
-    "method": "alias_map"
-   },
-   "Community Wi-Fi": {
-    "status": "present",
-    "evidence": "Free 1 GIG High Speed Internet",
-    "evidence_type": "implied_text",
-    "source_url": "https://www.ridgeapartments.com/college-station/the-ridge/amenities/",
-    "method": "llm_read"
-   },
-   "Printing/Print Allowance": {
-    "status": "present",
-    "evidence": "computer lab with free printing and copying",
-    "evidence_type": "stated",
-    "source_url": "https://www.ridgeapartments.com/college-station/the-ridge/amenities/",
-    "method": "llm_read"
-   },
-   "Study Lounge (Open)": {
-    "status": "present",
-    "evidence": "Relax in our community lounge after a study session in our computer lab",
-    "evidence_type": "implied_text",
-    "source_url": "https://www.ridgeapartments.com/college-station/the-ridge/amenities/",
-    "method": "llm_read"
-   },
-   "Basketball Court": {
-    "status": "present",
-    "evidence": "Community Basketball Court",
-    "evidence_type": "seen_photo",
-    "source_url": "https://www.ridgeapartments.com/college-station/the-ridge/photos/",
-    "method": "llm_read"
-   },
-   "Storage Units": {
-    "status": "present",
-    "evidence": "Additional Storage",
-    "evidence_type": "stated",
-    "source_url": "https://www.ridgeapartments.com/college-station/the-ridge/amenities/",
-    "method": "llm_read"
-   },
-   "Microwave": {
-    "status": "present",
-    "evidence": "Microwave oven",
-    "evidence_type": "stated",
-    "source_url": "https://www.ridgeapartments.com/college-station/the-ridge/amenities/",
-    "method": "llm_read"
-   },
-   "Hardwood/Laminate Floors": {
-    "status": "select",
-    "evidence": "Wood Finish Floors*",
-    "evidence_type": "stated",
-    "source_url": "https://www.ridgeapartments.com/college-station/the-ridge/amenities/",
-    "method": "llm_read"
-   },
-   "Walk-In Closets": {
-    "status": "present",
-    "evidence": "Large Walk-in closet",
-    "evidence_type": "seen_photo",
-    "source_url": "https://www.ridgeapartments.com/college-station/the-ridge/photos/",
-    "method": "llm_read"
-   }
-  },
-  "amenity_data": "ok"
- },
- {
   "objectID": "sterling-college-station",
   "canonical_name": "Sterling College Station",
   "features": {
@@ -17862,8 +17332,8 @@
   "amenity_data": "ok"
  },
  {
-  "objectID": "aspen-heights-college-station",
-  "canonical_name": "Aspen Heights College Station",
+  "objectID": "the-heights-at-college-station",
+  "canonical_name": "The Heights at College Station",
   "features": {},
   "amenities": {},
   "amenity_data": "unknown"
@@ -18330,44 +17800,8 @@
   "amenity_data": "ok"
  },
  {
-  "objectID": "southern-pointe-woodbird",
-  "canonical_name": "Southern Pointe Woodbird",
-  "features": {},
-  "amenities": {},
-  "amenity_data": "unknown"
- },
- {
   "objectID": "aggie-manor-apartments",
   "canonical_name": "Aggie Manor Apartments",
-  "features": {},
-  "amenities": {},
-  "amenity_data": "unknown"
- },
- {
-  "objectID": "disability-resources",
-  "canonical_name": "Disability Resources",
-  "features": {
-   "apartment": [],
-   "community": [],
-   "premium": []
-  },
-  "amenities": {},
-  "amenity_data": "unknown"
- },
- {
-  "objectID": "texas-a-m-transportation-services-it-sys-support-gis-services",
-  "canonical_name": "Texas A&M Transportation Services - IT Sys Support & GIS Services",
-  "features": {
-   "apartment": [],
-   "community": [],
-   "premium": []
-  },
-  "amenities": {},
-  "amenity_data": "unknown"
- },
- {
-  "objectID": "the-penny",
-  "canonical_name": "The Penny",
   "features": {},
   "amenities": {},
   "amenity_data": "unknown"
@@ -18393,52 +17827,6 @@
   },
   "amenities": {},
   "amenity_data": "unknown"
- },
- {
-  "objectID": "361rent",
-  "canonical_name": "361RENT",
-  "features": {
-   "apartment": [
-    "Utilities Included"
-   ],
-   "community": [
-    "On-Site Management",
-    "On-Site Parking",
-    "Pets Allowed"
-   ],
-   "premium": []
-  },
-  "amenities": {
-   "Pets Allowed": {
-    "status": "present",
-    "evidence": "Pet Friendly",
-    "evidence_type": "stated",
-    "source_url": "https://361rent.net/contact/",
-    "method": "alias_map"
-   },
-   "On-Site Parking": {
-    "status": "present",
-    "evidence": "There are no parking fees.",
-    "evidence_type": "implied_text",
-    "source_url": "https://361rent.net/contact/amenities/",
-    "method": "llm_read"
-   },
-   "On-Site Management": {
-    "status": "present",
-    "evidence": "We\u2019re on site at Phoenix Apartments by Miller High School",
-    "evidence_type": "stated",
-    "source_url": "https://361rent.net/contact/amenities/",
-    "method": "llm_read"
-   },
-   "Utilities Included": {
-    "status": "select",
-    "evidence": "Trash is included, and water is included at most communities.",
-    "evidence_type": "stated",
-    "source_url": "https://361rent.net/contact/amenities/",
-    "method": "llm_read"
-   }
-  },
-  "amenity_data": "ok"
  },
  {
   "objectID": "soho-lofts-and-apartment-homes",
@@ -19540,22 +18928,15 @@
   "amenity_data": "unknown"
  },
  {
-  "objectID": "azura-student-living",
-  "canonical_name": "Azura Student Living",
+  "objectID": "azura-residences",
+  "canonical_name": "Azura Residences",
   "features": {},
   "amenities": {},
   "amenity_data": "unknown"
  },
  {
-  "objectID": "lexington-court-phase-ii-ltd",
-  "canonical_name": "Lexington Court Phase II Ltd",
-  "features": {},
-  "amenities": {},
-  "amenity_data": "unknown"
- },
- {
-  "objectID": "landmark-on-longmire",
-  "canonical_name": "Landmark on Longmire",
+  "objectID": "the-landmark-on-longmire",
+  "canonical_name": "The Landmark on Longmire",
   "features": {},
   "amenities": {},
   "amenity_data": "unknown"

@@ -1,0 +1,166 @@
+[
+ {
+  "name": "Howdy Apartments",
+  "address": "1700 George Bush Dr #309, College Station, TX 77840, USA",
+  "original_name": "Howdy Apartments",
+  "status": "REJECT_PROPERTY_ROW",
+  "entity_type": "property_manager",
+  "reason": "apartment-locator site, not a building (2026-11-16 photo pass)",
+  "file": "roster_final.json",
+  "applied": "2026-11-17"
+ },
+ {
+  "name": "Quiet setteled subdivision in Sumitt Crossing",
+  "address": "3810 Black Hawk Lane, College Station, TX",
+  "original_name": "Quiet setteled subdivision in Sumitt Crossing",
+  "status": "REJECT_PROPERTY_ROW",
+  "entity_type": "single_unit",
+  "reason": "ad for one townhome at 3810 Black Hawk Ln, not a community",
+  "file": "roster_final.json",
+  "applied": "2026-11-17"
+ },
+ {
+  "name": "Gardens Community Center",
+  "address": "9 Calvin Moore Ave, College Station, TX 77840, USA",
+  "original_name": "Gardens Community Center",
+  "status": "REJECT_PROPERTY_ROW",
+  "entity_type": "support_facility",
+  "reason": "community center at 9 Calvin Moore Ave",
+  "file": "roster_final.json",
+  "applied": "2026-11-17"
+ },
+ {
+  "name": "EVER College Station",
+  "address": "321 University Dr, College Station, TX 77840, USA",
+  "status": "DUPLICATE_ROW",
+  "alias_to": "EVER College Station",
+  "file": "roster_final.json",
+  "applied": "2026-11-17"
+ },
+ {
+  "name": "Domain Northgate",
+  "address": "101 Church Ave",
+  "status": "DUPLICATE_ROW",
+  "alias_to": "Domain Northgate",
+  "file": "roster_final.json",
+  "applied": "2026-11-17"
+ },
+ {
+  "name": "Parkway Place Apartments",
+  "address": "1350 Harvey Mitchell Pkwy S, College Station, TX 77840, USA",
+  "original_name": "Parkway Place Apartments",
+  "status": "ALIAS_TO",
+  "alias_to": "Sterling College Station",
+  "reason": "2026-11-16: Parkway Place + 2818 Place renamed Sterling College Station; theparkwaylife.com is Sterling's site",
+  "only_if_target_exists": true,
+  "file": "roster_final.json",
+  "applied": "2026-11-17"
+ },
+ {
+  "name": "Top student apartment in college station",
+  "address": "1725 Harvey Mitchell Parkway South # 1613, College Station, TX",
+  "original_name": "Top student apartment in college station",
+  "status": "ALIAS_TO",
+  "alias_to": "Woodlands of College Station",
+  "entity_type": "single_unit",
+  "reason": "aggiesearch ad for unit #1613 in the Woodlands complex",
+  "file": "roster_final.json",
+  "applied": "2026-11-17"
+ },
+ {
+  "name": "University Apartments Community Center - 3198",
+  "address": null,
+  "original_name": "University Apartments Community Center - 3198",
+  "status": "REJECT_PROPERTY_ROW",
+  "entity_type": "support_facility",
+  "reason": "TAMU facility 3198 is a community center",
+  "file": "roster_final.json",
+  "applied": "2026-11-17"
+ },
+ {
+  "name": "Memorial Student Center (MSC)",
+  "address": "275 Joe Routt Blvd, College Station, TX 77843, USA",
+  "original_name": "Memorial Student Center (MSC)",
+  "status": "REJECT_PROPERTY_ROW",
+  "entity_type": "support_facility",
+  "reason": "student union building",
+  "file": "roster_final.json",
+  "applied": "2026-11-17"
+ },
+ {
+  "name": "Aggieland Apartment Finders",
+  "address": "123 Walton Dr, College Station, TX 77840, USA",
+  "original_name": "Aggieland Apartment Finders",
+  "status": "REJECT_PROPERTY_ROW",
+  "entity_type": "property_manager",
+  "reason": "apartment locator business",
+  "file": "roster_final.json",
+  "applied": "2026-11-17"
+ },
+ {
+  "name": "The Ridge",
+  "address": "2250 Dartmouth St",
+  "status": "DUPLICATE_ROW",
+  "alias_to": "The Ridge",
+  "file": "roster_final.json",
+  "applied": "2026-11-17"
+ },
+ {
+  "name": "Southern Pointe Woodbird",
+  "address": "6178 Kinney Ln, College Station, TX 77845, USA",
+  "original_name": "Southern Pointe Woodbird",
+  "status": "REJECT_PROPERTY_ROW",
+  "entity_type": "single_family_or_unknown",
+  "reason": "single-family subdivision address, no apartment community (provisional)",
+  "file": "roster_final.json",
+  "applied": "2026-11-17"
+ },
+ {
+  "name": "Disability Resources",
+  "address": "471 Houston Street, 1224 TAMU Ste 122, College Station, TX 77843, USA",
+  "original_name": "Disability Resources",
+  "status": "REJECT_PROPERTY_ROW",
+  "entity_type": "support_facility",
+  "reason": "TAMU office",
+  "file": "roster_final.json",
+  "applied": "2026-11-17"
+ },
+ {
+  "name": "Texas A&M Transportation Services - IT Sys Support & GIS Services",
+  "address": null,
+  "original_name": "Texas A&M Transportation Services - IT Sys Support & GIS Services",
+  "status": "REJECT_PROPERTY_ROW",
+  "entity_type": "support_facility",
+  "reason": "TAMU department",
+  "file": "roster_final.json",
+  "applied": "2026-11-17"
+ },
+ {
+  "name": "The Penny on College Main",
+  "address": "1025 University Dr #106, College Station, TX 77840, USA",
+  "status": "DUPLICATE_ROW",
+  "alias_to": "The Penny on College Main",
+  "file": "roster_final.json",
+  "applied": "2026-11-17"
+ },
+ {
+  "name": "Lexington Court Phase II Ltd",
+  "address": "4500 Carter Creek Pkwy Ste 101, Bryan, TX 77802, USA",
+  "original_name": "Lexington Court Phase II Ltd",
+  "status": "REJECT_PROPERTY_ROW",
+  "entity_type": "owner_entity",
+  "reason": "registered company office address, not a complex",
+  "file": "roster_final.json",
+  "applied": "2026-11-17"
+ },
+ {
+  "name": "361RENT",
+  "address": "1511 Texas Ave S, College Station, TX 77840, USA",
+  "original_name": "361RENT",
+  "status": "REJECT_PROPERTY_ROW",
+  "entity_type": "property_manager",
+  "reason": "property manager (979rent AppFolio portal), roster address 1511 Texas Ave S is its office, not a building",
+  "file": "roster_final.json",
+  "applied": "2026-11-18"
+ }
+]
